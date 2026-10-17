@@ -16,7 +16,7 @@ and links every topic back to the exact phrase of the decree it serves.
 | | |
 |---|---|
 | Source | Keputusan Kepala BSKAP Nomor 046/H/KR/2025 tentang Capaian Pembelajaran (set 16 Jul 2025) |
-| CP statements (verbatim) | SD Fase A–C of 12 mapel — every mapel except Agama |
+| CP statements (verbatim) | SD Fase A–C of 11 mapel (Seni counted as 4) — every mapel except Agama |
 | Topics in v1 | Matematika, Bahasa Indonesia, IPAS |
 | Content language | Indonesian · JSON keys in English |
 

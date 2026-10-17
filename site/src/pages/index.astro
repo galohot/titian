@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { MAPEL, topics, deps, standards, FASES, FASE_KELAS } from '../lib/data';
+import { MAPEL, topics, deps, standards, FASES, FASE_KELAS, mapelCount } from '../lib/data';
 
 const count = (m: string) => topics.filter((t) => t.mapel === m).length;
 const fasesOf = (m: string) => FASES.filter((f) => topics.some((t) => t.mapel === m && t.fase === f));
@@ -51,7 +51,7 @@ const fasesOf = (m: string) => FASES.filter((f) => topics.some((t) => t.mapel ==
   </section>
 
   <p class="small muted stats">
-    {standards.length} butir Capaian Pembelajaran dari 12 mata pelajaran · {topics.length} topik · {deps.length} sambungan
+    {standards.length} butir Capaian Pembelajaran dari {mapelCount} mata pelajaran · {topics.length} topik · {deps.length} sambungan
     prasyarat · <a href="/data/">unduh data</a>
   </p>
 </Base>

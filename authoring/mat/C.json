@@ -1,0 +1,1219 @@
+{
+  "mapel": "mat",
+  "fase": "C",
+  "topics": [
+    {
+      "slug": "nilai-tempat-sampai-ratusan-ribu",
+      "elemen": "bil",
+      "name": "Nilai tempat sampai ratusan ribu",
+      "description": "Memahami bahwa setiap angka dalam bilangan sampai 1.000.000 punya nilai sesuai tempatnya: satuan, puluhan, ratusan, ribuan, puluh ribuan, ratus ribuan, dan jutaan.",
+      "type": "konsep",
+      "kelas": [5],
+      "evidence": [
+        "Menyebut bahwa angka 7 pada 274.315 bernilai 70.000",
+        "Menjelaskan bahwa 10 puluh ribuan sama dengan 1 ratus ribuan",
+        "Menuliskan 538.206 ke dalam tabel nilai tempat dengan benar"
+      ],
+      "parentPrompt": "Tulis angka harga motor atau sawah di iklan, misalnya 485.000. Tanya {{nama}}: angka 8 itu nilainya berapa? Kalau angka 4 diganti 5, harganya naik berapa?",
+      "cp": [{ "standard": "cp046.mat.C.bil", "phrase": "menentukan nilai tempat" }],
+      "requires": [
+        { "id": "mat.bil.nilai-tempat-ribuan", "strength": "wajib", "reason": "Nilai tempat ribuan diperluas ke puluh ribuan dan ratus ribuan." }
+      ]
+    },
+    {
+      "slug": "membaca-menulis-bilangan-sampai-1000000",
+      "elemen": "bil",
+      "name": "Membaca dan menulis bilangan sampai 1.000.000",
+      "description": "Membaca bilangan sampai satu juta dengan kata-kata dan menulisnya dengan angka, termasuk bilangan yang memuat angka nol di tengah.",
+      "type": "bahasa",
+      "kelas": [5],
+      "evidence": [
+        "Membaca 305.040 sebagai 'tiga ratus lima ribu empat puluh'",
+        "Menulis 'enam ratus dua ribu tujuh' sebagai 602.007",
+        "Memakai titik pemisah ribuan dengan benar, misalnya 1.000.000"
+      ],
+      "parentPrompt": "Ambil struk belanja atau tagihan listrik. Minta {{nama}} membacakan angka totalnya keras-keras. Lalu Ayah atau Ibu sebut satu angka, misalnya 'empat ratus delapan ribu lima puluh', dan minta {{nama}} menuliskannya.",
+      "cp": [{ "standard": "cp046.mat.C.bil", "phrase": "membaca, menulis" }],
+      "requires": [
+        { "id": "mat.bil.nilai-tempat-sampai-ratusan-ribu", "strength": "wajib", "reason": "Cara membaca bilangan besar mengikuti nilai tempat tiap angka." },
+        { "id": "mat.bil.membaca-menulis-bilangan-sampai-10000", "strength": "wajib", "reason": "Membaca bilangan sampai 10.000 harus lancar lebih dulu." }
+      ]
+    },
+    {
+      "slug": "membandingkan-mengurutkan-bilangan-sampai-1000000",
+      "elemen": "bil",
+      "name": "Membandingkan dan mengurutkan bilangan sampai 1.000.000",
+      "description": "Membandingkan dua bilangan besar dengan melihat banyak angka dan nilai tempat dari kiri, lalu mengurutkan beberapa bilangan dari terkecil atau terbesar.",
+      "type": "prosedur",
+      "kelas": [5],
+      "evidence": [
+        "Menulis tanda yang benar pada 98.765 ... 102.345",
+        "Menjelaskan mengapa 450.100 lebih besar dari 405.900",
+        "Mengurutkan lima harga barang dari yang termurah"
+      ],
+      "parentPrompt": "Tunjukkan harga tiga HP atau tiga sepeda di brosur toko. Minta {{nama}} mengurutkan dari yang paling murah dan menjelaskan cara dia tahu.",
+      "cp": [{ "standard": "cp046.mat.C.bil", "phrase": "membandingkan, mengurutkan" }],
+      "requires": [
+        { "id": "mat.bil.membaca-menulis-bilangan-sampai-1000000", "strength": "wajib", "reason": "Bilangan harus bisa dibaca sebelum dibandingkan." },
+        { "id": "mat.bil.membandingkan-mengurutkan-bilangan-sampai-10000", "strength": "wajib", "reason": "Cara membandingkan dari angka paling kiri sudah dipakai sampai 10.000." }
+      ]
+    },
+    {
+      "slug": "mengurai-bilangan-sampai-1000000",
+      "elemen": "bil",
+      "name": "Menyusun dan mengurai bilangan sampai 1.000.000",
+      "description": "Menulis bilangan besar sebagai jumlah nilai tempatnya dan dengan cara lain, misalnya 250.000 = 2 ratus ribuan + 5 puluh ribuan = 25 puluh ribuan.",
+      "type": "konsep",
+      "kelas": [5],
+      "evidence": [
+        "Menulis 407.560 sebagai 400.000 + 7.000 + 500 + 60",
+        "Menyebut bahwa Rp300.000 sama dengan 30 lembar Rp10.000 atau 6 lembar Rp50.000",
+        "Menyusun bilangan dari 600.000 + 9.000 + 40 dan menulis 609.040"
+      ],
+      "parentPrompt": "Pakai uang kertas mainan atau gambar uang. Minta {{nama}} menunjukkan cara membayar Rp275.000 dengan lembaran Rp100.000, Rp50.000, Rp20.000, dan Rp5.000. Ada cara lain tidak?",
+      "cp": [{ "standard": "cp046.mat.C.bil", "phrase": "melakukan komposisi dan dekomposisi bilangan" }],
+      "requires": [
+        { "id": "mat.bil.nilai-tempat-sampai-ratusan-ribu", "strength": "wajib", "reason": "Mengurai bilangan memakai nilai tiap angka." },
+        { "id": "mat.bil.mengurai-bilangan-empat-angka", "strength": "wajib", "reason": "Cara mengurai bilangan empat angka diperluas ke bilangan yang lebih besar." }
+      ]
+    },
+    {
+      "slug": "memperkirakan-bilangan-besar",
+      "elemen": "bil",
+      "name": "Merasakan besar bilangan dan membulatkannya",
+      "description": "Punya rasa seberapa besar bilangan sampai satu juta (misalnya satu juta sama dengan seribu kali seribu), meletakkannya di garis bilangan, dan membulatkan ke puluh ribuan atau ratus ribuan terdekat.",
+      "type": "konsep",
+      "kelas": [5],
+      "evidence": [
+        "Menunjukkan letak kira-kira 750.000 pada garis bilangan 0 sampai 1.000.000",
+        "Membulatkan 348.900 menjadi 300.000 ke ratus ribuan terdekat",
+        "Menjawab bahwa satu juta rupiah sama dengan 100 lembar Rp10.000"
+      ],
+      "parentPrompt": "Tanya {{nama}}: kalau uang jajan Rp5.000 sehari, kira-kira berapa hari supaya terkumpul satu juta? Biarkan dia menebak dulu, lalu hitung bersama.",
+      "cp": [{ "standard": "cp046.mat.C.bil", "phrase": "Menunjukkan pemahaman dan intuisi bilangan (number sense) pada bilangan cacah sampai 1.000.000" }],
+      "requires": [
+        { "id": "mat.bil.membandingkan-mengurutkan-bilangan-sampai-1000000", "strength": "wajib", "reason": "Meletakkan bilangan di garis bilangan butuh kemampuan membandingkan." },
+        { "id": "mat.bil.membulatkan-dan-memperkirakan-bilangan", "strength": "wajib", "reason": "Cara membulatkan ke ribuan terdekat sudah dikenal sebelumnya." }
+      ]
+    },
+    {
+      "slug": "menjumlah-mengurang-sampai-100000",
+      "elemen": "bil",
+      "name": "Menjumlah dan mengurang bilangan sampai 100.000",
+      "description": "Menjumlah dan mengurang bilangan lima angka dengan cara bersusun, termasuk menyimpan dan meminjam beberapa kali.",
+      "type": "prosedur",
+      "kelas": [5],
+      "evidence": [
+        "Menghitung 45.678 + 27.856 dengan bersusun dan hasilnya 73.534",
+        "Menghitung 60.000 − 23.457 dengan meminjam melewati angka nol",
+        "Memeriksa hasil pengurangan dengan menjumlahkan kembali"
+      ],
+      "parentPrompt": "Ajak {{nama}} menjumlahkan dua tagihan, misalnya listrik Rp87.500 dan air Rp45.750. Lalu tanya: kalau Ibu bayar pakai Rp150.000, sisanya berapa?",
+      "cp": [{ "standard": "cp046.mat.C.bil", "phrase": "melakukan operasi penjumlahan, pengurangan" }],
+      "requires": [
+        { "id": "mat.bil.menjumlah-dengan-menyimpan-sampai-1000", "strength": "wajib", "reason": "Cara menyimpan pada tiga angka dipakai lagi untuk lima angka." },
+        { "id": "mat.bil.mengurang-dengan-meminjam-sampai-1000", "strength": "wajib", "reason": "Cara meminjam pada tiga angka dipakai lagi untuk lima angka." },
+        { "id": "mat.bil.nilai-tempat-sampai-ratusan-ribu", "strength": "bantu", "reason": "Menyusun angka sesuai nilai tempat mencegah salah lajur." }
+      ]
+    },
+    {
+      "slug": "perkalian-bersusun",
+      "elemen": "bil",
+      "name": "Perkalian bersusun dengan bilangan satu dan dua angka",
+      "description": "Mengalikan bilangan sampai ribuan dengan bilangan satu angka atau dua angka memakai cara bersusun, dan tahu mengapa ada angka yang disimpan.",
+      "type": "prosedur",
+      "kelas": [5],
+      "evidence": [
+        "Menghitung 2.346 × 7 dengan bersusun dan hasilnya 16.422",
+        "Menghitung 425 × 36 dan menjelaskan baris kedua sebagai 425 × 30",
+        "Memperkirakan hasil 198 × 52 sekitar 10.000 sebelum menghitung"
+      ],
+      "parentPrompt": "Tanya {{nama}}: kalau satu kilo telur Rp28.500, berapa harga 12 kilo untuk hajatan? Minta dia menghitung dengan bersusun, lalu perkirakan bersama apakah hasilnya masuk akal.",
+      "cp": [{ "standard": "cp046.mat.C.bil", "phrase": "perkalian, dan pembagian bilangan cacah sampai 100.000" }],
+      "requires": [
+        { "id": "mat.bil.perkalian-dasar-sampai-10-kali-10", "strength": "wajib", "reason": "Perkalian bersusun memakai fakta perkalian dasar di setiap langkah." },
+        { "id": "mat.bil.nilai-tempat-ribuan", "strength": "wajib", "reason": "Angka yang disimpan dipindah ke nilai tempat berikutnya." }
+      ]
+    },
+    {
+      "slug": "pembagian-bersusun",
+      "elemen": "bil",
+      "name": "Pembagian bersusun (cara porogapit)",
+      "description": "Membagi bilangan sampai 100.000 dengan bilangan satu atau dua angka memakai cara bersusun pendek atau panjang (porogapit), termasuk yang ada sisanya.",
+      "type": "prosedur",
+      "kelas": [5],
+      "evidence": [
+        "Menghitung 7.236 : 6 dengan porogapit dan hasilnya 1.206",
+        "Menghitung 1.000 : 24 dan menyebut hasilnya 41 sisa 16",
+        "Memeriksa hasil bagi dengan mengalikan kembali"
+      ],
+      "parentPrompt": "Ceritakan ke {{nama}}: arisan keluarga terkumpul Rp84.000 untuk dibagi rata ke 12 sepupu. Minta dia menghitung bagian tiap anak dengan porogapit, lalu cek dengan perkalian.",
+      "cp": [{ "standard": "cp046.mat.C.bil", "phrase": "perkalian, dan pembagian bilangan cacah sampai 100.000" }],
+      "requires": [
+        { "id": "mat.bil.perkalian-bersusun", "strength": "wajib", "reason": "Setiap langkah porogapit mengalikan lalu mengurangkan." },
+        { "id": "mat.bil.hubungan-perkalian-dan-pembagian", "strength": "wajib", "reason": "Pembagian dipahami sebagai kebalikan perkalian." }
+      ]
+    },
+    {
+      "slug": "hitung-campuran-dan-soal-cerita",
+      "elemen": "bil",
+      "name": "Hitung campuran dan soal cerita bilangan besar",
+      "description": "Mengerjakan soal yang memuat beberapa operasi sekaligus dengan urutan yang benar (kurung dulu, lalu kali dan bagi, lalu tambah dan kurang), dan memakainya untuk soal cerita.",
+      "type": "prosedur",
+      "kelas": [5, 6],
+      "evidence": [
+        "Menghitung 2.500 + 1.200 × 3 dan hasilnya 6.100, bukan 11.100",
+        "Menulis kalimat matematika untuk soal '4 kardus isi 24 botol, 15 botol pecah, sisa berapa?'",
+        "Memakai tanda kurung untuk menunjukkan bagian yang dihitung lebih dulu"
+      ],
+      "parentPrompt": "Waktu belanja, ceritakan ke {{nama}}: beli 3 bungkus mi Rp3.500 dan 1 botol kecap Rp12.000, bayar Rp50.000. Minta dia menulis satu kalimat matematika lalu menghitung kembaliannya.",
+      "cp": [{ "standard": "cp046.mat.C.bil", "phrase": "melakukan operasi penjumlahan, pengurangan, perkalian, dan pembagian bilangan cacah sampai 100.000" }],
+      "requires": [
+        { "id": "mat.bil.menjumlah-mengurang-sampai-100000", "strength": "wajib", "reason": "Hitung campuran memakai penjumlahan dan pengurangan bilangan besar." },
+        { "id": "mat.bil.pembagian-bersusun", "strength": "wajib", "reason": "Hitung campuran juga memakai perkalian dan pembagian bilangan besar." },
+        { "id": "mat.bil.soal-cerita-kali-dan-bagi", "strength": "bantu", "reason": "Pengalaman memilih operasi dari soal cerita sederhana sudah ada." }
+      ]
+    },
+    {
+      "slug": "menyelesaikan-masalah-uang",
+      "elemen": "bil",
+      "name": "Belanja, kembalian, dan menabung",
+      "description": "Menyelesaikan masalah sehari-hari tentang uang: menghitung total belanja, kembalian, sisa uang, dan berapa lama menabung untuk membeli sesuatu.",
+      "type": "prosedur",
+      "kelas": [5],
+      "evidence": [
+        "Menghitung kembalian dari Rp100.000 untuk belanja Rp63.750",
+        "Memilih lembaran uang yang paling sedikit untuk membayar Rp48.000",
+        "Menghitung berapa minggu menabung Rp15.000 per minggu untuk sepatu Rp120.000"
+      ],
+      "parentPrompt": "Ajak {{nama}} ke warung atau pasar dan biarkan dia yang membayar. Sebelum kasir menghitung, tanya dulu: totalnya berapa, dan kembaliannya harus berapa?",
+      "cp": [{ "standard": "cp046.mat.C.bil", "phrase": "menyelesaikan masalah yang berkaitan dengan uang" }],
+      "requires": [
+        { "id": "mat.bil.menjumlah-mengurang-sampai-100000", "strength": "wajib", "reason": "Total belanja dan kembalian dihitung dengan tambah dan kurang." },
+        { "id": "mat.bil.mengurai-bilangan-sampai-1000000", "strength": "bantu", "reason": "Memilih lembaran uang sama dengan mengurai bilangan." },
+        { "id": "mat.bil.soal-cerita-tambah-kurang-sampai-1000", "strength": "bantu", "reason": "Cara membaca soal cerita sudah dilatih dengan bilangan kecil." }
+      ]
+    },
+    {
+      "slug": "menghitung-harga-diskon",
+      "elemen": "bil",
+      "name": "Menghitung harga setelah diskon",
+      "description": "Menghitung potongan harga dan harga akhir untuk diskon yang mudah, seperti 10%, 25%, dan 50%, dengan memakai pecahan dari suatu bilangan.",
+      "type": "prosedur",
+      "kelas": [6],
+      "evidence": [
+        "Menghitung bahwa diskon 25% dari Rp80.000 adalah Rp20.000, jadi harga akhirnya Rp60.000",
+        "Menjelaskan bahwa diskon 50% sama dengan membayar setengah harga",
+        "Memilih toko yang lebih murah: baju Rp90.000 diskon 10% atau baju Rp85.000 tanpa diskon"
+      ],
+      "parentPrompt": "Kalau lihat tulisan 'Diskon 20%' di toko atau di aplikasi belanja, tunjukkan ke {{nama}}. Tanya: harga aslinya sekian, jadi kita hemat berapa dan bayar berapa?",
+      "cp": [{ "standard": "cp046.mat.C.bil", "phrase": "menyelesaikan masalah yang berkaitan dengan uang" }],
+      "requires": [
+        { "id": "mat.bil.menyelesaikan-masalah-uang", "strength": "wajib", "reason": "Harga akhir dihitung seperti soal belanja biasa." },
+        { "id": "mat.bil.mengenal-persen", "strength": "wajib", "reason": "Diskon ditulis dalam persen." },
+        { "id": "mat.bil.mengalikan-pecahan-dengan-bilangan-asli", "strength": "wajib", "reason": "Potongan harga adalah pecahan dari harga asli." }
+      ]
+    },
+    {
+      "slug": "mencari-kpk",
+      "elemen": "bil",
+      "name": "Mencari KPK dari daftar kelipatan",
+      "description": "Menemukan kelipatan persekutuan terkecil (KPK), yaitu bilangan terkecil yang sama-sama muncul di daftar kelipatan dua atau tiga bilangan.",
+      "type": "prosedur",
+      "kelas": [5],
+      "evidence": [
+        "Menulis kelipatan 4 dan 6 lalu menemukan KPK-nya 12",
+        "Menemukan KPK dari 3, 4, dan 6 adalah 12",
+        "Menjelaskan bahwa 24 juga kelipatan bersama 4 dan 6, tetapi bukan yang terkecil"
+      ],
+      "parentPrompt": "Tanya {{nama}}: lampu kedip hiasan satu menyala tiap 3 detik, satu lagi tiap 4 detik. Kalau sekarang menyala bersama, kapan menyala bersama lagi? Minta dia menulis kelipatannya.",
+      "cp": [{ "standard": "cp046.mat.C.bil", "phrase": "menyelesaikan masalah yang berkaitan dengan KPK dan FPB" }],
+      "requires": [
+        { "id": "mat.bil.kelipatan-bilangan", "strength": "wajib", "reason": "KPK dicari dari daftar kelipatan." }
+      ]
+    },
+    {
+      "slug": "mencari-fpb",
+      "elemen": "bil",
+      "name": "Mencari FPB dari daftar faktor",
+      "description": "Menemukan faktor persekutuan terbesar (FPB), yaitu bilangan terbesar yang membagi habis dua atau tiga bilangan sekaligus.",
+      "type": "prosedur",
+      "kelas": [5],
+      "evidence": [
+        "Menulis faktor 18 dan 24 lalu menemukan FPB-nya 6",
+        "Menemukan FPB dari 12, 30, dan 42 adalah 6",
+        "Menjelaskan bedanya FPB dan KPK dengan kata-katanya sendiri"
+      ],
+      "parentPrompt": "Siapkan 12 permen dan 18 biskuit. Tanya {{nama}}: paling banyak berapa kantong yang bisa dibuat supaya isi tiap kantong sama persis? Biarkan dia mencoba dengan benda sungguhan.",
+      "cp": [{ "standard": "cp046.mat.C.bil", "phrase": "menyelesaikan masalah yang berkaitan dengan KPK dan FPB" }],
+      "requires": [
+        { "id": "mat.bil.faktor-bilangan", "strength": "wajib", "reason": "FPB dicari dari daftar faktor." },
+        { "id": "mat.bil.mencari-kpk", "strength": "bantu", "reason": "Membandingkan dengan KPK membantu anak tidak tertukar." }
+      ]
+    },
+    {
+      "slug": "soal-cerita-kpk-dan-fpb",
+      "elemen": "bil",
+      "name": "Memilih KPK atau FPB dalam soal cerita",
+      "description": "Mengenali apakah soal cerita meminta 'kapan bertemu lagi' (KPK) atau 'dibagi sama rata sebanyak-banyaknya' (FPB), lalu menyelesaikannya.",
+      "type": "konsep",
+      "kelas": [5, 6],
+      "evidence": [
+        "Menjawab soal 'Andi ke perpustakaan tiap 4 hari, Budi tiap 6 hari' dengan KPK dan hasilnya 12 hari lagi",
+        "Menjawab soal '24 kue cokelat dan 36 kue keju dibagi ke parsel sama isi' dengan FPB 12 parsel",
+        "Menjelaskan kata kunci yang membuatnya memilih KPK atau FPB"
+      ],
+      "parentPrompt": "Ceritakan ke {{nama}}: Ibu ke pasar tiap 3 hari, Bude tiap 5 hari, hari ini mereka bertemu di pasar. Kapan mereka bertemu lagi? Lalu tanya: soal ini pakai KPK atau FPB, dan kenapa?",
+      "cp": [{ "standard": "cp046.mat.C.bil", "phrase": "menyelesaikan masalah yang berkaitan dengan KPK dan FPB" }],
+      "requires": [
+        { "id": "mat.bil.mencari-kpk", "strength": "wajib", "reason": "Soal 'bertemu lagi' diselesaikan dengan KPK." },
+        { "id": "mat.bil.mencari-fpb", "strength": "wajib", "reason": "Soal 'dibagi sama rata' diselesaikan dengan FPB." }
+      ]
+    },
+    {
+      "slug": "pecahan-biasa-dan-pecahan-campuran",
+      "elemen": "bil",
+      "name": "Mengubah pecahan biasa dan pecahan campuran",
+      "description": "Memahami pecahan yang lebih dari satu, lalu mengubah pecahan biasa menjadi pecahan campuran dan sebaliknya, misalnya 7/4 = 1 3/4.",
+      "type": "konsep",
+      "kelas": [5],
+      "evidence": [
+        "Menggambar 2 1/2 roti dan menulisnya juga sebagai 5/2",
+        "Mengubah 11/3 menjadi 3 2/3",
+        "Mengubah 2 3/5 menjadi 13/5 dan menjelaskan caranya"
+      ],
+      "parentPrompt": "Potong beberapa martabak atau roti menjadi 4 bagian. Ambil 7 potong dan tanya {{nama}}: ini berapa martabak? Bisa ditulis dengan dua cara tidak?",
+      "cp": [
+        { "standard": "cp046.mat.C.bil", "phrase": "mengubah pecahan menjadi berbagai bentuk pecahan lain" },
+        { "standard": "cp046.mat.C.bil", "phrase": "termasuk pecahan campuran" }
+      ],
+      "requires": [
+        { "id": "mat.bil.pecahan-pada-garis-bilangan", "strength": "wajib", "reason": "Garis bilangan menunjukkan pecahan yang melewati angka 1." },
+        { "id": "mat.bil.pembagian-sebagai-berbagi-rata", "strength": "bantu", "reason": "Mengubah ke pecahan campuran memakai pembagian dengan sisa." }
+      ]
+    },
+    {
+      "slug": "menyederhanakan-pecahan",
+      "elemen": "bil",
+      "name": "Menyederhanakan pecahan",
+      "description": "Menulis pecahan dalam bentuk paling sederhana dengan membagi pembilang dan penyebut dengan bilangan yang sama, misalnya 12/18 = 2/3.",
+      "type": "prosedur",
+      "kelas": [5],
+      "evidence": [
+        "Menyederhanakan 8/12 menjadi 2/3",
+        "Menjelaskan bahwa 6/8 dan 3/4 menunjukkan bagian yang sama besar",
+        "Memakai FPB untuk menyederhanakan 18/24 dalam satu langkah"
+      ],
+      "parentPrompt": "Potong kue bolu menjadi 8 bagian dan ambil 4. Tanya {{nama}}: ini 4/8, tapi bisa disebut lebih singkat tidak? Lalu coba dengan 6 dari 8 potong.",
+      "cp": [{ "standard": "cp046.mat.C.bil", "phrase": "mengubah pecahan menjadi berbagai bentuk pecahan lain" }],
+      "requires": [
+        { "id": "mat.bil.mencari-pecahan-senilai", "strength": "wajib", "reason": "Pecahan yang disederhanakan adalah pecahan senilai." },
+        { "id": "mat.bil.mencari-fpb", "strength": "bantu", "reason": "FPB membuat penyederhanaan selesai dalam satu langkah." }
+      ]
+    },
+    {
+      "slug": "membandingkan-mengurutkan-pecahan-berbeda-penyebut",
+      "elemen": "bil",
+      "name": "Membandingkan pecahan yang penyebutnya berbeda",
+      "description": "Membandingkan dan mengurutkan pecahan yang penyebutnya berbeda, termasuk pecahan campuran, dengan menyamakan penyebut atau membandingkan dengan setengah.",
+      "type": "prosedur",
+      "kelas": [5],
+      "evidence": [
+        "Menentukan bahwa 3/4 lebih besar dari 2/3 dengan mengubahnya menjadi 9/12 dan 8/12",
+        "Mengurutkan 1 1/2, 5/4, dan 1 2/3 dari yang terkecil",
+        "Menjelaskan bahwa 4/9 kurang dari setengah karena 4 kurang dari setengah dari 9"
+      ],
+      "parentPrompt": "Tanya {{nama}}: kakak makan 2/3 pizza, adik makan 3/5 pizza yang sama besar. Siapa yang makan lebih banyak? Minta dia membuktikan dengan gambar atau hitungan.",
+      "cp": [{ "standard": "cp046.mat.C.bil", "phrase": "membandingkan dan mengurutkan berbagai pecahan termasuk pecahan campuran" }],
+      "requires": [
+        { "id": "mat.bil.membandingkan-pecahan-penyebut-sama", "strength": "wajib", "reason": "Setelah penyebut disamakan, pecahan dibandingkan dari pembilangnya." },
+        { "id": "mat.bil.mencari-pecahan-senilai", "strength": "wajib", "reason": "Menyamakan penyebut memakai pecahan senilai." },
+        { "id": "mat.bil.pecahan-biasa-dan-pecahan-campuran", "strength": "wajib", "reason": "Pecahan campuran perlu dipahami sebelum diurutkan." }
+      ]
+    },
+    {
+      "slug": "menjumlah-mengurang-pecahan-penyebut-sama",
+      "elemen": "bil",
+      "name": "Menjumlah dan mengurang pecahan berpenyebut sama",
+      "description": "Menjumlah dan mengurang pecahan yang penyebutnya sama dengan menjumlah atau mengurang pembilangnya saja, dan tahu mengapa penyebutnya tidak ikut dijumlah.",
+      "type": "prosedur",
+      "kelas": [5],
+      "evidence": [
+        "Menghitung 2/7 + 3/7 = 5/7 dan menunjukkannya dengan gambar",
+        "Menghitung 5/6 − 1/6 = 4/6 lalu menyederhanakannya menjadi 2/3",
+        "Menjelaskan mengapa 1/4 + 1/4 bukan 2/8"
+      ],
+      "parentPrompt": "Potong semangka atau pepaya menjadi 8 bagian. {{nama}} makan 3 potong, adik makan 2 potong. Tanya: berapa bagian dari semangka yang sudah dimakan, dan berapa yang tersisa?",
+      "cp": [{ "standard": "cp046.mat.C.bil", "phrase": "melakukan operasi penjumlahan dan pengurangan pecahan" }],
+      "requires": [
+        { "id": "mat.bil.membandingkan-pecahan-penyebut-sama", "strength": "wajib", "reason": "Anak perlu paham arti pembilang dan penyebut yang sama." },
+        { "id": "mat.bil.menyederhanakan-pecahan", "strength": "bantu", "reason": "Hasil penjumlahan sering perlu disederhanakan." }
+      ]
+    },
+    {
+      "slug": "menjumlah-mengurang-pecahan-berbeda-penyebut",
+      "elemen": "bil",
+      "name": "Menjumlah dan mengurang pecahan berbeda penyebut",
+      "description": "Menyamakan penyebut lebih dulu, lalu menjumlah atau mengurang pecahan, termasuk pecahan campuran, dan menulis hasilnya dalam bentuk paling sederhana.",
+      "type": "prosedur",
+      "kelas": [5, 6],
+      "evidence": [
+        "Menghitung 1/2 + 1/3 = 5/6 dengan mengubahnya menjadi 3/6 + 2/6",
+        "Menghitung 3/4 − 1/6 = 7/12",
+        "Menghitung 2 1/2 + 1 3/4 = 4 1/4"
+      ],
+      "parentPrompt": "Waktu membuat kue, tanya {{nama}}: resep butuh 1/2 gelas gula untuk adonan dan 1/4 gelas untuk taburan. Totalnya berapa gelas? Kalau gula di toples tinggal 1 gelas, sisanya berapa?",
+      "cp": [{ "standard": "cp046.mat.C.bil", "phrase": "melakukan operasi penjumlahan dan pengurangan pecahan" }],
+      "requires": [
+        { "id": "mat.bil.menjumlah-mengurang-pecahan-penyebut-sama", "strength": "wajib", "reason": "Setelah penyebut disamakan, caranya sama dengan pecahan berpenyebut sama." },
+        { "id": "mat.bil.membandingkan-mengurutkan-pecahan-berbeda-penyebut", "strength": "wajib", "reason": "Cara menyamakan penyebut sudah dilatih saat membandingkan." },
+        { "id": "mat.bil.mencari-kpk", "strength": "bantu", "reason": "KPK memberi penyebut bersama yang paling kecil." }
+      ]
+    },
+    {
+      "slug": "mengalikan-pecahan-dengan-bilangan-asli",
+      "elemen": "bil",
+      "name": "Mengalikan pecahan dengan bilangan asli",
+      "description": "Mengalikan pecahan dengan bilangan asli, baik sebagai penjumlahan berulang (3 × 1/4) maupun sebagai pecahan dari suatu bilangan (3/4 × 20).",
+      "type": "prosedur",
+      "kelas": [5, 6],
+      "evidence": [
+        "Menghitung 4 × 2/3 = 8/3 = 2 2/3 dan menggambarnya",
+        "Menghitung 3/5 dari 40 kelereng adalah 24 kelereng",
+        "Menjelaskan bahwa 1/2 × 30 sama dengan setengah dari 30"
+      ],
+      "parentPrompt": "Tanya {{nama}}: setiap anak minum 3/4 gelas susu, ada 4 anak. Berapa gelas susu yang perlu disiapkan? Lalu tanya juga: 2/3 dari 24 telur di rak itu berapa butir?",
+      "cp": [{ "standard": "cp046.mat.C.bil", "phrase": "melakukan operasi perkalian dan pembagian pecahan dengan bilangan asli" }],
+      "requires": [
+        { "id": "mat.bil.pecahan-dari-kumpulan-benda", "strength": "wajib", "reason": "Pecahan dari suatu bilangan berawal dari pecahan kumpulan benda." },
+        { "id": "mat.bil.menjumlah-mengurang-pecahan-penyebut-sama", "strength": "wajib", "reason": "Perkalian pecahan dipahami sebagai penjumlahan berulang." },
+        { "id": "mat.bil.pecahan-biasa-dan-pecahan-campuran", "strength": "bantu", "reason": "Hasil perkalian sering ditulis sebagai pecahan campuran." }
+      ]
+    },
+    {
+      "slug": "membagi-pecahan-dengan-bilangan-asli",
+      "elemen": "bil",
+      "name": "Membagi pecahan dengan bilangan asli",
+      "description": "Membagi pecahan dengan bilangan asli sebagai membagi rata suatu bagian, misalnya setengah kue dibagi 3 orang, tiap orang dapat 1/6.",
+      "type": "prosedur",
+      "kelas": [6],
+      "evidence": [
+        "Menggambar 1/2 : 3 dan menunjukkan hasilnya 1/6",
+        "Menghitung 3/4 : 3 = 1/4",
+        "Menghitung 2/5 : 4 = 2/20 = 1/10"
+      ],
+      "parentPrompt": "Sisakan setengah loyang kue, lalu minta {{nama}} membaginya rata untuk 3 orang. Tanya: tiap orang dapat berapa bagian dari satu loyang utuh?",
+      "cp": [{ "standard": "cp046.mat.C.bil", "phrase": "melakukan operasi perkalian dan pembagian pecahan dengan bilangan asli" }],
+      "requires": [
+        { "id": "mat.bil.mengalikan-pecahan-dengan-bilangan-asli", "strength": "wajib", "reason": "Pembagian pecahan diperiksa dengan perkalian." },
+        { "id": "mat.bil.pembagian-sebagai-berbagi-rata", "strength": "bantu", "reason": "Makna berbagi rata dipakai lagi untuk pecahan." }
+      ]
+    },
+    {
+      "slug": "mengubah-pecahan-desimal-persen",
+      "elemen": "bil",
+      "name": "Mengubah pecahan, desimal, dan persen",
+      "description": "Mengubah satu bilangan ke bentuk lain: pecahan biasa, pecahan campuran, desimal, dan persen, misalnya 1/4 = 0,25 = 25% dan 1 1/2 = 1,5.",
+      "type": "representasi",
+      "kelas": [5, 6],
+      "evidence": [
+        "Mengubah 3/5 menjadi 6/10, lalu 0,6, lalu 60%",
+        "Menulis 1 1/2 sebagai 1,5",
+        "Menjodohkan 1/2, 1/4, 3/4 dengan 50%, 25%, 75%"
+      ],
+      "parentPrompt": "Tunjukkan baterai HP yang tertulis 50% atau 75%. Tanya {{nama}}: itu berapa bagian dari penuh kalau ditulis pecahan? Kalau baterainya tinggal 1/4, persennya berapa?",
+      "cp": [{ "standard": "cp046.mat.C.bil", "phrase": "mengubah pecahan menjadi berbagai bentuk pecahan lain" }],
+      "requires": [
+        { "id": "mat.bil.mengubah-pecahan-ke-desimal", "strength": "wajib", "reason": "Pengubahan pecahan ke desimal persepuluhan sudah dikenal." },
+        { "id": "mat.bil.mengenal-persen", "strength": "wajib", "reason": "Persen sebagai per seratus sudah dikenal." },
+        { "id": "mat.bil.menyederhanakan-pecahan", "strength": "bantu", "reason": "Pecahan senilai dipakai untuk mendapat penyebut 10 atau 100." }
+      ]
+    },
+    {
+      "slug": "membandingkan-mengurutkan-desimal",
+      "elemen": "bil",
+      "name": "Membandingkan dan mengurutkan desimal satu angka",
+      "description": "Membandingkan dan mengurutkan bilangan desimal dengan satu angka di belakang koma, misalnya 2,7 dan 3,1, termasuk pada ukuran sehari-hari seperti suhu badan dan berat.",
+      "type": "prosedur",
+      "kelas": [5],
+      "evidence": [
+        "Menulis tanda yang benar pada 4,8 ... 5,2",
+        "Mengurutkan 1,5 kg, 0,8 kg, 2,1 kg, dan 1,2 kg dari yang teringan",
+        "Menunjukkan letak 3,6 pada garis bilangan antara 3 dan 4"
+      ],
+      "parentPrompt": "Kalau ada yang demam, tunjukkan termometer ke {{nama}}. Tanya: 37,8 dan 38,2, mana yang lebih panas? Lalu minta dia mengurutkan suhu tiga anggota keluarga.",
+      "cp": [{ "standard": "cp046.mat.C.bil", "phrase": "membandingkan dan mengurutkan bilangan desimal (satu angka di belakang koma)" }],
+      "requires": [
+        { "id": "mat.bil.mengenal-desimal-persepuluhan", "strength": "wajib", "reason": "Arti angka di belakang koma harus dipahami lebih dulu." },
+        { "id": "mat.bil.pecahan-pada-garis-bilangan", "strength": "bantu", "reason": "Garis bilangan membantu melihat urutan desimal." }
+      ]
+    },
+
+    {
+      "slug": "nilai-belum-diketahui-tambah-kurang-sampai-1000",
+      "elemen": "alj",
+      "name": "Mencari bilangan yang belum diketahui (tambah dan kurang)",
+      "description": "Menemukan bilangan yang ditulis sebagai kotak atau huruf dalam kalimat penjumlahan dan pengurangan sampai 1000, dengan memakai hubungan tambah dan kurang serta sifat pertukaran.",
+      "type": "konsep",
+      "kelas": [5],
+      "evidence": [
+        "Menemukan □ pada 485 + □ = 720 dengan menghitung 720 − 485",
+        "Menemukan n pada n − 236 = 418",
+        "Menjelaskan bahwa 347 + 299 = 299 + □ tanpa menghitung karena sifat pertukaran"
+      ],
+      "parentPrompt": "Tanya {{nama}}: Ibu punya uang Rp500 ribu, setelah belanja tinggal Rp145 ribu. Belanjanya berapa? Minta dia menulis soalnya dengan kotak dulu, lalu cari isinya.",
+      "cp": [
+        { "standard": "cp046.mat.C.alj", "phrase": "Menemukan nilai yang belum diketahui dalam kalimat matematika yang melibatkan penjumlahan, pengurangan" },
+        { "standard": "cp046.mat.C.alj", "phrase": "dengan menggunakan sifat-sifat bilangan dan operasinya" }
+      ],
+      "requires": [
+        { "id": "mat.alj.mencari-bilangan-yang-hilang-sampai-100", "strength": "wajib", "reason": "Cara mencari bilangan yang hilang sampai 100 diperluas ke 1000." },
+        { "id": "mat.alj.kalimat-matematika-seimbang", "strength": "wajib", "reason": "Kalimat matematika dipahami sebagai dua sisi yang seimbang." }
+      ]
+    },
+    {
+      "slug": "nilai-belum-diketahui-kali-bagi-sampai-1000",
+      "elemen": "alj",
+      "name": "Mencari bilangan yang belum diketahui (kali dan bagi)",
+      "description": "Menemukan bilangan yang belum diketahui dalam kalimat perkalian dan pembagian sampai 1000, dengan memakai hubungan kali dan bagi serta sifat penyebaran, misalnya 6 × 25 = 6 × 20 + 6 × 5.",
+      "type": "konsep",
+      "kelas": [5],
+      "evidence": [
+        "Menemukan □ pada 12 × □ = 144",
+        "Menemukan n pada n : 8 = 45 dengan menghitung 45 × 8",
+        "Menyelesaikan 7 × 38 = 7 × 40 − 7 × □ dan menjelaskan caranya"
+      ],
+      "parentPrompt": "Tanya {{nama}}: telur dibeli beberapa rak, tiap rak isi 30 butir, totalnya 240 butir. Berapa rak? Minta dia menulisnya sebagai 30 × □ = 240.",
+      "cp": [
+        { "standard": "cp046.mat.C.alj", "phrase": "perkalian, dan pembagian pada bilangan cacah sampai 1000" },
+        { "standard": "cp046.mat.C.alj", "phrase": "dengan menggunakan sifat-sifat bilangan dan operasinya" }
+      ],
+      "requires": [
+        { "id": "mat.alj.nilai-belum-diketahui-tambah-kurang-sampai-1000", "strength": "wajib", "reason": "Cara memakai operasi kebalikan sudah dilatih dengan tambah dan kurang." },
+        { "id": "mat.bil.hubungan-perkalian-dan-pembagian", "strength": "wajib", "reason": "Pembagian dipakai untuk mencari faktor yang hilang." },
+        { "id": "mat.alj.sifat-pertukaran-dan-pengelompokan", "strength": "bantu", "reason": "Sifat operasi membuat hitungan lebih mudah." }
+      ]
+    },
+    {
+      "slug": "pola-bilangan-perkalian",
+      "elemen": "alj",
+      "name": "Pola bilangan yang membesar dengan dikali",
+      "description": "Mengenali dan melanjutkan pola bilangan yang setiap langkahnya dikali bilangan yang sama, misalnya 3, 6, 12, 24, …",
+      "type": "konsep",
+      "kelas": [5],
+      "evidence": [
+        "Melanjutkan 2, 6, 18, 54, … dan menyebut aturannya 'dikali 3'",
+        "Membedakan pola 5, 10, 15, 20 (ditambah 5) dari 5, 10, 20, 40 (dikali 2)",
+        "Menemukan bilangan yang hilang pada 4, 8, □, 32"
+      ],
+      "parentPrompt": "Ceritakan ke {{nama}}: satu kabar disebar 1 orang ke 2 orang, lalu tiap orang menyebarkan lagi ke 2 orang. Berapa orang yang tahu di putaran ke-5? Minta dia menulis polanya.",
+      "cp": [{ "standard": "cp046.mat.C.alj", "phrase": "mengidentifikasi, meniru, dan mengembangkan pola bilangan membesar dan mengecil yang melibatkan perkalian dan pembagian" }],
+      "requires": [
+        { "id": "mat.alj.pola-bilangan-membesar", "strength": "wajib", "reason": "Pola membesar dengan penjumlahan dikenal lebih dulu." },
+        { "id": "mat.bil.perkalian-dasar-sampai-10-kali-10", "strength": "wajib", "reason": "Pola ini dihitung dengan perkalian." }
+      ]
+    },
+    {
+      "slug": "pola-bilangan-pembagian",
+      "elemen": "alj",
+      "name": "Pola bilangan yang mengecil dengan dibagi",
+      "description": "Mengenali dan melanjutkan pola bilangan yang setiap langkahnya dibagi bilangan yang sama, misalnya 800, 400, 200, 100, …",
+      "type": "konsep",
+      "kelas": [5],
+      "evidence": [
+        "Melanjutkan 729, 243, 81, … dan menyebut aturannya 'dibagi 3'",
+        "Menemukan bilangan yang hilang pada 1.000, 500, □, 125",
+        "Menjelaskan bahwa pola 'dibagi 2' adalah kebalikan pola 'dikali 2'"
+      ],
+      "parentPrompt": "Lipat selembar kertas jadi dua, lalu dua lagi, dan seterusnya. Tanya {{nama}}: kalau kertasnya seluas 64 kotak, setelah dilipat sekali tinggal berapa kotak? Setelah 4 kali?",
+      "cp": [{ "standard": "cp046.mat.C.alj", "phrase": "mengidentifikasi, meniru, dan mengembangkan pola bilangan membesar dan mengecil yang melibatkan perkalian dan pembagian" }],
+      "requires": [
+        { "id": "mat.alj.pola-bilangan-perkalian", "strength": "wajib", "reason": "Pola dibagi adalah kebalikan pola dikali." },
+        { "id": "mat.alj.pola-bilangan-mengecil", "strength": "wajib", "reason": "Pola mengecil dengan pengurangan dikenal lebih dulu." }
+      ]
+    },
+    {
+      "slug": "menemukan-aturan-dan-mengembangkan-pola",
+      "elemen": "alj",
+      "name": "Menemukan aturan pola dan membuat pola sendiri",
+      "description": "Menemukan aturan sebuah pola bilangan, memakai aturan itu untuk menentukan suku yang jauh, dan membuat pola baru dengan aturan kali atau bagi.",
+      "type": "konsep",
+      "kelas": [5, 6],
+      "evidence": [
+        "Menulis aturan pola 3, 12, 48, 192 dengan kata-kata",
+        "Menemukan suku ke-8 pola 1, 2, 4, 8, … tanpa menggambar",
+        "Membuat pola sendiri dengan aturan 'dikali 5' dan meminta teman menebak aturannya"
+      ],
+      "parentPrompt": "Main tebak aturan dengan {{nama}}: Ayah atau Ibu sebut 2, 10, 50, lalu dia menebak berikutnya dan aturannya. Setelah itu gantian, {{nama}} yang membuat pola untuk ditebak.",
+      "cp": [{ "standard": "cp046.mat.C.alj", "phrase": "mengembangkan pola bilangan membesar dan mengecil" }],
+      "requires": [
+        { "id": "mat.alj.pola-bilangan-perkalian", "strength": "wajib", "reason": "Aturan dikali harus bisa dikenali dulu." },
+        { "id": "mat.alj.pola-bilangan-pembagian", "strength": "wajib", "reason": "Aturan dibagi harus bisa dikenali dulu." }
+      ]
+    },
+    {
+      "slug": "mengenal-rasio",
+      "elemen": "alj",
+      "name": "Mengenal rasio atau perbandingan",
+      "description": "Memahami rasio sebagai cara membandingkan dua banyak benda, misalnya 2 gelas beras untuk 3 gelas air, dan menulisnya sebagai 2 : 3.",
+      "type": "konsep",
+      "kelas": [6],
+      "evidence": [
+        "Menulis rasio 4 kelereng merah dan 6 kelereng biru sebagai 4 : 6 atau 2 : 3",
+        "Menjelaskan bahwa rasio 2 : 3 berbeda dengan 3 : 2",
+        "Melengkapi tabel rasio 1 : 3, 2 : 6, 3 : □, 4 : □"
+      ],
+      "parentPrompt": "Waktu menanak nasi, tunjukkan ke {{nama}}: 1 gelas beras pakai 2 gelas air. Tanya: kalau berasnya 3 gelas, airnya berapa? Minta dia menulisnya dengan tanda titik dua.",
+      "cp": [{ "standard": "cp046.mat.C.alj", "phrase": "bernalar secara proporsional" }],
+      "requires": [
+        { "id": "mat.bil.perkalian-dasar-sampai-10-kali-10", "strength": "wajib", "reason": "Rasio yang setara dibuat dengan mengalikan kedua bagian." },
+        { "id": "mat.bil.menyederhanakan-pecahan", "strength": "bantu", "reason": "Menyederhanakan rasio mirip dengan menyederhanakan pecahan." }
+      ]
+    },
+    {
+      "slug": "rasio-satuan-dan-harga-satuan",
+      "elemen": "alj",
+      "name": "Rasio satuan dan harga satuan",
+      "description": "Mencari nilai untuk satu satuan (harga per buah, jarak per jam, isi per bungkus), lalu memakainya untuk membandingkan atau menghitung jumlah lain.",
+      "type": "prosedur",
+      "kelas": [6],
+      "evidence": [
+        "Menghitung harga satu buku jika 4 buku harganya Rp24.000",
+        "Menentukan mana yang lebih murah: 3 sabun Rp13.500 atau 5 sabun Rp21.000",
+        "Menghitung bahwa motor yang menempuh 120 km dengan 3 liter bensin memakai 40 km per liter"
+      ],
+      "parentPrompt": "Di minimarket, tunjukkan dua kemasan berbeda, misalnya mi isi 5 dan isi 1. Minta {{nama}} menghitung harga per bungkus dan menentukan mana yang lebih hemat.",
+      "cp": [{ "standard": "cp046.mat.C.alj", "phrase": "menyelesaikan masalah sehari-hari dengan rasio satuan" }],
+      "requires": [
+        { "id": "mat.alj.mengenal-rasio", "strength": "wajib", "reason": "Rasio satuan adalah rasio dengan salah satu bagian bernilai satu." },
+        { "id": "mat.bil.pembagian-bersusun", "strength": "wajib", "reason": "Harga satuan dicari dengan pembagian." }
+      ]
+    },
+    {
+      "slug": "proporsi-dalam-resep-dan-belanja",
+      "elemen": "alj",
+      "name": "Memakai proporsi untuk resep dan belanja",
+      "description": "Menyelesaikan masalah perbandingan senilai dengan perkalian dan pembagian, misalnya mengubah resep untuk lebih banyak atau lebih sedikit orang.",
+      "type": "prosedur",
+      "kelas": [6],
+      "evidence": [
+        "Menghitung bahan untuk 12 orang dari resep untuk 4 orang yang butuh 250 gram tepung",
+        "Menghitung harga 7 kg beras jika 2 kg harganya Rp28.000",
+        "Memeriksa apakah jawabannya masuk akal: orang lebih banyak berarti bahan lebih banyak"
+      ],
+      "parentPrompt": "Ambil resep di bungkus tepung atau resep keluarga untuk 4 orang. Minta {{nama}} menghitung bahan kalau tamu yang datang 10 orang. Ajak dia mengecek apakah takarannya masuk akal.",
+      "cp": [{ "standard": "cp046.mat.C.alj", "phrase": "menggunakan operasi perkalian dan pembagian dalam menyelesaikan masalah sehari-hari yang terkait dengan proporsi" }],
+      "requires": [
+        { "id": "mat.alj.rasio-satuan-dan-harga-satuan", "strength": "wajib", "reason": "Proporsi sering diselesaikan dengan mencari nilai satu satuan dulu." },
+        { "id": "mat.bil.hitung-campuran-dan-soal-cerita", "strength": "bantu", "reason": "Soal proporsi memakai kali dan bagi dalam satu soal cerita." }
+      ]
+    },
+    {
+      "slug": "skala-pada-denah-dan-peta",
+      "elemen": "alj",
+      "name": "Memakai skala pada denah dan peta",
+      "description": "Memahami skala sebagai perbandingan jarak di gambar dengan jarak sebenarnya, lalu menghitung jarak sebenarnya atau jarak pada gambar.",
+      "type": "representasi",
+      "kelas": [6],
+      "evidence": [
+        "Menjelaskan arti skala 1 : 100 pada denah rumah",
+        "Menghitung panjang kamar sebenarnya 4 meter dari gambar 4 cm berskala 1 : 100",
+        "Menggambar meja 120 cm pada denah berskala 1 : 20"
+      ],
+      "parentPrompt": "Ajak {{nama}} mengukur panjang dan lebar kamarnya dengan meteran, lalu menggambar denahnya di kertas berpetak dengan 1 kotak untuk 50 cm. Tanya: lemarinya jadi berapa kotak?",
+      "cp": [{ "standard": "cp046.mat.C.alj", "phrase": "menggunakan operasi perkalian dan pembagian dalam menyelesaikan masalah sehari-hari yang terkait dengan proporsi" }],
+      "requires": [
+        { "id": "mat.alj.proporsi-dalam-resep-dan-belanja", "strength": "wajib", "reason": "Skala adalah salah satu bentuk proporsi." },
+        { "id": "mat.ukur.hubungan-meter-dan-sentimeter", "strength": "wajib", "reason": "Menghitung skala sering mengubah sentimeter ke meter." },
+        { "id": "mat.geo.lokasi-pada-peta-berpetak", "strength": "bantu", "reason": "Denah dan peta berpetak dibaca dengan cara yang mirip." }
+      ]
+    },
+
+    {
+      "slug": "keliling-bangun-datar",
+      "elemen": "ukur",
+      "name": "Menghitung keliling segitiga, segiempat, dan segi banyak",
+      "description": "Memahami keliling sebagai panjang seluruh tepi bangun datar, lalu menghitungnya dengan menjumlah semua sisi atau memakai rumus untuk persegi dan persegi panjang.",
+      "type": "prosedur",
+      "kelas": [5],
+      "evidence": [
+        "Menghitung keliling taman persegi panjang 12 m × 7 m adalah 38 m",
+        "Menghitung keliling segitiga bersisi 5 cm, 6 cm, dan 8 cm",
+        "Menghitung keliling segi enam beraturan bersisi 4 cm tanpa menjumlah satu per satu"
+      ],
+      "parentPrompt": "Minta {{nama}} mengukur sisi-sisi meja makan atau taplak, lalu menghitung berapa meter renda yang perlu dibeli untuk menghias seluruh pinggirnya.",
+      "cp": [
+        { "standard": "cp046.mat.C.ukur", "phrase": "Menentukan keliling dan luas berbagai bentuk bangun datar" },
+        { "standard": "cp046.mat.C.ukur", "phrase": "(segitiga, segiempat, dan segi banyak)" }
+      ],
+      "requires": [
+        { "id": "mat.ukur.mengukur-panjang-dengan-penggaris", "strength": "wajib", "reason": "Panjang sisi harus bisa diukur sebelum keliling dihitung." },
+        { "id": "mat.geo.mengenal-segi-banyak", "strength": "wajib", "reason": "Anak perlu tahu banyak sisi tiap bangun." },
+        { "id": "mat.geo.ciri-persegi-dan-persegi-panjang", "strength": "bantu", "reason": "Sisi yang sama panjang membuat rumus keliling lebih singkat." }
+      ]
+    },
+    {
+      "slug": "luas-persegi-dan-persegi-panjang",
+      "elemen": "ukur",
+      "name": "Luas persegi dan persegi panjang dengan rumus",
+      "description": "Memahami bahwa luas persegi panjang sama dengan banyak baris persegi satuan dikali banyak kolom, lalu memakai rumus panjang × lebar dan sisi × sisi.",
+      "type": "konsep",
+      "kelas": [5],
+      "evidence": [
+        "Menjelaskan mengapa luas persegi panjang 6 cm × 4 cm adalah 24 cm² dengan gambar petak",
+        "Menghitung luas lantai kamar 3 m × 4 m adalah 12 m²",
+        "Mencari lebar jika luas 48 m² dan panjang 8 m"
+      ],
+      "parentPrompt": "Ajak {{nama}} menghitung ubin di lantai kamar atau teras. Tanya: perlu dihitung satu per satu, atau ada cara lebih cepat? Lalu tanya luas lantainya kalau satu ubin 30 cm × 30 cm.",
+      "cp": [{ "standard": "cp046.mat.C.ukur", "phrase": "Menentukan keliling dan luas berbagai bentuk bangun datar" }],
+      "requires": [
+        { "id": "mat.ukur.mengukur-luas-dengan-persegi-satuan", "strength": "wajib", "reason": "Rumus luas berasal dari menghitung persegi satuan." },
+        { "id": "mat.bil.perkalian-dengan-susunan-baris-dan-kolom", "strength": "wajib", "reason": "Susunan baris dan kolom menjelaskan mengapa luas dihitung dengan perkalian." }
+      ]
+    },
+    {
+      "slug": "membedakan-keliling-dan-luas",
+      "elemen": "ukur",
+      "name": "Membedakan keliling dan luas",
+      "description": "Tahu kapan sebuah masalah meminta keliling (pagar, bingkai, renda) dan kapan meminta luas (ubin, cat, karpet), serta tahu bahwa dua bangun dengan keliling sama bisa punya luas berbeda.",
+      "type": "konsep",
+      "kelas": [5],
+      "evidence": [
+        "Menjawab bahwa memasang pagar kebun memakai keliling, memasang rumput memakai luas",
+        "Menggambar dua persegi panjang yang kelilingnya sama-sama 20 cm tapi luasnya berbeda",
+        "Menulis satuan yang benar: cm untuk keliling dan cm² untuk luas"
+      ],
+      "parentPrompt": "Tanya {{nama}}: kalau mau mengecat dinding kamar, kita hitung keliling atau luas? Kalau mau memasang lampu hias di pinggir jendela? Minta dia menjelaskan alasannya.",
+      "cp": [{ "standard": "cp046.mat.C.ukur", "phrase": "Menentukan keliling dan luas berbagai bentuk bangun datar" }],
+      "requires": [
+        { "id": "mat.ukur.keliling-bangun-datar", "strength": "wajib", "reason": "Arti keliling harus dipahami lebih dulu." },
+        { "id": "mat.ukur.luas-persegi-dan-persegi-panjang", "strength": "wajib", "reason": "Arti luas harus dipahami lebih dulu." }
+      ]
+    },
+    {
+      "slug": "luas-segitiga",
+      "elemen": "ukur",
+      "name": "Menghitung luas segitiga",
+      "description": "Memahami bahwa segitiga adalah setengah dari persegi panjang atau jajargenjang, lalu memakai rumus alas × tinggi : 2, dan tahu tinggi selalu tegak lurus alas.",
+      "type": "konsep",
+      "kelas": [5],
+      "evidence": [
+        "Memotong persegi panjang kertas menjadi dua segitiga dan menjelaskan luasnya setengah",
+        "Menghitung luas segitiga dengan alas 10 cm dan tinggi 6 cm adalah 30 cm²",
+        "Menunjukkan tinggi yang benar pada segitiga tumpul"
+      ],
+      "parentPrompt": "Lipat selembar kertas HVS secara diagonal dan potong. Tanya {{nama}}: luas satu segitiga ini berapa kalau kertasnya 21 cm × 30 cm? Bagaimana dia tahu?",
+      "cp": [
+        { "standard": "cp046.mat.C.ukur", "phrase": "Menentukan keliling dan luas berbagai bentuk bangun datar" },
+        { "standard": "cp046.mat.C.ukur", "phrase": "(segitiga, segiempat, dan segi banyak)" }
+      ],
+      "requires": [
+        { "id": "mat.ukur.luas-persegi-dan-persegi-panjang", "strength": "wajib", "reason": "Luas segitiga diturunkan dari luas persegi panjang." },
+        { "id": "mat.geo.mengurai-bangun-datar-dengan-beberapa-cara", "strength": "bantu", "reason": "Memotong bangun menjadi bagian membantu melihat asal rumus." },
+        { "id": "mat.bil.mengalikan-pecahan-dengan-bilangan-asli", "strength": "bantu", "reason": "Rumus memakai setengah dari alas kali tinggi." }
+      ]
+    },
+    {
+      "slug": "luas-jajargenjang-trapesium-layang-layang",
+      "elemen": "ukur",
+      "name": "Luas jajargenjang, trapesium, dan layang-layang",
+      "description": "Menghitung luas segiempat lain dengan memotong dan menyusun ulang menjadi persegi panjang atau segitiga, lalu memakai rumusnya.",
+      "type": "prosedur",
+      "kelas": [5, 6],
+      "evidence": [
+        "Memotong jajargenjang kertas dan menyusunnya menjadi persegi panjang",
+        "Menghitung luas trapesium dengan sisi sejajar 8 cm dan 12 cm serta tinggi 5 cm adalah 50 cm²",
+        "Menghitung luas layang-layang dengan diagonal 20 cm dan 30 cm"
+      ],
+      "parentPrompt": "Waktu musim layangan, ukur kedua bilah bambu layangan {{nama}}. Tanya dia: berapa luas kertas yang dipakai? Minta dia menunjukkan caranya dengan gambar.",
+      "cp": [
+        { "standard": "cp046.mat.C.ukur", "phrase": "Menentukan keliling dan luas berbagai bentuk bangun datar" },
+        { "standard": "cp046.mat.C.ukur", "phrase": "(segitiga, segiempat, dan segi banyak)" }
+      ],
+      "requires": [
+        { "id": "mat.ukur.luas-segitiga", "strength": "wajib", "reason": "Segiempat lain bisa dipecah menjadi segitiga." },
+        { "id": "mat.geo.macam-macam-segiempat", "strength": "wajib", "reason": "Anak perlu mengenal jajargenjang, trapesium, dan layang-layang." }
+      ]
+    },
+    {
+      "slug": "luas-segi-banyak-dengan-membagi",
+      "elemen": "ukur",
+      "name": "Luas segi banyak dengan memotong menjadi bagian",
+      "description": "Menghitung luas segi banyak, misalnya segi lima atau segi enam, dengan membaginya menjadi segitiga dan segiempat yang luasnya bisa dihitung.",
+      "type": "prosedur",
+      "kelas": [6],
+      "evidence": [
+        "Membagi segi enam beraturan menjadi 6 segitiga yang sama dan menghitung luasnya",
+        "Membagi segi lima berbentuk rumah menjadi persegi dan segitiga",
+        "Menunjukkan dua cara memotong yang berbeda dan mendapat luas yang sama"
+      ],
+      "parentPrompt": "Gambar bentuk rumah sederhana (kotak dengan atap segitiga) di kertas berpetak. Minta {{nama}} menghitung luas seluruh gambar dan menjelaskan bagian mana yang dia hitung lebih dulu.",
+      "cp": [{ "standard": "cp046.mat.C.ukur", "phrase": "(segitiga, segiempat, dan segi banyak)" }],
+      "requires": [
+        { "id": "mat.ukur.luas-segitiga", "strength": "wajib", "reason": "Segi banyak biasanya dipecah menjadi segitiga." },
+        { "id": "mat.ukur.luas-jajargenjang-trapesium-layang-layang", "strength": "bantu", "reason": "Kadang potongan yang paling mudah adalah trapesium." },
+        { "id": "mat.geo.mengenal-segi-banyak", "strength": "wajib", "reason": "Anak perlu mengenal segi banyak lebih dulu." }
+      ]
+    },
+    {
+      "slug": "keliling-dan-luas-bangun-gabungan",
+      "elemen": "ukur",
+      "name": "Keliling dan luas bangun gabungan",
+      "description": "Menghitung keliling dan luas bentuk yang tersusun dari beberapa bangun datar, misalnya denah rumah berbentuk L, dengan menjumlah atau mengurangi bagian-bagiannya.",
+      "type": "prosedur",
+      "kelas": [6],
+      "evidence": [
+        "Menghitung luas denah berbentuk L dengan membaginya menjadi dua persegi panjang",
+        "Menghitung luas halaman yang sudah dikurangi kolam berbentuk persegi",
+        "Menghitung keliling bangun gabungan dengan hanya menjumlah sisi luar"
+      ],
+      "parentPrompt": "Gambar denah rumah atau halaman secara kasar bersama {{nama}}, lengkap dengan ukurannya. Minta dia menghitung luas lantai yang perlu ditutup ubin, kecuali bagian kamar mandi.",
+      "cp": [{ "standard": "cp046.mat.C.ukur", "phrase": "serta gabungannya" }],
+      "requires": [
+        { "id": "mat.ukur.membedakan-keliling-dan-luas", "strength": "wajib", "reason": "Anak harus tahu sisi mana yang masuk keliling dan bagian mana yang masuk luas." },
+        { "id": "mat.ukur.luas-segi-banyak-dengan-membagi", "strength": "wajib", "reason": "Bangun gabungan dihitung dengan cara memotong menjadi bagian." }
+      ]
+    },
+    {
+      "slug": "membaca-jam-dan-satuan-waktu",
+      "elemen": "ukur",
+      "name": "Membaca jam dan mengubah satuan waktu",
+      "description": "Membaca jam analog dan jam digital 24 jam, dan mengubah satuan waktu: jam, menit, detik, hari, minggu, bulan, dan tahun.",
+      "type": "representasi",
+      "kelas": [5],
+      "evidence": [
+        "Membaca jam dinding yang menunjukkan pukul 4 lewat 35 menit",
+        "Menulis pukul 7 malam sebagai 19.00",
+        "Mengubah 2 jam 15 menit menjadi 135 menit"
+      ],
+      "parentPrompt": "Tunjuk jam dinding di rumah beberapa kali sehari dan tanya {{nama}} pukul berapa. Lalu tanya: kalau di HP tertulis 20.45, itu pukul berapa malam?",
+      "cp": [{ "standard": "cp046.mat.C.ukur", "phrase": "menghitung durasi waktu" }],
+      "requires": [
+        { "id": "mat.ukur.membandingkan-lama-waktu-kegiatan", "strength": "wajib", "reason": "Rasa lama dan sebentar menjadi dasar memahami satuan waktu." },
+        { "id": "mat.bil.membilang-loncat-2-5-10", "strength": "wajib", "reason": "Menit pada jam analog dibaca dengan membilang loncat lima." },
+        { "id": "mat.bil.perkalian-dasar-sampai-10-kali-10", "strength": "bantu", "reason": "Mengubah jam ke menit memakai perkalian dengan 60." }
+      ]
+    },
+    {
+      "slug": "menghitung-durasi-waktu",
+      "elemen": "ukur",
+      "name": "Menghitung lama waktu suatu kegiatan",
+      "description": "Menghitung durasi (lama waktu) dari jam mulai sampai jam selesai, termasuk yang melewati pergantian jam atau tengah hari, dan menghitung jam selesai dari jam mulai dan durasi.",
+      "type": "prosedur",
+      "kelas": [5],
+      "evidence": [
+        "Menghitung lama perjalanan dari pukul 07.45 sampai 10.20 adalah 2 jam 35 menit",
+        "Menghitung jam selesai film yang mulai pukul 19.30 dan berdurasi 1 jam 50 menit",
+        "Menghitung lama tidur dari pukul 21.00 sampai 05.30"
+      ],
+      "parentPrompt": "Sebelum pergi naik angkot atau motor, catat jam berangkat bersama {{nama}}. Setelah sampai, catat lagi dan minta dia menghitung berapa lama perjalanannya.",
+      "cp": [{ "standard": "cp046.mat.C.ukur", "phrase": "menghitung durasi waktu" }],
+      "requires": [
+        { "id": "mat.ukur.membaca-jam-dan-satuan-waktu", "strength": "wajib", "reason": "Jam mulai dan selesai harus bisa dibaca dulu." },
+        { "id": "mat.bil.mengurang-dengan-meminjam-sampai-1000", "strength": "bantu", "reason": "Menghitung durasi sering meminjam satu jam menjadi 60 menit." }
+      ]
+    },
+    {
+      "slug": "jenis-sudut-lancip-siku-tumpul",
+      "elemen": "ukur",
+      "name": "Mengenal sudut lancip, siku-siku, tumpul, dan lurus",
+      "description": "Mengelompokkan sudut dengan membandingkannya dengan sudut siku-siku: lancip (lebih kecil), siku-siku, tumpul (lebih besar), dan lurus.",
+      "type": "konsep",
+      "kelas": [5],
+      "evidence": [
+        "Menunjuk sudut lancip, siku-siku, dan tumpul di benda sekitar rumah",
+        "Memakai pojok kertas untuk memeriksa apakah sebuah sudut lebih besar dari siku-siku",
+        "Menyebut jenis sudut jarum jam pada pukul 2, pukul 3, dan pukul 5"
+      ],
+      "parentPrompt": "Ajak {{nama}} mencari sudut di rumah: pojok meja, gunting yang dibuka, jarum jam. Minta dia memeriksa dengan pojok buku: ini lebih kecil atau lebih besar dari siku-siku?",
+      "cp": [{ "standard": "cp046.mat.C.ukur", "phrase": "mengukur besar sudut pada bangun datar atau yang dibentuk dari dua garis berpotongan" }],
+      "requires": [
+        { "id": "mat.geo.mengenal-sudut-siku-siku", "strength": "wajib", "reason": "Jenis sudut lain ditentukan dengan membandingkannya dengan siku-siku." }
+      ]
+    },
+    {
+      "slug": "mengukur-sudut-dengan-busur-derajat",
+      "elemen": "ukur",
+      "name": "Mengukur sudut dengan busur derajat",
+      "description": "Mengukur dan menggambar sudut dalam satuan derajat dengan busur derajat, dan tahu bahwa sudut siku-siku 90° dan sudut lurus 180°.",
+      "type": "prosedur",
+      "kelas": [5],
+      "evidence": [
+        "Meletakkan titik tengah busur di titik sudut dan garis nol di satu kaki sudut",
+        "Mengukur sudut 65° dan 130° dengan benar, tidak tertukar skala dalam dan luar",
+        "Menggambar sudut 45° dengan busur dan penggaris"
+      ],
+      "parentPrompt": "Buka pintu kamar sedikit-sedikit dan tanya {{nama}}: kira-kira berapa derajat pintu terbuka sekarang? Kalau dia punya busur derajat, minta dia mengukur sudut pada gambar atau kertas lipatan.",
+      "cp": [{ "standard": "cp046.mat.C.ukur", "phrase": "mengukur besar sudut" }],
+      "requires": [
+        { "id": "mat.ukur.jenis-sudut-lancip-siku-tumpul", "strength": "wajib", "reason": "Jenis sudut membantu memeriksa apakah hasil ukur masuk akal." },
+        { "id": "mat.ukur.mengukur-panjang-dengan-penggaris", "strength": "bantu", "reason": "Cara meletakkan alat ukur di titik nol sudah dilatih dengan penggaris." }
+      ]
+    },
+    {
+      "slug": "sudut-dari-dua-garis-berpotongan",
+      "elemen": "ukur",
+      "name": "Sudut yang dibentuk dua garis berpotongan",
+      "description": "Mengukur empat sudut yang terbentuk saat dua garis berpotongan, dan menemukan bahwa sudut yang berhadapan sama besar dan dua sudut bersebelahan berjumlah 180°.",
+      "type": "konsep",
+      "kelas": [6],
+      "evidence": [
+        "Mengukur keempat sudut pada huruf X dan menemukan dua pasang yang sama besar",
+        "Menghitung sudut sebelah 70° adalah 110° tanpa mengukur",
+        "Menjelaskan mengapa dua garis tegak lurus membuat empat sudut 90°"
+      ],
+      "parentPrompt": "Silangkan dua batang lidi atau sumpit di meja. Tanya {{nama}}: ada berapa sudut? Mana yang sama besar? Kalau satu sudutnya 60°, sudut di sebelahnya berapa?",
+      "cp": [{ "standard": "cp046.mat.C.ukur", "phrase": "dibentuk dari dua garis berpotongan" }],
+      "requires": [
+        { "id": "mat.ukur.mengukur-sudut-dengan-busur-derajat", "strength": "wajib", "reason": "Sudut-sudut harus bisa diukur sebelum hubungannya ditemukan." }
+      ]
+    },
+    {
+      "slug": "jumlah-sudut-pada-bangun-datar",
+      "elemen": "ukur",
+      "name": "Sudut-sudut pada segitiga dan segiempat",
+      "description": "Mengukur sudut-sudut di dalam bangun datar dan menemukan bahwa jumlah sudut segitiga 180° dan segiempat 360°, lalu memakai ini untuk mencari sudut yang belum diketahui.",
+      "type": "konsep",
+      "kelas": [6],
+      "evidence": [
+        "Merobek ketiga pojok segitiga kertas dan menyusunnya menjadi sudut lurus",
+        "Menghitung sudut ketiga segitiga jika dua sudut lainnya 50° dan 60°",
+        "Menjelaskan mengapa jumlah sudut segiempat 360° dengan membaginya menjadi dua segitiga"
+      ],
+      "parentPrompt": "Minta {{nama}} menggunting segitiga dari kertas bekas, merobek ketiga pojoknya, lalu menyusun pojok-pojok itu berdampingan. Tanya: bentuknya jadi apa, dan apa artinya?",
+      "cp": [{ "standard": "cp046.mat.C.ukur", "phrase": "mengukur besar sudut pada bangun datar" }],
+      "requires": [
+        { "id": "mat.ukur.mengukur-sudut-dengan-busur-derajat", "strength": "wajib", "reason": "Sudut di dalam bangun diukur dengan busur." },
+        { "id": "mat.geo.macam-macam-segitiga", "strength": "bantu", "reason": "Jenis segitiga membantu menebak besar sudutnya." },
+        { "id": "mat.ukur.sudut-dari-dua-garis-berpotongan", "strength": "bantu", "reason": "Sudut lurus 180° dipakai untuk menjelaskan jumlah sudut segitiga." }
+      ]
+    },
+
+    {
+      "slug": "ciri-kubus-dan-balok",
+      "elemen": "geo",
+      "name": "Ciri kubus dan balok: sisi, rusuk, dan titik sudut",
+      "description": "Menghitung dan membandingkan sisi, rusuk, dan titik sudut kubus dan balok, serta menjelaskan persamaan dan perbedaannya.",
+      "type": "konsep",
+      "kelas": [5],
+      "evidence": [
+        "Menyebut bahwa kubus dan balok sama-sama punya 6 sisi, 12 rusuk, dan 8 titik sudut",
+        "Menjelaskan bahwa semua sisi kubus persegi, sedangkan sisi balok bisa persegi panjang",
+        "Menunjuk rusuk yang sama panjang pada kotak sepatu"
+      ],
+      "parentPrompt": "Ambil kotak susu, kotak sepatu, dan dadu. Minta {{nama}} menghitung sisi, rusuk, dan pojoknya dengan menandai pakai spidol. Tanya: apa bedanya dadu dengan kotak sepatu?",
+      "cp": [{ "standard": "cp046.mat.C.geo", "phrase": "membandingkan karakteristik antar bangun datar dan antar bangun ruang" }],
+      "requires": [
+        { "id": "mat.geo.mengenal-bangun-ruang", "strength": "wajib", "reason": "Kubus dan balok harus dikenali dulu bentuknya." },
+        { "id": "mat.geo.ciri-persegi-dan-persegi-panjang", "strength": "wajib", "reason": "Sisi kubus dan balok berbentuk persegi dan persegi panjang." }
+      ]
+    },
+    {
+      "slug": "membandingkan-bangun-ruang",
+      "elemen": "geo",
+      "name": "Membandingkan bangun ruang lain",
+      "description": "Membandingkan kubus dan balok dengan prisma, limas, tabung, kerucut, dan bola dari bentuk sisi, banyak rusuk, titik sudut, dan sisi lengkungnya.",
+      "type": "konsep",
+      "kelas": [6],
+      "evidence": [
+        "Mengelompokkan benda menjadi bangun bersisi datar dan bangun bersisi lengkung",
+        "Menjelaskan beda prisma segitiga dengan limas segitiga",
+        "Mengisi tabel banyak sisi, rusuk, dan titik sudut untuk balok, prisma, dan limas"
+      ],
+      "parentPrompt": "Kumpulkan kaleng susu, topi ulang tahun, bola, dan kotak tisu. Minta {{nama}} mengelompokkannya dan menjelaskan alasannya. Tanya: mana yang bisa menggelinding, dan kenapa?",
+      "cp": [{ "standard": "cp046.mat.C.geo", "phrase": "membandingkan karakteristik antar bangun datar dan antar bangun ruang" }],
+      "requires": [
+        { "id": "mat.geo.ciri-kubus-dan-balok", "strength": "wajib", "reason": "Cara menghitung sisi, rusuk, dan titik sudut dilatih pada kubus dan balok." },
+        { "id": "mat.geo.macam-macam-segitiga", "strength": "bantu", "reason": "Sisi prisma dan limas sering berbentuk segitiga." }
+      ]
+    },
+    {
+      "slug": "membandingkan-sifat-bangun-datar",
+      "elemen": "geo",
+      "name": "Membandingkan sifat segitiga dan segiempat",
+      "description": "Membandingkan bangun datar dari panjang sisi, besar sudut, sisi sejajar, diagonal, dan simetri lipat, lalu memahami misalnya bahwa persegi adalah persegi panjang yang khusus.",
+      "type": "konsep",
+      "kelas": [5],
+      "evidence": [
+        "Menjelaskan mengapa persegi termasuk persegi panjang tetapi persegi panjang belum tentu persegi",
+        "Membandingkan belah ketupat dan layang-layang dari panjang sisinya",
+        "Menemukan banyak sumbu simetri lipat pada persegi, persegi panjang, dan segitiga sama sisi"
+      ],
+      "parentPrompt": "Gunting beberapa bentuk dari kardus bekas: persegi, persegi panjang, belah ketupat, jajargenjang. Minta {{nama}} melipat tiap bentuk dan mencari lipatan yang membuat dua sisinya pas.",
+      "cp": [{ "standard": "cp046.mat.C.geo", "phrase": "membandingkan karakteristik antar bangun datar" }],
+      "requires": [
+        { "id": "mat.geo.macam-macam-segiempat", "strength": "wajib", "reason": "Anak perlu mengenal jenis segiempat sebelum membandingkannya." },
+        { "id": "mat.geo.macam-macam-segitiga", "strength": "wajib", "reason": "Anak perlu mengenal jenis segitiga sebelum membandingkannya." },
+        { "id": "mat.ukur.jenis-sudut-lancip-siku-tumpul", "strength": "bantu", "reason": "Jenis sudut dipakai untuk membandingkan bangun." }
+      ]
+    },
+    {
+      "slug": "jaring-jaring-kubus",
+      "elemen": "geo",
+      "name": "Jaring-jaring kubus",
+      "description": "Membuka kotak berbentuk kubus menjadi rangkaian 6 persegi (jaring-jaring) dan menentukan rangkaian persegi mana yang bisa dilipat kembali menjadi kubus.",
+      "type": "representasi",
+      "kelas": [5],
+      "evidence": [
+        "Menggambar dua jaring-jaring kubus yang berbeda",
+        "Menunjukkan rangkaian 6 persegi yang tidak bisa menjadi kubus dan menjelaskan alasannya",
+        "Menyebut sisi mana yang akan berhadapan setelah jaring-jaring dilipat"
+      ],
+      "parentPrompt": "Buka sebuah kotak kecil berbentuk kubus, misalnya kotak kue, sampai rata. Minta {{nama}} menggambar bentuknya, lalu menggambar cara lain yang juga bisa dilipat menjadi kubus.",
+      "cp": [{ "standard": "cp046.mat.C.geo", "phrase": "Mengkonstruksi dan mengurai bangun ruang (kubus, balok, dan gabungannya)" }],
+      "requires": [
+        { "id": "mat.geo.ciri-kubus-dan-balok", "strength": "wajib", "reason": "Anak perlu tahu kubus punya 6 sisi persegi yang sama." },
+        { "id": "mat.geo.mengurai-bangun-datar-dengan-beberapa-cara", "strength": "bantu", "reason": "Menyusun dan mengurai bangun datar melatih cara melihat bagian-bagian." }
+      ]
+    },
+    {
+      "slug": "jaring-jaring-balok",
+      "elemen": "geo",
+      "name": "Jaring-jaring balok",
+      "description": "Membuat jaring-jaring balok dari tiga pasang persegi panjang yang sama dan membuat kotak sendiri dari karton.",
+      "type": "representasi",
+      "kelas": [5],
+      "evidence": [
+        "Menggambar jaring-jaring kotak pasta gigi dengan ukuran sisi yang cocok",
+        "Menunjukkan tiga pasang sisi yang sama besar pada jaring-jaring balok",
+        "Membuat kotak kecil dari karton yang bisa ditutup rapat"
+      ],
+      "parentPrompt": "Buka kotak pasta gigi atau kotak teh sampai rata bersama {{nama}}. Tanya: ada berapa persegi panjang, dan mana yang ukurannya sama? Lalu ajak dia membuat kotak hadiah kecil dari karton bekas.",
+      "cp": [{ "standard": "cp046.mat.C.geo", "phrase": "Mengkonstruksi dan mengurai bangun ruang (kubus, balok, dan gabungannya)" }],
+      "requires": [
+        { "id": "mat.geo.jaring-jaring-kubus", "strength": "wajib", "reason": "Jaring-jaring kubus lebih mudah karena semua sisinya sama." }
+      ]
+    },
+    {
+      "slug": "menyusun-dan-mengurai-bangun-ruang-gabungan",
+      "elemen": "geo",
+      "name": "Menyusun dan mengurai bangun ruang gabungan",
+      "description": "Menyusun bangun dari kubus satuan atau balok-balok, mengurai bangun gabungan menjadi kubus dan balok, dan menghitung banyak kubus penyusunnya.",
+      "type": "konsep",
+      "kelas": [5, 6],
+      "evidence": [
+        "Menyusun bangun berbentuk tangga dari 10 kubus satuan",
+        "Menunjukkan bahwa bangun berbentuk L tersusun dari dua balok",
+        "Menghitung kubus yang tersembunyi di belakang pada gambar tumpukan kubus"
+      ],
+      "parentPrompt": "Pakai kotak korek, dadu, atau balok mainan. Susun bentuk tangga atau huruf L, lalu tanya {{nama}}: ada berapa kotak semuanya, termasuk yang tidak kelihatan? Bentuk ini tersusun dari balok apa saja?",
+      "cp": [{ "standard": "cp046.mat.C.geo", "phrase": "Mengkonstruksi dan mengurai bangun ruang (kubus, balok, dan gabungannya)" }],
+      "requires": [
+        { "id": "mat.geo.ciri-kubus-dan-balok", "strength": "wajib", "reason": "Bagian penyusun bangun gabungan adalah kubus dan balok." },
+        { "id": "mat.ukur.mengukur-volume-dengan-kubus-satuan", "strength": "wajib", "reason": "Pengalaman menyusun kubus satuan sudah ada." }
+      ]
+    },
+    {
+      "slug": "tampak-depan-atas-samping",
+      "elemen": "geo",
+      "name": "Menggambar tampak depan, atas, dan samping",
+      "description": "Menggambar bentuk sebuah bangun ruang atau tumpukan kubus jika dilihat dari depan, dari atas, dan dari samping.",
+      "type": "representasi",
+      "kelas": [6],
+      "evidence": [
+        "Menggambar tampak atas dan tampak depan tumpukan 5 kubus di kertas berpetak",
+        "Menjodohkan gambar tampak samping dengan tumpukan kubus yang benar",
+        "Menjelaskan mengapa tampak depan dua tumpukan berbeda bisa terlihat sama"
+      ],
+      "parentPrompt": "Susun beberapa gelas atau kotak di meja. Minta {{nama}} melihat dari depan, lalu dari atas sambil berdiri, dan menggambar apa yang dia lihat dari tiap arah.",
+      "cp": [{ "standard": "cp046.mat.C.geo", "phrase": "mengenali visualisasi spasial (bagian depan, atas, dan samping)" }],
+      "requires": [
+        { "id": "mat.geo.menyusun-dan-mengurai-bangun-ruang-gabungan", "strength": "wajib", "reason": "Anak perlu terbiasa dengan tumpukan kubus sebelum melihatnya dari tiga arah." },
+        { "id": "mat.geo.posisi-atas-bawah-depan-belakang", "strength": "wajib", "reason": "Kata depan, atas, dan samping harus dipahami lebih dulu." }
+      ]
+    },
+    {
+      "slug": "menyusun-bangun-dari-gambar-tampak",
+      "elemen": "geo",
+      "name": "Menyusun bangun dari gambar tampaknya",
+      "description": "Membaca gambar tampak depan, atas, dan samping, lalu menyusun tumpukan kubus yang cocok dengan ketiga gambar itu.",
+      "type": "representasi",
+      "kelas": [6],
+      "evidence": [
+        "Menyusun tumpukan kubus yang cocok dengan tiga gambar tampak yang diberikan",
+        "Menjelaskan bahwa satu gambar tampak saja tidak cukup untuk menebak bentuknya",
+        "Menulis angka tinggi tumpukan pada gambar tampak atas"
+      ],
+      "parentPrompt": "Gambar tampak atas dan tampak depan dari tumpukan dadu atau kotak korek, tanpa memperlihatkan tumpukannya. Minta {{nama}} menyusun tumpukan yang cocok, lalu cocokkan bersama.",
+      "cp": [{ "standard": "cp046.mat.C.geo", "phrase": "mengenali visualisasi spasial (bagian depan, atas, dan samping)" }],
+      "requires": [
+        { "id": "mat.geo.tampak-depan-atas-samping", "strength": "wajib", "reason": "Membaca gambar tampak adalah kebalikan dari menggambarnya." }
+      ]
+    },
+    {
+      "slug": "lokasi-pada-peta-berpetak",
+      "elemen": "geo",
+      "name": "Menentukan lokasi pada peta berpetak",
+      "description": "Menentukan dan menyebut letak tempat pada peta yang dibagi petak dengan huruf dan angka (misalnya B3), atau dengan pasangan bilangan pada garis-garis petak.",
+      "type": "representasi",
+      "kelas": [5],
+      "evidence": [
+        "Menyebut letak masjid pada peta kampung berpetak sebagai petak C4",
+        "Menandai titik (3, 5) pada kertas berpetak dengan benar, tidak tertukar urutannya",
+        "Menyebut semua tempat yang ada di baris 2"
+      ],
+      "parentPrompt": "Gambar peta kampung sederhana di kertas berpetak bersama {{nama}}: rumah, warung, masjid, sekolah. Beri huruf di bawah dan angka di samping. Tanya: warung ada di petak mana?",
+      "cp": [{ "standard": "cp046.mat.C.geo", "phrase": "menentukan lokasi pada peta yang menggunakan sistem berpetak" }],
+      "requires": [
+        { "id": "mat.geo.membedakan-kanan-dan-kiri", "strength": "wajib", "reason": "Membaca petak butuh arah kanan-kiri yang mantap." },
+        { "id": "mat.data.membaca-dan-membuat-tabel-data", "strength": "bantu", "reason": "Membaca baris dan kolom tabel melatih cara membaca petak." }
+      ]
+    },
+    {
+      "slug": "rute-dan-arah-pada-peta-berpetak",
+      "elemen": "geo",
+      "name": "Menjelaskan rute dan arah pada peta berpetak",
+      "description": "Memberi dan mengikuti petunjuk jalan pada peta berpetak dengan arah mata angin dan banyak petak, misalnya '3 petak ke timur, lalu 2 petak ke utara'.",
+      "type": "representasi",
+      "kelas": [5, 6],
+      "evidence": [
+        "Menulis petunjuk dari rumah ke sekolah pada peta berpetak memakai arah mata angin",
+        "Mengikuti petunjuk '2 petak ke barat, 4 petak ke selatan' dan menyebut petak tujuannya",
+        "Membandingkan dua rute dan menyebut mana yang lebih pendek"
+      ],
+      "parentPrompt": "Pakai peta kampung buatan sendiri atau peta di HP. Minta {{nama}} menjelaskan jalan dari rumah ke warung dengan kata timur, barat, utara, selatan dan berapa petak.",
+      "cp": [{ "standard": "cp046.mat.C.geo", "phrase": "menentukan lokasi pada peta yang menggunakan sistem berpetak" }],
+      "requires": [
+        { "id": "mat.geo.lokasi-pada-peta-berpetak", "strength": "wajib", "reason": "Titik awal dan tujuan harus bisa ditentukan lebih dulu." }
+      ]
+    },
+
+    {
+      "slug": "tabel-frekuensi",
+      "elemen": "data",
+      "name": "Membuat dan membaca tabel frekuensi",
+      "description": "Mencatat data dengan turus lalu menyusunnya dalam tabel frekuensi, yaitu tabel yang menunjukkan berapa kali setiap nilai atau kelompok muncul.",
+      "type": "representasi",
+      "kelas": [5],
+      "evidence": [
+        "Membuat tabel frekuensi warna kendaraan yang lewat depan rumah selama 10 menit",
+        "Memeriksa bahwa jumlah semua frekuensi sama dengan banyak data",
+        "Menjawab 'nilai berapa yang paling sering muncul?' dari tabel"
+      ],
+      "parentPrompt": "Lempar dadu ludo 30 kali bersama {{nama}} dan minta dia mencatat hasilnya dengan turus. Lalu minta dia membuat tabel: angka 1 muncul berapa kali, angka 2 berapa kali, dan seterusnya.",
+      "cp": [{ "standard": "cp046.mat.C.data", "phrase": "tabel frekuensi" }],
+      "requires": [
+        { "id": "mat.data.mencatat-data-dengan-turus", "strength": "wajib", "reason": "Data dicatat dengan turus sebelum dipindah ke tabel frekuensi." },
+        { "id": "mat.data.membaca-dan-membuat-tabel-data", "strength": "wajib", "reason": "Cara membuat tabel sudah dikenal." }
+      ]
+    },
+    {
+      "slug": "data-hasil-pengukuran",
+      "elemen": "data",
+      "name": "Mengolah data hasil pengukuran",
+      "description": "Mengumpulkan data dari mengukur (tinggi badan, berat, lama waktu), lalu mengurutkan, membandingkan, dan mengelompokkannya, misalnya tinggi 130–134 cm, 135–139 cm.",
+      "type": "prosedur",
+      "kelas": [5],
+      "evidence": [
+        "Mengukur tinggi 6 anggota keluarga dan mengurutkannya dari yang tertinggi",
+        "Menghitung selisih data terbesar dan terkecil",
+        "Mengelompokkan berat 15 teman ke dalam beberapa kelompok dan membuat tabel frekuensinya"
+      ],
+      "parentPrompt": "Ajak {{nama}} mengukur tinggi semua orang di rumah dengan meteran dan mencatatnya. Minta dia mengurutkan dan menyebut siapa yang paling tinggi dan selisihnya dengan yang paling pendek.",
+      "cp": [{ "standard": "cp046.mat.C.data", "phrase": "Mengurutkan, membandingkan, menyajikan, dan menganalisis data banyak benda dan data hasil pengukuran" }],
+      "requires": [
+        { "id": "mat.data.tabel-frekuensi", "strength": "wajib", "reason": "Data ukur yang dikelompokkan disajikan dalam tabel frekuensi." },
+        { "id": "mat.ukur.mengukur-panjang-dengan-meteran", "strength": "wajib", "reason": "Data diperoleh dengan mengukur memakai meteran." },
+        { "id": "mat.data.mengurutkan-dan-membandingkan-data", "strength": "bantu", "reason": "Cara mengurutkan data banyak benda sudah dilatih." }
+      ]
+    },
+    {
+      "slug": "diagram-batang-dengan-skala",
+      "elemen": "data",
+      "name": "Diagram batang dengan skala",
+      "description": "Membuat dan membaca diagram batang yang satu garis sumbunya mewakili 2, 5, 10, atau lebih, termasuk membaca batang yang berhenti di antara dua garis.",
+      "type": "representasi",
+      "kelas": [5],
+      "evidence": [
+        "Memilih skala 5 untuk data yang nilainya sampai 40",
+        "Membaca batang yang berhenti di tengah antara 20 dan 30 sebagai 25",
+        "Membuat diagram batang dari tabel frekuensi dengan judul dan nama sumbu yang lengkap"
+      ],
+      "parentPrompt": "Catat bersama {{nama}} berapa ribu rupiah uang jajannya terpakai setiap hari selama seminggu. Minta dia membuat diagram batang di buku tulis dan memilih sendiri satu kotak mewakili berapa rupiah.",
+      "cp": [{ "standard": "cp046.mat.C.data", "phrase": "diagram batang" }],
+      "requires": [
+        { "id": "mat.data.membuat-diagram-batang", "strength": "wajib", "reason": "Diagram batang sederhana dikenal lebih dulu." },
+        { "id": "mat.data.tabel-frekuensi", "strength": "wajib", "reason": "Data diagram batang diambil dari tabel frekuensi." },
+        { "id": "mat.bil.membilang-loncat-2-5-10", "strength": "bantu", "reason": "Skala sumbu dibaca dengan membilang loncat." }
+      ]
+    },
+    {
+      "slug": "memilih-cara-menyajikan-data",
+      "elemen": "data",
+      "name": "Memilih cara menyajikan data",
+      "description": "Menyajikan data yang sama dalam bentuk gambar, piktogram, diagram batang, dan tabel frekuensi, lalu memilih bentuk yang paling mudah dibaca untuk tujuan tertentu.",
+      "type": "representasi",
+      "kelas": [5, 6],
+      "evidence": [
+        "Mengubah tabel frekuensi menjadi piktogram dengan satu gambar mewakili 5 data",
+        "Menyajikan data yang sama sebagai piktogram dan diagram batang lalu membandingkannya",
+        "Menjelaskan mengapa diagram batang lebih cocok untuk data yang nilainya besar"
+      ],
+      "parentPrompt": "Pakai data kecil di rumah, misalnya buah kesukaan anggota keluarga dan kerabat. Minta {{nama}} menyajikannya dengan dua cara, lalu tanya: cara mana yang lebih cepat dibaca, dan kenapa?",
+      "cp": [{ "standard": "cp046.mat.C.data", "phrase": "dalam bentuk gambar, piktogram, diagram batang, dan tabel frekuensi" }],
+      "requires": [
+        { "id": "mat.data.diagram-batang-dengan-skala", "strength": "wajib", "reason": "Anak perlu bisa membuat diagram batang dengan skala." },
+        { "id": "mat.data.diagram-gambar-dan-piktogram", "strength": "wajib", "reason": "Piktogram sudah dikenal sebelumnya." }
+      ]
+    },
+    {
+      "slug": "menganalisis-data-untuk-informasi",
+      "elemen": "data",
+      "name": "Menganalisis data untuk mendapat informasi",
+      "description": "Membaca tabel dan diagram untuk menjawab pertanyaan: nilai terbanyak dan tersedikit, selisih, jumlah, dan kesimpulan yang masuk akal dari data.",
+      "type": "meta",
+      "kelas": [6],
+      "evidence": [
+        "Menghitung selisih penjualan hari terlaris dan hari tersepi dari diagram batang",
+        "Menulis dua kesimpulan dari tabel frekuensi tinggi badan teman sekelas",
+        "Menunjukkan kesimpulan yang tidak didukung data dan menjelaskan alasannya"
+      ],
+      "parentPrompt": "Kalau ada diagram di koran, televisi, atau di HP, tunjukkan ke {{nama}}. Tanya: diagram ini memberi kabar apa? Mana yang paling banyak, dan berapa bedanya dengan yang paling sedikit?",
+      "cp": [{ "standard": "cp046.mat.C.data", "phrase": "untuk mendapatkan informasi" }],
+      "requires": [
+        { "id": "mat.data.memilih-cara-menyajikan-data", "strength": "wajib", "reason": "Data harus bisa dibaca dalam berbagai bentuk penyajian." },
+        { "id": "mat.data.menafsirkan-data-dan-menarik-kesimpulan", "strength": "wajib", "reason": "Cara menarik kesimpulan sederhana sudah dilatih." },
+        { "id": "mat.data.data-hasil-pengukuran", "strength": "bantu", "reason": "Data ukur sering dianalisis dengan selisih dan kelompok." }
+      ]
+    },
+    {
+      "slug": "kemungkinan-pasti-mungkin-mustahil",
+      "elemen": "data",
+      "name": "Kejadian pasti, mungkin, dan tidak mungkin",
+      "description": "Menyebut apakah suatu kejadian pasti terjadi, mungkin terjadi, atau tidak mungkin terjadi, misalnya mendapat angka 7 pada dadu biasa.",
+      "type": "konsep",
+      "kelas": [6],
+      "evidence": [
+        "Menyebut bahwa mendapat angka 7 pada dadu ludo tidak mungkin",
+        "Menyebut bahwa mengambil kelereng merah dari kantong yang isinya merah semua pasti terjadi",
+        "Memberi contoh sendiri untuk kejadian pasti, mungkin, dan tidak mungkin"
+      ],
+      "parentPrompt": "Waktu main ludo, tanya {{nama}}: kalau dadu dilempar, mungkin keluar angka 6? Mungkin keluar angka 0? Pasti keluar angka kurang dari 7? Minta dia menjelaskan jawabannya.",
+      "cp": [{ "standard": "cp046.mat.C.data", "phrase": "dalam suatu percobaan acak" }],
+      "requires": [
+        { "id": "mat.data.menyortir-dan-mengelompokkan-benda", "strength": "bantu", "reason": "Anak perlu tahu isi kumpulan benda untuk menilai kemungkinannya." },
+        { "id": "mat.data.mencatat-data-dengan-turus", "strength": "bantu", "reason": "Hasil percobaan dicatat dengan turus." }
+      ]
+    },
+    {
+      "slug": "kemungkinan-lebih-besar-lebih-kecil",
+      "elemen": "data",
+      "name": "Kemungkinan lebih besar atau lebih kecil",
+      "description": "Membandingkan kemungkinan dua kejadian dalam percobaan acak, misalnya mengambil kelereng dari kantong atau melempar dadu, lalu memeriksanya dengan mencoba berulang kali.",
+      "type": "konsep",
+      "kelas": [6],
+      "evidence": [
+        "Menjelaskan bahwa dari kantong berisi 7 kelereng merah dan 3 biru, merah lebih mungkin terambil",
+        "Menyebut bahwa angka genap dan angka ganjil pada dadu sama mungkin",
+        "Melakukan 20 kali pengambilan, mencatat hasilnya, dan membandingkannya dengan tebakan awal"
+      ],
+      "parentPrompt": "Masukkan 8 kelereng atau permen warna merah dan 2 warna hijau ke kantong. Tanya {{nama}}: kalau ambil satu tanpa melihat, warna apa yang lebih mungkin? Lalu coba ambil 20 kali dan catat.",
+      "cp": [{ "standard": "cp046.mat.C.data", "phrase": "menentukan kejadian dengan kemungkinan yang lebih besar atau lebih kecil dalam suatu percobaan acak" }],
+      "requires": [
+        { "id": "mat.data.kemungkinan-pasti-mungkin-mustahil", "strength": "wajib", "reason": "Kejadian yang mungkin harus dikenali dulu sebelum dibandingkan." },
+        { "id": "mat.data.tabel-frekuensi", "strength": "bantu", "reason": "Hasil percobaan berulang dicatat dalam tabel frekuensi." },
+        { "id": "mat.bil.membandingkan-mengurutkan-pecahan-berbeda-penyebut", "strength": "bantu", "reason": "Kemungkinan bisa dibandingkan sebagai bagian dari seluruh isi kantong." }
+      ]
+    }
+  ]
+}

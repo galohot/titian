@@ -1,0 +1,1916 @@
+{
+  "mapel": "ipas",
+  "fase": "C",
+  "topics": [
+    {
+      "slug": "sistem-pencernaan-manusia",
+      "elemen": "paham",
+      "name": "Perjalanan makanan di sistem pencernaan",
+      "description": "Menyebut urutan organ pencernaan dari mulut, kerongkongan, lambung, usus halus, usus besar, sampai anus, dan tugas tiap organ dalam mengolah makanan.",
+      "type": "konsep",
+      "kelas": [
+        5
+      ],
+      "evidence": [
+        "Mengurutkan 6 organ pencernaan dengan benar pada gambar tubuh",
+        "Menjelaskan bahwa gigi dan air liur di mulut mulai menghaluskan nasi",
+        "Menyebut bahwa sari makanan diserap di usus halus"
+      ],
+      "parentPrompt": "Saat makan malam, tanya {{nama}}: \"Nasi yang kamu kunyah ini nanti lewat mana saja ya di dalam perut?\" Minta {{nama}} menunjuk urutannya di badannya sendiri.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "Merefleksikan sistem organ tubuh manusia"
+        },
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "sistem organ tubuh manusia"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.bentuk-dan-bagian-pancaindra",
+          "strength": "bantu",
+          "reason": "Sudah terbiasa mengenal bagian tubuh dan tugasnya lewat pancaindra."
+        },
+        {
+          "id": "ipas.paham.membedakan-kebutuhan-dan-keinginan",
+          "strength": "bantu",
+          "reason": "Paham bahwa makanan adalah kebutuhan pokok tubuh."
+        }
+      ]
+    },
+    {
+      "slug": "menjaga-kesehatan-pencernaan",
+      "elemen": "paham",
+      "name": "Menjaga kesehatan pencernaan",
+      "description": "Mengaitkan kebiasaan makan dengan kesehatan pencernaan: makan sayur dan buah, minum air putih, makan teratur, mencuci tangan, dan menghindari jajanan yang tidak bersih.",
+      "type": "konsep",
+      "kelas": [
+        5
+      ],
+      "evidence": [
+        "Menjelaskan mengapa kurang makan sayur dan air bisa membuat susah buang air besar",
+        "Menyebut 2 penyakit pencernaan (diare, maag) dan penyebabnya",
+        "Memilih jajanan yang lebih sehat dari 4 pilihan di warung dan memberi alasannya"
+      ],
+      "parentPrompt": "Ajak {{nama}} melihat isi piring makan hari ini. Tanya {{nama}}: \"Sudah ada sayur dan buahnya belum? Apa yang terjadi kalau setiap hari cuma makan mi instan?\"",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "dikaitkan dengan cara menjaga kesehatan tubuhnya"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.sistem-pencernaan-manusia",
+          "strength": "wajib",
+          "reason": "Harus tahu tugas tiap organ pencernaan sebelum tahu cara menjaganya."
+        }
+      ]
+    },
+    {
+      "slug": "sistem-pernapasan-manusia",
+      "elemen": "paham",
+      "name": "Cara kerja sistem pernapasan",
+      "description": "Menjelaskan jalan udara dari hidung, tenggorokan, paru-paru, sampai ke darah, serta perbedaan menarik napas dan mengembuskan napas.",
+      "type": "konsep",
+      "kelas": [
+        6
+      ],
+      "evidence": [
+        "Mengurutkan hidung, tenggorokan, cabang tenggorokan, dan paru-paru",
+        "Menunjukkan dada mengembang saat menarik napas dan mengempis saat mengembuskan napas",
+        "Menyebut bahwa tubuh mengambil oksigen dan membuang karbon dioksida"
+      ],
+      "parentPrompt": "Minta {{nama}} meletakkan tangan di dada lalu menarik napas dalam-dalam. Tanya {{nama}}: \"Kenapa dadamu naik? Udaranya masuk ke mana?\"",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "sistem organ tubuh manusia"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.sistem-pencernaan-manusia",
+          "strength": "bantu",
+          "reason": "Sudah pernah mempelajari satu sistem organ sebagai rangkaian organ yang bekerja sama."
+        }
+      ]
+    },
+    {
+      "slug": "sistem-peredaran-darah",
+      "elemen": "paham",
+      "name": "Jantung dan peredaran darah",
+      "description": "Menjelaskan bahwa jantung memompa darah lewat pembuluh darah untuk membawa oksigen dan sari makanan ke seluruh tubuh, dan bahwa denyut nadi menunjukkan kerja jantung.",
+      "type": "konsep",
+      "kelas": [
+        6
+      ],
+      "evidence": [
+        "Menemukan denyut nadi di pergelangan tangan dan menghitungnya selama 1 menit",
+        "Menjelaskan mengapa denyut nadi lebih cepat sesudah berlari",
+        "Menyebut bahwa darah membawa oksigen dari paru-paru dan sari makanan dari usus"
+      ],
+      "parentPrompt": "Ajak {{nama}} menghitung denyut nadinya selama satu menit, lalu lompat-lompat 30 kali dan hitung lagi. Tanya {{nama}}: \"Kenapa angkanya berubah?\"",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "sistem organ tubuh manusia"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.sistem-pernapasan-manusia",
+          "strength": "wajib",
+          "reason": "Perlu tahu oksigen masuk lewat paru-paru sebelum tahu darah yang membawanya."
+        },
+        {
+          "id": "ipas.proses.mengukur-dengan-alat-sederhana",
+          "strength": "bantu",
+          "reason": "Menghitung denyut nadi memakai jam atau pengukur waktu."
+        }
+      ]
+    },
+    {
+      "slug": "menjaga-kesehatan-pernapasan-dan-jantung",
+      "elemen": "paham",
+      "name": "Menjaga paru-paru dan jantung tetap sehat",
+      "description": "Mengaitkan kebiasaan sehari-hari dengan kesehatan paru-paru dan jantung: olahraga, menjauhi asap rokok dan asap pembakaran sampah, memakai masker saat udara kotor, serta istirahat cukup.",
+      "type": "konsep",
+      "kelas": [
+        6
+      ],
+      "evidence": [
+        "Menjelaskan bahaya asap rokok bagi paru-paru orang di sekitarnya",
+        "Menyebut 3 kebiasaan yang membuat jantung sehat",
+        "Menyarankan memakai masker saat ada asap kebakaran hutan atau debu gunung api"
+      ],
+      "parentPrompt": "Kalau ada orang membakar sampah atau merokok di dekat rumah, tanya {{nama}}: \"Apa pengaruh asap ini ke paru-paru kita? Apa yang bisa kita lakukan?\"",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "cara menjaga kesehatan tubuhnya"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.sistem-peredaran-darah",
+          "strength": "wajib",
+          "reason": "Harus tahu kerja jantung dan paru-paru sebelum tahu cara menjaganya."
+        },
+        {
+          "id": "ipas.paham.menjaga-kesehatan-pencernaan",
+          "strength": "bantu",
+          "reason": "Sudah biasa mengaitkan kebiasaan dengan kesehatan satu organ."
+        }
+      ]
+    },
+    {
+      "slug": "komponen-biotik-dan-abiotik",
+      "elemen": "paham",
+      "name": "Membedakan komponen biotik dan abiotik",
+      "description": "Mengelompokkan isi suatu lingkungan menjadi biotik (makhluk hidup: tumbuhan, hewan, manusia, jamur) dan abiotik (benda tak hidup: air, tanah, udara, cahaya matahari, batu).",
+      "type": "konsep",
+      "kelas": [
+        5
+      ],
+      "evidence": [
+        "Mendaftar 5 komponen biotik dan 5 komponen abiotik di sawah atau kebun",
+        "Menjelaskan mengapa cahaya matahari termasuk abiotik",
+        "Menyebut contoh ekosistem: sawah, kolam, hutan, pantai"
+      ],
+      "parentPrompt": "Saat lewat sawah, taman, atau selokan, minta {{nama}} menyebut mana yang hidup dan mana yang tidak hidup di sana. Coba lihat apakah {{nama}} ingat air dan sinar matahari.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "menganalisis hubungan antar komponen biotik dan abiotik"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.mengenal-sumber-daya-alam",
+          "strength": "wajib",
+          "reason": "Perlu mengenal air, tanah, tumbuhan, dan hewan sebagai bagian alam lebih dulu."
+        },
+        {
+          "id": "ipas.paham.melestarikan-makhluk-hidup",
+          "strength": "bantu",
+          "reason": "Sudah tahu ciri makhluk hidup yang perlu dijaga."
+        }
+      ]
+    },
+    {
+      "slug": "rantai-makanan",
+      "elemen": "paham",
+      "name": "Rantai makanan: produsen, konsumen, pengurai",
+      "description": "Menyusun rantai makanan sederhana dan menjelaskan peran produsen (tumbuhan), konsumen (pemakan tumbuhan dan pemakan daging), dan pengurai (jamur, bakteri).",
+      "type": "representasi",
+      "kelas": [
+        5
+      ],
+      "evidence": [
+        "Menyusun rantai makanan padi, tikus, ular, elang dengan tanda panah yang benar",
+        "Menjelaskan bahwa panah menunjukkan \"dimakan oleh\"",
+        "Menyebut peran cacing dan jamur sebagai pengurai"
+      ],
+      "parentPrompt": "Tanya {{nama}}: \"Di sawah, padi dimakan siapa? Lalu yang makan itu dimakan siapa lagi?\" Minta {{nama}} menggambarnya dengan tanda panah di kertas.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "komponen biotik dan abiotik"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.komponen-biotik-dan-abiotik",
+          "strength": "wajib",
+          "reason": "Harus bisa mengenali komponen biotik sebelum menyusun rantai makanan."
+        },
+        {
+          "id": "ipas.paham.siklus-hidup-hewan-tanpa-metamorfosis",
+          "strength": "bantu",
+          "reason": "Sudah mengenal kehidupan hewan di sekitar."
+        }
+      ]
+    },
+    {
+      "slug": "jaring-jaring-makanan",
+      "elemen": "paham",
+      "name": "Membaca jaring-jaring makanan",
+      "description": "Menggabungkan beberapa rantai makanan menjadi jaring-jaring makanan dan menebak apa yang terjadi jika satu jenis makhluk hilang.",
+      "type": "representasi",
+      "kelas": [
+        5
+      ],
+      "evidence": [
+        "Menunjuk 3 rantai makanan di dalam satu gambar jaring-jaring makanan",
+        "Memprediksi akibatnya bagi padi jika ular di sawah habis diburu",
+        "Menjelaskan mengapa satu hewan bisa memakan lebih dari satu jenis makanan"
+      ],
+      "parentPrompt": "Tanya {{nama}}: \"Kalau semua ular di sawah ditangkap orang, apa yang terjadi pada tikus dan padi?\" Dengarkan apakah {{nama}} bisa menjelaskan rantainya.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "pengaruhnya terhadap ekosistem"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.rantai-makanan",
+          "strength": "wajib",
+          "reason": "Jaring-jaring makanan tersusun dari beberapa rantai makanan."
+        }
+      ]
+    },
+    {
+      "slug": "pengaruh-abiotik-pada-makhluk-hidup",
+      "elemen": "paham",
+      "name": "Pengaruh air, cahaya, dan suhu pada makhluk hidup",
+      "description": "Menjelaskan bagaimana perubahan komponen abiotik (air, cahaya, suhu, tanah) memengaruhi tumbuhan dan hewan, misalnya saat kemarau panjang atau banjir.",
+      "type": "konsep",
+      "kelas": [
+        5
+      ],
+      "evidence": [
+        "Menjelaskan mengapa sawah tadah hujan tidak bisa ditanami padi saat kemarau",
+        "Memprediksi tanaman yang ditaruh di tempat gelap akan pucat dan kurus",
+        "Menyebut 2 hewan yang pindah tempat saat sungai kering atau banjir"
+      ],
+      "parentPrompt": "Taruh satu pot kecil tanaman di tempat gelap dan satu lagi di dekat jendela selama seminggu. Ajak {{nama}} membandingkannya dan menjelaskan apa bedanya.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "menganalisis hubungan antar komponen biotik dan abiotik"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.komponen-biotik-dan-abiotik",
+          "strength": "wajib",
+          "reason": "Harus tahu apa itu komponen abiotik sebelum menganalisis pengaruhnya."
+        },
+        {
+          "id": "ipas.paham.perubahan-iklim-banjir-dan-kemarau",
+          "strength": "bantu",
+          "reason": "Sudah mengenal kemarau panjang dan banjir sebagai perubahan lingkungan."
+        }
+      ]
+    },
+    {
+      "slug": "ekosistem-terganggu-ulah-manusia",
+      "elemen": "paham",
+      "name": "Ekosistem rusak karena ulah manusia",
+      "description": "Menganalisis bagaimana kegiatan manusia seperti menebang hutan, membuang sampah ke sungai, dan memakai racun hama mengganggu keseimbangan ekosistem, lalu mengusulkan cara memperbaikinya.",
+      "type": "konsep",
+      "kelas": [
+        5
+      ],
+      "evidence": [
+        "Menjelaskan rantai akibat sampah plastik di laut bagi ikan dan penyu",
+        "Menjelaskan mengapa hama tikus meledak ketika burung hantu dan ular diburu",
+        "Mengusulkan 2 tindakan untuk memulihkan sungai yang tercemar"
+      ],
+      "parentPrompt": "Saat melihat sungai atau selokan yang kotor, tanya {{nama}}: \"Siapa saja yang terganggu oleh sampah ini, dari ikan sampai manusia?\" Lalu tanya apa yang bisa dilakukan warga.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "pengaruhnya terhadap ekosistem"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.jaring-jaring-makanan",
+          "strength": "wajib",
+          "reason": "Perlu paham hubungan makan-dimakan untuk melihat akibat berantai."
+        },
+        {
+          "id": "ipas.paham.pengaruh-abiotik-pada-makhluk-hidup",
+          "strength": "bantu",
+          "reason": "Pencemaran mengubah komponen abiotik seperti air dan tanah."
+        },
+        {
+          "id": "ipas.paham.merancang-solusi-lingkungan",
+          "strength": "bantu",
+          "reason": "Sudah pernah membuat solusi untuk masalah lingkungan sekitar."
+        }
+      ]
+    },
+    {
+      "slug": "bunyi-dari-getaran",
+      "elemen": "paham",
+      "name": "Bunyi berasal dari benda yang bergetar",
+      "description": "Menjelaskan bahwa bunyi muncul dari benda yang bergetar, dan bahwa getaran cepat menghasilkan nada tinggi sedangkan getaran lambat menghasilkan nada rendah.",
+      "type": "konsep",
+      "kelas": [
+        5
+      ],
+      "evidence": [
+        "Menunjukkan karet gelang yang dipetik bergetar dan berbunyi",
+        "Membuat nada tinggi dan rendah dari botol berisi air dengan jumlah berbeda",
+        "Menjelaskan mengapa senar gitar yang lebih tegang bunyinya lebih tinggi"
+      ],
+      "parentPrompt": "Isi 3 gelas atau botol dengan air yang berbeda banyaknya. Minta {{nama}} memukulnya pelan dengan sendok dan menebak mana yang bunyinya paling tinggi.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "menjelaskan fenomena gelombang bunyi"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.mengenal-bentuk-energi",
+          "strength": "wajib",
+          "reason": "Perlu tahu bahwa bunyi adalah salah satu bentuk energi."
+        }
+      ]
+    },
+    {
+      "slug": "bunyi-merambat-dan-memantul",
+      "elemen": "paham",
+      "name": "Bunyi merambat dan memantul",
+      "description": "Menjelaskan bahwa bunyi merambat lewat udara, air, dan benda padat, dan bisa memantul sehingga terdengar gema atau gaung, misalnya di gua atau gedung kosong.",
+      "type": "konsep",
+      "kelas": [
+        5
+      ],
+      "evidence": [
+        "Membuat telepon kaleng dengan benang dan menjelaskan bunyi merambat lewat benang",
+        "Menjelaskan mengapa ketukan di meja terdengar lebih jelas jika telinga ditempelkan ke meja",
+        "Menjelaskan bedanya gema di lembah dengan gaung di ruangan kosong"
+      ],
+      "parentPrompt": "Ajak {{nama}} menempelkan telinga ke meja lalu ketuk pelan di ujung meja yang lain. Tanya {{nama}}: \"Lebih jelas lewat meja atau lewat udara? Kenapa ya?\"",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "gelombang bunyi dan cahaya dalam kehidupan sehari-hari"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.bunyi-dari-getaran",
+          "strength": "wajib",
+          "reason": "Harus tahu asal bunyi sebelum mempelajari bagaimana bunyi berpindah."
+        },
+        {
+          "id": "ipas.paham.mengenal-wujud-padat-cair-gas",
+          "strength": "bantu",
+          "reason": "Bunyi merambat lewat benda padat, cair, dan gas."
+        }
+      ]
+    },
+    {
+      "slug": "cahaya-merambat-lurus-dan-bayangan",
+      "elemen": "paham",
+      "name": "Cahaya merambat lurus dan membentuk bayangan",
+      "description": "Menjelaskan bahwa cahaya merambat lurus, bisa menembus benda bening, dan terhalang benda gelap sehingga terbentuk bayangan.",
+      "type": "konsep",
+      "kelas": [
+        5
+      ],
+      "evidence": [
+        "Mengelompokkan plastik bening, kertas minyak, dan kardus menurut dapat ditembus cahaya atau tidak",
+        "Menunjukkan bayangan tangan menjadi lebih besar saat tangan didekatkan ke senter",
+        "Menjelaskan mengapa bayangan di siang hari lebih pendek daripada sore hari"
+      ],
+      "parentPrompt": "Malam ini matikan lampu dan nyalakan senter HP. Ajak {{nama}} membuat bayangan hewan dengan tangan di dinding, lalu tanya: \"Kenapa bayangannya membesar kalau tanganmu dekat ke senter?\"",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "cahaya dalam kehidupan sehari-hari"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.mengenal-bentuk-energi",
+          "strength": "wajib",
+          "reason": "Perlu tahu bahwa cahaya adalah bentuk energi."
+        }
+      ]
+    },
+    {
+      "slug": "cahaya-memantul-dan-dibiaskan",
+      "elemen": "paham",
+      "name": "Cahaya memantul dan dibelokkan",
+      "description": "Menjelaskan pemantulan cahaya pada cermin dan benda mengilap, serta pembiasan cahaya, yaitu cahaya yang berbelok saat masuk ke air sehingga sedotan tampak patah dan kolam tampak lebih dangkal.",
+      "type": "konsep",
+      "kelas": [
+        5
+      ],
+      "evidence": [
+        "Memantulkan cahaya matahari dengan cermin kecil ke dinding",
+        "Menjelaskan mengapa sedotan di gelas air tampak patah",
+        "Menyebut pelangi sebagai cahaya matahari yang diuraikan oleh titik air hujan"
+      ],
+      "parentPrompt": "Masukkan sendok atau sedotan ke gelas bening berisi air. Minta {{nama}} melihat dari samping dan menjelaskan kenapa sedotannya tampak patah.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "fenomena gelombang bunyi dan cahaya"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.cahaya-merambat-lurus-dan-bayangan",
+          "strength": "wajib",
+          "reason": "Harus tahu cahaya merambat lurus untuk mengerti saat cahaya memantul atau berbelok."
+        }
+      ]
+    },
+    {
+      "slug": "melihat-dan-mendengar-karena-cahaya-bunyi",
+      "elemen": "paham",
+      "name": "Mata menangkap cahaya, telinga menangkap bunyi",
+      "description": "Menjelaskan bahwa kita melihat benda karena cahaya yang dipantulkan benda masuk ke mata, dan kita mendengar karena getaran bunyi sampai ke gendang telinga.",
+      "type": "konsep",
+      "kelas": [
+        5
+      ],
+      "evidence": [
+        "Menjelaskan mengapa di kamar yang benar-benar gelap kita tidak bisa melihat apa pun",
+        "Menggambar arah cahaya dari lampu ke buku lalu ke mata dengan tanda panah",
+        "Menjelaskan mengapa suara musik terlalu keras bisa merusak telinga"
+      ],
+      "parentPrompt": "Matikan semua lampu sebentar. Tanya {{nama}}: \"Bukunya masih ada, tapi kenapa tidak kelihatan?\" Lalu tanya kenapa kita perlu mengecilkan suara speaker yang terlalu keras.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "gelombang bunyi dan cahaya dalam kehidupan sehari-hari"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.cahaya-memantul-dan-dibiaskan",
+          "strength": "wajib",
+          "reason": "Perlu tahu cahaya dipantulkan benda sebelum mengerti cara mata melihat."
+        },
+        {
+          "id": "ipas.paham.bunyi-merambat-dan-memantul",
+          "strength": "wajib",
+          "reason": "Perlu tahu bunyi merambat sampai ke telinga."
+        },
+        {
+          "id": "ipas.paham.bentuk-dan-bagian-pancaindra",
+          "strength": "bantu",
+          "reason": "Sudah mengenal bagian-bagian mata dan telinga."
+        }
+      ]
+    },
+    {
+      "slug": "energi-terbarukan-dan-tak-terbarukan",
+      "elemen": "paham",
+      "name": "Sumber energi terbarukan dan tak terbarukan",
+      "description": "Membedakan sumber energi yang bisa habis (minyak bumi, batu bara, gas) dari sumber yang selalu tersedia (matahari, angin, air, panas bumi, biogas dari kotoran ternak).",
+      "type": "konsep",
+      "kelas": [
+        6
+      ],
+      "evidence": [
+        "Mengelompokkan 8 sumber energi ke dalam terbarukan dan tak terbarukan",
+        "Menjelaskan mengapa bensin suatu hari bisa habis",
+        "Menyebut sumber energi terbarukan yang ada di daerahnya sendiri"
+      ],
+      "parentPrompt": "Saat isi bensin motor, tanya {{nama}}: \"Bensin ini dari mana? Bisa habis tidak?\" Lalu tanya energi apa di sekitar rumah yang tidak akan habis.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "pemanfaatan sumber energi alternatif"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.mengenal-sumber-energi",
+          "strength": "wajib",
+          "reason": "Harus mengenal sumber-sumber energi sebelum mengelompokkannya."
+        }
+      ]
+    },
+    {
+      "slug": "energi-alternatif-di-sekitar",
+      "elemen": "paham",
+      "name": "Memanfaatkan energi alternatif di sekitar",
+      "description": "Menjelaskan cara energi alternatif diubah menjadi listrik atau panas: panel surya, kincir angin, pembangkit listrik tenaga air atau mikrohidro, panas bumi, dan biogas.",
+      "type": "konsep",
+      "kelas": [
+        6
+      ],
+      "evidence": [
+        "Menjelaskan perubahan energi pada panel surya: cahaya menjadi listrik",
+        "Menyebut 2 contoh pembangkit energi alternatif di Indonesia, misalnya PLTP Kamojang atau PLTB Sidrap",
+        "Memilih energi alternatif yang cocok untuk desa di pegunungan dengan sungai deras"
+      ],
+      "parentPrompt": "Kalau melihat lampu jalan bertenaga surya atau panel surya di atap, tunjukkan pada {{nama}}. Tanya {{nama}}: \"Lampu ini dapat listrik dari mana? Kenapa malam bisa tetap menyala?\"",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "pemanfaatan sumber energi alternatif dari sumber daya yang ada di sekitarnya"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.energi-terbarukan-dan-tak-terbarukan",
+          "strength": "wajib",
+          "reason": "Harus tahu mana energi terbarukan sebelum memanfaatkannya."
+        },
+        {
+          "id": "ipas.paham.perubahan-bentuk-energi",
+          "strength": "wajib",
+          "reason": "Pembangkit listrik bekerja dengan mengubah bentuk energi."
+        }
+      ]
+    },
+    {
+      "slug": "menghitung-dan-menghemat-listrik",
+      "elemen": "paham",
+      "name": "Menghitung dan menghemat pemakaian listrik",
+      "description": "Membuat rencana hemat energi di rumah dan sekolah, misalnya mencatat alat listrik yang dipakai, membaca sisa token atau tagihan listrik, dan mengganti kebiasaan boros.",
+      "type": "prosedur",
+      "kelas": [
+        6
+      ],
+      "evidence": [
+        "Mendaftar alat listrik di rumah dan berapa jam tiap alat menyala dalam sehari",
+        "Membandingkan sisa token listrik sebelum dan sesudah seminggu berhemat",
+        "Menyusun 4 aturan hemat energi untuk keluarga dan menjalankannya"
+      ],
+      "parentPrompt": "Ajak {{nama}} melihat angka sisa token listrik atau tagihan bulan ini. Minta {{nama}} membuat 3 aturan hemat listrik untuk rumah, lalu cek lagi angkanya minggu depan.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "menghasilkan upaya penghematan energi"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.menghemat-air-dan-listrik",
+          "strength": "wajib",
+          "reason": "Sudah tahu kebiasaan hemat listrik sederhana dari kelas 4."
+        },
+        {
+          "id": "ipas.proses.mencatat-data-dengan-turus",
+          "strength": "bantu",
+          "reason": "Mencatat pemakaian listrik memakai cara mencatat data."
+        }
+      ]
+    },
+    {
+      "slug": "energi-fosil-dan-perubahan-iklim",
+      "elemen": "paham",
+      "name": "Energi fosil dan mitigasi perubahan iklim",
+      "description": "Menjelaskan bahwa pembakaran bensin, solar, dan batu bara menghasilkan gas yang memanaskan bumi, dan bahwa hemat energi serta energi alternatif adalah cara mitigasi (mengurangi penyebab) perubahan iklim.",
+      "type": "konsep",
+      "kelas": [
+        6
+      ],
+      "evidence": [
+        "Menjelaskan hubungan asap kendaraan dengan bumi yang makin panas",
+        "Menyebut 3 akibat perubahan iklim di Indonesia: kemarau makin panjang, banjir, air laut naik",
+        "Membedakan mitigasi (mengurangi penyebab) dari menyesuaikan diri dengan akibatnya"
+      ],
+      "parentPrompt": "Saat terjebak macet atau melihat banyak motor, tanya {{nama}}: \"Asap kendaraan ini ada hubungannya dengan cuaca yang makin panas tidak?\" Lalu ajak {{nama}} memikirkan cara pergi ke sekolah yang lebih sedikit asapnya.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "sebagai upaya mitigasi perubahan iklim"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.energi-terbarukan-dan-tak-terbarukan",
+          "strength": "wajib",
+          "reason": "Perlu tahu energi fosil sebelum memahami dampaknya pada iklim."
+        },
+        {
+          "id": "ipas.paham.perubahan-iklim-banjir-dan-kemarau",
+          "strength": "wajib",
+          "reason": "Sudah mengenal tanda-tanda perubahan iklim di sekitar."
+        }
+      ]
+    },
+    {
+      "slug": "merancang-alat-energi-alternatif",
+      "elemen": "paham",
+      "name": "Merancang alat sederhana berenergi alternatif",
+      "description": "Merancang dan membuat alat sederhana yang memanfaatkan energi di sekitar, misalnya oven surya dari kardus, kincir angin dari botol bekas, atau pengering ikan tenaga matahari.",
+      "type": "prosedur",
+      "kelas": [
+        6
+      ],
+      "evidence": [
+        "Membuat oven surya dari kardus dan aluminium foil, lalu mengukur suhunya",
+        "Menjelaskan perubahan energi yang terjadi pada alat buatannya",
+        "Menyebut satu perbaikan supaya alatnya bekerja lebih baik"
+      ],
+      "parentPrompt": "Akhir pekan ini, ajak {{nama}} membuat oven surya dari kardus bekas dan plastik bening untuk menghangatkan pisang atau melelehkan cokelat di bawah matahari. Tanya {{nama}} kenapa kotaknya bisa panas.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "energi alternatif dari sumber daya yang ada di sekitarnya"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.energi-alternatif-di-sekitar",
+          "strength": "wajib",
+          "reason": "Harus tahu cara energi alternatif dimanfaatkan sebelum merancang alatnya."
+        },
+        {
+          "id": "ipas.paham.merancang-solusi-lingkungan",
+          "strength": "bantu",
+          "reason": "Sudah pernah merancang solusi sederhana untuk masalah di sekitar."
+        }
+      ]
+    },
+    {
+      "slug": "anggota-tata-surya",
+      "elemen": "paham",
+      "name": "Mengenal anggota tata surya",
+      "description": "Menyebut anggota tata surya: matahari sebagai bintang pusat, delapan planet, satelit seperti bulan, serta asteroid dan komet, dan bahwa gravitasi matahari menjaga planet tetap beredar.",
+      "type": "konsep",
+      "kelas": [
+        6
+      ],
+      "evidence": [
+        "Menjelaskan bahwa matahari adalah bintang, sedangkan bulan adalah satelit bumi",
+        "Menyebut 8 planet dan menunjuk bumi di gambar tata surya",
+        "Menjelaskan bahwa gravitasi matahari menahan planet di orbitnya"
+      ],
+      "parentPrompt": "Malam hari saat langit cerah, ajak {{nama}} melihat bulan dan bintang. Tanya {{nama}}: \"Bulan itu bintang atau bukan? Matahari termasuk apa?\"",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "menjelaskan sistem tata surya"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.jenis-gaya-magnet-gravitasi-gesek",
+          "strength": "bantu",
+          "reason": "Sudah mengenal gravitasi sebagai gaya tarik."
+        }
+      ]
+    },
+    {
+      "slug": "ciri-dan-urutan-planet",
+      "elemen": "paham",
+      "name": "Urutan dan ciri delapan planet",
+      "description": "Mengurutkan delapan planet dari yang terdekat dengan matahari dan menyebut ciri khasnya, misalnya Merkurius paling dekat, Jupiter paling besar, Saturnus bercincin, dan bumi satu-satunya yang diketahui berpenghuni.",
+      "type": "representasi",
+      "kelas": [
+        6
+      ],
+      "evidence": [
+        "Mengurutkan 8 planet dari Merkurius sampai Neptunus",
+        "Menyebut ciri khas dari 4 planet",
+        "Menjelaskan mengapa planet yang jauh dari matahari lebih dingin"
+      ],
+      "parentPrompt": "Ajak {{nama}} menyusun 8 benda di lantai, misalnya kelereng, jeruk, dan tomat, sebagai planet dengan urutan jarak dari \"matahari\" (lampu). Minta {{nama}} menyebut satu ciri setiap planet.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "sistem tata surya"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.anggota-tata-surya",
+          "strength": "wajib",
+          "reason": "Harus mengenal planet sebagai anggota tata surya lebih dulu."
+        }
+      ]
+    },
+    {
+      "slug": "rotasi-bumi-siang-dan-malam",
+      "elemen": "paham",
+      "name": "Rotasi bumi menyebabkan siang dan malam",
+      "description": "Menjelaskan bahwa bumi berputar pada porosnya sekali sehari (rotasi), sehingga terjadi siang dan malam, matahari tampak terbit di timur, dan waktu di WIB, WITA, dan WIT berbeda.",
+      "type": "konsep",
+      "kelas": [
+        6
+      ],
+      "evidence": [
+        "Memeragakan rotasi dengan bola dan senter di kamar gelap",
+        "Menjelaskan mengapa matahari tampak terbit di timur",
+        "Menjelaskan mengapa saat jam 7 pagi di Jakarta, di Jayapura sudah jam 9"
+      ],
+      "parentPrompt": "Pakai senter sebagai matahari dan bola atau jeruk sebagai bumi. Minta {{nama}} memutar bolanya pelan-pelan dan menunjukkan di mana sedang siang dan di mana sedang malam.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "kaitannya dengan rotasi dan revolusi bumi"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.anggota-tata-surya",
+          "strength": "wajib",
+          "reason": "Perlu tahu bumi dan matahari sebagai anggota tata surya."
+        },
+        {
+          "id": "ipas.paham.mengenal-arah-mata-angin",
+          "strength": "bantu",
+          "reason": "Arah timur dan barat dipakai untuk menjelaskan terbit dan terbenamnya matahari."
+        }
+      ]
+    },
+    {
+      "slug": "revolusi-bumi-dan-satu-tahun",
+      "elemen": "paham",
+      "name": "Revolusi bumi dan lamanya satu tahun",
+      "description": "Menjelaskan bahwa bumi mengelilingi matahari (revolusi) selama kira-kira 365 hari, sehingga ada satu tahun, tahun kabisat, dan perubahan letak matahari yang memengaruhi musim.",
+      "type": "konsep",
+      "kelas": [
+        6
+      ],
+      "evidence": [
+        "Membedakan rotasi dan revolusi dengan peragaan dua bola",
+        "Menjelaskan mengapa ada tanggal 29 Februari setiap 4 tahun",
+        "Menjelaskan bahwa revolusi bumi ikut menyebabkan pergantian musim"
+      ],
+      "parentPrompt": "Ajak {{nama}} berjalan memutari meja sambil memutar badannya sendiri. Tanya {{nama}}: \"Yang mana rotasi, yang mana revolusi? Berapa lama bumi memutari matahari?\"",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "rotasi dan revolusi bumi"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.rotasi-bumi-siang-dan-malam",
+          "strength": "wajib",
+          "reason": "Harus paham rotasi dulu supaya bisa membedakannya dengan revolusi."
+        }
+      ]
+    },
+    {
+      "slug": "revolusi-bulan-dan-fase-bulan",
+      "elemen": "paham",
+      "name": "Fase bulan dan gerhana",
+      "description": "Menjelaskan bahwa bulan mengelilingi bumi sekitar 29–30 hari sehingga bentuknya tampak berubah (bulan sabit sampai purnama), dasar kalender Hijriah, serta terjadinya gerhana bulan dan gerhana matahari.",
+      "type": "konsep",
+      "kelas": [
+        6
+      ],
+      "evidence": [
+        "Menggambar urutan fase bulan dari bulan baru, sabit, separuh, sampai purnama",
+        "Menjelaskan bahwa awal Ramadan ditentukan dengan melihat bulan sabit pertama",
+        "Memeragakan posisi matahari, bumi, dan bulan saat gerhana bulan"
+      ],
+      "parentPrompt": "Selama seminggu, ajak {{nama}} melihat bulan setiap malam dan menggambar bentuknya di buku. Tanya {{nama}} kenapa bentuknya berubah padahal bulannya tetap bulat.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "menjelaskan sistem tata surya, serta kaitannya dengan rotasi dan revolusi bumi"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.revolusi-bumi-dan-satu-tahun",
+          "strength": "wajib",
+          "reason": "Perlu paham benda langit yang beredar mengelilingi benda lain."
+        },
+        {
+          "id": "ipas.proses.mengamati-dan-mencatat-pengamatan",
+          "strength": "bantu",
+          "reason": "Mengamati bulan setiap malam perlu kebiasaan mencatat pengamatan."
+        }
+      ]
+    },
+    {
+      "slug": "letak-astronomis-indonesia",
+      "elemen": "paham",
+      "name": "Letak astronomis Indonesia di garis lintang dan bujur",
+      "description": "Membaca garis lintang dan garis bujur pada atlas atau peta digital, dan menjelaskan bahwa Indonesia dilalui garis khatulistiwa, misalnya di Pontianak.",
+      "type": "representasi",
+      "kelas": [
+        5
+      ],
+      "evidence": [
+        "Menunjuk garis khatulistiwa yang melewati Indonesia di atlas",
+        "Membaca koordinat rumah atau sekolah di peta digital HP",
+        "Menjelaskan bahwa letak di sekitar khatulistiwa membuat Indonesia hangat sepanjang tahun"
+      ],
+      "parentPrompt": "Buka peta digital di HP dan tekan lama lokasi rumah sampai keluar angka koordinat. Ajak {{nama}} mencari angka lintang dan bujurnya, lalu bandingkan dengan Pontianak di atlas.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "letak dan kondisi geografis negara Indonesia"
+        },
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "dengan menggunakan peta konvensional/digital"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.letak-provinsi-di-peta-indonesia",
+          "strength": "wajib",
+          "reason": "Harus bisa membaca peta Indonesia sebelum membaca garis lintang dan bujur."
+        },
+        {
+          "id": "ipas.paham.memakai-peta-digital",
+          "strength": "bantu",
+          "reason": "Sudah terbiasa memakai peta digital di HP."
+        }
+      ]
+    },
+    {
+      "slug": "letak-geografis-indonesia",
+      "elemen": "paham",
+      "name": "Indonesia di antara dua benua dan dua samudra",
+      "description": "Menjelaskan letak geografis Indonesia sebagai negara kepulauan di antara Benua Asia dan Australia serta Samudra Hindia dan Pasifik, lengkap dengan pulau besar, laut, dan selatnya.",
+      "type": "representasi",
+      "kelas": [
+        5
+      ],
+      "evidence": [
+        "Menunjuk Benua Asia, Australia, Samudra Hindia, dan Samudra Pasifik di peta dunia",
+        "Menyebut 5 pulau besar dan 3 laut di Indonesia",
+        "Menjelaskan mengapa letak ini membuat Indonesia ramai dilewati kapal dagang"
+      ],
+      "parentPrompt": "Ajak {{nama}} melihat peta dunia di buku atau HP. Minta {{nama}} menunjuk Indonesia, lalu menyebut benua dan samudra yang mengapitnya.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "letak dan kondisi geografis negara Indonesia"
+        },
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "menggunakan peta konvensional/digital"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.letak-provinsi-di-peta-indonesia",
+          "strength": "wajib",
+          "reason": "Perlu mengenal peta Indonesia lebih dulu."
+        },
+        {
+          "id": "ipas.paham.membaca-simbol-dan-legenda-peta",
+          "strength": "wajib",
+          "reason": "Membedakan laut, daratan, dan nama tempat perlu membaca simbol peta."
+        }
+      ]
+    },
+    {
+      "slug": "iklim-tropis-musim-hujan-dan-kemarau",
+      "elemen": "paham",
+      "name": "Iklim tropis: musim hujan dan kemarau",
+      "description": "Menjelaskan bahwa Indonesia beriklim tropis dengan dua musim, hujan dan kemarau, yang dipengaruhi letak di khatulistiwa dan angin muson yang bertiup bergantian dari Asia dan Australia.",
+      "type": "konsep",
+      "kelas": [
+        5
+      ],
+      "evidence": [
+        "Menyebut kira-kira bulan musim hujan dan musim kemarau di daerahnya",
+        "Menjelaskan mengapa Indonesia tidak punya musim salju",
+        "Menyebut kegiatan petani yang disesuaikan dengan musim, misalnya menanam padi di awal musim hujan"
+      ],
+      "parentPrompt": "Tanya {{nama}}: \"Bulan apa biasanya mulai hujan terus di sini? Kapan sawah atau sumur mulai kering?\" Bantu {{nama}} membuat kalender musim sederhana untuk satu tahun.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "kondisi geografis negara Indonesia"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.letak-astronomis-indonesia",
+          "strength": "wajib",
+          "reason": "Letak di sekitar khatulistiwa menjelaskan iklim tropis."
+        },
+        {
+          "id": "ipas.paham.revolusi-bumi-dan-satu-tahun",
+          "strength": "bantu",
+          "reason": "Pergantian musim berkaitan dengan revolusi bumi."
+        }
+      ]
+    },
+    {
+      "slug": "cincin-api-gunung-api-dan-gempa",
+      "elemen": "paham",
+      "name": "Cincin Api: gunung api dan gempa di Indonesia",
+      "description": "Menjelaskan bahwa Indonesia berada di Cincin Api Pasifik dan pertemuan lempeng bumi, sehingga punya banyak gunung api dan sering mengalami gempa, tetapi juga tanah yang subur.",
+      "type": "konsep",
+      "kelas": [
+        5,
+        6
+      ],
+      "evidence": [
+        "Menunjuk deretan gunung api dari Sumatra, Jawa, Bali, sampai Maluku di peta",
+        "Menjelaskan mengapa gempa sering terjadi di Indonesia",
+        "Menyebut satu manfaat gunung api, misalnya tanah subur atau panas bumi"
+      ],
+      "parentPrompt": "Ajak {{nama}} mencari nama gunung api terdekat dari rumah di peta digital. Tanya {{nama}}: \"Kenapa ya Indonesia punya banyak gunung api dan sering gempa?\"",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "kondisi geografis negara Indonesia"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.letak-geografis-indonesia",
+          "strength": "wajib",
+          "reason": "Perlu tahu letak Indonesia di peta dunia untuk melihat Cincin Api."
+        },
+        {
+          "id": "ipas.paham.mengelompokkan-bentang-alam",
+          "strength": "bantu",
+          "reason": "Sudah mengenal gunung sebagai bentang alam."
+        }
+      ]
+    },
+    {
+      "slug": "siaga-bencana-gempa-dan-erupsi",
+      "elemen": "paham",
+      "name": "Siaga menghadapi gempa, tsunami, dan erupsi",
+      "description": "Mengetahui tindakan aman sebelum, saat, dan sesudah gempa, tsunami, atau erupsi gunung api, termasuk jalur evakuasi dan tas siaga bencana.",
+      "type": "prosedur",
+      "kelas": [
+        5,
+        6
+      ],
+      "evidence": [
+        "Memeragakan gerakan berlindung di bawah meja sambil melindungi kepala saat gempa",
+        "Menjelaskan mengapa harus lari ke tempat tinggi jika air laut tiba-tiba surut setelah gempa",
+        "Menyebut 5 isi tas siaga bencana"
+      ],
+      "parentPrompt": "Ajak {{nama}} menyusun tas siaga bencana keluarga: senter, air minum, obat, fotokopi dokumen, dan makanan kering. Tanya {{nama}} ke mana keluarga berkumpul kalau ada gempa.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "letak dan kondisi geografis negara Indonesia"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.cincin-api-gunung-api-dan-gempa",
+          "strength": "wajib",
+          "reason": "Harus tahu mengapa bencana sering terjadi sebelum belajar cara menghadapinya."
+        }
+      ]
+    },
+    {
+      "slug": "kerajaan-hindu-buddha-nusantara",
+      "elemen": "paham",
+      "name": "Kerajaan Hindu-Buddha di Nusantara",
+      "description": "Mengenal kerajaan Hindu-Buddha seperti Kutai, Tarumanegara, Sriwijaya, dan Majapahit, letaknya di peta, serta peninggalannya seperti prasasti dan candi.",
+      "type": "konsep",
+      "kelas": [
+        5
+      ],
+      "evidence": [
+        "Menunjuk letak Sriwijaya dan Majapahit di peta Indonesia",
+        "Menyebut 2 peninggalan, misalnya Candi Borobudur dan Prasasti Yupa",
+        "Menjelaskan mengapa Sriwijaya dikenal sebagai kerajaan maritim"
+      ],
+      "parentPrompt": "Kalau ada uang kertas atau gambar Candi Borobudur atau Prambanan, tunjukkan pada {{nama}}. Tanya {{nama}}: \"Candi ini dibuat zaman kerajaan apa?\"",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "meninjau sejarah"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.peninggalan-sejarah-setempat",
+          "strength": "wajib",
+          "reason": "Sudah mengenal peninggalan sejarah di sekitar rumah."
+        },
+        {
+          "id": "ipas.paham.letak-provinsi-di-peta-indonesia",
+          "strength": "bantu",
+          "reason": "Menunjuk letak kerajaan perlu membaca peta Indonesia."
+        }
+      ]
+    },
+    {
+      "slug": "kerajaan-islam-nusantara",
+      "elemen": "paham",
+      "name": "Kerajaan Islam di Nusantara",
+      "description": "Mengenal kerajaan Islam seperti Samudra Pasai, Demak, Mataram Islam, Gowa-Tallo, dan Ternate-Tidore, serta peran perdagangan dalam penyebaran Islam.",
+      "type": "konsep",
+      "kelas": [
+        5
+      ],
+      "evidence": [
+        "Menyebut 3 kerajaan Islam dan letaknya di peta",
+        "Menjelaskan peran pedagang dan pelabuhan dalam penyebaran Islam",
+        "Menyebut satu peninggalan, misalnya Masjid Agung Demak"
+      ],
+      "parentPrompt": "Tanya {{nama}}: \"Masjid tertua di daerah kita dibangun kapan, ya?\" Kalau sempat, ajak {{nama}} melihatnya atau mencari ceritanya bersama.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "meninjau sejarah"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.kerajaan-hindu-buddha-nusantara",
+          "strength": "wajib",
+          "reason": "Urutan waktu sejarah: kerajaan Hindu-Buddha lebih dulu."
+        }
+      ]
+    },
+    {
+      "slug": "perlawanan-terhadap-penjajah",
+      "elemen": "paham",
+      "name": "Perlawanan rakyat terhadap penjajah",
+      "description": "Menceritakan masa penjajahan dan perlawanan dari berbagai daerah, misalnya Pangeran Diponegoro, Pattimura, Cut Nyak Dien, Sultan Hasanuddin, dan Imam Bonjol.",
+      "type": "konsep",
+      "kelas": [
+        6
+      ],
+      "evidence": [
+        "Mencocokkan 4 pahlawan dengan daerah asal perlawanannya",
+        "Menjelaskan mengapa rakyat melawan, misalnya karena tanam paksa",
+        "Menjelaskan mengapa perlawanan daerah sering kalah sebelum ada persatuan"
+      ],
+      "parentPrompt": "Lihat uang kertas di dompet bersama {{nama}}. Tanya {{nama}}: \"Siapa pahlawan di uang ini? Dia berjuang di daerah mana?\"",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "sejarah perjuangan para pahlawan"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.kerajaan-islam-nusantara",
+          "strength": "bantu",
+          "reason": "Banyak perlawanan dipimpin raja dan sultan dari kerajaan Nusantara."
+        },
+        {
+          "id": "ipas.paham.perubahan-lingkungan-dulu-dan-sekarang",
+          "strength": "bantu",
+          "reason": "Sudah terbiasa membandingkan kehidupan dulu dan sekarang."
+        }
+      ]
+    },
+    {
+      "slug": "menuju-proklamasi-kemerdekaan",
+      "elemen": "paham",
+      "name": "Sumpah Pemuda sampai Proklamasi Kemerdekaan",
+      "description": "Menjelaskan perjuangan lewat persatuan: Budi Utomo, Sumpah Pemuda 1928, sampai Proklamasi 17 Agustus 1945 dan perjuangan mempertahankan kemerdekaan.",
+      "type": "konsep",
+      "kelas": [
+        6
+      ],
+      "evidence": [
+        "Mengurutkan Budi Utomo, Sumpah Pemuda, dan Proklamasi pada garis waktu",
+        "Menyebut isi Sumpah Pemuda dengan kata-kata sendiri",
+        "Menjelaskan mengapa persatuan membuat perjuangan lebih kuat"
+      ],
+      "parentPrompt": "Menjelang 17 Agustus, tanya {{nama}}: \"Kenapa kita merayakan tanggal ini? Siapa yang membacakan proklamasi?\" Minta {{nama}} membuat garis waktu kecil dari 1908 sampai 1945.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "sejarah perjuangan para pahlawan"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.perlawanan-terhadap-penjajah",
+          "strength": "wajib",
+          "reason": "Perlu paham perlawanan daerah untuk mengerti mengapa persatuan dibutuhkan."
+        }
+      ]
+    },
+    {
+      "slug": "pahlawan-dari-daerah-sendiri",
+      "elemen": "paham",
+      "name": "Menelusuri pahlawan dari daerah sendiri",
+      "description": "Mencari tahu kisah pahlawan dari daerah tempat tinggal lewat nama jalan, monumen, museum, atau wawancara orang tua, lalu menyebut nilai yang bisa diteladani.",
+      "type": "prosedur",
+      "kelas": [
+        6
+      ],
+      "evidence": [
+        "Menyebut nama jalan atau monumen di daerahnya yang memakai nama pahlawan",
+        "Menuliskan kisah singkat satu pahlawan daerah dari wawancara atau bacaan",
+        "Menyebut 2 nilai teladan, misalnya berani dan rela berkorban, serta contohnya di sekolah"
+      ],
+      "parentPrompt": "Saat lewat jalan yang memakai nama pahlawan, tanya {{nama}}: \"Siapa dia, ya? Kita cari tahu bersama, yuk.\" Ajak {{nama}} bertanya pada kakek, nenek, atau tetangga yang tahu ceritanya.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "meninjau sejarah perjuangan para pahlawan di lingkungan sekitar tempat tinggalnya"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.menuju-proklamasi-kemerdekaan",
+          "strength": "bantu",
+          "reason": "Mengenal perjuangan nasional membantu menempatkan pahlawan daerah dalam ceritanya."
+        },
+        {
+          "id": "ipas.paham.perlawanan-terhadap-penjajah",
+          "strength": "wajib",
+          "reason": "Perlu mengenal masa penjajahan untuk memahami perjuangan pahlawan setempat."
+        },
+        {
+          "id": "ipas.paham.asal-usul-nama-daerah",
+          "strength": "bantu",
+          "reason": "Sudah pernah menelusuri cerita daerah tempat tinggal."
+        }
+      ]
+    },
+    {
+      "slug": "keragaman-budaya-antarprovinsi",
+      "elemen": "paham",
+      "name": "Membandingkan budaya antarprovinsi",
+      "description": "Membandingkan rumah adat, pakaian adat, tarian, alat musik, bahasa daerah, dan makanan khas dari beberapa provinsi di Indonesia.",
+      "type": "konsep",
+      "kelas": [
+        5
+      ],
+      "evidence": [
+        "Mencocokkan 5 rumah adat dengan provinsinya",
+        "Membandingkan budaya provinsinya dengan satu provinsi lain dalam tabel",
+        "Mengucapkan \"terima kasih\" dalam 2 bahasa daerah"
+      ],
+      "parentPrompt": "Ajak {{nama}} menonton video tarian dari provinsi lain di HP. Tanya {{nama}}: \"Apa bedanya dengan tarian dari daerah kita? Apa yang sama?\"",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "menemukan keragaman budaya nasional"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.ragam-budaya-daerah",
+          "strength": "wajib",
+          "reason": "Harus mengenal budaya daerah sendiri sebelum membandingkannya."
+        },
+        {
+          "id": "ipas.paham.letak-provinsi-di-peta-indonesia",
+          "strength": "bantu",
+          "reason": "Membandingkan provinsi perlu tahu letaknya di peta."
+        }
+      ]
+    },
+    {
+      "slug": "kondisi-alam-membentuk-budaya",
+      "elemen": "paham",
+      "name": "Kondisi alam membentuk budaya daerah",
+      "description": "Menjelaskan bagaimana kondisi alam memengaruhi budaya, misalnya rumah panggung di daerah rawa atau rawan banjir, sagu sebagai makanan pokok di Maluku dan Papua, serta pakaian tebal di pegunungan.",
+      "type": "konsep",
+      "kelas": [
+        5
+      ],
+      "evidence": [
+        "Menjelaskan mengapa rumah adat di Kalimantan dan Sumatra banyak berbentuk panggung",
+        "Menyebut makanan pokok 3 daerah dan hubungannya dengan tanaman di sana",
+        "Menghubungkan pekerjaan nelayan dengan budaya pesisir seperti upacara laut"
+      ],
+      "parentPrompt": "Saat makan, tanya {{nama}}: \"Di Papua banyak orang makan papeda dari sagu, di sini kita makan apa? Kenapa bisa beda ya?\"",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "keragaman budaya nasional"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.keragaman-budaya-antarprovinsi",
+          "strength": "wajib",
+          "reason": "Perlu mengenal ragam budaya sebelum mencari penyebabnya."
+        },
+        {
+          "id": "ipas.paham.profesi-sesuai-bentang-alam",
+          "strength": "bantu",
+          "reason": "Sudah tahu bahwa bentang alam memengaruhi pekerjaan orang."
+        }
+      ]
+    },
+    {
+      "slug": "kearifan-lokal-di-tempat-tinggal",
+      "elemen": "paham",
+      "name": "Kearifan lokal di tempat tinggal",
+      "description": "Mengenal kearifan lokal, yaitu aturan dan kebiasaan turun-temurun yang menjaga alam dan kerukunan, seperti subak di Bali, sasi di Maluku, sambatan, dan larangan menebang hutan adat.",
+      "type": "konsep",
+      "kelas": [
+        5,
+        6
+      ],
+      "evidence": [
+        "Menjelaskan arti kearifan lokal dengan kata-kata sendiri",
+        "Menyebut satu kearifan lokal di daerahnya dan manfaatnya",
+        "Menjelaskan bagaimana sasi atau subak menjaga alam"
+      ],
+      "parentPrompt": "Tanya {{nama}}: \"Di kampung kita ada kebiasaan turun-temurun apa yang membuat warga rukun atau alam tetap terjaga?\" Ceritakan satu kebiasaan dari masa kecil Ayah atau Ibu.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "nilai-nilai kearifan lokal yang berlaku di wilayah tempat tinggal"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.melestarikan-alam-dan-budaya",
+          "strength": "wajib",
+          "reason": "Sudah tahu pentingnya menjaga alam dan budaya daerah."
+        },
+        {
+          "id": "ipas.paham.interaksi-sosial-dan-gotong-royong",
+          "strength": "bantu",
+          "reason": "Gotong royong adalah contoh kearifan lokal yang sudah dikenal."
+        }
+      ]
+    },
+    {
+      "slug": "kebhinekaan-dan-menghargai-perbedaan",
+      "elemen": "paham",
+      "name": "Bhinneka Tunggal Ika dan menghargai perbedaan",
+      "description": "Menjelaskan arti Bhinneka Tunggal Ika dan menunjukkan sikap menghargai teman yang berbeda suku, agama, bahasa, dan kebiasaan.",
+      "type": "konsep",
+      "kelas": [
+        6
+      ],
+      "evidence": [
+        "Menjelaskan arti Bhinneka Tunggal Ika dengan kata-kata sendiri",
+        "Memberi contoh sikap yang tepat saat teman merayakan hari besar agama yang berbeda",
+        "Mengusulkan cara menyelesaikan ejekan tentang logat bahasa daerah di kelas"
+      ],
+      "parentPrompt": "Tanya {{nama}}: \"Di kelasmu ada teman dari suku atau agama yang berbeda? Bagaimana kalian saling menghargai?\" Dengarkan contoh nyata dari {{nama}}.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "dalam konteks kebhinekaan"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.keragaman-budaya-antarprovinsi",
+          "strength": "wajib",
+          "reason": "Perlu melihat keragaman budaya sebelum memahami persatuan dalam perbedaan."
+        },
+        {
+          "id": "ipas.paham.kearifan-lokal-di-tempat-tinggal",
+          "strength": "bantu",
+          "reason": "Kearifan lokal banyak mengajarkan kerukunan."
+        }
+      ]
+    },
+    {
+      "slug": "produksi-distribusi-konsumsi",
+      "elemen": "paham",
+      "name": "Produksi, distribusi, dan konsumsi",
+      "description": "Menjelaskan tiga kegiatan ekonomi: produksi (membuat barang atau jasa), distribusi (menyalurkan), dan konsumsi (memakai), dengan contoh dari sekitar rumah.",
+      "type": "konsep",
+      "kelas": [
+        5
+      ],
+      "evidence": [
+        "Menjelaskan perjalanan beras dari petani, penggilingan, pedagang, sampai ke piring",
+        "Mengelompokkan 6 kegiatan ke dalam produksi, distribusi, atau konsumsi",
+        "Menyebut pelaku tiap kegiatan: produsen, distributor, konsumen"
+      ],
+      "parentPrompt": "Saat makan tempe atau tahu, tanya {{nama}}: \"Siapa yang membuatnya? Siapa yang mengantarkannya ke pasar? Kita sebagai apa?\"",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "kegiatan ekonomi masyarakat"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.membedakan-kebutuhan-dan-keinginan",
+          "strength": "wajib",
+          "reason": "Kegiatan ekonomi berawal dari kebutuhan manusia."
+        },
+        {
+          "id": "ipas.paham.fungsi-uang-sebagai-alat-tukar",
+          "strength": "bantu",
+          "reason": "Uang dipakai dalam setiap tahap kegiatan ekonomi."
+        }
+      ]
+    },
+    {
+      "slug": "usaha-sesuai-sumber-daya-daerah",
+      "elemen": "paham",
+      "name": "Usaha warga sesuai kekayaan daerah",
+      "description": "Mengaitkan jenis usaha masyarakat dengan sumber daya daerahnya, misalnya pertanian di dataran rendah, perkebunan kopi di pegunungan, perikanan di pesisir, dan kerajinan dari bahan setempat.",
+      "type": "konsep",
+      "kelas": [
+        5
+      ],
+      "evidence": [
+        "Menyebut 3 usaha utama warga di daerahnya dan sumber dayanya",
+        "Menjelaskan mengapa banyak usaha kopi di dataran tinggi",
+        "Menyebut satu produk khas daerahnya yang dijual ke daerah lain"
+      ],
+      "parentPrompt": "Tanya {{nama}}: \"Di daerah kita, kebanyakan orang bekerja apa? Bahannya dari mana?\" Ajak {{nama}} memikirkan oleh-oleh khas daerah kita.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "kegiatan ekonomi masyarakat di lingkungan sekitar"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.produksi-distribusi-konsumsi",
+          "strength": "wajib",
+          "reason": "Perlu tahu kegiatan produksi sebelum melihat jenis usahanya."
+        },
+        {
+          "id": "ipas.paham.profesi-sesuai-bentang-alam",
+          "strength": "wajib",
+          "reason": "Sudah tahu pekerjaan orang menurut bentang alam."
+        }
+      ]
+    },
+    {
+      "slug": "pasar-tradisional-dan-modern",
+      "elemen": "paham",
+      "name": "Jual beli di pasar tradisional dan modern",
+      "description": "Membandingkan pasar tradisional (tawar-menawar, pedagang langsung) dengan pasar modern dan toko daring (harga pas, swalayan), serta peran pasar dalam mempertemukan penjual dan pembeli.",
+      "type": "konsep",
+      "kelas": [
+        5
+      ],
+      "evidence": [
+        "Menyebut 3 perbedaan pasar tradisional dan minimarket",
+        "Memeragakan tawar-menawar dengan sopan",
+        "Menjelaskan mengapa harga cabai bisa naik saat musim hujan"
+      ],
+      "parentPrompt": "Ajak {{nama}} ke pasar dan beri uang untuk membeli satu barang sendiri. Sesudahnya, tanya {{nama}} apa bedanya belanja di pasar dengan di minimarket.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "kegiatan ekonomi masyarakat"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.produksi-distribusi-konsumsi",
+          "strength": "wajib",
+          "reason": "Pasar adalah tempat distribusi dan konsumsi bertemu."
+        },
+        {
+          "id": "ipas.paham.mengenal-nilai-uang-rupiah",
+          "strength": "bantu",
+          "reason": "Berbelanja di pasar perlu memahami nilai uang."
+        }
+      ]
+    },
+    {
+      "slug": "koperasi-sekolah-dan-desa",
+      "elemen": "paham",
+      "name": "Koperasi milik bersama",
+      "description": "Menjelaskan koperasi sebagai usaha bersama yang berasas kekeluargaan: anggota membayar simpanan, ikut rapat anggota, dan mendapat sisa hasil usaha (SHU).",
+      "type": "konsep",
+      "kelas": [
+        6
+      ],
+      "evidence": [
+        "Menyebut 3 jenis simpanan koperasi: pokok, wajib, dan sukarela",
+        "Menjelaskan bedanya koperasi sekolah dengan toko biasa",
+        "Menjelaskan mengapa Bung Hatta disebut Bapak Koperasi"
+      ],
+      "parentPrompt": "Tanya {{nama}}: \"Di sekolahmu ada koperasi? Siapa pemiliknya?\" Kalau ada koperasi desa atau KUD di dekat rumah, ceritakan pada {{nama}} cara kerjanya.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "kegiatan ekonomi masyarakat di lingkungan sekitar"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.produksi-distribusi-konsumsi",
+          "strength": "wajib",
+          "reason": "Koperasi adalah salah satu pelaku kegiatan ekonomi."
+        },
+        {
+          "id": "ipas.paham.menabung-dan-mencatat-uang-jajan",
+          "strength": "bantu",
+          "reason": "Simpanan anggota mirip dengan kebiasaan menabung."
+        },
+        {
+          "id": "ipas.paham.interaksi-sosial-dan-gotong-royong",
+          "strength": "bantu",
+          "reason": "Koperasi berdiri di atas semangat gotong royong."
+        }
+      ]
+    },
+    {
+      "slug": "umkm-dan-usaha-kecil-sendiri",
+      "elemen": "paham",
+      "name": "Belajar dari UMKM dan membuat usaha kecil",
+      "description": "Mengenal UMKM (usaha mikro, kecil, dan menengah) di sekitar, lalu merencanakan usaha kecil sendiri: menghitung modal, harga jual, dan untung atau rugi.",
+      "type": "prosedur",
+      "kelas": [
+        6
+      ],
+      "evidence": [
+        "Mewawancarai satu pemilik warung atau UMKM tentang bahan dan cara menjualnya",
+        "Menghitung untung dari menjual 20 bungkus kue dengan modal Rp30.000 dan harga Rp2.000 per bungkus",
+        "Membuat rencana usaha sederhana untuk bazar atau market day di sekolah"
+      ],
+      "parentPrompt": "Ajak {{nama}} membuat es lilin atau kue sederhana untuk dijual ke tetangga. Minta {{nama}} mencatat modal dan hasil jualan, lalu menghitung untung atau ruginya.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.paham",
+          "phrase": "menerapkan kegiatan ekonomi masyarakat di lingkungan sekitar"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.paham.usaha-sesuai-sumber-daya-daerah",
+          "strength": "wajib",
+          "reason": "Perlu tahu usaha apa yang cocok dengan sumber daya sekitar."
+        },
+        {
+          "id": "ipas.paham.pasar-tradisional-dan-modern",
+          "strength": "wajib",
+          "reason": "Perlu paham jual beli sebelum merencanakan usaha."
+        },
+        {
+          "id": "ipas.paham.menabung-dan-mencatat-uang-jajan",
+          "strength": "bantu",
+          "reason": "Mencatat modal dan hasil jualan memakai kebiasaan mencatat uang."
+        }
+      ]
+    },
+    {
+      "slug": "mengamati-persamaan-dan-perbedaan",
+      "elemen": "proses",
+      "name": "Mengamati dan mencari persamaan serta perbedaan",
+      "description": "Mengamati dua atau lebih benda atau peristiwa, mencatatnya dengan rapi, lalu menuliskan apa yang sama dan apa yang berbeda di antara keduanya.",
+      "type": "prosedur",
+      "kelas": [
+        5
+      ],
+      "evidence": [
+        "Membandingkan daun mangga dan daun padi dalam tabel persamaan dan perbedaan",
+        "Mencatat hasil pengamatan cuaca 5 hari dan menyebut hari mana yang mirip",
+        "Membuat diagram Venn untuk dua hewan dari pengamatannya"
+      ],
+      "parentPrompt": "Ambil dua buah yang berbeda, misalnya jeruk dan tomat. Minta {{nama}} mengamatinya lalu menulis 3 persamaan dan 3 perbedaan.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.proses",
+          "phrase": "Mampu menerapkan keterampilan proses yang meliputi:"
+        },
+        {
+          "standard": "cp046.ipas.C.proses",
+          "phrase": "Murid mengamati fenomena dan peristiwa secara sederhana, mencatat hasil pengamatannya, serta mencari persamaan dan perbedaannya."
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.proses.mengamati-dan-mencatat-pengamatan",
+          "strength": "wajib",
+          "reason": "Harus terbiasa mengamati dan mencatat sebelum membandingkan."
+        }
+      ]
+    },
+    {
+      "slug": "pertanyaan-yang-bisa-diselidiki",
+      "elemen": "proses",
+      "name": "Memilih pertanyaan yang bisa diselidiki",
+      "description": "Dengan bantuan guru atau orang tua, mengubah rasa ingin tahu menjadi pertanyaan yang bisa dijawab lewat percobaan atau pengukuran, misalnya \"Apakah garam membuat es lebih cepat mencair?\"",
+      "type": "prosedur",
+      "kelas": [
+        5
+      ],
+      "evidence": [
+        "Memilih 2 pertanyaan yang bisa diselidiki dari daftar 5 pertanyaan",
+        "Mengubah \"Kenapa tanaman layu?\" menjadi pertanyaan yang bisa diuji",
+        "Menjelaskan alasan suatu pertanyaan bisa atau tidak bisa diselidiki"
+      ],
+      "parentPrompt": "Tanya {{nama}} satu hal yang membuatnya penasaran di rumah. Bantu {{nama}} mengubahnya menjadi pertanyaan yang bisa dicoba, misalnya \"Apakah ... lebih cepat jika ...?\"",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.proses",
+          "phrase": "mengidentifikasi pertanyaan yang dapat diselidiki secara ilmiah"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.proses.mengajukan-pertanyaan-saat-mengamati",
+          "strength": "wajib",
+          "reason": "Sudah biasa mengajukan pertanyaan dari hasil mengamati."
+        },
+        {
+          "id": "ipas.proses.mengamati-persamaan-dan-perbedaan",
+          "strength": "bantu",
+          "reason": "Perbedaan yang diamati sering memunculkan pertanyaan yang bisa diuji."
+        }
+      ]
+    },
+    {
+      "slug": "prediksi-dengan-alasan",
+      "elemen": "proses",
+      "name": "Membuat prediksi beserta alasannya",
+      "description": "Menulis prediksi (dugaan hasil) untuk pertanyaan penyelidikan dengan pola \"Jika ..., maka ..., karena ...\".",
+      "type": "prosedur",
+      "kelas": [
+        5
+      ],
+      "evidence": [
+        "Menulis prediksi lengkap dengan \"jika, maka, karena\" untuk percobaan es dan garam",
+        "Memberi alasan prediksi dari pengalaman atau pengetahuan sebelumnya",
+        "Menuliskan prediksi sebelum mencoba, bukan sesudahnya"
+      ],
+      "parentPrompt": "Sebelum merebus air, tanya {{nama}}: \"Air sepanci dan air segelas, mana yang lebih cepat mendidih? Kenapa kamu menduga begitu?\" Minta {{nama}} menulis dugaannya dulu.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.proses",
+          "phrase": "membuat prediksinya"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.proses.pertanyaan-yang-bisa-diselidiki",
+          "strength": "wajib",
+          "reason": "Prediksi dibuat untuk menjawab pertanyaan yang bisa diselidiki."
+        },
+        {
+          "id": "ipas.proses.membuat-prediksi-sederhana",
+          "strength": "wajib",
+          "reason": "Sudah biasa membuat dugaan sederhana sebelum mencoba."
+        }
+      ]
+    },
+    {
+      "slug": "percobaan-adil-satu-yang-diubah",
+      "elemen": "proses",
+      "name": "Percobaan adil: hanya satu hal yang diubah",
+      "description": "Memahami bahwa dalam percobaan yang adil hanya satu hal yang diubah, satu hal yang diamati atau diukur, dan hal lain dibuat sama.",
+      "type": "konsep",
+      "kelas": [
+        5,
+        6
+      ],
+      "evidence": [
+        "Menyebut hal yang diubah, yang diukur, dan yang dibuat sama pada percobaan menanam kacang hijau",
+        "Menjelaskan mengapa dua gelas harus diisi air yang sama banyak",
+        "Menemukan kesalahan pada percobaan yang mengubah dua hal sekaligus"
+      ],
+      "parentPrompt": "Tanya {{nama}}: \"Kalau mau tahu apakah tanaman lebih cepat tumbuh di bawah matahari, apa yang harus dibuat sama pada dua potnya?\" Dengarkan apakah {{nama}} menyebut air, tanah, dan bibitnya.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.proses",
+          "phrase": "merencanakan dan melakukan langkah-langkah operasional"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.proses.merencanakan-dan-melakukan-percobaan",
+          "strength": "wajib",
+          "reason": "Sudah pernah merencanakan percobaan sederhana dengan bantuan."
+        },
+        {
+          "id": "ipas.proses.prediksi-dengan-alasan",
+          "strength": "bantu",
+          "reason": "Percobaan disusun untuk menguji prediksi."
+        }
+      ]
+    },
+    {
+      "slug": "merencanakan-penyelidikan-mandiri",
+      "elemen": "proses",
+      "name": "Merencanakan dan melakukan penyelidikan sendiri",
+      "description": "Menyusun rencana penyelidikan sendiri, berisi pertanyaan, prediksi, alat dan bahan, serta langkah kerja berurutan, lalu menjalankannya sampai selesai.",
+      "type": "prosedur",
+      "kelas": [
+        6
+      ],
+      "evidence": [
+        "Menulis rencana berisi pertanyaan, alat, bahan, dan minimal 4 langkah kerja",
+        "Menjalankan langkah-langkahnya sesuai urutan tanpa diarahkan",
+        "Menyiapkan tabel kosong untuk data sebelum mulai"
+      ],
+      "parentPrompt": "Ajak {{nama}} menyelidiki satu pertanyaan sendiri akhir pekan ini, misalnya \"Kain apa yang paling cepat kering di jemuran?\" Biarkan {{nama}} menulis rencananya dulu, lalu menjalankannya.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.proses",
+          "phrase": "Secara mandiri, murid merencanakan dan melakukan langkah-langkah operasional untuk menjawab pertanyaan yang diajukan."
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.proses.percobaan-adil-satu-yang-diubah",
+          "strength": "wajib",
+          "reason": "Rencana mandiri harus memakai percobaan yang adil."
+        },
+        {
+          "id": "ipas.proses.pertanyaan-yang-bisa-diselidiki",
+          "strength": "wajib",
+          "reason": "Penyelidikan dimulai dari pertanyaan yang bisa diselidiki."
+        }
+      ]
+    },
+    {
+      "slug": "mengukur-berulang-dengan-teliti",
+      "elemen": "proses",
+      "name": "Mengukur dengan teliti dan berulang",
+      "description": "Memakai alat ukur sederhana seperti stopwatch HP, gelas ukur, meteran, dan termometer dengan benar, menulis satuan, dan mengulang pengukuran supaya hasilnya lebih dapat dipercaya.",
+      "type": "prosedur",
+      "kelas": [
+        5,
+        6
+      ],
+      "evidence": [
+        "Mengukur waktu jatuh bola sebanyak 3 kali dan menulis hasilnya dengan satuan detik",
+        "Membaca gelas ukur sejajar mata pada garis permukaan air",
+        "Menjelaskan mengapa pengukuran perlu diulang"
+      ],
+      "parentPrompt": "Minta {{nama}} memakai stopwatch HP untuk mengukur berapa detik es batu mulai mencair di piring, lakukan 3 kali. Tanya {{nama}} kenapa angkanya tidak persis sama.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.proses",
+          "phrase": "Murid melakukan observasi menggunakan alat bantu pengukuran sederhana."
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.proses.mengukur-dengan-alat-sederhana",
+          "strength": "wajib",
+          "reason": "Sudah bisa memakai penggaris, timbangan, dan termometer."
+        }
+      ]
+    },
+    {
+      "slug": "menyusun-tabel-data",
+      "elemen": "proses",
+      "name": "Menyusun data dalam tabel",
+      "description": "Membuat tabel dengan judul, nama kolom, dan satuan untuk mencatat data hasil pengamatan atau pengukuran.",
+      "type": "representasi",
+      "kelas": [
+        5
+      ],
+      "evidence": [
+        "Membuat tabel suhu udara pagi, siang, dan sore selama 5 hari",
+        "Menuliskan judul tabel dan satuan di nama kolom",
+        "Membaca nilai tertentu dari tabel yang dibuat teman"
+      ],
+      "parentPrompt": "Ajak {{nama}} mencatat berapa menit waktu belajar atau main HP setiap hari selama seminggu dalam tabel. Cek apakah tabelnya punya judul dan satuan.",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.proses",
+          "phrase": "Murid mengolah data dalam bentuk tabel"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.proses.mencatat-data-dengan-turus",
+          "strength": "wajib",
+          "reason": "Sudah bisa mencatat data dengan turus."
+        },
+        {
+          "id": "ipas.proses.mengukur-berulang-dengan-teliti",
+          "strength": "bantu",
+          "reason": "Data di tabel berasal dari pengukuran."
+        }
+      ]
+    },
+    {
+      "slug": "membuat-grafik-batang-dan-garis",
+      "elemen": "proses",
+      "name": "Membuat grafik batang dan garis",
+      "description": "Mengubah data dari tabel menjadi grafik batang untuk membandingkan kelompok, atau grafik garis untuk menunjukkan perubahan dari waktu ke waktu.",
+      "type": "representasi",
+      "kelas": [
+        5,
+        6
+      ],
+      "evidence": [
+        "Membuat grafik batang jumlah hewan yang ditemukan di kebun",
+        "Membuat grafik garis tinggi tanaman kacang hijau selama 7 hari",
+        "Memberi judul, label sumbu, dan skala yang sama jaraknya"
+      ],
+      "parentPrompt": "Dari tabel tinggi tanaman atau suhu yang sudah dicatat, minta {{nama}} menggambar grafiknya di kertas berpetak. Tanya {{nama}}: \"Grafik batang atau grafik garis yang lebih cocok? Kenapa?\"",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.proses",
+          "phrase": "mengolah data dalam bentuk tabel dan grafik"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.proses.menyusun-tabel-data",
+          "strength": "wajib",
+          "reason": "Grafik dibuat dari data yang sudah tersusun di tabel."
+        },
+        {
+          "id": "ipas.proses.menyajikan-diagram-gambar-dan-pola",
+          "strength": "wajib",
+          "reason": "Sudah pernah membuat diagram gambar sederhana."
+        }
+      ]
+    },
+    {
+      "slug": "membaca-pola-dan-hubungan-data",
+      "elemen": "proses",
+      "name": "Membaca pola dan hubungan pada data",
+      "description": "Menjelaskan hasil pengamatan dengan melihat pola pada tabel atau grafik, misalnya \"makin lama dijemur, makin tinggi suhunya\", dan menyebut data yang tidak mengikuti pola.",
+      "type": "konsep",
+      "kelas": [
+        6
+      ],
+      "evidence": [
+        "Menyebut pola dari grafik garis dengan kalimat \"makin ..., makin ...\"",
+        "Menunjuk satu data yang aneh atau tidak sesuai pola",
+        "Menjawab pertanyaan penyelidikan dengan memakai data dari grafik"
+      ],
+      "parentPrompt": "Tunjukkan grafik sederhana, misalnya curah hujan di kabar cuaca atau grafik buatan {{nama}} sendiri. Tanya {{nama}}: \"Polanya naik, turun, atau tetap? Ada yang aneh tidak?\"",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.proses",
+          "phrase": "menjelaskan hasil pengamatan dan pola atau hubungan pada data"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.proses.membuat-grafik-batang-dan-garis",
+          "strength": "wajib",
+          "reason": "Pola lebih mudah dilihat dari grafik yang sudah dibuat."
+        }
+      ]
+    },
+    {
+      "slug": "membandingkan-data-dengan-prediksi",
+      "elemen": "proses",
+      "name": "Mencocokkan data dengan prediksi berdasarkan bukti",
+      "description": "Membandingkan data hasil penyelidikan dengan prediksi awal, lalu menyatakan prediksi itu benar atau tidak dengan alasan dari data, bukan dari perasaan.",
+      "type": "meta",
+      "kelas": [
+        6
+      ],
+      "evidence": [
+        "Menyatakan \"prediksiku tidak tepat karena data menunjukkan ...\"",
+        "Menunjuk angka di tabel sebagai bukti kesimpulannya",
+        "Menjelaskan bahwa prediksi yang salah tetap berguna"
+      ],
+      "parentPrompt": "Setelah percobaan di rumah selesai, tanya {{nama}}: \"Dugaanmu tadi benar atau tidak? Angka mana yang membuktikannya?\"",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.proses",
+          "phrase": "Murid membandingkan data dengan prediksi dan memberikan alasan berdasarkan bukti."
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.proses.membaca-pola-dan-hubungan-data",
+          "strength": "wajib",
+          "reason": "Harus bisa membaca pola data sebelum mencocokkannya dengan prediksi."
+        },
+        {
+          "id": "ipas.proses.prediksi-dengan-alasan",
+          "strength": "wajib",
+          "reason": "Perlu ada prediksi tertulis untuk dibandingkan."
+        },
+        {
+          "id": "ipas.proses.membandingkan-hasil-dengan-dugaan",
+          "strength": "bantu",
+          "reason": "Sudah pernah membandingkan hasil dengan dugaan secara sederhana."
+        }
+      ]
+    },
+    {
+      "slug": "saran-perbaikan-penyelidikan",
+      "elemen": "proses",
+      "name": "Memberi saran perbaikan penyelidikan",
+      "description": "Merefleksikan penyelidikan yang sudah dilakukan: menemukan bagian yang kurang adil atau kurang teliti, lalu memberi saran perbaikan yang jelas untuk percobaan berikutnya.",
+      "type": "meta",
+      "kelas": [
+        6
+      ],
+      "evidence": [
+        "Menyebut satu sumber kesalahan, misalnya air tidak diukur sama banyak",
+        "Memberi 2 saran perbaikan yang bisa langsung dilakukan",
+        "Memberi masukan yang sopan dan jelas untuk penyelidikan kelompok lain"
+      ],
+      "parentPrompt": "Setelah {{nama}} selesai mencoba sesuatu, tanya: \"Kalau diulang besok, apa yang akan kamu ubah supaya hasilnya lebih bisa dipercaya?\"",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.proses",
+          "phrase": "Melakukan refleksi dan memberikan saran perbaikan terhadap penyelidikan yang sudah dilakukan."
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.proses.merefleksikan-penyelidikan",
+          "strength": "wajib",
+          "reason": "Sudah biasa menilai kembali percobaan sederhana."
+        },
+        {
+          "id": "ipas.proses.membandingkan-data-dengan-prediksi",
+          "strength": "wajib",
+          "reason": "Refleksi memakai hasil perbandingan data dan prediksi."
+        },
+        {
+          "id": "ipas.proses.percobaan-adil-satu-yang-diubah",
+          "strength": "bantu",
+          "reason": "Saran perbaikan sering berkaitan dengan percobaan yang kurang adil."
+        }
+      ]
+    },
+    {
+      "slug": "laporan-penyelidikan-dengan-argumen",
+      "elemen": "proses",
+      "name": "Menulis laporan penyelidikan lengkap dengan argumen",
+      "description": "Menulis laporan penyelidikan yang utuh: pertanyaan, prediksi, alat dan bahan, langkah, data, kesimpulan, dan argumen yang didukung bukti.",
+      "type": "bahasa",
+      "kelas": [
+        6
+      ],
+      "evidence": [
+        "Menulis laporan dengan bagian pertanyaan, prediksi, langkah, data, dan kesimpulan",
+        "Menulis argumen dengan pola \"Aku menyimpulkan ... karena data menunjukkan ...\"",
+        "Menjawab pertanyaan teman tentang laporannya dengan merujuk pada data"
+      ],
+      "parentPrompt": "Minta {{nama}} menceritakan percobaannya kepada anggota keluarga lain dari awal sampai akhir. Tanya: \"Apa buktinya kesimpulanmu benar?\"",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.proses",
+          "phrase": "Murid mengomunikasikan hasil penyelidikan secara utuh yang ditunjang dengan argumen"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.proses.menyampaikan-hasil-penyelidikan",
+          "strength": "wajib",
+          "reason": "Sudah bisa menyampaikan hasil percobaan secara lisan dan tertulis."
+        },
+        {
+          "id": "ipas.proses.membandingkan-data-dengan-prediksi",
+          "strength": "wajib",
+          "reason": "Argumen dalam laporan bersumber dari perbandingan data dan prediksi."
+        }
+      ]
+    },
+    {
+      "slug": "presentasi-dalam-berbagai-media",
+      "elemen": "proses",
+      "name": "Menyajikan hasil penyelidikan lewat berbagai media",
+      "description": "Memilih media yang cocok untuk menyampaikan hasil penyelidikan, seperti poster, slide, video pendek di HP, atau pameran, dan menyesuaikannya dengan pendengarnya.",
+      "type": "bahasa",
+      "kelas": [
+        6
+      ],
+      "evidence": [
+        "Membuat poster hasil penyelidikan dengan grafik dan kesimpulan",
+        "Merekam video penjelasan 2 menit memakai HP",
+        "Menjelaskan alasan memilih media itu untuk pendengarnya"
+      ],
+      "parentPrompt": "Ajak {{nama}} merekam video pendek di HP yang menjelaskan hasil percobaannya, seperti pembawa acara sains. Tonton bersama dan tanya: \"Apakah orang lain bisa mengerti hanya dari video ini?\"",
+      "cp": [
+        {
+          "standard": "cp046.ipas.C.proses",
+          "phrase": "dalam berbagai media"
+        }
+      ],
+      "requires": [
+        {
+          "id": "ipas.proses.laporan-penyelidikan-dengan-argumen",
+          "strength": "wajib",
+          "reason": "Isi presentasi berasal dari laporan yang sudah lengkap."
+        }
+      ]
+    }
+  ]
+}

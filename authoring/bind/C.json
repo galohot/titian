@@ -1,0 +1,1044 @@
+{
+  "mapel": "bind",
+  "fase": "C",
+  "topics": [
+    {
+      "slug": "menyimak-teks-eksplanasi",
+      "elemen": "simak",
+      "name": "Memahami penjelasan sebab-akibat yang didengar",
+      "description": "Anak mendengarkan teks eksplanasi, yaitu teks yang menjelaskan bagaimana atau mengapa sesuatu terjadi (misalnya proses terjadinya hujan atau banjir), lalu menyebut urutan proses dan hubungan sebab-akibatnya.",
+      "type": "bahasa",
+      "kelas": [5],
+      "evidence": [
+        "Setelah mendengar penjelasan terjadinya hujan, menyebut urutannya: air menguap, menjadi awan, lalu turun sebagai hujan",
+        "Menjawab \"Kenapa banjir bisa terjadi?\" dengan dua sebab yang disebut dalam teks",
+        "Memakai kata \"karena\" atau \"akibatnya\" saat menjelaskan ulang isi teks"
+      ],
+      "parentPrompt": "Bacakan atau putar penjelasan singkat tentang kenapa nasi bisa basi atau kenapa ada pelangi setelah hujan. Lalu tanya {{nama}}, \"Coba ceritakan lagi, apa dulu yang terjadi, terus apa akibatnya?\"",
+      "cp": [
+        { "standard": "cp046.bind.C.simak", "phrase": "Menganalisis informasi dari teks nonsastra berbentuk teks aural" }
+      ],
+      "requires": [
+        { "id": "bind.simak.menentukan-ide-pokok-teks-yang-didengar", "strength": "wajib", "reason": "Anak perlu bisa menangkap ide pokok sebelum menelusuri sebab dan akibat dalam penjelasan." },
+        { "id": "bind.simak.menyimak-petunjuk-dan-prosedur", "strength": "bantu", "reason": "Terbiasa mengikuti urutan langkah membantu anak mengikuti urutan sebuah proses." }
+      ]
+    },
+    {
+      "slug": "merangkum-teks-yang-didengar",
+      "elemen": "simak",
+      "name": "Merangkum isi teks yang didengar",
+      "description": "Anak mendengarkan teks informasi yang cukup panjang, mencatat kata kuncinya, lalu menyusun rangkuman pendek dengan kalimatnya sendiri.",
+      "type": "bahasa",
+      "kelas": [5],
+      "evidence": [
+        "Menulis tiga sampai lima kata kunci selama teks dibacakan",
+        "Menyampaikan rangkuman dua atau tiga kalimat tanpa menyalin kalimat asli kata per kata",
+        "Tidak memasukkan contoh kecil atau hal yang tidak penting ke dalam rangkuman"
+      ],
+      "parentPrompt": "Putar kabar singkat dari radio atau TV selama dua menit. Minta {{nama}} mencatat kata pentingnya di kertas, lalu ceritakan isinya dalam tiga kalimat saja.",
+      "cp": [
+        { "standard": "cp046.bind.C.simak", "phrase": "teks yang dibacakan dan/atau didengarkan" }
+      ],
+      "requires": [
+        { "id": "bind.simak.mencatat-informasi-penting-saat-menyimak", "strength": "wajib", "reason": "Rangkuman disusun dari catatan hal penting yang dibuat saat menyimak." },
+        { "id": "bind.simak.menyimak-teks-eksplanasi", "strength": "bantu", "reason": "Memahami alur penjelasan membantu anak memilih bagian yang harus masuk rangkuman." }
+      ]
+    },
+    {
+      "slug": "membedakan-fakta-dan-opini-saat-menyimak",
+      "elemen": "simak",
+      "name": "Membedakan fakta dan pendapat dari yang didengar",
+      "description": "Anak mendengarkan teks lisan dan membedakan fakta (hal yang bisa dibuktikan) dari opini (pendapat atau perasaan seseorang).",
+      "type": "konsep",
+      "kelas": [5],
+      "evidence": [
+        "Dari siaran kabar, menyebut satu fakta (\"Banjir terjadi hari Senin di Bekasi\") dan satu opini (\"Ini banjir paling parah\")",
+        "Menjelaskan bahwa fakta bisa dicek, sedangkan opini tidak selalu sama untuk semua orang",
+        "Mengenali kata penanda opini seperti \"menurut saya\", \"sebaiknya\", \"paling\""
+      ],
+      "parentPrompt": "Waktu nonton kabar di TV bersama, jeda sebentar. Tanya {{nama}}, \"Yang barusan itu kenyataan yang bisa dicek, atau cuma pendapat pembawa acaranya?\"",
+      "cp": [
+        { "standard": "cp046.bind.C.simak", "phrase": "Menganalisis informasi dari teks nonsastra berbentuk teks aural" }
+      ],
+      "requires": [
+        { "id": "bind.simak.menyimak-berita-dan-pengumuman", "strength": "wajib", "reason": "Anak harus bisa memahami isi siaran kabar sebelum memilah fakta dan pendapat di dalamnya." },
+        { "id": "bind.bicara.menyampaikan-pendapat-dengan-alasan", "strength": "bantu", "reason": "Anak yang pernah menyampaikan pendapat sendiri lebih mudah mengenali pendapat orang lain." }
+      ]
+    },
+    {
+      "slug": "menyimak-iklan-dan-kata-bujukan",
+      "elemen": "simak",
+      "name": "Mengenali bujukan dalam iklan yang didengar",
+      "description": "Anak menyimak iklan di radio, TV, atau video, lalu menyebut apa yang ditawarkan, siapa sasarannya, dan kata-kata yang dipakai untuk membujuk pendengar.",
+      "type": "bahasa",
+      "kelas": [5, 6],
+      "evidence": [
+        "Menyebut produk dan sasaran iklan, misalnya \"Ini iklan susu untuk anak sekolah\"",
+        "Menunjuk kata bujukan seperti \"paling enak\", \"hanya hari ini\", \"dijamin\"",
+        "Mengatakan satu hal yang tidak disebutkan iklan, misalnya harga atau kekurangan barangnya"
+      ],
+      "parentPrompt": "Saat iklan muncul di TV atau YouTube, tanya {{nama}}, \"Iklan ini mau kita beli apa? Kata-kata apa yang dipakai biar kita tertarik? Apa yang tidak mereka bilang?\"",
+      "cp": [
+        { "standard": "cp046.bind.C.simak", "phrase": "Menganalisis informasi dari teks nonsastra berbentuk teks aural" }
+      ],
+      "requires": [
+        { "id": "bind.simak.membedakan-fakta-dan-opini-saat-menyimak", "strength": "wajib", "reason": "Kata bujukan dalam iklan sering berupa opini yang disajikan seperti fakta." }
+      ]
+    },
+    {
+      "slug": "menilai-kebenaran-pesan-suara",
+      "elemen": "simak",
+      "name": "Menilai benar tidaknya pesan suara berantai",
+      "description": "Anak mendengarkan pesan suara atau video yang beredar, lalu bertanya siapa yang bicara, kapan, dari mana sumbernya, dan apakah ada sumber resmi yang menyampaikan hal yang sama.",
+      "type": "meta",
+      "kelas": [6],
+      "evidence": [
+        "Bertanya \"Siapa yang bicara? Kapan direkamnya?\" sebelum memercayai pesan suara",
+        "Menunjuk tanda mencurigakan, misalnya tidak ada nama, nada menakut-nakuti, atau ajakan \"sebarkan segera\"",
+        "Mengusulkan cara mengecek, misalnya mencari di situs resmi pemerintah atau bertanya ke guru"
+      ],
+      "parentPrompt": "Kalau ada pesan suara atau video berantai di grup WhatsApp keluarga, putar bersama {{nama}}. Tanya, \"Menurutmu ini benar atau belum tentu? Bagaimana kita bisa mengeceknya sebelum ikut menyebarkan?\"",
+      "cp": [
+        { "standard": "cp046.bind.C.simak", "phrase": "Menganalisis informasi dari teks nonsastra berbentuk teks aural" }
+      ],
+      "requires": [
+        { "id": "bind.simak.membedakan-fakta-dan-opini-saat-menyimak", "strength": "wajib", "reason": "Menilai kebenaran pesan dimulai dari memisahkan fakta yang bisa dicek dari pendapat." },
+        { "id": "bind.simak.menyimak-iklan-dan-kata-bujukan", "strength": "bantu", "reason": "Pesan berantai sering memakai bujukan dan nada mendesak seperti iklan." }
+      ]
+    },
+    {
+      "slug": "menyimak-wawancara",
+      "elemen": "simak",
+      "name": "Menangkap informasi dari wawancara yang didengar",
+      "description": "Anak menyimak wawancara atau bincang-bincang, lalu membedakan pertanyaan pewawancara dan jawaban narasumber serta mencatat informasi penting dari jawaban.",
+      "type": "bahasa",
+      "kelas": [5, 6],
+      "evidence": [
+        "Menyebut siapa pewawancara dan siapa narasumber dalam rekaman",
+        "Menuliskan dua pertanyaan yang diajukan beserta jawaban singkatnya",
+        "Menyebut satu informasi baru yang didapat dari jawaban narasumber"
+      ],
+      "parentPrompt": "Tonton bersama wawancara singkat di TV atau YouTube, misalnya dengan atlet atau petani. Tanya {{nama}}, \"Apa saja yang ditanyakan tadi? Jawaban mana yang paling menarik buatmu?\"",
+      "cp": [
+        { "standard": "cp046.bind.C.simak", "phrase": "Menganalisis informasi dari teks nonsastra berbentuk teks aural" }
+      ],
+      "requires": [
+        { "id": "bind.simak.mencatat-informasi-penting-saat-menyimak", "strength": "wajib", "reason": "Anak perlu terbiasa mencatat hal penting saat menyimak jawaban narasumber." },
+        { "id": "bind.bicara.bertanya-dengan-kata-tanya", "strength": "bantu", "reason": "Mengenal kata tanya membantu anak mengenali pertanyaan dalam wawancara." }
+      ]
+    },
+    {
+      "slug": "menyimak-konflik-dan-penyelesaian-cerita",
+      "elemen": "simak",
+      "name": "Menemukan masalah dan penyelesaian dalam cerita",
+      "description": "Anak mendengarkan cerpen atau cerita, lalu menyebut masalah (konflik) yang dihadapi tokoh dan bagaimana masalah itu diselesaikan.",
+      "type": "bahasa",
+      "kelas": [5],
+      "evidence": [
+        "Menyebut masalah utama tokoh, misalnya \"Dimas kehilangan uang kas kelas\"",
+        "Menjelaskan bagaimana masalah itu selesai di akhir cerita",
+        "Mengusulkan cara lain yang bisa dipakai tokoh untuk menyelesaikan masalahnya"
+      ],
+      "parentPrompt": "Bacakan cerpen dari majalah anak atau buku cerita untuk {{nama}}. Lalu tanya, \"Masalah tokohnya apa? Bagaimana dia keluar dari masalah itu? Kalau kamu jadi dia, kamu akan berbuat apa?\"",
+      "cp": [
+        { "standard": "cp046.bind.C.simak", "phrase": "menganalisis isi teks sastra berbentuk teks aural" }
+      ],
+      "requires": [
+        { "id": "bind.simak.menyimak-urutan-peristiwa-cerita", "strength": "wajib", "reason": "Konflik dan penyelesaian hanya terlihat jika anak bisa mengikuti urutan kejadian." },
+        { "id": "bind.simak.menyimak-watak-tokoh-cerita", "strength": "bantu", "reason": "Sifat tokoh sering menjelaskan mengapa masalah muncul dan bagaimana diselesaikan." }
+      ]
+    },
+    {
+      "slug": "menyimak-tema-dan-amanat-cerpen",
+      "elemen": "simak",
+      "name": "Menentukan tema dan amanat cerpen yang didengar",
+      "description": "Anak menyimak cerpen, lalu menyebut temanya (gagasan besar cerita, misalnya persahabatan atau kejujuran) dan amanatnya, dengan menunjuk bagian cerita sebagai bukti.",
+      "type": "bahasa",
+      "kelas": [5, 6],
+      "evidence": [
+        "Menyebut tema cerita dalam satu atau dua kata, misalnya \"kejujuran\"",
+        "Menyampaikan amanat dan menunjuk kejadian dalam cerita yang mendukungnya",
+        "Membedakan tema (tentang apa) dari amanat (pesan untuk pembaca)"
+      ],
+      "parentPrompt": "Setelah mendengar cerita atau dongeng sebelum tidur, tanya {{nama}}, \"Cerita ini sebenarnya tentang apa? Pesannya buat kita apa? Bagian mana yang membuatmu berpikir begitu?\"",
+      "cp": [
+        { "standard": "cp046.bind.C.simak", "phrase": "menganalisis isi teks sastra berbentuk teks aural" }
+      ],
+      "requires": [
+        { "id": "bind.simak.menyimak-amanat-cerita", "strength": "wajib", "reason": "Anak sudah harus bisa menangkap amanat sebelum membedakannya dari tema." },
+        { "id": "bind.simak.menyimak-konflik-dan-penyelesaian-cerita", "strength": "wajib", "reason": "Tema dan amanat biasanya terlihat dari cara tokoh menyelesaikan masalahnya." }
+      ]
+    },
+    {
+      "slug": "menyimak-cerita-rakyat-dan-nilainya",
+      "elemen": "simak",
+      "name": "Menangkap nilai budaya dari cerita rakyat",
+      "description": "Anak mendengarkan cerita rakyat atau legenda dari daerah di Indonesia, lalu menyebut asal daerahnya, nilai yang diajarkan, dan kebiasaan atau budaya yang tergambar di dalamnya.",
+      "type": "bahasa",
+      "kelas": [5, 6],
+      "evidence": [
+        "Setelah mendengar \"Malin Kundang\", menyebut daerah asalnya dan nilai berbakti kepada orang tua",
+        "Menyebut satu kebiasaan atau benda budaya yang muncul dalam cerita",
+        "Membandingkan nilai dua cerita rakyat yang berbeda"
+      ],
+      "parentPrompt": "Ceritakan kepada {{nama}} cerita rakyat dari daerah asal keluarga, atau putar videonya. Tanya, \"Cerita ini dari mana? Orang dulu mau mengajarkan apa lewat cerita ini?\"",
+      "cp": [
+        { "standard": "cp046.bind.C.simak", "phrase": "menganalisis isi teks sastra berbentuk teks aural" }
+      ],
+      "requires": [
+        { "id": "bind.simak.menyimak-latar-cerita", "strength": "wajib", "reason": "Mengenali tempat dan waktu cerita membantu anak melihat budaya yang tergambar di dalamnya." },
+        { "id": "bind.simak.menyimak-tema-dan-amanat-cerpen", "strength": "bantu", "reason": "Kemampuan menemukan amanat dipakai lagi untuk menemukan nilai cerita rakyat." }
+      ]
+    },
+    {
+      "slug": "menyimak-pantun",
+      "elemen": "simak",
+      "name": "Memahami sampiran dan isi pantun",
+      "description": "Anak mendengarkan pantun, lalu membedakan sampiran (dua baris pertama sebagai pengantar) dan isi (dua baris terakhir yang membawa pesan), serta menyebut maksud pantun.",
+      "type": "konsep",
+      "kelas": [5],
+      "evidence": [
+        "Menunjuk dua baris sampiran dan dua baris isi dari pantun yang dibacakan",
+        "Menyebut maksud pantun, misalnya nasihat untuk rajin belajar",
+        "Mendengar bunyi akhir yang sama pada baris 1 dan 3, serta baris 2 dan 4"
+      ],
+      "parentPrompt": "Ucapkan satu pantun, misalnya \"Jalan-jalan ke kota Paris, lihat rumah berbaris-baris; walau kerja hanya menulis, jangan lupa menulis yang manis.\" Tanya {{nama}}, \"Bagian mana yang cuma pembuka, bagian mana pesannya?\"",
+      "cp": [
+        { "standard": "cp046.bind.C.simak", "phrase": "menganalisis isi teks sastra berbentuk teks aural" }
+      ],
+      "requires": [
+        { "id": "bind.simak.menyimak-puisi-yang-dibacakan", "strength": "wajib", "reason": "Anak perlu terbiasa memahami isi puisi sebelum mengenali bagian khusus pantun." }
+      ]
+    },
+    {
+      "slug": "menyimak-suasana-dan-perasaan-puisi",
+      "elemen": "simak",
+      "name": "Merasakan suasana dan perasaan dalam puisi",
+      "description": "Anak mendengarkan puisi atau lagu, lalu menyebut suasana (sedih, gembira, rindu, bangga) dan perasaan penyair, serta kata-kata yang menimbulkan suasana itu.",
+      "type": "bahasa",
+      "kelas": [6],
+      "evidence": [
+        "Menyebut suasana puisi dan menunjuk dua kata yang membuatnya terasa begitu",
+        "Menjelaskan perasaan penyair, misalnya rindu kepada ibu atau cinta tanah air",
+        "Membedakan suasana dua puisi yang dibacakan berurutan"
+      ],
+      "parentPrompt": "Putar lagu daerah atau lagu nasional, misalnya \"Ibu Pertiwi\", lalu dengarkan bersama {{nama}}. Tanya, \"Lagunya terasa sedih, senang, atau bangga? Kata mana yang membuatmu merasa begitu?\"",
+      "cp": [
+        { "standard": "cp046.bind.C.simak", "phrase": "menganalisis isi teks sastra berbentuk teks aural" }
+      ],
+      "requires": [
+        { "id": "bind.simak.menyimak-puisi-yang-dibacakan", "strength": "wajib", "reason": "Memahami isi puisi lebih dulu baru bisa menangkap suasana dan perasaannya." },
+        { "id": "bind.simak.menyimak-pantun", "strength": "bantu", "reason": "Latihan mendengar bunyi dan maksud pantun melatih kepekaan pada bahasa puisi." }
+      ]
+    },
+    {
+      "slug": "membaca-kata-dengan-gugus-konsonan-dan-diftong",
+      "elemen": "baca",
+      "name": "Membaca kata dengan gugus konsonan dan diftong",
+      "description": "Anak membaca dengan lancar kata yang memiliki gugus konsonan (dua atau tiga konsonan berturutan seperti pr, kl, str) dan diftong (gabungan vokal seperti ai, au, oi), misalnya \"struktur\", \"praktik\", \"pantai\", \"kerbau\".",
+      "type": "bahasa",
+      "kelas": [5],
+      "evidence": [
+        "Membaca \"strategi\", \"proklamasi\", dan \"kompleks\" tanpa menyisipkan bunyi e",
+        "Membaca \"santai\", \"pulau\", dan \"amboi\" dengan diftong yang diucapkan menyatu",
+        "Membedakan \"kain\" (ka-in) dari \"pantai\" (pan-tai) saat membaca"
+      ],
+      "parentPrompt": "Cari kata seperti \"struk\", \"proklamasi\", atau \"pulau\" di koran, struk belanja, atau bungkus makanan. Minta {{nama}} membacanya keras-keras dan dengarkan apakah semua hurufnya terbaca.",
+      "cp": [
+        { "standard": "cp046.bind.C.baca", "phrase": "Membaca kata-kata dengan berbagai pola kombinasi huruf dengan fasih" }
+      ],
+      "requires": [
+        { "id": "bind.baca.membaca-gabungan-huruf-ng-ny", "strength": "wajib", "reason": "Gabungan huruf ng dan ny adalah pola kombinasi paling dasar sebelum gugus konsonan." },
+        { "id": "bind.baca.membaca-istilah-dan-kata-serapan", "strength": "bantu", "reason": "Banyak kata bergugus konsonan adalah kata serapan dan istilah." }
+      ]
+    },
+    {
+      "slug": "membaca-kata-berimbuhan-gabungan-dan-kata-ulang",
+      "elemen": "baca",
+      "name": "Membaca kata berimbuhan gabungan dan kata ulang",
+      "description": "Anak membaca dengan fasih kata yang memakai imbuhan gabungan (memper-, ke-an, per-an, -kan) dan kata ulang berimbuhan, lalu menebak arti kata itu dari kata dasarnya.",
+      "type": "bahasa",
+      "kelas": [5],
+      "evidence": [
+        "Membaca \"mempertanggungjawabkan\" dan \"keanekaragaman\" tanpa terbata-bata",
+        "Menyebut kata dasar dari \"perdagangan\" dan \"kesejahteraan\"",
+        "Membaca kata ulang \"bermain-main\" dan \"sayur-mayur\" dengan benar"
+      ],
+      "parentPrompt": "Pilih satu kata panjang dari koran atau surat edaran sekolah, misalnya \"keberhasilan\" atau \"memperbaiki\". Minta {{nama}} membacanya, lalu tanya, \"Kata dasarnya apa? Jadi artinya apa?\"",
+      "cp": [
+        { "standard": "cp046.bind.C.baca", "phrase": "Membaca kata-kata dengan berbagai pola kombinasi huruf dengan fasih" }
+      ],
+      "requires": [
+        { "id": "bind.baca.membaca-kata-berimbuhan", "strength": "wajib", "reason": "Imbuhan tunggal harus lancar dulu sebelum imbuhan gabungan." },
+        { "id": "bind.baca.mencari-arti-kata-di-kamus", "strength": "bantu", "reason": "Mencari kata dasar di kamus membantu anak memahami arti kata berimbuhan." }
+      ]
+    },
+    {
+      "slug": "membaca-nyaring-teks-panjang-dengan-fasih",
+      "elemen": "baca",
+      "name": "Membaca nyaring teks panjang dengan fasih",
+      "description": "Anak membaca nyaring teks dua halaman atau teks dari layar dengan kecepatan wajar, lafal jelas, dan jeda yang sesuai tanda baca, termasuk kata-kata sulit.",
+      "type": "bahasa",
+      "kelas": [5, 6],
+      "evidence": [
+        "Membaca satu artikel koran anak tanpa berhenti mengeja kata panjang",
+        "Berhenti sebentar pada koma dan lebih lama pada titik",
+        "Membaca teks keterangan video atau artikel di ponsel sama lancarnya dengan buku"
+      ],
+      "parentPrompt": "Minta {{nama}} membacakan satu artikel pendek dari koran atau ponsel untuk seluruh keluarga saat santai. Perhatikan apakah bacaannya lancar dan mudah dipahami pendengar.",
+      "cp": [
+        { "standard": "cp046.bind.C.baca", "phrase": "dari bacaan dan/atau tayangan yang dipirsa" }
+      ],
+      "requires": [
+        { "id": "bind.baca.membaca-teks-dengan-fasih", "strength": "wajib", "reason": "Fasih membaca teks satu halaman adalah dasar untuk teks yang lebih panjang." },
+        { "id": "bind.baca.membaca-kata-dengan-gugus-konsonan-dan-diftong", "strength": "wajib", "reason": "Teks panjang di kelas atas banyak memuat kata bergugus konsonan dan diftong." },
+        { "id": "bind.baca.membaca-kata-berimbuhan-gabungan-dan-kata-ulang", "strength": "bantu", "reason": "Kata berimbuhan gabungan sering membuat bacaan tersendat." }
+      ]
+    },
+    {
+      "slug": "memahami-teks-eksplanasi",
+      "elemen": "baca",
+      "name": "Memahami teks eksplanasi dari bacaan",
+      "description": "Anak membaca teks eksplanasi, yaitu teks yang menjelaskan proses terjadinya sesuatu (misalnya gempa bumi atau fotosintesis), lalu menemukan bagian pernyataan umum, urutan proses, dan penutupnya.",
+      "type": "bahasa",
+      "kelas": [5],
+      "evidence": [
+        "Menggambar diagram alur sederhana dari teks tentang terjadinya gempa",
+        "Menandai kata penghubung sebab-akibat seperti \"karena\", \"sehingga\", \"akibatnya\"",
+        "Menyebut bagian pembuka, isi proses, dan penutup teks"
+      ],
+      "parentPrompt": "Baca bersama {{nama}} penjelasan di buku atau internet tentang cara kerja sesuatu di rumah, misalnya bagaimana kulkas mendinginkan makanan. Minta {{nama}} menggambar urutannya dengan panah.",
+      "cp": [
+        { "standard": "cp046.bind.C.baca", "phrase": "menganalisis informasi serta nilai-nilai dalam teks sastra dan nonsastra" }
+      ],
+      "requires": [
+        { "id": "bind.baca.menemukan-ide-pendukung", "strength": "wajib", "reason": "Urutan proses dalam teks eksplanasi disusun dari ide-ide pendukung." },
+        { "id": "bind.simak.menyimak-teks-eksplanasi", "strength": "bantu", "reason": "Mendengar penjelasan sebab-akibat lebih dulu memudahkan anak membacanya sendiri." }
+      ]
+    },
+    {
+      "slug": "memahami-teks-laporan-pengamatan",
+      "elemen": "baca",
+      "name": "Memahami teks laporan hasil pengamatan",
+      "description": "Anak membaca teks laporan hasil pengamatan tentang hewan, tumbuhan, atau tempat, lalu menemukan informasi umum, ciri-ciri yang diamati, dan kesimpulannya.",
+      "type": "bahasa",
+      "kelas": [5],
+      "evidence": [
+        "Dari laporan tentang kupu-kupu, menyebut tiga ciri yang diamati",
+        "Membedakan bagian pengertian umum dari bagian rincian ciri",
+        "Mengisi tabel ciri-ciri dari isi laporan"
+      ],
+      "parentPrompt": "Baca bersama {{nama}} tulisan tentang hewan atau tanaman di buku atau majalah. Minta {{nama}} membuat tabel kecil: nama, ciri-ciri, tempat hidup, lalu isi dari bacaan tadi.",
+      "cp": [
+        { "standard": "cp046.bind.C.baca", "phrase": "menganalisis informasi serta nilai-nilai dalam teks sastra dan nonsastra" }
+      ],
+      "requires": [
+        { "id": "bind.baca.memahami-teks-deskripsi", "strength": "wajib", "reason": "Laporan pengamatan berisi rincian ciri seperti teks deskripsi, tetapi lebih teratur." },
+        { "id": "bind.baca.menemukan-ide-pendukung", "strength": "bantu", "reason": "Rincian ciri dalam laporan adalah ide pendukung dari pernyataan umum." }
+      ]
+    },
+    {
+      "slug": "memahami-teks-eksposisi",
+      "elemen": "baca",
+      "name": "Menemukan pendapat dan alasan penulis",
+      "description": "Anak membaca teks eksposisi, yaitu teks yang menyampaikan pendapat penulis beserta alasan dan buktinya (misalnya \"Sarapan penting untuk anak sekolah\"), lalu menyebut pendapat utama dan alasan pendukungnya.",
+      "type": "bahasa",
+      "kelas": [6],
+      "evidence": [
+        "Menyebut pendapat utama penulis dalam satu kalimat",
+        "Menyebut dua alasan atau bukti yang dipakai penulis",
+        "Menilai apakah alasan penulis cukup meyakinkan dan menjelaskan mengapa"
+      ],
+      "parentPrompt": "Baca bersama {{nama}} satu tulisan opini pendek di koran atau situs anak, misalnya tentang bahaya terlalu lama main gim. Tanya, \"Penulisnya ingin kita percaya apa? Alasannya apa saja? Kamu setuju?\"",
+      "cp": [
+        { "standard": "cp046.bind.C.baca", "phrase": "menganalisis informasi serta nilai-nilai dalam teks sastra dan nonsastra" }
+      ],
+      "requires": [
+        { "id": "bind.baca.membedakan-fakta-dan-opini-dalam-bacaan", "strength": "wajib", "reason": "Teks eksposisi mencampur pendapat penulis dengan fakta sebagai bukti." },
+        { "id": "bind.baca.menentukan-ide-pokok-paragraf", "strength": "wajib", "reason": "Pendapat utama penulis biasanya ada di ide pokok paragraf pertama." }
+      ]
+    },
+    {
+      "slug": "membedakan-fakta-dan-opini-dalam-bacaan",
+      "elemen": "baca",
+      "name": "Membedakan fakta dan opini dalam bacaan",
+      "description": "Anak membaca teks dan menandai kalimat fakta (bisa dibuktikan) dan kalimat opini (pendapat), termasuk dalam teks berita dan tulisan di media sosial.",
+      "type": "konsep",
+      "kelas": [5, 6],
+      "evidence": [
+        "Menandai kalimat fakta dan opini dalam satu teks berita dengan dua warna",
+        "Mengubah kalimat opini menjadi fakta, misalnya \"Pasar itu sangat ramai\" menjadi \"Pasar itu dikunjungi 500 orang setiap pagi\"",
+        "Menjelaskan mengapa sebuah kalimat termasuk opini"
+      ],
+      "parentPrompt": "Ambil koran atau buka satu kabar di ponsel. Minta {{nama}} mencari satu kalimat yang pasti benar dan bisa dicek, lalu satu kalimat yang hanya pendapat penulisnya.",
+      "cp": [
+        { "standard": "cp046.bind.C.baca", "phrase": "menganalisis informasi serta nilai-nilai dalam teks sastra dan nonsastra" }
+      ],
+      "requires": [
+        { "id": "bind.simak.membedakan-fakta-dan-opini-saat-menyimak", "strength": "wajib", "reason": "Konsep fakta dan opini dikenalkan lebih dulu lewat teks lisan." },
+        { "id": "bind.baca.membaca-teks-elektronik", "strength": "bantu", "reason": "Banyak bacaan yang perlu dipilah anak datang dari layar." }
+      ]
+    },
+    {
+      "slug": "membaca-grafik-tabel-dan-infografik",
+      "elemen": "baca",
+      "name": "Membaca informasi dari grafik dan infografik",
+      "description": "Anak membaca teks visual seperti tabel, grafik batang, peta, dan infografik (gambar berisi informasi), lalu menyimpulkan informasi pentingnya dalam kalimat.",
+      "type": "representasi",
+      "kelas": [5, 6],
+      "evidence": [
+        "Dari infografik cuci tangan, menyebut enam langkahnya dengan urut",
+        "Dari grafik batang curah hujan, menyebut bulan paling basah dan paling kering",
+        "Menulis satu kalimat kesimpulan dari sebuah tabel"
+      ],
+      "parentPrompt": "Tunjukkan infografik di poster puskesmas, prakiraan cuaca di TV, atau tabel gizi di bungkus susu. Tanya {{nama}}, \"Gambar ini memberi tahu kita apa? Mana angka yang paling penting?\"",
+      "cp": [
+        { "standard": "cp046.bind.C.baca", "phrase": "berwujud teks visual dan/atau audiovisual" }
+      ],
+      "requires": [
+        { "id": "bind.baca.membaca-informasi-pada-label-dan-jadwal", "strength": "wajib", "reason": "Membaca label, jadwal, dan tabel sederhana adalah dasar membaca grafik dan infografik." }
+      ]
+    },
+    {
+      "slug": "menganalisis-iklan-dan-poster",
+      "elemen": "baca",
+      "name": "Menganalisis pesan iklan dan poster",
+      "description": "Anak membaca iklan, poster, atau spanduk, lalu menyebut tujuannya, sasarannya, dan cara gambar serta kata dipakai untuk membujuk atau mengajak.",
+      "type": "bahasa",
+      "kelas": [5, 6],
+      "evidence": [
+        "Menyebut tujuan poster, misalnya mengajak membuang sampah pada tempatnya",
+        "Menjelaskan mengapa iklan memakai warna terang, artis terkenal, atau huruf besar",
+        "Membedakan poster ajakan (layanan masyarakat) dari iklan yang menjual barang"
+      ],
+      "parentPrompt": "Saat lewat spanduk atau melihat brosur promo minimarket, tanya {{nama}}, \"Ini mau menjual sesuatu atau mengajak kita berbuat sesuatu? Bagian mana yang paling menarik perhatian, dan kenapa?\"",
+      "cp": [
+        { "standard": "cp046.bind.C.baca", "phrase": "berwujud teks visual dan/atau audiovisual" }
+      ],
+      "requires": [
+        { "id": "bind.baca.membedakan-fakta-dan-opini-dalam-bacaan", "strength": "wajib", "reason": "Iklan memakai opini dan janji yang perlu dibedakan dari fakta." },
+        { "id": "bind.simak.menyimak-iklan-dan-kata-bujukan", "strength": "bantu", "reason": "Mengenali bujukan dalam iklan lisan memudahkan anak melihatnya dalam iklan cetak." }
+      ]
+    },
+    {
+      "slug": "memeriksa-kebenaran-pesan-berantai",
+      "elemen": "baca",
+      "name": "Memeriksa kebenaran pesan berantai dan kabar daring",
+      "description": "Anak membaca pesan berantai atau kabar di internet, lalu memeriksa sumber, tanggal, judul yang berlebihan, dan membandingkannya dengan sumber lain yang tepercaya sebelum memercayai atau membagikannya.",
+      "type": "meta",
+      "kelas": [6],
+      "evidence": [
+        "Menunjuk tanda hoaks dalam satu pesan, misalnya tidak ada sumber, banyak tanda seru, atau ajakan \"sebarkan!\"",
+        "Mengecek tanggal pesan dan menyadari bahwa kabarnya sudah lama",
+        "Mencari judul yang sama di situs resmi atau media tepercaya dan melaporkan hasilnya"
+      ],
+      "parentPrompt": "Tunjukkan satu pesan berantai dari grup WhatsApp keluarga kepada {{nama}}. Tanya, \"Siapa yang membuat pesan ini? Ada sumbernya tidak? Coba kita cek bersama, benar atau tidak, sebelum kita teruskan.\"",
+      "cp": [
+        { "standard": "cp046.bind.C.baca", "phrase": "menganalisis informasi serta nilai-nilai dalam teks sastra dan nonsastra" }
+      ],
+      "requires": [
+        { "id": "bind.baca.membedakan-fakta-dan-opini-dalam-bacaan", "strength": "wajib", "reason": "Memeriksa kebenaran dimulai dari memisahkan fakta yang bisa dicek dari opini." },
+        { "id": "bind.baca.membaca-teks-elektronik", "strength": "wajib", "reason": "Pesan berantai dan kabar daring dibaca di layar ponsel." },
+        { "id": "bind.simak.menilai-kebenaran-pesan-suara", "strength": "bantu", "reason": "Pertanyaan yang sama tentang sumber dan waktu sudah dilatih pada pesan suara." }
+      ]
+    },
+    {
+      "slug": "menganalisis-isi-video-informasi",
+      "elemen": "baca",
+      "name": "Menganalisis isi video yang memberi informasi",
+      "description": "Anak menonton video informasi (misalnya video YouTube tentang sains atau tutorial), lalu menyebut ide pokoknya, siapa pembuatnya, tujuan video, dan apakah informasinya dapat dipercaya.",
+      "type": "bahasa",
+      "kelas": [6],
+      "evidence": [
+        "Menyebut ide pokok video sains lima menit dalam dua kalimat",
+        "Menyebut nama kanal atau lembaga pembuat video dan menilai apakah ia ahli di bidang itu",
+        "Membedakan video yang memberi informasi dari video yang sebenarnya iklan"
+      ],
+      "parentPrompt": "Tonton bersama {{nama}} satu video YouTube tentang hal yang dia sukai, misalnya cara kerja roket. Setelahnya tanya, \"Siapa yang membuat video ini? Apa yang kamu pelajari? Ada bagian yang perlu kita cek lagi?\"",
+      "cp": [
+        { "standard": "cp046.bind.C.baca", "phrase": "berwujud teks visual dan/atau audiovisual" }
+      ],
+      "requires": [
+        { "id": "bind.baca.memahami-kata-baru-dari-tayangan", "strength": "wajib", "reason": "Anak perlu memahami kata baru dalam tayangan sebelum menganalisis isinya." },
+        { "id": "bind.baca.memahami-teks-eksplanasi", "strength": "bantu", "reason": "Banyak video informasi berbentuk penjelasan proses seperti teks eksplanasi." },
+        { "id": "bind.baca.memeriksa-kebenaran-pesan-berantai", "strength": "bantu", "reason": "Cara memeriksa sumber pesan berantai dipakai lagi untuk menilai video." }
+      ]
+    },
+    {
+      "slug": "menganalisis-unsur-cerpen",
+      "elemen": "baca",
+      "name": "Menganalisis tema, alur, dan konflik cerpen",
+      "description": "Anak membaca cerpen, lalu menjelaskan tema, alur (pengenalan, konflik, puncak, penyelesaian), sudut pandang, dan watak tokoh dengan bukti dari kalimat dalam cerita.",
+      "type": "bahasa",
+      "kelas": [5, 6],
+      "evidence": [
+        "Menandai bagian pengenalan, konflik, puncak, dan penyelesaian dalam cerpen",
+        "Menyebut watak tokoh dan mengutip kalimat yang menunjukkan watak itu",
+        "Menyebut apakah cerita diceritakan oleh \"aku\" atau oleh orang lain"
+      ],
+      "parentPrompt": "Setelah {{nama}} membaca cerpen di majalah atau buku, minta dia menggambar \"gunung cerita\": awal di kaki kiri, masalah memuncak di puncak, dan penyelesaian di kaki kanan.",
+      "cp": [
+        { "standard": "cp046.bind.C.baca", "phrase": "menganalisis informasi serta nilai-nilai dalam teks sastra dan nonsastra" }
+      ],
+      "requires": [
+        { "id": "bind.baca.memahami-unsur-cerita", "strength": "wajib", "reason": "Tokoh, latar, dan alur sederhana harus dikenali dulu sebelum dianalisis lebih dalam." },
+        { "id": "bind.simak.menyimak-konflik-dan-penyelesaian-cerita", "strength": "bantu", "reason": "Menemukan konflik lewat menyimak membantu anak menemukannya saat membaca." }
+      ]
+    },
+    {
+      "slug": "menemukan-nilai-dalam-cerita-dan-film",
+      "elemen": "baca",
+      "name": "Menemukan nilai dalam cerita, komik, dan film",
+      "description": "Anak membaca cerita atau menonton film anak dan komik, lalu menemukan nilai moral, sosial, dan budaya di dalamnya serta mengaitkannya dengan kehidupan sehari-hari.",
+      "type": "bahasa",
+      "kelas": [6],
+      "evidence": [
+        "Menyebut satu nilai dari film anak, misalnya gotong royong, dan adegan yang menunjukkannya",
+        "Mengaitkan nilai cerita dengan kejadian nyata di rumah atau sekolah",
+        "Menilai apakah perbuatan seorang tokoh pantas ditiru dan memberi alasan"
+      ],
+      "parentPrompt": "Setelah nonton film atau kartun bersama, tanya {{nama}}, \"Tokoh mana yang perbuatannya baik ditiru? Mana yang tidak? Pernah tidak kejadian seperti itu di sekolahmu?\"",
+      "cp": [
+        { "standard": "cp046.bind.C.baca", "phrase": "nilai-nilai dalam teks sastra dan nonsastra berwujud teks visual dan/atau audiovisual" }
+      ],
+      "requires": [
+        { "id": "bind.baca.menemukan-pesan-dalam-bacaan", "strength": "wajib", "reason": "Menemukan amanat dalam bacaan adalah langkah awal menemukan nilai-nilai cerita." },
+        { "id": "bind.baca.menganalisis-unsur-cerpen", "strength": "bantu", "reason": "Nilai cerita tampak dari watak dan tindakan tokoh dalam alur." },
+        { "id": "bind.simak.menyimak-cerita-rakyat-dan-nilainya", "strength": "bantu", "reason": "Anak sudah berlatih menemukan nilai budaya lewat cerita yang didengar." }
+      ]
+    },
+    {
+      "slug": "menyusun-kerangka-presentasi",
+      "elemen": "bicara",
+      "name": "Menyusun kerangka presentasi",
+      "description": "Anak menyiapkan presentasi dengan kerangka pembuka, isi berisi dua atau tiga poin utama, dan penutup, lalu menulisnya di kartu catatan kecil.",
+      "type": "meta",
+      "kelas": [5],
+      "evidence": [
+        "Menulis kerangka presentasi di kartu: salam, tiga poin isi, kesimpulan, terima kasih",
+        "Menyampaikan presentasi tiga menit dengan melirik kartu, bukan membaca teks penuh",
+        "Menyebut poin kedua tanpa melompat ke poin ketiga"
+      ],
+      "parentPrompt": "Kalau {{nama}} punya tugas presentasi, minta dia menulis kerangkanya di tiga kartu kecil: pembuka, isi, penutup. Lalu minta dia latihan di depan keluarga sesudah makan malam.",
+      "cp": [
+        { "standard": "cp046.bind.C.bicara", "phrase": "Mempresentasikan gagasan dari berbagai tipe teks dengan efektif dan santun" }
+      ],
+      "requires": [
+        { "id": "bind.bicara.presentasi-singkat-di-depan-kelas", "strength": "wajib", "reason": "Pengalaman presentasi singkat menjadi dasar menyusun presentasi yang lebih terencana." },
+        { "id": "bind.tulis.menulis-paragraf-dengan-ide-pokok", "strength": "bantu", "reason": "Poin utama presentasi mirip ide pokok paragraf." }
+      ]
+    },
+    {
+      "slug": "presentasi-dengan-alat-bantu-visual",
+      "elemen": "bicara",
+      "name": "Presentasi dengan poster atau slide",
+      "description": "Anak mempresentasikan gagasan dengan bantuan poster, gambar, grafik, atau slide sederhana, dan menjelaskan isi alat bantu itu, bukan sekadar membacakannya.",
+      "type": "bahasa",
+      "kelas": [5, 6],
+      "evidence": [
+        "Menunjuk bagian grafik di poster sambil menjelaskan artinya",
+        "Membuat slide atau poster dengan sedikit kata dan gambar yang jelas",
+        "Menghadap pendengar, bukan menghadap poster, saat berbicara"
+      ],
+      "parentPrompt": "Minta {{nama}} membuat poster kecil tentang makanan sehat atau hewan kesukaannya, lalu menjelaskannya kepada keluarga. Perhatikan apakah {{nama}} menjelaskan dengan kata-katanya sendiri.",
+      "cp": [
+        { "standard": "cp046.bind.C.bicara", "phrase": "Mempresentasikan gagasan dari berbagai tipe teks dengan efektif dan santun" }
+      ],
+      "requires": [
+        { "id": "bind.bicara.menyusun-kerangka-presentasi", "strength": "wajib", "reason": "Alat bantu disusun mengikuti kerangka presentasi." },
+        { "id": "bind.baca.membaca-grafik-tabel-dan-infografik", "strength": "bantu", "reason": "Anak perlu bisa membaca grafik dan infografik sebelum menjelaskannya kepada orang lain." }
+      ]
+    },
+    {
+      "slug": "mempresentasikan-hasil-pengamatan",
+      "elemen": "bicara",
+      "name": "Melaporkan hasil pengamatan secara lisan",
+      "description": "Anak menyampaikan hasil pengamatan atau percobaan secara lisan dengan urutan: apa yang diamati, bagaimana caranya, apa yang ditemukan, dan kesimpulannya.",
+      "type": "bahasa",
+      "kelas": [5, 6],
+      "evidence": [
+        "Melaporkan pengamatan pertumbuhan kacang hijau selama seminggu dengan urut",
+        "Menyebut data nyata, misalnya \"Hari ketiga tingginya 2 sentimeter\"",
+        "Menutup laporan dengan satu kesimpulan yang sesuai data"
+      ],
+      "parentPrompt": "Ajak {{nama}} mengamati sesuatu di rumah selama beberapa hari, misalnya kecambah kacang hijau atau semut di dapur. Lalu minta dia melaporkan hasilnya kepada ayah atau ibu seperti reporter.",
+      "cp": [
+        { "standard": "cp046.bind.C.bicara", "phrase": "Mempresentasikan gagasan dari berbagai tipe teks dengan efektif dan santun" }
+      ],
+      "requires": [
+        { "id": "bind.bicara.menyusun-kerangka-presentasi", "strength": "wajib", "reason": "Laporan lisan memakai kerangka pembuka, isi, dan penutup." },
+        { "id": "bind.baca.memahami-teks-laporan-pengamatan", "strength": "bantu", "reason": "Mengenal susunan teks laporan membantu anak menyusun laporan lisan." }
+      ]
+    },
+    {
+      "slug": "menanggapi-pertanyaan-pendengar",
+      "elemen": "bicara",
+      "name": "Menjawab pertanyaan pendengar dengan santun",
+      "description": "Setelah presentasi, anak menerima pertanyaan, menjawab dengan jelas dan santun, mengakui jika belum tahu, dan berterima kasih kepada penanya.",
+      "type": "bahasa",
+      "kelas": [6],
+      "evidence": [
+        "Mengulang pertanyaan singkat sebelum menjawab agar yakin paham maksudnya",
+        "Berkata \"Terima kasih atas pertanyaannya\" dan menjawab langsung ke pokoknya",
+        "Berkata \"Saya belum tahu, nanti saya cari tahu\" ketika tidak tahu jawabannya"
+      ],
+      "parentPrompt": "Setelah {{nama}} latihan presentasi di rumah, ajukan satu pertanyaan yang agak sulit. Lihat apakah {{nama}} menjawab dengan tenang dan santun, atau berani bilang belum tahu.",
+      "cp": [
+        { "standard": "cp046.bind.C.bicara", "phrase": "Mempresentasikan gagasan dari berbagai tipe teks dengan efektif dan santun" }
+      ],
+      "requires": [
+        { "id": "bind.bicara.presentasi-dengan-alat-bantu-visual", "strength": "wajib", "reason": "Sesi tanya jawab terjadi setelah anak mampu membawakan presentasinya." },
+        { "id": "bind.bicara.menyatakan-setuju-dan-tidak-setuju", "strength": "bantu", "reason": "Menanggapi dengan santun sudah dilatih saat menyatakan setuju atau tidak setuju." }
+      ]
+    },
+    {
+      "slug": "berpidato-singkat",
+      "elemen": "bicara",
+      "name": "Berpidato singkat dengan susunan yang benar",
+      "description": "Anak menyampaikan pidato singkat dengan susunan salam pembuka, pengantar, isi, penutup, dan salam penutup, memakai bahasa yang santun dan suara yang jelas.",
+      "type": "bahasa",
+      "kelas": [6],
+      "evidence": [
+        "Membuka pidato dengan salam dan sapaan kepada hadirin yang sesuai, misalnya \"Yang saya hormati Bapak Kepala Sekolah\"",
+        "Menyampaikan isi pidato tiga menit tentang satu tema, misalnya semangat kemerdekaan",
+        "Menutup dengan kesimpulan, permintaan maaf, dan salam penutup"
+      ],
+      "parentPrompt": "Menjelang lomba pidato 17-an atau acara keluarga, minta {{nama}} berlatih pidato pendek tiga menit di ruang tamu. Keluarga jadi hadirin, dan perhatikan apakah salam pembuka dan penutupnya lengkap.",
+      "cp": [
+        { "standard": "cp046.bind.C.bicara", "phrase": "Mempresentasikan gagasan dari berbagai tipe teks dengan efektif dan santun" }
+      ],
+      "requires": [
+        { "id": "bind.bicara.menyusun-kerangka-presentasi", "strength": "wajib", "reason": "Pidato memakai kerangka pembuka, isi, dan penutup yang lebih resmi." },
+        { "id": "bind.bicara.mengatur-volume-dan-intonasi", "strength": "wajib", "reason": "Pidato menuntut suara yang jelas dan intonasi yang hidup." },
+        { "id": "bind.bicara.memilih-kata-sesuai-lawan-bicara", "strength": "bantu", "reason": "Sapaan dalam pidato harus sesuai dengan hadirin yang dihormati." }
+      ]
+    },
+    {
+      "slug": "melakukan-wawancara",
+      "elemen": "bicara",
+      "name": "Mewawancarai narasumber dengan santun",
+      "description": "Anak menyiapkan daftar pertanyaan dengan kata tanya 5W1H (apa, siapa, kapan, di mana, mengapa, bagaimana), meminta izin, mewawancarai narasumber dengan santun, dan mencatat jawabannya.",
+      "type": "bahasa",
+      "kelas": [5, 6],
+      "evidence": [
+        "Menulis lima pertanyaan wawancara memakai kata tanya yang berbeda",
+        "Membuka wawancara dengan salam, memperkenalkan diri, dan meminta izin",
+        "Mengajukan pertanyaan lanjutan dari jawaban narasumber, lalu berterima kasih di akhir"
+      ],
+      "parentPrompt": "Minta {{nama}} mewawancarai kakek, nenek, atau pedagang langganan tentang masa kecil atau pekerjaan mereka. Bantu siapkan lima pertanyaan dulu, lalu biarkan {{nama}} bertanya sendiri.",
+      "cp": [
+        { "standard": "cp046.bind.C.bicara", "phrase": "Mempresentasikan gagasan dari berbagai tipe teks dengan efektif dan santun" }
+      ],
+      "requires": [
+        { "id": "bind.simak.menyimak-wawancara", "strength": "wajib", "reason": "Anak perlu melihat contoh wawancara sebelum melakukannya sendiri." },
+        { "id": "bind.bicara.bertanya-dengan-kata-tanya", "strength": "wajib", "reason": "Pertanyaan wawancara disusun dari kata tanya yang sudah dikuasai." },
+        { "id": "bind.bicara.memilih-kata-sesuai-lawan-bicara", "strength": "bantu", "reason": "Narasumber biasanya orang dewasa yang perlu disapa dengan santun." }
+      ]
+    },
+    {
+      "slug": "mempertahankan-pendapat-dengan-fakta",
+      "elemen": "bicara",
+      "name": "Mempertahankan pendapat dengan fakta dalam diskusi",
+      "description": "Dalam diskusi, anak menyampaikan pendapat yang didukung fakta atau data, mendengarkan pendapat lain, dan mengubah pendapatnya jika ada bukti yang lebih kuat.",
+      "type": "bahasa",
+      "kelas": [6],
+      "evidence": [
+        "Menyampaikan pendapat dengan pola \"Menurut saya..., karena..., buktinya...\"",
+        "Menyebut satu fakta atau angka dari bacaan untuk mendukung pendapat",
+        "Berkata \"Saya setuju dengan alasan itu\" ketika teman memberi bukti yang lebih kuat"
+      ],
+      "parentPrompt": "Ajak keluarga berdiskusi santai, misalnya \"Perlukah anak SD punya ponsel sendiri?\" Minta {{nama}} memilih pendapat dan memberi alasan beserta bukti, lalu dengarkan pendapat orang lain.",
+      "cp": [
+        { "standard": "cp046.bind.C.bicara", "phrase": "Mempresentasikan gagasan dari berbagai tipe teks dengan efektif dan santun" }
+      ],
+      "requires": [
+        { "id": "bind.bicara.menyatakan-setuju-dan-tidak-setuju", "strength": "wajib", "reason": "Anak sudah harus bisa menyatakan setuju atau tidak setuju dengan santun." },
+        { "id": "bind.baca.memahami-teks-eksposisi", "strength": "bantu", "reason": "Teks eksposisi memberi contoh cara mendukung pendapat dengan alasan dan bukti." }
+      ]
+    },
+    {
+      "slug": "menceritakan-pengalaman-dengan-perasaan",
+      "elemen": "bicara",
+      "name": "Menceritakan pengalaman nyata beserta perasaannya",
+      "description": "Anak menceritakan pengalaman nyata secara urut dan menyampaikan perasaannya dengan kata-kata yang tepat dan hidup, bukan hanya \"senang\" atau \"sedih\".",
+      "type": "bahasa",
+      "kelas": [5],
+      "evidence": [
+        "Menceritakan pengalaman mudik dengan urutan waktu yang jelas",
+        "Memakai kata perasaan yang beragam, misalnya \"lega\", \"deg-degan\", \"terharu\", \"kecewa\"",
+        "Menjelaskan mengapa ia merasa begitu, berdasarkan kejadian nyata"
+      ],
+      "parentPrompt": "Waktu makan malam, minta {{nama}} menceritakan satu kejadian yang paling berkesan minggu ini. Tanya, \"Waktu itu rasanya bagaimana? Coba cari kata selain senang.\"",
+      "cp": [
+        { "standard": "cp046.bind.C.bicara", "phrase": "menyampaikan perasaan berdasarkan fakta" }
+      ],
+      "requires": [
+        { "id": "bind.bicara.mengungkapkan-perasaan", "strength": "wajib", "reason": "Anak sudah harus bisa menyebut perasaannya dengan kata sederhana." },
+        { "id": "bind.bicara.menceritakan-kembali-urutan-cerita", "strength": "wajib", "reason": "Cerita pengalaman perlu disampaikan dengan urutan kejadian yang benar." }
+      ]
+    },
+    {
+      "slug": "mendongeng-dengan-ekspresi",
+      "elemen": "bicara",
+      "name": "Mendongeng dengan ekspresi dan suara tokoh",
+      "description": "Anak menceritakan dongeng, cerita rakyat, atau cerita karangannya sendiri dengan menarik, memakai suara yang berbeda untuk tokoh, ekspresi wajah, dan kata-kata yang hidup.",
+      "type": "bahasa",
+      "kelas": [5, 6],
+      "evidence": [
+        "Mengubah suara saat tokoh yang berbeda berbicara",
+        "Memakai kata tiruan bunyi dan kata yang hidup, misalnya \"brak!\" atau \"angin berdesir pelan\"",
+        "Menjaga pendengar tetap tertarik sampai akhir cerita yang berdurasi tiga sampai lima menit"
+      ],
+      "parentPrompt": "Minta {{nama}} mendongeng untuk adik atau sepupunya sebelum tidur, boleh cerita rakyat atau cerita karangannya sendiri. Perhatikan apakah suaranya berubah-ubah sesuai tokoh.",
+      "cp": [
+        { "standard": "cp046.bind.C.bicara", "phrase": "imajinasi (dari diri sendiri dan orang lain) secara indah dan menarik dalam bentuk teks sastra" }
+      ],
+      "requires": [
+        { "id": "bind.bicara.menceritakan-kembali-urutan-cerita", "strength": "wajib", "reason": "Mendongeng memerlukan kemampuan menceritakan urutan cerita dengan benar." },
+        { "id": "bind.bicara.mengatur-volume-dan-intonasi", "strength": "wajib", "reason": "Ekspresi dongeng bergantung pada pengaturan suara dan intonasi." },
+        { "id": "bind.simak.menyimak-cerita-rakyat-dan-nilainya", "strength": "bantu", "reason": "Cerita rakyat yang pernah didengar menjadi bahan dongeng." }
+      ]
+    },
+    {
+      "slug": "berbalas-pantun",
+      "elemen": "bicara",
+      "name": "Berbalas pantun secara lisan",
+      "description": "Anak mengucapkan pantun dan membalas pantun orang lain secara lisan, dengan rima yang tepat dan isi yang nyambung, seperti dalam acara adat atau lomba.",
+      "type": "bahasa",
+      "kelas": [5, 6],
+      "evidence": [
+        "Membalas pantun teka-teki atau nasihat dengan pantun yang isinya nyambung",
+        "Mengucapkan pantun dengan irama jelas dan jeda di antara sampiran dan isi",
+        "Menyusun pantun balasan secara spontan dalam satu menit"
+      ],
+      "parentPrompt": "Ajak {{nama}} berbalas pantun di rumah. Ayah atau ibu memulai dengan satu pantun, lalu {{nama}} membalas dengan pantunnya sendiri. Bergantian sampai ada yang kehabisan ide.",
+      "cp": [
+        { "standard": "cp046.bind.C.bicara", "phrase": "dengan penggunaan kosakata secara kreatif" }
+      ],
+      "requires": [
+        { "id": "bind.tulis.menulis-pantun", "strength": "wajib", "reason": "Anak perlu bisa menyusun pantun sebelum membalas pantun secara spontan." },
+        { "id": "bind.simak.menyimak-pantun", "strength": "wajib", "reason": "Membalas pantun memerlukan pemahaman isi pantun yang didengar." }
+      ]
+    },
+    {
+      "slug": "membacakan-puisi-karya-sendiri",
+      "elemen": "bicara",
+      "name": "Membacakan puisi karya sendiri dengan penghayatan",
+      "description": "Anak membacakan puisi karyanya sendiri atau puisi orang lain dengan penghayatan, memakai lafal, intonasi, ekspresi, dan gerak yang sesuai dengan suasana puisi.",
+      "type": "bahasa",
+      "kelas": [6],
+      "evidence": [
+        "Membacakan puisi karyanya sendiri dengan suara dan ekspresi yang sesuai suasana",
+        "Memberi tanda jeda dan tekanan pada naskah puisi sebelum membacakannya",
+        "Menjelaskan perasaan yang ingin disampaikan lewat puisinya"
+      ],
+      "parentPrompt": "Minta {{nama}} membacakan puisi buatannya sendiri untuk ulang tahun ibu atau di acara keluarga. Tanya sesudahnya, \"Perasaan apa yang ingin kamu sampaikan lewat puisi itu?\"",
+      "cp": [
+        { "standard": "cp046.bind.C.bicara", "phrase": "imajinasi (dari diri sendiri dan orang lain) secara indah dan menarik dalam bentuk teks sastra" }
+      ],
+      "requires": [
+        { "id": "bind.bicara.membaca-puisi-dengan-ekspresi", "strength": "wajib", "reason": "Dasar membaca puisi dengan ekspresi sudah dilatih di fase sebelumnya." },
+        { "id": "bind.tulis.menulis-puisi-dengan-majas", "strength": "bantu", "reason": "Puisi karya sendiri ditulis lebih dulu sebelum dibacakan." },
+        { "id": "bind.simak.menyimak-suasana-dan-perasaan-puisi", "strength": "bantu", "reason": "Anak perlu merasakan suasana puisi agar bisa membawakannya dengan tepat." }
+      ]
+    },
+    {
+      "slug": "menulis-kalimat-majemuk",
+      "elemen": "tulis",
+      "name": "Menulis kalimat majemuk dengan kata hubung",
+      "description": "Anak menulis kalimat majemuk (kalimat dengan dua bagian atau lebih) memakai kata hubung seperti \"karena\", \"sehingga\", \"ketika\", \"meskipun\", \"jika\", dengan tanda koma yang tepat.",
+      "type": "bahasa",
+      "kelas": [5],
+      "evidence": [
+        "Menggabungkan dua kalimat pendek menjadi satu kalimat dengan \"sehingga\"",
+        "Menulis kalimat dengan \"meskipun\" yang maknanya benar, misalnya \"Meskipun hujan, Rina tetap berangkat sekolah.\"",
+        "Memakai koma setelah anak kalimat yang ada di depan kalimat"
+      ],
+      "parentPrompt": "Beri {{nama}} dua kalimat pendek, misalnya \"Adik lapar.\" dan \"Ibu memasak nasi goreng.\" Minta {{nama}} menggabungkannya menjadi satu kalimat dengan kata \"karena\" atau \"sehingga\".",
+      "cp": [
+        { "standard": "cp046.bind.C.tulis", "phrase": "dengan rangkaian kalimat kompleks secara kreatif, menarik, dan/atau indah" }
+      ],
+      "requires": [
+        { "id": "bind.tulis.menulis-kalimat-efektif", "strength": "wajib", "reason": "Kalimat tunggal harus jelas dulu sebelum digabung menjadi kalimat majemuk." },
+        { "id": "bind.tulis.menggunakan-tanda-baca", "strength": "bantu", "reason": "Kalimat majemuk sering memerlukan tanda koma di tempat yang tepat." }
+      ]
+    },
+    {
+      "slug": "merangkai-paragraf-dengan-kata-penghubung",
+      "elemen": "tulis",
+      "name": "Merangkai paragraf dengan kata penghubung",
+      "description": "Anak menulis beberapa paragraf yang saling terhubung memakai kata penghubung antarkalimat dan antarparagraf, seperti \"pertama\", \"selain itu\", \"oleh karena itu\", \"akhirnya\".",
+      "type": "bahasa",
+      "kelas": [5, 6],
+      "evidence": [
+        "Menulis tiga paragraf yang masing-masing diawali kata penghubung yang tepat",
+        "Mengganti pengulangan \"terus\" dan \"lalu\" dengan kata penghubung yang beragam",
+        "Menjelaskan hubungan antara paragraf pertama dan kedua"
+      ],
+      "parentPrompt": "Baca tulisan {{nama}} tentang liburannya. Tunjukkan kalau ada banyak kata \"terus\". Ajak {{nama}} menggantinya dengan \"setelah itu\", \"kemudian\", atau \"akhirnya\".",
+      "cp": [
+        { "standard": "cp046.bind.C.tulis", "phrase": "dengan rangkaian kalimat kompleks secara kreatif, menarik, dan/atau indah" }
+      ],
+      "requires": [
+        { "id": "bind.tulis.menulis-kalimat-majemuk", "strength": "wajib", "reason": "Kata hubung di dalam kalimat dikuasai dulu sebelum kata penghubung antarparagraf." },
+        { "id": "bind.tulis.menulis-paragraf-dengan-ide-pokok", "strength": "wajib", "reason": "Anak harus bisa menulis satu paragraf yang utuh sebelum merangkai beberapa paragraf." }
+      ]
+    },
+    {
+      "slug": "mengenal-makna-denotatif-dan-konotatif",
+      "elemen": "tulis",
+      "name": "Membedakan makna denotatif dan konotatif",
+      "description": "Anak memahami bahwa satu kata bisa bermakna denotatif (arti sebenarnya, seperti di kamus) atau konotatif (arti tambahan atau kiasan), misalnya \"kepala sekolah\", \"buah tangan\", \"tangan kanan\".",
+      "type": "konsep",
+      "kelas": [5],
+      "evidence": [
+        "Menjelaskan beda \"Kakinya terluka\" (denotatif) dan \"kaki gunung\" (konotatif)",
+        "Menyebut arti \"buah tangan\", \"keras kepala\", dan \"kambing hitam\"",
+        "Mengelompokkan sepuluh frasa ke dalam kelompok arti sebenarnya dan arti kiasan"
+      ],
+      "parentPrompt": "Saat ada yang bilang \"Jangan lupa bawa buah tangan\" atau \"Dia anak emas\", tanya {{nama}}, \"Maksudnya buah dan emas sungguhan, atau ada arti lain?\"",
+      "cp": [
+        { "standard": "cp046.bind.C.tulis", "phrase": "kosakata baru yang memiliki makna denotatif dan konotatif" }
+      ],
+      "requires": [
+        { "id": "bind.tulis.menggunakan-kosakata-baru-dalam-tulisan", "strength": "wajib", "reason": "Anak sudah memakai kata baru dengan arti sebenarnya sebelum mengenal arti kiasan." },
+        { "id": "bind.baca.mencari-arti-kata-di-kamus", "strength": "bantu", "reason": "Makna denotatif adalah arti yang tertulis di kamus." }
+      ]
+    },
+    {
+      "slug": "memakai-kata-konotatif-dan-ungkapan",
+      "elemen": "tulis",
+      "name": "Memakai ungkapan dan kata kiasan dalam tulisan",
+      "description": "Anak memakai kata bermakna konotatif, ungkapan, dan majas sederhana (perbandingan dengan \"seperti\", benda yang seolah hidup) agar tulisannya lebih hidup dan indah, dengan arti yang tepat.",
+      "type": "bahasa",
+      "kelas": [5, 6],
+      "evidence": [
+        "Menulis kalimat dengan perbandingan, misalnya \"Suaranya merdu seperti burung kenari\"",
+        "Menulis kalimat yang membuat benda seolah hidup, misalnya \"Angin membelai daun pisang\"",
+        "Memakai satu ungkapan dalam karangan dengan arti yang benar"
+      ],
+      "parentPrompt": "Ajak {{nama}} menggambarkan hujan sore ini dengan kalimat yang indah, misalnya \"Hujan menari di atap seng.\" Bergantian membuat kalimat, siapa yang paling kreatif?",
+      "cp": [
+        { "standard": "cp046.bind.C.tulis", "phrase": "kosakata baru yang memiliki makna denotatif dan konotatif" }
+      ],
+      "requires": [
+        { "id": "bind.tulis.mengenal-makna-denotatif-dan-konotatif", "strength": "wajib", "reason": "Anak perlu memahami makna konotatif sebelum memakainya dalam tulisan." }
+      ]
+    },
+    {
+      "slug": "memakai-kata-baku-dan-istilah",
+      "elemen": "tulis",
+      "name": "Memakai kata baku dan istilah dengan tepat",
+      "description": "Anak memakai kata baku (misalnya \"praktik\", \"analisis\", \"nasihat\") dan istilah baru dari pelajaran dengan ejaan dan arti yang tepat dalam tulisan resmi.",
+      "type": "bahasa",
+      "kelas": [5, 6],
+      "evidence": [
+        "Memilih kata baku dari pasangan \"apotek/apotik\", \"praktek/praktik\", \"nasehat/nasihat\"",
+        "Memakai dua istilah baru dari pelajaran IPAS, misalnya \"ekosistem\" dan \"fotosintesis\", dalam kalimat yang benar",
+        "Mengecek ejaan kata yang ragu di KBBI daring"
+      ],
+      "parentPrompt": "Saat melihat papan nama toko atau spanduk, tanya {{nama}}, \"Tulisan 'apotik' itu baku atau tidak? Yang benar apa?\" Cek bersama di aplikasi KBBI.",
+      "cp": [
+        { "standard": "cp046.bind.C.tulis", "phrase": "menggunakan kaidah kebahasaan dan kosakata baru" }
+      ],
+      "requires": [
+        { "id": "bind.baca.membaca-istilah-dan-kata-serapan", "strength": "wajib", "reason": "Anak perlu bisa membaca dan memahami istilah sebelum memakainya dalam tulisan." },
+        { "id": "bind.tulis.menggunakan-kosakata-baru-dalam-tulisan", "strength": "wajib", "reason": "Kebiasaan memakai kata baru dilanjutkan dengan memilih bentuk yang baku." }
+      ]
+    },
+    {
+      "slug": "menulis-teks-laporan-pengamatan",
+      "elemen": "tulis",
+      "name": "Menulis laporan hasil pengamatan",
+      "description": "Anak menulis laporan dari pengamatannya sendiri dengan susunan pernyataan umum, rincian ciri atau hasil yang diamati, dan kesimpulan.",
+      "type": "bahasa",
+      "kelas": [5, 6],
+      "evidence": [
+        "Menulis laporan tiga paragraf tentang tanaman cabai di halaman rumah",
+        "Menyertakan data nyata dari pengamatan, misalnya warna, ukuran, atau jumlah",
+        "Menulis kesimpulan yang sesuai dengan data yang dicatat"
+      ],
+      "parentPrompt": "Minta {{nama}} mengamati satu hal di rumah, misalnya ayam peliharaan atau pot tanaman, selama tiga hari dan mencatatnya. Lalu minta dia menulis laporan pendek dari catatan itu.",
+      "cp": [
+        { "standard": "cp046.bind.C.tulis", "phrase": "hasil pengamatan" }
+      ],
+      "requires": [
+        { "id": "bind.baca.memahami-teks-laporan-pengamatan", "strength": "wajib", "reason": "Anak perlu mengenal susunan teks laporan sebelum menulisnya." },
+        { "id": "bind.tulis.menulis-teks-deskripsi", "strength": "bantu", "reason": "Menggambarkan ciri benda sudah dilatih lewat teks deskripsi." },
+        { "id": "bind.tulis.menulis-kalimat-majemuk", "strength": "bantu", "reason": "Laporan memerlukan kalimat yang menjelaskan hubungan antarhasil pengamatan." }
+      ]
+    },
+    {
+      "slug": "menulis-teks-eksplanasi",
+      "elemen": "tulis",
+      "name": "Menulis penjelasan proses terjadinya sesuatu",
+      "description": "Anak menulis teks eksplanasi tentang proses alam atau sosial (misalnya terjadinya pelangi atau banjir) dengan urutan proses dan hubungan sebab-akibat yang jelas.",
+      "type": "bahasa",
+      "kelas": [6],
+      "evidence": [
+        "Menulis teks tiga paragraf tentang terjadinya banjir: pembuka, urutan sebab-akibat, penutup",
+        "Memakai kata penghubung sebab-akibat seperti \"karena\", \"akibatnya\", \"oleh sebab itu\"",
+        "Menyertakan diagram alur sederhana yang sesuai dengan isi tulisan"
+      ],
+      "parentPrompt": "Tanya {{nama}}, \"Bagaimana cara nasi mentah bisa jadi nasi matang di rice cooker?\" Minta dia menuliskan prosesnya langkah demi langkah dengan kata \"karena\" dan \"akibatnya\".",
+      "cp": [
+        { "standard": "cp046.bind.C.tulis", "phrase": "Menulis berbagai tipe teks sederhana berdasarkan gagasan" }
+      ],
+      "requires": [
+        { "id": "bind.baca.memahami-teks-eksplanasi", "strength": "wajib", "reason": "Anak perlu memahami susunan teks eksplanasi sebelum menulisnya." },
+        { "id": "bind.tulis.merangkai-paragraf-dengan-kata-penghubung", "strength": "wajib", "reason": "Urutan proses ditulis dalam paragraf yang dihubungkan kata penghubung." }
+      ]
+    },
+    {
+      "slug": "menulis-teks-eksposisi",
+      "elemen": "tulis",
+      "name": "Menulis pendapat dengan alasan dan bukti",
+      "description": "Anak menulis teks eksposisi sederhana: satu pendapat utama, dua atau tiga alasan yang didukung fakta, dan penegasan ulang di akhir.",
+      "type": "bahasa",
+      "kelas": [6],
+      "evidence": [
+        "Menulis pendapat \"Membuang sampah di sungai harus dilarang\" dengan tiga alasan",
+        "Mendukung setiap alasan dengan satu fakta atau contoh nyata",
+        "Menutup tulisan dengan penegasan pendapat atau saran"
+      ],
+      "parentPrompt": "Ajak {{nama}} memilih satu hal yang dia yakini, misalnya \"Jajan sembarangan itu berbahaya\". Minta dia menulis pendapatnya beserta tiga alasan dan bukti, lalu bacakan untuk keluarga.",
+      "cp": [
+        { "standard": "cp046.bind.C.tulis", "phrase": "Menulis berbagai tipe teks sederhana berdasarkan gagasan" }
+      ],
+      "requires": [
+        { "id": "bind.baca.memahami-teks-eksposisi", "strength": "wajib", "reason": "Anak perlu mengenali pendapat dan alasan dalam teks eksposisi sebelum menulisnya." },
+        { "id": "bind.tulis.merangkai-paragraf-dengan-kata-penghubung", "strength": "wajib", "reason": "Alasan-alasan dirangkai dalam paragraf dengan kata seperti \"selain itu\"." }
+      ]
+    },
+    {
+      "slug": "menulis-teks-berita-sederhana",
+      "elemen": "tulis",
+      "name": "Menulis teks berita kegiatan sekolah",
+      "description": "Anak menulis teks berita pendek tentang kejadian nyata di sekolah atau lingkungan, memuat unsur 5W1H (apa, siapa, kapan, di mana, mengapa, bagaimana) dan hanya berisi fakta.",
+      "type": "bahasa",
+      "kelas": [6],
+      "evidence": [
+        "Menulis teks berita tentang lomba 17-an di kampung yang memuat keenam unsur 5W1H",
+        "Menulis judul singkat yang menarik dan sesuai isi",
+        "Tidak memasukkan pendapat pribadi ke dalam isi teks berita"
+      ],
+      "parentPrompt": "Setelah ada acara di kampung atau sekolah, misalnya kerja bakti atau lomba 17-an, minta {{nama}} menulis kabarnya seperti wartawan koran. Cek apakah sudah ada siapa, apa, kapan, di mana, mengapa, dan bagaimana.",
+      "cp": [
+        { "standard": "cp046.bind.C.tulis", "phrase": "hasil pengamatan, pengalaman" }
+      ],
+      "requires": [
+        { "id": "bind.simak.menyimak-berita-dan-pengumuman", "strength": "wajib", "reason": "Anak perlu sering mendengar siaran kabar untuk mengenal susunannya." },
+        { "id": "bind.baca.membedakan-fakta-dan-opini-dalam-bacaan", "strength": "wajib", "reason": "Teks berita hanya boleh berisi fakta, jadi anak harus bisa memilah opini." },
+        { "id": "bind.tulis.menulis-kalimat-majemuk", "strength": "bantu", "reason": "Unsur 5W1H sering digabung dalam kalimat majemuk di paragraf pertama." }
+      ]
+    },
+    {
+      "slug": "menulis-hasil-wawancara",
+      "elemen": "tulis",
+      "name": "Menulis laporan hasil wawancara",
+      "description": "Anak mengubah catatan wawancara menjadi tulisan utuh, baik dalam bentuk tanya jawab maupun paragraf, dengan kutipan langsung yang memakai tanda petik.",
+      "type": "bahasa",
+      "kelas": [6],
+      "evidence": [
+        "Menulis hasil wawancara dengan nenek dalam dua atau tiga paragraf",
+        "Memakai satu kutipan langsung dengan tanda petik dan koma yang benar",
+        "Menyebut nama dan pekerjaan narasumber di awal tulisan"
+      ],
+      "parentPrompt": "Setelah {{nama}} mewawancarai anggota keluarga, minta dia menuliskan hasilnya. Ajak dia memasukkan satu kalimat asli narasumber dengan tanda petik, misalnya: Kakek berkata, \"Dulu sekolah jalan kaki lima kilometer.\"",
+      "cp": [
+        { "standard": "cp046.bind.C.tulis", "phrase": "Menulis berbagai tipe teks sederhana berdasarkan gagasan" }
+      ],
+      "requires": [
+        { "id": "bind.bicara.melakukan-wawancara", "strength": "wajib", "reason": "Tulisan disusun dari catatan wawancara yang dilakukan anak sendiri." },
+        { "id": "bind.tulis.merangkai-paragraf-dengan-kata-penghubung", "strength": "bantu", "reason": "Jawaban narasumber dirangkai menjadi paragraf yang saling terhubung." }
+      ]
+    },
+    {
+      "slug": "menulis-pantun",
+      "elemen": "tulis",
+      "name": "Menulis pantun dengan rima a-b-a-b",
+      "description": "Anak menulis pantun empat baris dengan sampiran dan isi, rima akhir a-b-a-b, dan jumlah suku kata yang kira-kira sama (8–12) di setiap baris.",
+      "type": "bahasa",
+      "kelas": [5],
+      "evidence": [
+        "Menulis pantun nasihat dengan bunyi akhir baris 1 dan 3 sama, serta baris 2 dan 4 sama",
+        "Menghitung suku kata setiap baris dan memperbaikinya jika terlalu pendek atau panjang",
+        "Menulis pantun jenis lain, misalnya pantun jenaka atau teka-teki"
+      ],
+      "parentPrompt": "Beri {{nama}} isi pantun, misalnya \"Rajin belajar setiap hari, supaya pintar dan jadi juara.\" Minta dia membuat dua baris sampiran yang bunyinya cocok, misalnya tentang pasar atau sawah.",
+      "cp": [
+        { "standard": "cp046.bind.C.tulis", "phrase": "dan/atau imajinasi dengan rangkaian kalimat kompleks secara kreatif, menarik, dan/atau indah" }
+      ],
+      "requires": [
+        { "id": "bind.simak.menyimak-pantun", "strength": "wajib", "reason": "Anak perlu memahami sampiran, isi, dan rima pantun sebelum menulisnya." },
+        { "id": "bind.tulis.menulis-puisi-sederhana", "strength": "bantu", "reason": "Pengalaman menulis puisi anak membantu anak menyusun baris yang berirama." }
+      ]
+    },
+    {
+      "slug": "menulis-puisi-dengan-majas",
+      "elemen": "tulis",
+      "name": "Menulis puisi dengan bahasa kiasan",
+      "description": "Anak menulis puisi bebas tentang pengalaman, perasaan, atau imajinasinya dengan memakai kata konotatif, majas, dan pengulangan bunyi agar puisinya indah.",
+      "type": "bahasa",
+      "kelas": [6],
+      "evidence": [
+        "Menulis puisi tiga bait tentang ibu atau kampung halaman",
+        "Memakai minimal dua majas, misalnya perbandingan dan benda yang seolah hidup",
+        "Memilih judul yang sesuai dengan isi dan suasana puisi"
+      ],
+      "parentPrompt": "Minta {{nama}} menulis puisi pendek untuk seseorang di keluarga, misalnya untuk ulang tahun nenek. Ajak dia memakai satu perbandingan, misalnya \"senyummu hangat seperti matahari pagi\".",
+      "cp": [
+        { "standard": "cp046.bind.C.tulis", "phrase": "dan/atau imajinasi dengan rangkaian kalimat kompleks secara kreatif, menarik, dan/atau indah" },
+        { "standard": "cp046.bind.C.tulis", "phrase": "kosakata baru yang memiliki makna denotatif dan konotatif" }
+      ],
+      "requires": [
+        { "id": "bind.tulis.menulis-puisi-sederhana", "strength": "wajib", "reason": "Dasar menulis puisi anak sudah dilatih di fase sebelumnya." },
+        { "id": "bind.tulis.memakai-kata-konotatif-dan-ungkapan", "strength": "wajib", "reason": "Puisi yang indah memerlukan kemampuan memakai kata kiasan." }
+      ]
+    },
+    {
+      "slug": "menulis-cerpen",
+      "elemen": "tulis",
+      "name": "Menulis cerpen dengan konflik dan penyelesaian",
+      "description": "Anak menulis cerita pendek dari imajinasi atau pengalaman, dengan tokoh, latar, konflik, puncak, dan penyelesaian, memakai dialog dan kalimat yang hidup.",
+      "type": "bahasa",
+      "kelas": [6],
+      "evidence": [
+        "Menulis cerpen satu sampai dua halaman dengan satu masalah yang jelas dan cara penyelesaiannya",
+        "Menulis dialog dengan tanda petik dan huruf kapital yang benar",
+        "Menggambarkan latar dengan kata-kata yang membuat pembaca bisa membayangkannya"
+      ],
+      "parentPrompt": "Beri {{nama}} awal cerita, misalnya \"Suatu pagi, sandal kesayangan Raka hilang dari depan masjid.\" Minta dia melanjutkan sampai masalahnya selesai, lalu bacakan cerpennya di depan keluarga.",
+      "cp": [
+        { "standard": "cp046.bind.C.tulis", "phrase": "dan/atau imajinasi dengan rangkaian kalimat kompleks secara kreatif, menarik, dan/atau indah" }
+      ],
+      "requires": [
+        { "id": "bind.baca.menganalisis-unsur-cerpen", "strength": "wajib", "reason": "Anak perlu mengenali tema, alur, dan konflik cerpen sebelum menulisnya." },
+        { "id": "bind.tulis.menulis-teks-narasi-pengalaman", "strength": "wajib", "reason": "Menulis cerita pengalaman adalah dasar menulis cerpen." },
+        { "id": "bind.tulis.memakai-kata-konotatif-dan-ungkapan", "strength": "bantu", "reason": "Kata kiasan membuat cerpen lebih hidup dan menarik." }
+      ]
+    },
+    {
+      "slug": "menyunting-tulisan-sesuai-ejaan",
+      "elemen": "tulis",
+      "name": "Menyunting tulisan sesuai ejaan EYD",
+      "description": "Anak memeriksa dan memperbaiki tulisannya sendiri atau tulisan teman sesuai kaidah EYD (Ejaan yang Disempurnakan), termasuk tanda petik, penulisan angka, kata depan, kata baku, dan susunan kalimat.",
+      "type": "meta",
+      "kelas": [6],
+      "evidence": [
+        "Menemukan dan memperbaiki lima kesalahan ejaan dalam satu paragraf",
+        "Memperbaiki penulisan angka, misalnya \"5 orang\" menjadi \"lima orang\" di awal kalimat",
+        "Memberi catatan perbaikan yang santun pada tulisan teman"
+      ],
+      "parentPrompt": "Minta {{nama}} membaca ulang tulisannya sendiri pelan-pelan sebelum dikumpulkan. Tanya, \"Coba cari tiga hal yang bisa diperbaiki, misalnya ejaan, tanda baca, atau kalimat yang terlalu panjang.\"",
+      "cp": [
+        { "standard": "cp046.bind.C.tulis", "phrase": "menggunakan kaidah kebahasaan" }
+      ],
+      "requires": [
+        { "id": "bind.tulis.memeriksa-dan-memperbaiki-tulisan", "strength": "wajib", "reason": "Kebiasaan memeriksa tulisan sendiri sudah dibangun di fase sebelumnya." },
+        { "id": "bind.tulis.memakai-kata-baku-dan-istilah", "strength": "wajib", "reason": "Penyuntingan memerlukan pengetahuan kata baku." },
+        { "id": "bind.tulis.menulis-kalimat-majemuk", "strength": "bantu", "reason": "Anak perlu tahu letak koma dalam kalimat majemuk untuk memperbaikinya." }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,192 @@
 {
   "version": "v1",
-  "clusterCount": 0,
-  "clusters": []
+  "clusterCount": 31,
+  "clusters": [
+    {
+      "mapel": "bind",
+      "elemenCode": "simak",
+      "fase": "A",
+      "summary": "Di kelas 1–2, anak belajar mendengarkan dengan penuh perhatian. Anak belajar mengikuti perintah dua atau tiga langkah, menyebut tokoh dan kejadian dari dongeng, dan menangkap pesan dari cerita. Di rumah, bacakan satu dongeng pendek sebelum tidur, lalu tanyakan siapa tokohnya dan apa yang terjadi."
+    },
+    {
+      "mapel": "bind",
+      "elemenCode": "baca",
+      "fase": "A",
+      "summary": "Di kelas 1–2, anak belajar membaca dari awal. Anak mengenal huruf dan bunyinya, membaca suku kata seperti ba, bi, bu, lalu membaca kata dan kalimat sederhana. Anak juga belajar memahami isi bacaan pendek. Di rumah, ajak anak membaca tulisan di sekitar, seperti nama warung, merek di bungkus makanan, atau papan jalan."
+    },
+    {
+      "mapel": "bind",
+      "elemenCode": "bicara",
+      "fase": "A",
+      "summary": "Di kelas 1–2, anak belajar berbicara dengan jelas dan santun. Anak belajar memperkenalkan diri dan keluarga, menunggu giliran saat berbicara, dan bercerita dari sebuah gambar. Anak juga belajar mengungkapkan perasaan dengan kata-kata. Di rumah, tanyakan kegiatan anak hari ini dan minta ia menjawab dengan kalimat lengkap."
+    },
+    {
+      "mapel": "bind",
+      "elemenCode": "tulis",
+      "fase": "A",
+      "summary": "Di kelas 1–2, anak belajar menulis dari dasar. Anak belajar memegang pensil dengan benar, menulis huruf kecil dan huruf kapital, lalu menulis nama sendiri. Setelah itu anak menulis kalimat pendek dengan huruf kapital dan titik. Di rumah, minta anak menulis daftar belanja pendek atau nama anggota keluarga."
+    },
+    {
+      "mapel": "bind",
+      "elemenCode": "simak",
+      "fase": "B",
+      "summary": "Di kelas 3–4, anak belajar menangkap isi dari apa yang didengar. Anak belajar menemukan ide pokok, mencatat hal penting, dan menyebut urutan kejadian dalam cerita. Anak juga belajar menangkap amanat, yaitu pesan baik dari cerita. Di rumah, ceritakan satu kejadian, lalu minta anak mengulang urutannya dari awal sampai akhir."
+    },
+    {
+      "mapel": "bind",
+      "elemenCode": "baca",
+      "fase": "B",
+      "summary": "Di kelas 3–4, anak membaca teks yang lebih panjang dengan lancar. Anak belajar menemukan ide pokok sebuah paragraf, mencari arti kata di kamus, dan memahami teks langkah-langkah seperti resep. Anak juga membaca label, jadwal, dan tabel. Di rumah, ajak anak membaca resep atau label kemasan, lalu tanyakan isinya."
+    },
+    {
+      "mapel": "bind",
+      "elemenCode": "bicara",
+      "fase": "B",
+      "summary": "Di kelas 3–4, anak belajar menyampaikan pendapat dengan alasan. Anak belajar mengatur keras suara dan intonasi, membacakan puisi dengan ekspresi, dan mengikuti aturan saat berdiskusi. Anak juga belajar menjelaskan cara membuat sesuatu secara lisan. Di rumah, minta anak menjelaskan cara membuat teh manis langkah demi langkah."
+    },
+    {
+      "mapel": "bind",
+      "elemenCode": "tulis",
+      "fase": "B",
+      "summary": "Di kelas 3–4, anak belajar menulis dengan ejaan dan tanda baca yang benar. Anak belajar memakai titik, koma, dan tanda tanya, lalu menulis cerita pengalaman, deskripsi benda, dan surat singkat. Anak juga belajar memeriksa tulisannya sendiri. Di rumah, minta anak menulis cerita pendek tentang liburan, lalu baca bersama."
+    },
+    {
+      "mapel": "bind",
+      "elemenCode": "simak",
+      "fase": "C",
+      "summary": "Di kelas 5–6, anak belajar mendengarkan dengan kritis. Anak belajar merangkum isi yang didengar, membedakan fakta dan pendapat, dan mengenali bujukan dalam iklan. Anak juga menilai benar tidaknya pesan suara berantai. Di rumah, dengarkan iklan bersama anak, lalu tanyakan bagian mana yang fakta dan bagian mana yang hanya bujukan."
+    },
+    {
+      "mapel": "bind",
+      "elemenCode": "baca",
+      "fase": "C",
+      "summary": "Di kelas 5–6, anak belajar memahami dan menilai isi bacaan. Anak belajar membedakan fakta dan opini, membaca grafik dan infografik, dan memeriksa kebenaran pesan berantai. Anak juga membahas tema dan konflik dalam cerpen. Di rumah, saat ada pesan berantai di grup keluarga, ajak anak memeriksa apakah isinya benar."
+    },
+    {
+      "mapel": "bind",
+      "elemenCode": "bicara",
+      "fase": "C",
+      "summary": "Di kelas 5–6, anak belajar berbicara di depan orang banyak. Anak belajar presentasi dengan poster atau slide, berpidato singkat, dan mewawancarai narasumber dengan santun. Anak juga belajar mempertahankan pendapat dengan fakta saat berdiskusi. Di rumah, biarkan anak mewawancarai kakek atau nenek tentang masa kecil mereka."
+    },
+    {
+      "mapel": "bind",
+      "elemenCode": "tulis",
+      "fase": "C",
+      "summary": "Di kelas 5–6, anak belajar menulis tulisan yang lebih panjang dan tersusun. Anak menulis laporan hasil pengamatan, pendapat dengan alasan dan bukti, serta cerpen dan pantun. Anak juga belajar memakai kata baku dan menyunting tulisannya sendiri. Di rumah, minta anak menulis laporan pendek tentang kegiatan keluarga, lalu baca bersama."
+    },
+    {
+      "mapel": "ipas",
+      "elemenCode": "paham",
+      "fase": "B",
+      "summary": "Di kelas 3–4, anak mengenal alam dan lingkungan sosial di sekitarnya. Anak belajar tentang pancaindra, siklus hidup kupu-kupu dan katak, perubahan wujud seperti es mencair, serta membaca peta. Anak juga belajar nilai uang dan bedanya kebutuhan dengan keinginan. Di rumah, ajak anak mengamati es batu mencair atau mencatat uang jajannya."
+    },
+    {
+      "mapel": "ipas",
+      "elemenCode": "proses",
+      "fase": "B",
+      "summary": "Di kelas 3–4, anak belajar cara kerja ilmuwan secara sederhana. Anak mengamati benda, membuat dugaan sebelum mencoba, lalu melakukan percobaan kecil. Anak juga belajar mengukur dengan penggaris, timbangan, dan termometer, lalu mencatat hasilnya. Di rumah, ajak anak menebak benda mana yang tenggelam di air, lalu mencobanya bersama."
+    },
+    {
+      "mapel": "ipas",
+      "elemenCode": "paham",
+      "fase": "C",
+      "summary": "Di kelas 5–6, anak belajar tentang tubuh, bumi, dan bangsanya. Anak mempelajari pencernaan dan pernapasan, rantai makanan, tata surya, serta gunung api dan gempa di Indonesia. Anak juga belajar sejarah kerajaan sampai Proklamasi dan kegiatan jual beli. Di rumah, ajak anak bersiaga gempa atau berbincang tentang pahlawan dari daerah sendiri."
+    },
+    {
+      "mapel": "ipas",
+      "elemenCode": "proses",
+      "fase": "C",
+      "summary": "Di kelas 5–6, anak belajar menyelidiki sesuatu dengan lebih teliti. Anak belajar membuat percobaan adil dengan hanya mengubah satu hal, menyusun data dalam tabel, dan membuat grafik batang. Anak juga menulis laporan penyelidikan dengan alasan dari bukti. Di rumah, ajak anak mengukur tinggi tanaman tiap minggu dan mencatatnya dalam tabel."
+    },
+    {
+      "mapel": "mat",
+      "elemenCode": "bil",
+      "fase": "A",
+      "summary": "Di kelas 1–2, anak belajar mengenal bilangan dan berhitung. Anak membilang benda sampai 100, memahami puluhan dan satuan, serta menjumlah dan mengurang, termasuk yang melewati 10. Anak juga mengenal setengah dan seperempat dari kue atau kumpulan benda. Di rumah, minta anak menghitung kelereng atau kacang, lalu membaginya sama banyak untuk dua orang."
+    },
+    {
+      "mapel": "mat",
+      "elemenCode": "alj",
+      "fase": "A",
+      "summary": "Di kelas 1–2, anak belajar melihat pola dan memahami arti tanda sama dengan. Anak meniru dan melanjutkan pola gambar atau warna, menulis kalimat matematika dari gambar, dan mencari bilangan yang hilang, misalnya 3 + … = 7. Di rumah, susun sendok dan garpu berselang-seling, lalu minta anak melanjutkan polanya."
+    },
+    {
+      "mapel": "mat",
+      "elemenCode": "ukur",
+      "fase": "A",
+      "summary": "Di kelas 1–2, anak belajar membandingkan dan mengukur. Anak membandingkan mana yang lebih panjang, lebih berat, atau lebih lama, lalu mengukur panjang dengan jengkal atau benda lain. Anak juga belajar memperkirakan panjang dan berat sebelum mengukur. Di rumah, minta anak mengukur panjang meja dengan jengkalnya, lalu bandingkan dengan jengkal Anda."
+    },
+    {
+      "mapel": "mat",
+      "elemenCode": "geo",
+      "fase": "A",
+      "summary": "Di kelas 1–2, anak mengenal bentuk dan posisi. Anak mengenal segitiga, segiempat, dan lingkaran, serta benda berbentuk kubus, balok, dan bola. Anak juga menyusun bentuk dari potongan bentuk lain dan membedakan kanan, kiri, atas, dan bawah. Di rumah, ajak anak mencari benda berbentuk lingkaran atau balok di dapur."
+    },
+    {
+      "mapel": "mat",
+      "elemenCode": "data",
+      "fase": "A",
+      "summary": "Di kelas 1–2, anak belajar mengelompokkan dan mencatat. Anak menyortir benda menurut warna atau jenisnya, mencatat jumlah dengan turus (garis hitungan), dan membaca piktogram, yaitu diagram dengan gambar. Di rumah, minta anak mengelompokkan sandal atau mainan, lalu menghitung kelompok mana yang paling banyak."
+    },
+    {
+      "mapel": "mat",
+      "elemenCode": "bil",
+      "fase": "B",
+      "summary": "Di kelas 3–4, anak belajar bilangan sampai 10.000 dan berhitung lebih jauh. Anak menjumlah dan mengurang bersusun dengan menyimpan dan meminjam, menguasai perkalian sampai 10 × 10, dan memahami pembagian sebagai berbagi rata. Anak juga mengenal pecahan, desimal, dan persen. Di rumah, ajak anak menjumlah belanjaan di warung dan membulatkannya ke ribuan terdekat."
+    },
+    {
+      "mapel": "mat",
+      "elemenCode": "alj",
+      "fase": "B",
+      "summary": "Di kelas 3–4, anak belajar melihat aturan dalam pola dan kalimat matematika. Anak melanjutkan pola bilangan yang membesar atau mengecil, misalnya 5, 10, 15, dan memahami bahwa 3 + 4 sama dengan 4 + 3. Anak juga mencari bilangan yang hilang agar kedua sisi seimbang. Di rumah, sebutkan satu pola bilangan dan minta anak menebak angka berikutnya."
+    },
+    {
+      "mapel": "mat",
+      "elemenCode": "ukur",
+      "fase": "B",
+      "summary": "Di kelas 3–4, anak belajar mengukur dengan alat dan satuan baku. Anak mengukur panjang dengan penggaris dan meteran, menimbang dalam gram dan kilogram, dan tahu bahwa 1 meter sama dengan 100 sentimeter. Anak juga mulai mengukur luas dengan persegi kecil dan isi wadah dengan gelas. Di rumah, ajak anak menimbang beras atau gula di dapur."
+    },
+    {
+      "mapel": "mat",
+      "elemenCode": "geo",
+      "fase": "B",
+      "summary": "Di kelas 3–4, anak mengenal ciri bangun datar dengan lebih teliti. Anak mengenal sudut siku-siku, membedakan persegi dan persegi panjang, serta mengenal macam-macam segitiga dan segiempat. Anak juga menyusun dan mengurai bangun datar dengan beberapa cara. Di rumah, minta anak mencari sudut siku-siku di rumah, misalnya pada pojok buku atau ubin."
+    },
+    {
+      "mapel": "mat",
+      "elemenCode": "data",
+      "fase": "B",
+      "summary": "Di kelas 3–4, anak belajar menyajikan dan membaca data. Anak membuat tabel, piktogram, dan diagram batang, lalu membandingkan mana yang paling banyak dan paling sedikit. Anak juga belajar menarik kesimpulan sederhana dari data. Di rumah, ajak anak mencatat cuaca setiap hari selama seminggu dalam tabel, lalu bahas hasilnya bersama."
+    },
+    {
+      "mapel": "mat",
+      "elemenCode": "bil",
+      "fase": "C",
+      "summary": "Di kelas 5–6, anak berhitung dengan bilangan sampai satu juta, pecahan, dan desimal. Anak belajar perkalian bersusun dan pembagian porogapit (pembagian bersusun ke bawah), mencari KPK dan FPB, serta menjumlah pecahan yang penyebutnya berbeda. Anak juga menghitung kembalian dan harga setelah diskon. Di rumah, ajak anak menghitung harga barang diskon saat berbelanja."
+    },
+    {
+      "mapel": "mat",
+      "elemenCode": "alj",
+      "fase": "C",
+      "summary": "Di kelas 5–6, anak belajar menemukan aturan pola dan memakai perbandingan. Anak mencari bilangan yang belum diketahui, menemukan aturan pola yang dikali atau dibagi, dan memahami rasio, yaitu perbandingan dua jumlah. Anak juga memakai skala pada denah dan peta. Di rumah, minta anak menghitung bahan resep jika porsinya dibuat dua kali lipat."
+    },
+    {
+      "mapel": "mat",
+      "elemenCode": "ukur",
+      "fase": "C",
+      "summary": "Di kelas 5–6, anak belajar menghitung keliling, luas, waktu, dan sudut. Anak menghitung luas persegi panjang, segitiga, dan bangun gabungan, serta membedakan keliling dan luas. Anak juga menghitung lama suatu kegiatan dan mengukur sudut dengan busur derajat. Di rumah, ajak anak menghitung luas lantai kamar dari jumlah ubinnya."
+    },
+    {
+      "mapel": "mat",
+      "elemenCode": "geo",
+      "fase": "C",
+      "summary": "Di kelas 5–6, anak belajar tentang bangun ruang dan peta. Anak mengenal sisi, rusuk, dan titik sudut kubus dan balok, memahami jaring-jaringnya, dan menggambar tampak depan, atas, dan samping. Anak juga menjelaskan rute pada peta berpetak. Di rumah, buka sebuah kotak kardus bersama anak dan lihat bentuk jaring-jaringnya."
+    },
+    {
+      "mapel": "mat",
+      "elemenCode": "data",
+      "fase": "C",
+      "summary": "Di kelas 5–6, anak belajar mengolah data dan menilai peluang. Anak membuat tabel frekuensi (tabel jumlah kemunculan), diagram batang dengan skala, dan memilih cara menyajikan data yang cocok. Anak juga membedakan kejadian yang pasti, mungkin, dan tidak mungkin. Di rumah, tanyakan apakah besok pasti hujan, mungkin hujan, atau tidak mungkin hujan, dan minta alasannya."
+    }
+  ]
 }

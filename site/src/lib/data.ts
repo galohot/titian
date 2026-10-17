@@ -47,6 +47,7 @@ export const deps = depsDoc.dependencies as Dep[];
 export const clusters = clustersDoc.clusters as { mapel: string; elemenCode: string; fase: Fase; summary: string }[];
 export const standards = standardsDoc.standards as Standard[];
 export const standardsSource = standardsDoc.source;
+export const mapelCount = standardsDoc.mapel.length;
 export { manifest };
 
 export const FASES: Fase[] = ['A', 'B', 'C'];

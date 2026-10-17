@@ -9,28 +9,28 @@
   "source": "046/H/KR/2025",
   "counts": {
     "standards": 125,
-    "topics": 148,
-    "dependencies": 204,
-    "clusters": 0
+    "topics": 426,
+    "dependencies": 840,
+    "clusters": 31
   },
   "perMapel": {
     "bind": {
-      "topics": 45,
+      "topics": 142,
       "A": 45,
-      "B": 0,
-      "C": 0
+      "B": 48,
+      "C": 49
     },
     "ipas": {
-      "topics": 53,
+      "topics": 110,
       "A": 0,
       "B": 53,
-      "C": 0
+      "C": 57
     },
     "mat": {
-      "topics": 50,
+      "topics": 174,
       "A": 50,
-      "B": 0,
-      "C": 0
+      "B": 62,
+      "C": 62
     }
   },
   "files": [
@@ -41,18 +41,18 @@
     },
     {
       "file": "data/topics.json",
-      "sha256": "aa66eb19bf18e73aba9bb95ab56b82c0f41add1edacc74ed6efe4858a7c3023b",
-      "bytes": 174168
+      "sha256": "3c1369e1948c5053e9643179543821afca9c6da6ac164391ca70e5ed3669f70a",
+      "bytes": 517046
     },
     {
       "file": "data/dependencies.json",
-      "sha256": "112175fc782499dd759ea36e21afd9f26210621e7862998b42a64811f9aa029c",
-      "bytes": 49858
+      "sha256": "3b06adf87d1353be78014e52419a8959d235795595b21226cb103f72be1eef68",
+      "bytes": 204759
     },
     {
       "file": "data/clusters.json",
-      "sha256": "daa63107fc649bf23b08ad20ebff697188df86fc803b8364ad8213695ec9119d",
-      "bytes": 61
+      "sha256": "65629cb40915b731b0fcb4100e77208b8e038fa9dc511f92bbbd33e43f75040c",
+      "bytes": 13572
     }
   ]
 }

@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { standardsSource, topics, deps, standards } from '../lib/data';
+import { standardsSource, topics, deps, standards, mapelCount } from '../lib/data';
 ---
 <Base title="Tentang Titian" description="Cara Titian disusun dari Capaian Pembelajaran resmi, batasannya, sumber, dan lisensinya." path="/tentang/">
   <p class="eyebrow">Tentang</p>
@@ -10,7 +10,7 @@ import { standardsSource, topics, deps, standards } from '../lib/data';
 
     <h2>Dari mana isinya</h2>
     <p>Sumbernya satu: {standardsSource.title}. Keputusan ini ditetapkan pada 16 Juli 2025. Perubahan tahun 2026 (Keputusan Kepala BKPDM Nomor 020 Tahun 2026) hanya mengubah mata pelajaran Agama dan Budi Pekerti, yang belum masuk Titian.</p>
-    <p>Titian menyimpan {standards.length} butir Capaian Pembelajaran SD (Fase A–C) dari 12 mata pelajaran, kata per kata. Untuk versi pertama, topik baru disusun untuk Matematika, Bahasa Indonesia, dan IPAS.</p>
+    <p>Titian menyimpan {standards.length} butir Capaian Pembelajaran SD (Fase A–C) dari {mapelCount} mata pelajaran, kata per kata. Untuk versi pertama, topik baru disusun untuk Matematika, Bahasa Indonesia, dan IPAS.</p>
 
     <h2>Cara menyusunnya</h2>
     <ol>

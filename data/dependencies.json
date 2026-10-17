@@ -1,6 +1,6 @@
 {
   "version": "v1",
-  "dependencyCount": 204,
+  "dependencyCount": 840,
   "dependencies": [
     {
       "topic": "bind.simak.mengikuti-perintah-lisan",
@@ -409,6 +409,1212 @@
       "requires": "bind.tulis.menulis-rapi-dengan-spasi",
       "strength": "bantu",
       "reason": "Tulisan beberapa kalimat harus rapi agar bisa dibaca orang lain."
+    },
+    {
+      "topic": "bind.simak.menentukan-ide-pokok-teks-yang-didengar",
+      "requires": "bind.simak.memahami-teks-informasi-yang-dibacakan",
+      "strength": "wajib",
+      "reason": "Anak harus bisa menangkap isi teks informasi sebelum memilih mana yang paling pokok."
+    },
+    {
+      "topic": "bind.simak.menyimak-petunjuk-dan-prosedur",
+      "requires": "bind.simak.mengikuti-perintah-lisan",
+      "strength": "wajib",
+      "reason": "Mengikuti perintah dua atau tiga langkah adalah dasar untuk menyimak prosedur yang lebih panjang."
+    },
+    {
+      "topic": "bind.simak.menyimak-petunjuk-dan-prosedur",
+      "requires": "bind.simak.memahami-teks-informasi-yang-dibacakan",
+      "strength": "bantu",
+      "reason": "Petunjuk adalah salah satu bentuk teks informasi."
+    },
+    {
+      "topic": "bind.simak.mencatat-informasi-penting-saat-menyimak",
+      "requires": "bind.simak.menentukan-ide-pokok-teks-yang-didengar",
+      "strength": "wajib",
+      "reason": "Anak perlu tahu apa yang pokok supaya tahu apa yang perlu dicatat."
+    },
+    {
+      "topic": "bind.simak.mencatat-informasi-penting-saat-menyimak",
+      "requires": "bind.tulis.menulis-kata-yang-didiktekan",
+      "strength": "wajib",
+      "reason": "Mencatat sambil mendengar butuh kemampuan menulis kata yang didengar dengan cepat."
+    },
+    {
+      "topic": "bind.simak.menyimak-berita-dan-pengumuman",
+      "requires": "bind.simak.menentukan-ide-pokok-teks-yang-didengar",
+      "strength": "wajib",
+      "reason": "Memahami berita dimulai dari menangkap ide pokoknya."
+    },
+    {
+      "topic": "bind.simak.menyimak-berita-dan-pengumuman",
+      "requires": "bind.simak.menangkap-informasi-dari-percakapan",
+      "strength": "bantu",
+      "reason": "Pertanyaan siapa, apa, dan di mana sudah dilatih pada percakapan sehari-hari."
+    },
+    {
+      "topic": "bind.simak.menyimak-urutan-peristiwa-cerita",
+      "requires": "bind.simak.menyimak-dongeng-tokoh-dan-kejadian",
+      "strength": "wajib",
+      "reason": "Anak harus bisa menyebut kejadian dalam dongeng sebelum mengurutkannya."
+    },
+    {
+      "topic": "bind.simak.menyimak-watak-tokoh-cerita",
+      "requires": "bind.simak.menyimak-urutan-peristiwa-cerita",
+      "strength": "wajib",
+      "reason": "Sifat tokoh dilihat dari perbuatannya di dalam rangkaian kejadian."
+    },
+    {
+      "topic": "bind.simak.menyimak-latar-cerita",
+      "requires": "bind.simak.menyimak-urutan-peristiwa-cerita",
+      "strength": "wajib",
+      "reason": "Latar ditangkap sambil mengikuti jalan cerita."
+    },
+    {
+      "topic": "bind.simak.menyimak-amanat-cerita",
+      "requires": "bind.simak.menyimak-watak-tokoh-cerita",
+      "strength": "wajib",
+      "reason": "Amanat sering terlihat dari akibat sifat dan perbuatan tokoh."
+    },
+    {
+      "topic": "bind.simak.menyimak-amanat-cerita",
+      "requires": "bind.simak.menangkap-pesan-cerita",
+      "strength": "wajib",
+      "reason": "Menangkap pesan sederhana di Fase A adalah dasar untuk menyebut amanat."
+    },
+    {
+      "topic": "bind.simak.menyimak-puisi-yang-dibacakan",
+      "requires": "bind.simak.menyimak-puisi-dan-lagu-anak",
+      "strength": "wajib",
+      "reason": "Anak sudah terbiasa mendengar puisi pendek dan lagu anak di Fase A."
+    },
+    {
+      "topic": "bind.baca.membaca-kata-berimbuhan",
+      "requires": "bind.baca.membaca-lancar-dengan-jeda-dan-intonasi",
+      "strength": "wajib",
+      "reason": "Anak harus sudah membaca lancar kata dasar sebelum membaca kata yang lebih panjang."
+    },
+    {
+      "topic": "bind.baca.membaca-kata-berimbuhan",
+      "requires": "bind.baca.membaca-kata-tiga-suku-kata",
+      "strength": "wajib",
+      "reason": "Kata berimbuhan biasanya terdiri atas tiga suku kata atau lebih."
+    },
+    {
+      "topic": "bind.baca.membaca-teks-dengan-fasih",
+      "requires": "bind.baca.membaca-lancar-dengan-jeda-dan-intonasi",
+      "strength": "wajib",
+      "reason": "Membaca lancar kalimat pendek adalah dasar untuk membaca teks yang lebih panjang."
+    },
+    {
+      "topic": "bind.baca.membaca-teks-dengan-fasih",
+      "requires": "bind.baca.membaca-kata-berimbuhan",
+      "strength": "bantu",
+      "reason": "Teks kelas 3 berisi banyak kata berimbuhan."
+    },
+    {
+      "topic": "bind.baca.memahami-kata-baru-dari-tayangan",
+      "requires": "bind.baca.memahami-isi-tayangan",
+      "strength": "wajib",
+      "reason": "Anak perlu paham isi tayangan untuk menebak arti kata di dalamnya."
+    },
+    {
+      "topic": "bind.baca.memahami-kata-baru-dari-tayangan",
+      "requires": "bind.baca.menebak-arti-kata-baru-dari-bacaan",
+      "strength": "wajib",
+      "reason": "Cara menebak arti dari konteks sudah dilatih pada bacaan."
+    },
+    {
+      "topic": "bind.baca.mencari-arti-kata-di-kamus",
+      "requires": "bind.baca.membaca-kata-berimbuhan",
+      "strength": "wajib",
+      "reason": "Anak harus bisa menemukan kata dasar sebelum mencarinya di kamus."
+    },
+    {
+      "topic": "bind.baca.mencari-arti-kata-di-kamus",
+      "requires": "bind.baca.menebak-arti-kata-baru-dari-bacaan",
+      "strength": "bantu",
+      "reason": "Anak sudah biasa menebak arti, dan kamus dipakai untuk memeriksa tebakan itu."
+    },
+    {
+      "topic": "bind.baca.membaca-istilah-dan-kata-serapan",
+      "requires": "bind.baca.mencari-arti-kata-di-kamus",
+      "strength": "wajib",
+      "reason": "Arti istilah baru sering harus dicari di kamus."
+    },
+    {
+      "topic": "bind.baca.membaca-istilah-dan-kata-serapan",
+      "requires": "bind.baca.membaca-teks-dengan-fasih",
+      "strength": "bantu",
+      "reason": "Istilah panjang lebih mudah dibaca kalau anak sudah fasih membaca."
+    },
+    {
+      "topic": "bind.baca.menentukan-ide-pokok-paragraf",
+      "requires": "bind.baca.memahami-isi-bacaan-pendek",
+      "strength": "wajib",
+      "reason": "Anak harus paham isi bacaan sebelum mencari bagian yang paling pokok."
+    },
+    {
+      "topic": "bind.baca.menentukan-ide-pokok-paragraf",
+      "requires": "bind.baca.membaca-teks-dengan-fasih",
+      "strength": "wajib",
+      "reason": "Membaca fasih membuat anak bisa fokus pada makna."
+    },
+    {
+      "topic": "bind.baca.menentukan-ide-pokok-paragraf",
+      "requires": "bind.simak.menentukan-ide-pokok-teks-yang-didengar",
+      "strength": "bantu",
+      "reason": "Mencari ide pokok dari teks yang didengar melatih cara berpikir yang sama."
+    },
+    {
+      "topic": "bind.baca.menemukan-ide-pendukung",
+      "requires": "bind.baca.menentukan-ide-pokok-paragraf",
+      "strength": "wajib",
+      "reason": "Ide pendukung hanya bisa dikenali kalau ide pokoknya sudah ditemukan."
+    },
+    {
+      "topic": "bind.baca.memahami-teks-deskripsi",
+      "requires": "bind.baca.membaca-teks-dengan-fasih",
+      "strength": "wajib",
+      "reason": "Anak perlu membaca teks pendek dengan lancar untuk menangkap ciri yang disebut."
+    },
+    {
+      "topic": "bind.baca.memahami-teks-deskripsi",
+      "requires": "bind.baca.memahami-isi-bacaan-pendek",
+      "strength": "bantu",
+      "reason": "Memahami bacaan pendek adalah dasar untuk memahami teks deskripsi."
+    },
+    {
+      "topic": "bind.baca.memahami-teks-prosedur",
+      "requires": "bind.baca.membaca-teks-dengan-fasih",
+      "strength": "wajib",
+      "reason": "Teks prosedur harus dibaca dengan lancar supaya langkahnya tidak salah."
+    },
+    {
+      "topic": "bind.baca.memahami-teks-prosedur",
+      "requires": "bind.simak.menyimak-petunjuk-dan-prosedur",
+      "strength": "bantu",
+      "reason": "Menyimak petunjuk melatih pemahaman urutan langkah."
+    },
+    {
+      "topic": "bind.baca.membaca-informasi-pada-label-dan-jadwal",
+      "requires": "bind.baca.memirsa-gambar-dan-tanda-di-sekitar",
+      "strength": "wajib",
+      "reason": "Membaca tanda dan simbol sederhana adalah dasar membaca label dan tabel."
+    },
+    {
+      "topic": "bind.baca.membaca-informasi-pada-label-dan-jadwal",
+      "requires": "bind.baca.membaca-teks-dengan-fasih",
+      "strength": "bantu",
+      "reason": "Label berisi kata dan istilah yang harus dibaca dengan tepat."
+    },
+    {
+      "topic": "bind.baca.memahami-unsur-cerita",
+      "requires": "bind.baca.memahami-isi-bacaan-pendek",
+      "strength": "wajib",
+      "reason": "Anak harus paham isi cerita pendek sebelum memilah unsurnya."
+    },
+    {
+      "topic": "bind.baca.memahami-unsur-cerita",
+      "requires": "bind.simak.menyimak-latar-cerita",
+      "strength": "bantu",
+      "reason": "Menyebut latar dari cerita yang didengar melatih kemampuan yang sama."
+    },
+    {
+      "topic": "bind.baca.membaca-dan-memahami-puisi",
+      "requires": "bind.baca.membaca-teks-dengan-fasih",
+      "strength": "wajib",
+      "reason": "Puisi perlu dibaca lancar sebelum isinya bisa dipahami."
+    },
+    {
+      "topic": "bind.baca.membaca-dan-memahami-puisi",
+      "requires": "bind.simak.menyimak-puisi-yang-dibacakan",
+      "strength": "bantu",
+      "reason": "Mendengar puisi lebih dulu membantu anak menangkap irama dan isinya."
+    },
+    {
+      "topic": "bind.baca.menemukan-pesan-dalam-bacaan",
+      "requires": "bind.baca.memahami-unsur-cerita",
+      "strength": "wajib",
+      "reason": "Pesan cerita terlihat dari tokoh dan kejadiannya."
+    },
+    {
+      "topic": "bind.baca.menemukan-pesan-dalam-bacaan",
+      "requires": "bind.simak.menyimak-amanat-cerita",
+      "strength": "bantu",
+      "reason": "Menangkap amanat dari cerita yang didengar adalah latihan awalnya."
+    },
+    {
+      "topic": "bind.baca.membaca-teks-elektronik",
+      "requires": "bind.baca.menentukan-ide-pokok-paragraf",
+      "strength": "wajib",
+      "reason": "Anak harus bisa menemukan ide pokok sebelum membaca teks layar yang panjang dan ramai."
+    },
+    {
+      "topic": "bind.baca.membaca-teks-elektronik",
+      "requires": "bind.tulis.mengetik-kata-di-gawai",
+      "strength": "bantu",
+      "reason": "Anak yang biasa memakai ponsel lebih mudah membaca teks di layar."
+    },
+    {
+      "topic": "bind.baca.memahami-surat-dan-pesan",
+      "requires": "bind.baca.membaca-informasi-pada-label-dan-jadwal",
+      "strength": "wajib",
+      "reason": "Mencari informasi waktu dan tempat sudah dilatih pada label dan jadwal."
+    },
+    {
+      "topic": "bind.baca.memahami-surat-dan-pesan",
+      "requires": "bind.baca.membaca-teks-dengan-fasih",
+      "strength": "bantu",
+      "reason": "Surat perlu dibaca lancar dari salam pembuka sampai penutup."
+    },
+    {
+      "topic": "bind.bicara.menyampaikan-pendapat-dengan-alasan",
+      "requires": "bind.bicara.menanggapi-pendapat-orang-lain",
+      "strength": "wajib",
+      "reason": "Anak sudah biasa menanggapi omongan orang lain sebelum menyusun pendapat sendiri."
+    },
+    {
+      "topic": "bind.bicara.menyampaikan-pendapat-dengan-alasan",
+      "requires": "bind.bicara.menjawab-pertanyaan-dengan-kalimat-lengkap",
+      "strength": "wajib",
+      "reason": "Pendapat disampaikan dengan kalimat lengkap."
+    },
+    {
+      "topic": "bind.bicara.memilih-kata-sesuai-lawan-bicara",
+      "requires": "bind.bicara.berbicara-santun-dan-bergiliran",
+      "strength": "wajib",
+      "reason": "Berbicara santun adalah dasar memilih kata yang tepat untuk tiap orang."
+    },
+    {
+      "topic": "bind.bicara.menggunakan-gestur-dan-kontak-mata",
+      "requires": "bind.bicara.memperkenalkan-diri",
+      "strength": "wajib",
+      "reason": "Anak sudah pernah berbicara di depan orang lain saat memperkenalkan diri."
+    },
+    {
+      "topic": "bind.bicara.menggunakan-gestur-dan-kontak-mata",
+      "requires": "bind.bicara.menyampaikan-pendapat-dengan-alasan",
+      "strength": "bantu",
+      "reason": "Gerak tubuh membuat pendapat lebih meyakinkan."
+    },
+    {
+      "topic": "bind.bicara.mengatur-volume-dan-intonasi",
+      "requires": "bind.baca.membaca-lancar-dengan-jeda-dan-intonasi",
+      "strength": "wajib",
+      "reason": "Intonasi sudah dilatih saat membaca nyaring di Fase A."
+    },
+    {
+      "topic": "bind.bicara.mengatur-volume-dan-intonasi",
+      "requires": "bind.bicara.menyampaikan-pendapat-dengan-alasan",
+      "strength": "bantu",
+      "reason": "Pendapat lebih jelas kalau volume dan intonasinya tepat."
+    },
+    {
+      "topic": "bind.bicara.membaca-puisi-dengan-ekspresi",
+      "requires": "bind.bicara.mengatur-volume-dan-intonasi",
+      "strength": "wajib",
+      "reason": "Membaca puisi membutuhkan pengaturan suara dan intonasi."
+    },
+    {
+      "topic": "bind.bicara.membaca-puisi-dengan-ekspresi",
+      "requires": "bind.baca.membaca-dan-memahami-puisi",
+      "strength": "wajib",
+      "reason": "Anak harus paham isi puisi supaya ekspresinya cocok."
+    },
+    {
+      "topic": "bind.bicara.presentasi-singkat-di-depan-kelas",
+      "requires": "bind.bicara.memilih-kata-sesuai-lawan-bicara",
+      "strength": "wajib",
+      "reason": "Presentasi memakai kata yang sopan dan baku."
+    },
+    {
+      "topic": "bind.bicara.presentasi-singkat-di-depan-kelas",
+      "requires": "bind.bicara.menggunakan-gestur-dan-kontak-mata",
+      "strength": "wajib",
+      "reason": "Gestur dan tatapan membuat presentasi menarik."
+    },
+    {
+      "topic": "bind.bicara.presentasi-singkat-di-depan-kelas",
+      "requires": "bind.bicara.mengatur-volume-dan-intonasi",
+      "strength": "wajib",
+      "reason": "Pendengar di kelas harus bisa mendengar dengan jelas."
+    },
+    {
+      "topic": "bind.bicara.mengikuti-tata-cara-diskusi",
+      "requires": "bind.bicara.berbicara-santun-dan-bergiliran",
+      "strength": "wajib",
+      "reason": "Menunggu giliran sudah dilatih di Fase A."
+    },
+    {
+      "topic": "bind.bicara.mengikuti-tata-cara-diskusi",
+      "requires": "bind.simak.menyimak-dengan-perhatian",
+      "strength": "bantu",
+      "reason": "Diskusi butuh kemampuan mendengarkan teman dengan perhatian."
+    },
+    {
+      "topic": "bind.bicara.menyatakan-setuju-dan-tidak-setuju",
+      "requires": "bind.bicara.mengikuti-tata-cara-diskusi",
+      "strength": "wajib",
+      "reason": "Anak harus bisa mengikuti aturan diskusi sebelum menyanggah dengan santun."
+    },
+    {
+      "topic": "bind.bicara.menyatakan-setuju-dan-tidak-setuju",
+      "requires": "bind.bicara.menyampaikan-pendapat-dengan-alasan",
+      "strength": "wajib",
+      "reason": "Setuju atau tidak setuju harus disertai alasan."
+    },
+    {
+      "topic": "bind.bicara.menceritakan-kembali-urutan-cerita",
+      "requires": "bind.bicara.menceritakan-kembali-cerita-yang-didengar",
+      "strength": "wajib",
+      "reason": "Menceritakan kembali cerita pendek sudah dilatih di Fase A."
+    },
+    {
+      "topic": "bind.bicara.menceritakan-kembali-urutan-cerita",
+      "requires": "bind.simak.menyimak-urutan-peristiwa-cerita",
+      "strength": "wajib",
+      "reason": "Anak harus menangkap urutan kejadian sebelum menceritakannya kembali."
+    },
+    {
+      "topic": "bind.bicara.menceritakan-kembali-informasi-dari-teks",
+      "requires": "bind.baca.menemukan-ide-pendukung",
+      "strength": "wajib",
+      "reason": "Anak harus bisa memilah ide pokok dan ide pendukung sebelum menyampaikannya kembali."
+    },
+    {
+      "topic": "bind.bicara.menceritakan-kembali-informasi-dari-teks",
+      "requires": "bind.bicara.menceritakan-kembali-bacaan-dan-tayangan",
+      "strength": "wajib",
+      "reason": "Menceritakan kembali bacaan dan tayangan sederhana sudah dilatih di Fase A."
+    },
+    {
+      "topic": "bind.bicara.menceritakan-kembali-informasi-dari-teks",
+      "requires": "bind.simak.menyimak-berita-dan-pengumuman",
+      "strength": "bantu",
+      "reason": "Memahami berita yang didengar adalah dasar untuk menyampaikannya kembali."
+    },
+    {
+      "topic": "bind.bicara.menjelaskan-langkah-secara-lisan",
+      "requires": "bind.baca.memahami-teks-prosedur",
+      "strength": "wajib",
+      "reason": "Anak harus paham susunan teks prosedur sebelum menjelaskannya sendiri."
+    },
+    {
+      "topic": "bind.bicara.menjelaskan-langkah-secara-lisan",
+      "requires": "bind.bicara.menceritakan-kembali-urutan-cerita",
+      "strength": "bantu",
+      "reason": "Menyebut urutan dengan kata penghubung sudah dilatih saat menceritakan kembali cerita."
+    },
+    {
+      "topic": "bind.tulis.menggunakan-huruf-kapital-sesuai-ejaan",
+      "requires": "bind.tulis.menulis-kalimat-sederhana",
+      "strength": "wajib",
+      "reason": "Anak sudah memakai huruf kapital di awal kalimat."
+    },
+    {
+      "topic": "bind.tulis.menggunakan-huruf-kapital-sesuai-ejaan",
+      "requires": "bind.tulis.menulis-huruf-kapital",
+      "strength": "wajib",
+      "reason": "Anak harus bisa menulis semua bentuk huruf kapital."
+    },
+    {
+      "topic": "bind.tulis.menggunakan-tanda-baca",
+      "requires": "bind.tulis.menulis-kalimat-sederhana",
+      "strength": "wajib",
+      "reason": "Anak sudah menutup kalimat dengan titik."
+    },
+    {
+      "topic": "bind.tulis.menggunakan-tanda-baca",
+      "requires": "bind.baca.membaca-lancar-dengan-jeda-dan-intonasi",
+      "strength": "bantu",
+      "reason": "Jeda saat membaca membantu anak tahu di mana koma dan titik diletakkan."
+    },
+    {
+      "topic": "bind.tulis.menulis-kalimat-beragam",
+      "requires": "bind.tulis.menggunakan-tanda-baca",
+      "strength": "wajib",
+      "reason": "Jenis kalimat ditandai dengan titik, tanda tanya, atau tanda seru."
+    },
+    {
+      "topic": "bind.tulis.menulis-kalimat-beragam",
+      "requires": "bind.tulis.menulis-beberapa-kalimat-tentang-diri",
+      "strength": "wajib",
+      "reason": "Anak sudah bisa menulis beberapa kalimat sederhana berturut-turut."
+    },
+    {
+      "topic": "bind.tulis.menulis-kata-depan-dan-imbuhan",
+      "requires": "bind.baca.membaca-kata-berimbuhan",
+      "strength": "wajib",
+      "reason": "Anak harus mengenali kata berimbuhan sebelum menulisnya dengan benar."
+    },
+    {
+      "topic": "bind.tulis.menulis-kata-depan-dan-imbuhan",
+      "requires": "bind.tulis.menggunakan-huruf-kapital-sesuai-ejaan",
+      "strength": "bantu",
+      "reason": "Aturan ejaan dipelajari bertahap, dimulai dari huruf kapital."
+    },
+    {
+      "topic": "bind.tulis.menulis-teks-deskripsi",
+      "requires": "bind.baca.memahami-teks-deskripsi",
+      "strength": "wajib",
+      "reason": "Anak perlu mengenal bentuk teks deskripsi sebelum menulisnya."
+    },
+    {
+      "topic": "bind.tulis.menulis-teks-deskripsi",
+      "requires": "bind.tulis.menulis-kalimat-beragam",
+      "strength": "wajib",
+      "reason": "Deskripsi terdiri atas beberapa kalimat yang saling berhubungan."
+    },
+    {
+      "topic": "bind.tulis.menulis-teks-prosedur",
+      "requires": "bind.baca.memahami-teks-prosedur",
+      "strength": "wajib",
+      "reason": "Anak harus sudah mengenal susunan teks prosedur."
+    },
+    {
+      "topic": "bind.tulis.menulis-teks-prosedur",
+      "requires": "bind.tulis.menulis-kalimat-beragam",
+      "strength": "wajib",
+      "reason": "Langkah prosedur memakai kalimat perintah."
+    },
+    {
+      "topic": "bind.tulis.menulis-teks-narasi-pengalaman",
+      "requires": "bind.tulis.menulis-kalimat-beragam",
+      "strength": "wajib",
+      "reason": "Cerita yang hidup membutuhkan kalimat yang beragam dan kata penghubung."
+    },
+    {
+      "topic": "bind.tulis.menulis-teks-narasi-pengalaman",
+      "requires": "bind.tulis.menulis-tentang-keluarga-dan-lingkungan",
+      "strength": "wajib",
+      "reason": "Anak sudah biasa menulis beberapa kalimat tentang keluarga dan lingkungannya."
+    },
+    {
+      "topic": "bind.tulis.menulis-teks-narasi-pengalaman",
+      "requires": "bind.bicara.menceritakan-kembali-urutan-cerita",
+      "strength": "bantu",
+      "reason": "Bercerita lisan dengan urutan yang benar membantu menulis cerita yang runtut."
+    },
+    {
+      "topic": "bind.tulis.menulis-paragraf-dengan-ide-pokok",
+      "requires": "bind.baca.menemukan-ide-pendukung",
+      "strength": "wajib",
+      "reason": "Anak harus bisa mengenali ide pokok dan ide pendukung dalam bacaan sebelum menulisnya sendiri."
+    },
+    {
+      "topic": "bind.tulis.menulis-paragraf-dengan-ide-pokok",
+      "requires": "bind.tulis.menulis-kalimat-beragam",
+      "strength": "wajib",
+      "reason": "Paragraf dibangun dari rangkaian kalimat yang beragam."
+    },
+    {
+      "topic": "bind.tulis.menulis-puisi-sederhana",
+      "requires": "bind.baca.membaca-dan-memahami-puisi",
+      "strength": "wajib",
+      "reason": "Anak perlu mengenal bait, larik, dan rima sebelum menulis puisi."
+    },
+    {
+      "topic": "bind.tulis.menulis-puisi-sederhana",
+      "requires": "bind.tulis.menulis-kalimat-beragam",
+      "strength": "bantu",
+      "reason": "Anak perlu bisa menyusun kalimat dengan berbagai cara."
+    },
+    {
+      "topic": "bind.tulis.menulis-surat-dan-pesan-singkat",
+      "requires": "bind.tulis.menggunakan-tanda-baca",
+      "strength": "wajib",
+      "reason": "Surat dan pesan butuh tanda baca yang benar supaya jelas."
+    },
+    {
+      "topic": "bind.tulis.menulis-surat-dan-pesan-singkat",
+      "requires": "bind.bicara.memilih-kata-sesuai-lawan-bicara",
+      "strength": "wajib",
+      "reason": "Memilih kata sesuai penerima sudah dilatih saat berbicara."
+    },
+    {
+      "topic": "bind.tulis.menulis-surat-dan-pesan-singkat",
+      "requires": "bind.baca.memahami-surat-dan-pesan",
+      "strength": "bantu",
+      "reason": "Anak perlu mengenal bagian surat dari membacanya."
+    },
+    {
+      "topic": "bind.tulis.menggunakan-kosakata-baru-dalam-tulisan",
+      "requires": "bind.baca.mencari-arti-kata-di-kamus",
+      "strength": "wajib",
+      "reason": "Arti sebenarnya sebuah kata dipastikan dengan melihat kamus."
+    },
+    {
+      "topic": "bind.tulis.menggunakan-kosakata-baru-dalam-tulisan",
+      "requires": "bind.tulis.menulis-kalimat-beragam",
+      "strength": "bantu",
+      "reason": "Kata baru dipakai di dalam kalimat yang tersusun benar."
+    },
+    {
+      "topic": "bind.tulis.menulis-kalimat-efektif",
+      "requires": "bind.tulis.menulis-kalimat-beragam",
+      "strength": "wajib",
+      "reason": "Anak perlu bisa menyusun berbagai kalimat sebelum menyederhanakannya."
+    },
+    {
+      "topic": "bind.tulis.menulis-kalimat-efektif",
+      "requires": "bind.tulis.menulis-kata-depan-dan-imbuhan",
+      "strength": "bantu",
+      "reason": "Kalimat efektif juga harus benar ejaannya."
+    },
+    {
+      "topic": "bind.tulis.memeriksa-dan-memperbaiki-tulisan",
+      "requires": "bind.tulis.menggunakan-huruf-kapital-sesuai-ejaan",
+      "strength": "wajib",
+      "reason": "Anak harus tahu aturan kapital supaya bisa menemukan kesalahannya."
+    },
+    {
+      "topic": "bind.tulis.memeriksa-dan-memperbaiki-tulisan",
+      "requires": "bind.tulis.menggunakan-tanda-baca",
+      "strength": "wajib",
+      "reason": "Anak harus tahu aturan tanda baca supaya bisa memeriksanya."
+    },
+    {
+      "topic": "bind.tulis.memeriksa-dan-memperbaiki-tulisan",
+      "requires": "bind.tulis.menulis-kata-depan-dan-imbuhan",
+      "strength": "bantu",
+      "reason": "Penulisan \"di\" sering salah dan perlu diperiksa."
+    },
+    {
+      "topic": "bind.simak.menyimak-teks-eksplanasi",
+      "requires": "bind.simak.menentukan-ide-pokok-teks-yang-didengar",
+      "strength": "wajib",
+      "reason": "Anak perlu bisa menangkap ide pokok sebelum menelusuri sebab dan akibat dalam penjelasan."
+    },
+    {
+      "topic": "bind.simak.menyimak-teks-eksplanasi",
+      "requires": "bind.simak.menyimak-petunjuk-dan-prosedur",
+      "strength": "bantu",
+      "reason": "Terbiasa mengikuti urutan langkah membantu anak mengikuti urutan sebuah proses."
+    },
+    {
+      "topic": "bind.simak.merangkum-teks-yang-didengar",
+      "requires": "bind.simak.mencatat-informasi-penting-saat-menyimak",
+      "strength": "wajib",
+      "reason": "Rangkuman disusun dari catatan hal penting yang dibuat saat menyimak."
+    },
+    {
+      "topic": "bind.simak.merangkum-teks-yang-didengar",
+      "requires": "bind.simak.menyimak-teks-eksplanasi",
+      "strength": "bantu",
+      "reason": "Memahami alur penjelasan membantu anak memilih bagian yang harus masuk rangkuman."
+    },
+    {
+      "topic": "bind.simak.membedakan-fakta-dan-opini-saat-menyimak",
+      "requires": "bind.simak.menyimak-berita-dan-pengumuman",
+      "strength": "wajib",
+      "reason": "Anak harus bisa memahami isi siaran kabar sebelum memilah fakta dan pendapat di dalamnya."
+    },
+    {
+      "topic": "bind.simak.membedakan-fakta-dan-opini-saat-menyimak",
+      "requires": "bind.bicara.menyampaikan-pendapat-dengan-alasan",
+      "strength": "bantu",
+      "reason": "Anak yang pernah menyampaikan pendapat sendiri lebih mudah mengenali pendapat orang lain."
+    },
+    {
+      "topic": "bind.simak.menyimak-iklan-dan-kata-bujukan",
+      "requires": "bind.simak.membedakan-fakta-dan-opini-saat-menyimak",
+      "strength": "wajib",
+      "reason": "Kata bujukan dalam iklan sering berupa opini yang disajikan seperti fakta."
+    },
+    {
+      "topic": "bind.simak.menilai-kebenaran-pesan-suara",
+      "requires": "bind.simak.membedakan-fakta-dan-opini-saat-menyimak",
+      "strength": "wajib",
+      "reason": "Menilai kebenaran pesan dimulai dari memisahkan fakta yang bisa dicek dari pendapat."
+    },
+    {
+      "topic": "bind.simak.menilai-kebenaran-pesan-suara",
+      "requires": "bind.simak.menyimak-iklan-dan-kata-bujukan",
+      "strength": "bantu",
+      "reason": "Pesan berantai sering memakai bujukan dan nada mendesak seperti iklan."
+    },
+    {
+      "topic": "bind.simak.menyimak-wawancara",
+      "requires": "bind.simak.mencatat-informasi-penting-saat-menyimak",
+      "strength": "wajib",
+      "reason": "Anak perlu terbiasa mencatat hal penting saat menyimak jawaban narasumber."
+    },
+    {
+      "topic": "bind.simak.menyimak-wawancara",
+      "requires": "bind.bicara.bertanya-dengan-kata-tanya",
+      "strength": "bantu",
+      "reason": "Mengenal kata tanya membantu anak mengenali pertanyaan dalam wawancara."
+    },
+    {
+      "topic": "bind.simak.menyimak-konflik-dan-penyelesaian-cerita",
+      "requires": "bind.simak.menyimak-urutan-peristiwa-cerita",
+      "strength": "wajib",
+      "reason": "Konflik dan penyelesaian hanya terlihat jika anak bisa mengikuti urutan kejadian."
+    },
+    {
+      "topic": "bind.simak.menyimak-konflik-dan-penyelesaian-cerita",
+      "requires": "bind.simak.menyimak-watak-tokoh-cerita",
+      "strength": "bantu",
+      "reason": "Sifat tokoh sering menjelaskan mengapa masalah muncul dan bagaimana diselesaikan."
+    },
+    {
+      "topic": "bind.simak.menyimak-tema-dan-amanat-cerpen",
+      "requires": "bind.simak.menyimak-amanat-cerita",
+      "strength": "wajib",
+      "reason": "Anak sudah harus bisa menangkap amanat sebelum membedakannya dari tema."
+    },
+    {
+      "topic": "bind.simak.menyimak-tema-dan-amanat-cerpen",
+      "requires": "bind.simak.menyimak-konflik-dan-penyelesaian-cerita",
+      "strength": "wajib",
+      "reason": "Tema dan amanat biasanya terlihat dari cara tokoh menyelesaikan masalahnya."
+    },
+    {
+      "topic": "bind.simak.menyimak-cerita-rakyat-dan-nilainya",
+      "requires": "bind.simak.menyimak-latar-cerita",
+      "strength": "wajib",
+      "reason": "Mengenali tempat dan waktu cerita membantu anak melihat budaya yang tergambar di dalamnya."
+    },
+    {
+      "topic": "bind.simak.menyimak-cerita-rakyat-dan-nilainya",
+      "requires": "bind.simak.menyimak-tema-dan-amanat-cerpen",
+      "strength": "bantu",
+      "reason": "Kemampuan menemukan amanat dipakai lagi untuk menemukan nilai cerita rakyat."
+    },
+    {
+      "topic": "bind.simak.menyimak-pantun",
+      "requires": "bind.simak.menyimak-puisi-yang-dibacakan",
+      "strength": "wajib",
+      "reason": "Anak perlu terbiasa memahami isi puisi sebelum mengenali bagian khusus pantun."
+    },
+    {
+      "topic": "bind.simak.menyimak-suasana-dan-perasaan-puisi",
+      "requires": "bind.simak.menyimak-puisi-yang-dibacakan",
+      "strength": "wajib",
+      "reason": "Memahami isi puisi lebih dulu baru bisa menangkap suasana dan perasaannya."
+    },
+    {
+      "topic": "bind.simak.menyimak-suasana-dan-perasaan-puisi",
+      "requires": "bind.simak.menyimak-pantun",
+      "strength": "bantu",
+      "reason": "Latihan mendengar bunyi dan maksud pantun melatih kepekaan pada bahasa puisi."
+    },
+    {
+      "topic": "bind.baca.membaca-kata-dengan-gugus-konsonan-dan-diftong",
+      "requires": "bind.baca.membaca-gabungan-huruf-ng-ny",
+      "strength": "wajib",
+      "reason": "Gabungan huruf ng dan ny adalah pola kombinasi paling dasar sebelum gugus konsonan."
+    },
+    {
+      "topic": "bind.baca.membaca-kata-dengan-gugus-konsonan-dan-diftong",
+      "requires": "bind.baca.membaca-istilah-dan-kata-serapan",
+      "strength": "bantu",
+      "reason": "Banyak kata bergugus konsonan adalah kata serapan dan istilah."
+    },
+    {
+      "topic": "bind.baca.membaca-kata-berimbuhan-gabungan-dan-kata-ulang",
+      "requires": "bind.baca.membaca-kata-berimbuhan",
+      "strength": "wajib",
+      "reason": "Imbuhan tunggal harus lancar dulu sebelum imbuhan gabungan."
+    },
+    {
+      "topic": "bind.baca.membaca-kata-berimbuhan-gabungan-dan-kata-ulang",
+      "requires": "bind.baca.mencari-arti-kata-di-kamus",
+      "strength": "bantu",
+      "reason": "Mencari kata dasar di kamus membantu anak memahami arti kata berimbuhan."
+    },
+    {
+      "topic": "bind.baca.membaca-nyaring-teks-panjang-dengan-fasih",
+      "requires": "bind.baca.membaca-teks-dengan-fasih",
+      "strength": "wajib",
+      "reason": "Fasih membaca teks satu halaman adalah dasar untuk teks yang lebih panjang."
+    },
+    {
+      "topic": "bind.baca.membaca-nyaring-teks-panjang-dengan-fasih",
+      "requires": "bind.baca.membaca-kata-dengan-gugus-konsonan-dan-diftong",
+      "strength": "wajib",
+      "reason": "Teks panjang di kelas atas banyak memuat kata bergugus konsonan dan diftong."
+    },
+    {
+      "topic": "bind.baca.membaca-nyaring-teks-panjang-dengan-fasih",
+      "requires": "bind.baca.membaca-kata-berimbuhan-gabungan-dan-kata-ulang",
+      "strength": "bantu",
+      "reason": "Kata berimbuhan gabungan sering membuat bacaan tersendat."
+    },
+    {
+      "topic": "bind.baca.memahami-teks-eksplanasi",
+      "requires": "bind.baca.menemukan-ide-pendukung",
+      "strength": "wajib",
+      "reason": "Urutan proses dalam teks eksplanasi disusun dari ide-ide pendukung."
+    },
+    {
+      "topic": "bind.baca.memahami-teks-eksplanasi",
+      "requires": "bind.simak.menyimak-teks-eksplanasi",
+      "strength": "bantu",
+      "reason": "Mendengar penjelasan sebab-akibat lebih dulu memudahkan anak membacanya sendiri."
+    },
+    {
+      "topic": "bind.baca.memahami-teks-laporan-pengamatan",
+      "requires": "bind.baca.memahami-teks-deskripsi",
+      "strength": "wajib",
+      "reason": "Laporan pengamatan berisi rincian ciri seperti teks deskripsi, tetapi lebih teratur."
+    },
+    {
+      "topic": "bind.baca.memahami-teks-laporan-pengamatan",
+      "requires": "bind.baca.menemukan-ide-pendukung",
+      "strength": "bantu",
+      "reason": "Rincian ciri dalam laporan adalah ide pendukung dari pernyataan umum."
+    },
+    {
+      "topic": "bind.baca.memahami-teks-eksposisi",
+      "requires": "bind.baca.membedakan-fakta-dan-opini-dalam-bacaan",
+      "strength": "wajib",
+      "reason": "Teks eksposisi mencampur pendapat penulis dengan fakta sebagai bukti."
+    },
+    {
+      "topic": "bind.baca.memahami-teks-eksposisi",
+      "requires": "bind.baca.menentukan-ide-pokok-paragraf",
+      "strength": "wajib",
+      "reason": "Pendapat utama penulis biasanya ada di ide pokok paragraf pertama."
+    },
+    {
+      "topic": "bind.baca.membedakan-fakta-dan-opini-dalam-bacaan",
+      "requires": "bind.simak.membedakan-fakta-dan-opini-saat-menyimak",
+      "strength": "wajib",
+      "reason": "Konsep fakta dan opini dikenalkan lebih dulu lewat teks lisan."
+    },
+    {
+      "topic": "bind.baca.membedakan-fakta-dan-opini-dalam-bacaan",
+      "requires": "bind.baca.membaca-teks-elektronik",
+      "strength": "bantu",
+      "reason": "Banyak bacaan yang perlu dipilah anak datang dari layar."
+    },
+    {
+      "topic": "bind.baca.membaca-grafik-tabel-dan-infografik",
+      "requires": "bind.baca.membaca-informasi-pada-label-dan-jadwal",
+      "strength": "wajib",
+      "reason": "Membaca label, jadwal, dan tabel sederhana adalah dasar membaca grafik dan infografik."
+    },
+    {
+      "topic": "bind.baca.menganalisis-iklan-dan-poster",
+      "requires": "bind.baca.membedakan-fakta-dan-opini-dalam-bacaan",
+      "strength": "wajib",
+      "reason": "Iklan memakai opini dan janji yang perlu dibedakan dari fakta."
+    },
+    {
+      "topic": "bind.baca.menganalisis-iklan-dan-poster",
+      "requires": "bind.simak.menyimak-iklan-dan-kata-bujukan",
+      "strength": "bantu",
+      "reason": "Mengenali bujukan dalam iklan lisan memudahkan anak melihatnya dalam iklan cetak."
+    },
+    {
+      "topic": "bind.baca.memeriksa-kebenaran-pesan-berantai",
+      "requires": "bind.baca.membedakan-fakta-dan-opini-dalam-bacaan",
+      "strength": "wajib",
+      "reason": "Memeriksa kebenaran dimulai dari memisahkan fakta yang bisa dicek dari opini."
+    },
+    {
+      "topic": "bind.baca.memeriksa-kebenaran-pesan-berantai",
+      "requires": "bind.baca.membaca-teks-elektronik",
+      "strength": "wajib",
+      "reason": "Pesan berantai dan kabar daring dibaca di layar ponsel."
+    },
+    {
+      "topic": "bind.baca.memeriksa-kebenaran-pesan-berantai",
+      "requires": "bind.simak.menilai-kebenaran-pesan-suara",
+      "strength": "bantu",
+      "reason": "Pertanyaan yang sama tentang sumber dan waktu sudah dilatih pada pesan suara."
+    },
+    {
+      "topic": "bind.baca.menganalisis-isi-video-informasi",
+      "requires": "bind.baca.memahami-kata-baru-dari-tayangan",
+      "strength": "wajib",
+      "reason": "Anak perlu memahami kata baru dalam tayangan sebelum menganalisis isinya."
+    },
+    {
+      "topic": "bind.baca.menganalisis-isi-video-informasi",
+      "requires": "bind.baca.memahami-teks-eksplanasi",
+      "strength": "bantu",
+      "reason": "Banyak video informasi berbentuk penjelasan proses seperti teks eksplanasi."
+    },
+    {
+      "topic": "bind.baca.menganalisis-isi-video-informasi",
+      "requires": "bind.baca.memeriksa-kebenaran-pesan-berantai",
+      "strength": "bantu",
+      "reason": "Cara memeriksa sumber pesan berantai dipakai lagi untuk menilai video."
+    },
+    {
+      "topic": "bind.baca.menganalisis-unsur-cerpen",
+      "requires": "bind.baca.memahami-unsur-cerita",
+      "strength": "wajib",
+      "reason": "Tokoh, latar, dan alur sederhana harus dikenali dulu sebelum dianalisis lebih dalam."
+    },
+    {
+      "topic": "bind.baca.menganalisis-unsur-cerpen",
+      "requires": "bind.simak.menyimak-konflik-dan-penyelesaian-cerita",
+      "strength": "bantu",
+      "reason": "Menemukan konflik lewat menyimak membantu anak menemukannya saat membaca."
+    },
+    {
+      "topic": "bind.baca.menemukan-nilai-dalam-cerita-dan-film",
+      "requires": "bind.baca.menemukan-pesan-dalam-bacaan",
+      "strength": "wajib",
+      "reason": "Menemukan amanat dalam bacaan adalah langkah awal menemukan nilai-nilai cerita."
+    },
+    {
+      "topic": "bind.baca.menemukan-nilai-dalam-cerita-dan-film",
+      "requires": "bind.baca.menganalisis-unsur-cerpen",
+      "strength": "bantu",
+      "reason": "Nilai cerita tampak dari watak dan tindakan tokoh dalam alur."
+    },
+    {
+      "topic": "bind.baca.menemukan-nilai-dalam-cerita-dan-film",
+      "requires": "bind.simak.menyimak-cerita-rakyat-dan-nilainya",
+      "strength": "bantu",
+      "reason": "Anak sudah berlatih menemukan nilai budaya lewat cerita yang didengar."
+    },
+    {
+      "topic": "bind.bicara.menyusun-kerangka-presentasi",
+      "requires": "bind.bicara.presentasi-singkat-di-depan-kelas",
+      "strength": "wajib",
+      "reason": "Pengalaman presentasi singkat menjadi dasar menyusun presentasi yang lebih terencana."
+    },
+    {
+      "topic": "bind.bicara.menyusun-kerangka-presentasi",
+      "requires": "bind.tulis.menulis-paragraf-dengan-ide-pokok",
+      "strength": "bantu",
+      "reason": "Poin utama presentasi mirip ide pokok paragraf."
+    },
+    {
+      "topic": "bind.bicara.presentasi-dengan-alat-bantu-visual",
+      "requires": "bind.bicara.menyusun-kerangka-presentasi",
+      "strength": "wajib",
+      "reason": "Alat bantu disusun mengikuti kerangka presentasi."
+    },
+    {
+      "topic": "bind.bicara.presentasi-dengan-alat-bantu-visual",
+      "requires": "bind.baca.membaca-grafik-tabel-dan-infografik",
+      "strength": "bantu",
+      "reason": "Anak perlu bisa membaca grafik dan infografik sebelum menjelaskannya kepada orang lain."
+    },
+    {
+      "topic": "bind.bicara.mempresentasikan-hasil-pengamatan",
+      "requires": "bind.bicara.menyusun-kerangka-presentasi",
+      "strength": "wajib",
+      "reason": "Laporan lisan memakai kerangka pembuka, isi, dan penutup."
+    },
+    {
+      "topic": "bind.bicara.mempresentasikan-hasil-pengamatan",
+      "requires": "bind.baca.memahami-teks-laporan-pengamatan",
+      "strength": "bantu",
+      "reason": "Mengenal susunan teks laporan membantu anak menyusun laporan lisan."
+    },
+    {
+      "topic": "bind.bicara.menanggapi-pertanyaan-pendengar",
+      "requires": "bind.bicara.presentasi-dengan-alat-bantu-visual",
+      "strength": "wajib",
+      "reason": "Sesi tanya jawab terjadi setelah anak mampu membawakan presentasinya."
+    },
+    {
+      "topic": "bind.bicara.menanggapi-pertanyaan-pendengar",
+      "requires": "bind.bicara.menyatakan-setuju-dan-tidak-setuju",
+      "strength": "bantu",
+      "reason": "Menanggapi dengan santun sudah dilatih saat menyatakan setuju atau tidak setuju."
+    },
+    {
+      "topic": "bind.bicara.berpidato-singkat",
+      "requires": "bind.bicara.menyusun-kerangka-presentasi",
+      "strength": "wajib",
+      "reason": "Pidato memakai kerangka pembuka, isi, dan penutup yang lebih resmi."
+    },
+    {
+      "topic": "bind.bicara.berpidato-singkat",
+      "requires": "bind.bicara.mengatur-volume-dan-intonasi",
+      "strength": "wajib",
+      "reason": "Pidato menuntut suara yang jelas dan intonasi yang hidup."
+    },
+    {
+      "topic": "bind.bicara.berpidato-singkat",
+      "requires": "bind.bicara.memilih-kata-sesuai-lawan-bicara",
+      "strength": "bantu",
+      "reason": "Sapaan dalam pidato harus sesuai dengan hadirin yang dihormati."
+    },
+    {
+      "topic": "bind.bicara.melakukan-wawancara",
+      "requires": "bind.simak.menyimak-wawancara",
+      "strength": "wajib",
+      "reason": "Anak perlu melihat contoh wawancara sebelum melakukannya sendiri."
+    },
+    {
+      "topic": "bind.bicara.melakukan-wawancara",
+      "requires": "bind.bicara.bertanya-dengan-kata-tanya",
+      "strength": "wajib",
+      "reason": "Pertanyaan wawancara disusun dari kata tanya yang sudah dikuasai."
+    },
+    {
+      "topic": "bind.bicara.melakukan-wawancara",
+      "requires": "bind.bicara.memilih-kata-sesuai-lawan-bicara",
+      "strength": "bantu",
+      "reason": "Narasumber biasanya orang dewasa yang perlu disapa dengan santun."
+    },
+    {
+      "topic": "bind.bicara.mempertahankan-pendapat-dengan-fakta",
+      "requires": "bind.bicara.menyatakan-setuju-dan-tidak-setuju",
+      "strength": "wajib",
+      "reason": "Anak sudah harus bisa menyatakan setuju atau tidak setuju dengan santun."
+    },
+    {
+      "topic": "bind.bicara.mempertahankan-pendapat-dengan-fakta",
+      "requires": "bind.baca.memahami-teks-eksposisi",
+      "strength": "bantu",
+      "reason": "Teks eksposisi memberi contoh cara mendukung pendapat dengan alasan dan bukti."
+    },
+    {
+      "topic": "bind.bicara.menceritakan-pengalaman-dengan-perasaan",
+      "requires": "bind.bicara.mengungkapkan-perasaan",
+      "strength": "wajib",
+      "reason": "Anak sudah harus bisa menyebut perasaannya dengan kata sederhana."
+    },
+    {
+      "topic": "bind.bicara.menceritakan-pengalaman-dengan-perasaan",
+      "requires": "bind.bicara.menceritakan-kembali-urutan-cerita",
+      "strength": "wajib",
+      "reason": "Cerita pengalaman perlu disampaikan dengan urutan kejadian yang benar."
+    },
+    {
+      "topic": "bind.bicara.mendongeng-dengan-ekspresi",
+      "requires": "bind.bicara.menceritakan-kembali-urutan-cerita",
+      "strength": "wajib",
+      "reason": "Mendongeng memerlukan kemampuan menceritakan urutan cerita dengan benar."
+    },
+    {
+      "topic": "bind.bicara.mendongeng-dengan-ekspresi",
+      "requires": "bind.bicara.mengatur-volume-dan-intonasi",
+      "strength": "wajib",
+      "reason": "Ekspresi dongeng bergantung pada pengaturan suara dan intonasi."
+    },
+    {
+      "topic": "bind.bicara.mendongeng-dengan-ekspresi",
+      "requires": "bind.simak.menyimak-cerita-rakyat-dan-nilainya",
+      "strength": "bantu",
+      "reason": "Cerita rakyat yang pernah didengar menjadi bahan dongeng."
+    },
+    {
+      "topic": "bind.bicara.berbalas-pantun",
+      "requires": "bind.tulis.menulis-pantun",
+      "strength": "wajib",
+      "reason": "Anak perlu bisa menyusun pantun sebelum membalas pantun secara spontan."
+    },
+    {
+      "topic": "bind.bicara.berbalas-pantun",
+      "requires": "bind.simak.menyimak-pantun",
+      "strength": "wajib",
+      "reason": "Membalas pantun memerlukan pemahaman isi pantun yang didengar."
+    },
+    {
+      "topic": "bind.bicara.membacakan-puisi-karya-sendiri",
+      "requires": "bind.bicara.membaca-puisi-dengan-ekspresi",
+      "strength": "wajib",
+      "reason": "Dasar membaca puisi dengan ekspresi sudah dilatih di fase sebelumnya."
+    },
+    {
+      "topic": "bind.bicara.membacakan-puisi-karya-sendiri",
+      "requires": "bind.tulis.menulis-puisi-dengan-majas",
+      "strength": "bantu",
+      "reason": "Puisi karya sendiri ditulis lebih dulu sebelum dibacakan."
+    },
+    {
+      "topic": "bind.bicara.membacakan-puisi-karya-sendiri",
+      "requires": "bind.simak.menyimak-suasana-dan-perasaan-puisi",
+      "strength": "bantu",
+      "reason": "Anak perlu merasakan suasana puisi agar bisa membawakannya dengan tepat."
+    },
+    {
+      "topic": "bind.tulis.menulis-kalimat-majemuk",
+      "requires": "bind.tulis.menulis-kalimat-efektif",
+      "strength": "wajib",
+      "reason": "Kalimat tunggal harus jelas dulu sebelum digabung menjadi kalimat majemuk."
+    },
+    {
+      "topic": "bind.tulis.menulis-kalimat-majemuk",
+      "requires": "bind.tulis.menggunakan-tanda-baca",
+      "strength": "bantu",
+      "reason": "Kalimat majemuk sering memerlukan tanda koma di tempat yang tepat."
+    },
+    {
+      "topic": "bind.tulis.merangkai-paragraf-dengan-kata-penghubung",
+      "requires": "bind.tulis.menulis-kalimat-majemuk",
+      "strength": "wajib",
+      "reason": "Kata hubung di dalam kalimat dikuasai dulu sebelum kata penghubung antarparagraf."
+    },
+    {
+      "topic": "bind.tulis.merangkai-paragraf-dengan-kata-penghubung",
+      "requires": "bind.tulis.menulis-paragraf-dengan-ide-pokok",
+      "strength": "wajib",
+      "reason": "Anak harus bisa menulis satu paragraf yang utuh sebelum merangkai beberapa paragraf."
+    },
+    {
+      "topic": "bind.tulis.mengenal-makna-denotatif-dan-konotatif",
+      "requires": "bind.tulis.menggunakan-kosakata-baru-dalam-tulisan",
+      "strength": "wajib",
+      "reason": "Anak sudah memakai kata baru dengan arti sebenarnya sebelum mengenal arti kiasan."
+    },
+    {
+      "topic": "bind.tulis.mengenal-makna-denotatif-dan-konotatif",
+      "requires": "bind.baca.mencari-arti-kata-di-kamus",
+      "strength": "bantu",
+      "reason": "Makna denotatif adalah arti yang tertulis di kamus."
+    },
+    {
+      "topic": "bind.tulis.memakai-kata-konotatif-dan-ungkapan",
+      "requires": "bind.tulis.mengenal-makna-denotatif-dan-konotatif",
+      "strength": "wajib",
+      "reason": "Anak perlu memahami makna konotatif sebelum memakainya dalam tulisan."
+    },
+    {
+      "topic": "bind.tulis.memakai-kata-baku-dan-istilah",
+      "requires": "bind.baca.membaca-istilah-dan-kata-serapan",
+      "strength": "wajib",
+      "reason": "Anak perlu bisa membaca dan memahami istilah sebelum memakainya dalam tulisan."
+    },
+    {
+      "topic": "bind.tulis.memakai-kata-baku-dan-istilah",
+      "requires": "bind.tulis.menggunakan-kosakata-baru-dalam-tulisan",
+      "strength": "wajib",
+      "reason": "Kebiasaan memakai kata baru dilanjutkan dengan memilih bentuk yang baku."
+    },
+    {
+      "topic": "bind.tulis.menulis-teks-laporan-pengamatan",
+      "requires": "bind.baca.memahami-teks-laporan-pengamatan",
+      "strength": "wajib",
+      "reason": "Anak perlu mengenal susunan teks laporan sebelum menulisnya."
+    },
+    {
+      "topic": "bind.tulis.menulis-teks-laporan-pengamatan",
+      "requires": "bind.tulis.menulis-teks-deskripsi",
+      "strength": "bantu",
+      "reason": "Menggambarkan ciri benda sudah dilatih lewat teks deskripsi."
+    },
+    {
+      "topic": "bind.tulis.menulis-teks-laporan-pengamatan",
+      "requires": "bind.tulis.menulis-kalimat-majemuk",
+      "strength": "bantu",
+      "reason": "Laporan memerlukan kalimat yang menjelaskan hubungan antarhasil pengamatan."
+    },
+    {
+      "topic": "bind.tulis.menulis-teks-eksplanasi",
+      "requires": "bind.baca.memahami-teks-eksplanasi",
+      "strength": "wajib",
+      "reason": "Anak perlu memahami susunan teks eksplanasi sebelum menulisnya."
+    },
+    {
+      "topic": "bind.tulis.menulis-teks-eksplanasi",
+      "requires": "bind.tulis.merangkai-paragraf-dengan-kata-penghubung",
+      "strength": "wajib",
+      "reason": "Urutan proses ditulis dalam paragraf yang dihubungkan kata penghubung."
+    },
+    {
+      "topic": "bind.tulis.menulis-teks-eksposisi",
+      "requires": "bind.baca.memahami-teks-eksposisi",
+      "strength": "wajib",
+      "reason": "Anak perlu mengenali pendapat dan alasan dalam teks eksposisi sebelum menulisnya."
+    },
+    {
+      "topic": "bind.tulis.menulis-teks-eksposisi",
+      "requires": "bind.tulis.merangkai-paragraf-dengan-kata-penghubung",
+      "strength": "wajib",
+      "reason": "Alasan-alasan dirangkai dalam paragraf dengan kata seperti \"selain itu\"."
+    },
+    {
+      "topic": "bind.tulis.menulis-teks-berita-sederhana",
+      "requires": "bind.simak.menyimak-berita-dan-pengumuman",
+      "strength": "wajib",
+      "reason": "Anak perlu sering mendengar siaran kabar untuk mengenal susunannya."
+    },
+    {
+      "topic": "bind.tulis.menulis-teks-berita-sederhana",
+      "requires": "bind.baca.membedakan-fakta-dan-opini-dalam-bacaan",
+      "strength": "wajib",
+      "reason": "Teks berita hanya boleh berisi fakta, jadi anak harus bisa memilah opini."
+    },
+    {
+      "topic": "bind.tulis.menulis-teks-berita-sederhana",
+      "requires": "bind.tulis.menulis-kalimat-majemuk",
+      "strength": "bantu",
+      "reason": "Unsur 5W1H sering digabung dalam kalimat majemuk di paragraf pertama."
+    },
+    {
+      "topic": "bind.tulis.menulis-hasil-wawancara",
+      "requires": "bind.bicara.melakukan-wawancara",
+      "strength": "wajib",
+      "reason": "Tulisan disusun dari catatan wawancara yang dilakukan anak sendiri."
+    },
+    {
+      "topic": "bind.tulis.menulis-hasil-wawancara",
+      "requires": "bind.tulis.merangkai-paragraf-dengan-kata-penghubung",
+      "strength": "bantu",
+      "reason": "Jawaban narasumber dirangkai menjadi paragraf yang saling terhubung."
+    },
+    {
+      "topic": "bind.tulis.menulis-pantun",
+      "requires": "bind.simak.menyimak-pantun",
+      "strength": "wajib",
+      "reason": "Anak perlu memahami sampiran, isi, dan rima pantun sebelum menulisnya."
+    },
+    {
+      "topic": "bind.tulis.menulis-pantun",
+      "requires": "bind.tulis.menulis-puisi-sederhana",
+      "strength": "bantu",
+      "reason": "Pengalaman menulis puisi anak membantu anak menyusun baris yang berirama."
+    },
+    {
+      "topic": "bind.tulis.menulis-puisi-dengan-majas",
+      "requires": "bind.tulis.menulis-puisi-sederhana",
+      "strength": "wajib",
+      "reason": "Dasar menulis puisi anak sudah dilatih di fase sebelumnya."
+    },
+    {
+      "topic": "bind.tulis.menulis-puisi-dengan-majas",
+      "requires": "bind.tulis.memakai-kata-konotatif-dan-ungkapan",
+      "strength": "wajib",
+      "reason": "Puisi yang indah memerlukan kemampuan memakai kata kiasan."
+    },
+    {
+      "topic": "bind.tulis.menulis-cerpen",
+      "requires": "bind.baca.menganalisis-unsur-cerpen",
+      "strength": "wajib",
+      "reason": "Anak perlu mengenali tema, alur, dan konflik cerpen sebelum menulisnya."
+    },
+    {
+      "topic": "bind.tulis.menulis-cerpen",
+      "requires": "bind.tulis.menulis-teks-narasi-pengalaman",
+      "strength": "wajib",
+      "reason": "Menulis cerita pengalaman adalah dasar menulis cerpen."
+    },
+    {
+      "topic": "bind.tulis.menulis-cerpen",
+      "requires": "bind.tulis.memakai-kata-konotatif-dan-ungkapan",
+      "strength": "bantu",
+      "reason": "Kata kiasan membuat cerpen lebih hidup dan menarik."
+    },
+    {
+      "topic": "bind.tulis.menyunting-tulisan-sesuai-ejaan",
+      "requires": "bind.tulis.memeriksa-dan-memperbaiki-tulisan",
+      "strength": "wajib",
+      "reason": "Kebiasaan memeriksa tulisan sendiri sudah dibangun di fase sebelumnya."
+    },
+    {
+      "topic": "bind.tulis.menyunting-tulisan-sesuai-ejaan",
+      "requires": "bind.tulis.memakai-kata-baku-dan-istilah",
+      "strength": "wajib",
+      "reason": "Penyuntingan memerlukan pengetahuan kata baku."
+    },
+    {
+      "topic": "bind.tulis.menyunting-tulisan-sesuai-ejaan",
+      "requires": "bind.tulis.menulis-kalimat-majemuk",
+      "strength": "bantu",
+      "reason": "Anak perlu tahu letak koma dalam kalimat majemuk untuk memperbaikinya."
     },
     {
       "topic": "ipas.proses.mengajukan-pertanyaan-saat-mengamati",
@@ -831,6 +2037,630 @@
       "reason": "Mencatat uang jajan memakai kebiasaan mencatat data secara teratur."
     },
     {
+      "topic": "ipas.paham.sistem-pencernaan-manusia",
+      "requires": "ipas.paham.bentuk-dan-bagian-pancaindra",
+      "strength": "bantu",
+      "reason": "Sudah terbiasa mengenal bagian tubuh dan tugasnya lewat pancaindra."
+    },
+    {
+      "topic": "ipas.paham.sistem-pencernaan-manusia",
+      "requires": "ipas.paham.membedakan-kebutuhan-dan-keinginan",
+      "strength": "bantu",
+      "reason": "Paham bahwa makanan adalah kebutuhan pokok tubuh."
+    },
+    {
+      "topic": "ipas.paham.menjaga-kesehatan-pencernaan",
+      "requires": "ipas.paham.sistem-pencernaan-manusia",
+      "strength": "wajib",
+      "reason": "Harus tahu tugas tiap organ pencernaan sebelum tahu cara menjaganya."
+    },
+    {
+      "topic": "ipas.paham.sistem-pernapasan-manusia",
+      "requires": "ipas.paham.sistem-pencernaan-manusia",
+      "strength": "bantu",
+      "reason": "Sudah pernah mempelajari satu sistem organ sebagai rangkaian organ yang bekerja sama."
+    },
+    {
+      "topic": "ipas.paham.sistem-peredaran-darah",
+      "requires": "ipas.paham.sistem-pernapasan-manusia",
+      "strength": "wajib",
+      "reason": "Perlu tahu oksigen masuk lewat paru-paru sebelum tahu darah yang membawanya."
+    },
+    {
+      "topic": "ipas.paham.sistem-peredaran-darah",
+      "requires": "ipas.proses.mengukur-dengan-alat-sederhana",
+      "strength": "bantu",
+      "reason": "Menghitung denyut nadi memakai jam atau pengukur waktu."
+    },
+    {
+      "topic": "ipas.paham.menjaga-kesehatan-pernapasan-dan-jantung",
+      "requires": "ipas.paham.sistem-peredaran-darah",
+      "strength": "wajib",
+      "reason": "Harus tahu kerja jantung dan paru-paru sebelum tahu cara menjaganya."
+    },
+    {
+      "topic": "ipas.paham.menjaga-kesehatan-pernapasan-dan-jantung",
+      "requires": "ipas.paham.menjaga-kesehatan-pencernaan",
+      "strength": "bantu",
+      "reason": "Sudah biasa mengaitkan kebiasaan dengan kesehatan satu organ."
+    },
+    {
+      "topic": "ipas.paham.komponen-biotik-dan-abiotik",
+      "requires": "ipas.paham.mengenal-sumber-daya-alam",
+      "strength": "wajib",
+      "reason": "Perlu mengenal air, tanah, tumbuhan, dan hewan sebagai bagian alam lebih dulu."
+    },
+    {
+      "topic": "ipas.paham.komponen-biotik-dan-abiotik",
+      "requires": "ipas.paham.melestarikan-makhluk-hidup",
+      "strength": "bantu",
+      "reason": "Sudah tahu ciri makhluk hidup yang perlu dijaga."
+    },
+    {
+      "topic": "ipas.paham.rantai-makanan",
+      "requires": "ipas.paham.komponen-biotik-dan-abiotik",
+      "strength": "wajib",
+      "reason": "Harus bisa mengenali komponen biotik sebelum menyusun rantai makanan."
+    },
+    {
+      "topic": "ipas.paham.rantai-makanan",
+      "requires": "ipas.paham.siklus-hidup-hewan-tanpa-metamorfosis",
+      "strength": "bantu",
+      "reason": "Sudah mengenal kehidupan hewan di sekitar."
+    },
+    {
+      "topic": "ipas.paham.jaring-jaring-makanan",
+      "requires": "ipas.paham.rantai-makanan",
+      "strength": "wajib",
+      "reason": "Jaring-jaring makanan tersusun dari beberapa rantai makanan."
+    },
+    {
+      "topic": "ipas.paham.pengaruh-abiotik-pada-makhluk-hidup",
+      "requires": "ipas.paham.komponen-biotik-dan-abiotik",
+      "strength": "wajib",
+      "reason": "Harus tahu apa itu komponen abiotik sebelum menganalisis pengaruhnya."
+    },
+    {
+      "topic": "ipas.paham.pengaruh-abiotik-pada-makhluk-hidup",
+      "requires": "ipas.paham.perubahan-iklim-banjir-dan-kemarau",
+      "strength": "bantu",
+      "reason": "Sudah mengenal kemarau panjang dan banjir sebagai perubahan lingkungan."
+    },
+    {
+      "topic": "ipas.paham.ekosistem-terganggu-ulah-manusia",
+      "requires": "ipas.paham.jaring-jaring-makanan",
+      "strength": "wajib",
+      "reason": "Perlu paham hubungan makan-dimakan untuk melihat akibat berantai."
+    },
+    {
+      "topic": "ipas.paham.ekosistem-terganggu-ulah-manusia",
+      "requires": "ipas.paham.pengaruh-abiotik-pada-makhluk-hidup",
+      "strength": "bantu",
+      "reason": "Pencemaran mengubah komponen abiotik seperti air dan tanah."
+    },
+    {
+      "topic": "ipas.paham.ekosistem-terganggu-ulah-manusia",
+      "requires": "ipas.paham.merancang-solusi-lingkungan",
+      "strength": "bantu",
+      "reason": "Sudah pernah membuat solusi untuk masalah lingkungan sekitar."
+    },
+    {
+      "topic": "ipas.paham.bunyi-dari-getaran",
+      "requires": "ipas.paham.mengenal-bentuk-energi",
+      "strength": "wajib",
+      "reason": "Perlu tahu bahwa bunyi adalah salah satu bentuk energi."
+    },
+    {
+      "topic": "ipas.paham.bunyi-merambat-dan-memantul",
+      "requires": "ipas.paham.bunyi-dari-getaran",
+      "strength": "wajib",
+      "reason": "Harus tahu asal bunyi sebelum mempelajari bagaimana bunyi berpindah."
+    },
+    {
+      "topic": "ipas.paham.bunyi-merambat-dan-memantul",
+      "requires": "ipas.paham.mengenal-wujud-padat-cair-gas",
+      "strength": "bantu",
+      "reason": "Bunyi merambat lewat benda padat, cair, dan gas."
+    },
+    {
+      "topic": "ipas.paham.cahaya-merambat-lurus-dan-bayangan",
+      "requires": "ipas.paham.mengenal-bentuk-energi",
+      "strength": "wajib",
+      "reason": "Perlu tahu bahwa cahaya adalah bentuk energi."
+    },
+    {
+      "topic": "ipas.paham.cahaya-memantul-dan-dibiaskan",
+      "requires": "ipas.paham.cahaya-merambat-lurus-dan-bayangan",
+      "strength": "wajib",
+      "reason": "Harus tahu cahaya merambat lurus untuk mengerti saat cahaya memantul atau berbelok."
+    },
+    {
+      "topic": "ipas.paham.melihat-dan-mendengar-karena-cahaya-bunyi",
+      "requires": "ipas.paham.cahaya-memantul-dan-dibiaskan",
+      "strength": "wajib",
+      "reason": "Perlu tahu cahaya dipantulkan benda sebelum mengerti cara mata melihat."
+    },
+    {
+      "topic": "ipas.paham.melihat-dan-mendengar-karena-cahaya-bunyi",
+      "requires": "ipas.paham.bunyi-merambat-dan-memantul",
+      "strength": "wajib",
+      "reason": "Perlu tahu bunyi merambat sampai ke telinga."
+    },
+    {
+      "topic": "ipas.paham.melihat-dan-mendengar-karena-cahaya-bunyi",
+      "requires": "ipas.paham.bentuk-dan-bagian-pancaindra",
+      "strength": "bantu",
+      "reason": "Sudah mengenal bagian-bagian mata dan telinga."
+    },
+    {
+      "topic": "ipas.paham.energi-terbarukan-dan-tak-terbarukan",
+      "requires": "ipas.paham.mengenal-sumber-energi",
+      "strength": "wajib",
+      "reason": "Harus mengenal sumber-sumber energi sebelum mengelompokkannya."
+    },
+    {
+      "topic": "ipas.paham.energi-alternatif-di-sekitar",
+      "requires": "ipas.paham.energi-terbarukan-dan-tak-terbarukan",
+      "strength": "wajib",
+      "reason": "Harus tahu mana energi terbarukan sebelum memanfaatkannya."
+    },
+    {
+      "topic": "ipas.paham.energi-alternatif-di-sekitar",
+      "requires": "ipas.paham.perubahan-bentuk-energi",
+      "strength": "wajib",
+      "reason": "Pembangkit listrik bekerja dengan mengubah bentuk energi."
+    },
+    {
+      "topic": "ipas.paham.menghitung-dan-menghemat-listrik",
+      "requires": "ipas.paham.menghemat-air-dan-listrik",
+      "strength": "wajib",
+      "reason": "Sudah tahu kebiasaan hemat listrik sederhana dari kelas 4."
+    },
+    {
+      "topic": "ipas.paham.menghitung-dan-menghemat-listrik",
+      "requires": "ipas.proses.mencatat-data-dengan-turus",
+      "strength": "bantu",
+      "reason": "Mencatat pemakaian listrik memakai cara mencatat data."
+    },
+    {
+      "topic": "ipas.paham.energi-fosil-dan-perubahan-iklim",
+      "requires": "ipas.paham.energi-terbarukan-dan-tak-terbarukan",
+      "strength": "wajib",
+      "reason": "Perlu tahu energi fosil sebelum memahami dampaknya pada iklim."
+    },
+    {
+      "topic": "ipas.paham.energi-fosil-dan-perubahan-iklim",
+      "requires": "ipas.paham.perubahan-iklim-banjir-dan-kemarau",
+      "strength": "wajib",
+      "reason": "Sudah mengenal tanda-tanda perubahan iklim di sekitar."
+    },
+    {
+      "topic": "ipas.paham.merancang-alat-energi-alternatif",
+      "requires": "ipas.paham.energi-alternatif-di-sekitar",
+      "strength": "wajib",
+      "reason": "Harus tahu cara energi alternatif dimanfaatkan sebelum merancang alatnya."
+    },
+    {
+      "topic": "ipas.paham.merancang-alat-energi-alternatif",
+      "requires": "ipas.paham.merancang-solusi-lingkungan",
+      "strength": "bantu",
+      "reason": "Sudah pernah merancang solusi sederhana untuk masalah di sekitar."
+    },
+    {
+      "topic": "ipas.paham.anggota-tata-surya",
+      "requires": "ipas.paham.jenis-gaya-magnet-gravitasi-gesek",
+      "strength": "bantu",
+      "reason": "Sudah mengenal gravitasi sebagai gaya tarik."
+    },
+    {
+      "topic": "ipas.paham.ciri-dan-urutan-planet",
+      "requires": "ipas.paham.anggota-tata-surya",
+      "strength": "wajib",
+      "reason": "Harus mengenal planet sebagai anggota tata surya lebih dulu."
+    },
+    {
+      "topic": "ipas.paham.rotasi-bumi-siang-dan-malam",
+      "requires": "ipas.paham.anggota-tata-surya",
+      "strength": "wajib",
+      "reason": "Perlu tahu bumi dan matahari sebagai anggota tata surya."
+    },
+    {
+      "topic": "ipas.paham.rotasi-bumi-siang-dan-malam",
+      "requires": "ipas.paham.mengenal-arah-mata-angin",
+      "strength": "bantu",
+      "reason": "Arah timur dan barat dipakai untuk menjelaskan terbit dan terbenamnya matahari."
+    },
+    {
+      "topic": "ipas.paham.revolusi-bumi-dan-satu-tahun",
+      "requires": "ipas.paham.rotasi-bumi-siang-dan-malam",
+      "strength": "wajib",
+      "reason": "Harus paham rotasi dulu supaya bisa membedakannya dengan revolusi."
+    },
+    {
+      "topic": "ipas.paham.revolusi-bulan-dan-fase-bulan",
+      "requires": "ipas.paham.revolusi-bumi-dan-satu-tahun",
+      "strength": "wajib",
+      "reason": "Perlu paham benda langit yang beredar mengelilingi benda lain."
+    },
+    {
+      "topic": "ipas.paham.revolusi-bulan-dan-fase-bulan",
+      "requires": "ipas.proses.mengamati-dan-mencatat-pengamatan",
+      "strength": "bantu",
+      "reason": "Mengamati bulan setiap malam perlu kebiasaan mencatat pengamatan."
+    },
+    {
+      "topic": "ipas.paham.letak-astronomis-indonesia",
+      "requires": "ipas.paham.letak-provinsi-di-peta-indonesia",
+      "strength": "wajib",
+      "reason": "Harus bisa membaca peta Indonesia sebelum membaca garis lintang dan bujur."
+    },
+    {
+      "topic": "ipas.paham.letak-astronomis-indonesia",
+      "requires": "ipas.paham.memakai-peta-digital",
+      "strength": "bantu",
+      "reason": "Sudah terbiasa memakai peta digital di HP."
+    },
+    {
+      "topic": "ipas.paham.letak-geografis-indonesia",
+      "requires": "ipas.paham.letak-provinsi-di-peta-indonesia",
+      "strength": "wajib",
+      "reason": "Perlu mengenal peta Indonesia lebih dulu."
+    },
+    {
+      "topic": "ipas.paham.letak-geografis-indonesia",
+      "requires": "ipas.paham.membaca-simbol-dan-legenda-peta",
+      "strength": "wajib",
+      "reason": "Membedakan laut, daratan, dan nama tempat perlu membaca simbol peta."
+    },
+    {
+      "topic": "ipas.paham.iklim-tropis-musim-hujan-dan-kemarau",
+      "requires": "ipas.paham.letak-astronomis-indonesia",
+      "strength": "wajib",
+      "reason": "Letak di sekitar khatulistiwa menjelaskan iklim tropis."
+    },
+    {
+      "topic": "ipas.paham.iklim-tropis-musim-hujan-dan-kemarau",
+      "requires": "ipas.paham.revolusi-bumi-dan-satu-tahun",
+      "strength": "bantu",
+      "reason": "Pergantian musim berkaitan dengan revolusi bumi."
+    },
+    {
+      "topic": "ipas.paham.cincin-api-gunung-api-dan-gempa",
+      "requires": "ipas.paham.letak-geografis-indonesia",
+      "strength": "wajib",
+      "reason": "Perlu tahu letak Indonesia di peta dunia untuk melihat Cincin Api."
+    },
+    {
+      "topic": "ipas.paham.cincin-api-gunung-api-dan-gempa",
+      "requires": "ipas.paham.mengelompokkan-bentang-alam",
+      "strength": "bantu",
+      "reason": "Sudah mengenal gunung sebagai bentang alam."
+    },
+    {
+      "topic": "ipas.paham.siaga-bencana-gempa-dan-erupsi",
+      "requires": "ipas.paham.cincin-api-gunung-api-dan-gempa",
+      "strength": "wajib",
+      "reason": "Harus tahu mengapa bencana sering terjadi sebelum belajar cara menghadapinya."
+    },
+    {
+      "topic": "ipas.paham.kerajaan-hindu-buddha-nusantara",
+      "requires": "ipas.paham.peninggalan-sejarah-setempat",
+      "strength": "wajib",
+      "reason": "Sudah mengenal peninggalan sejarah di sekitar rumah."
+    },
+    {
+      "topic": "ipas.paham.kerajaan-hindu-buddha-nusantara",
+      "requires": "ipas.paham.letak-provinsi-di-peta-indonesia",
+      "strength": "bantu",
+      "reason": "Menunjuk letak kerajaan perlu membaca peta Indonesia."
+    },
+    {
+      "topic": "ipas.paham.kerajaan-islam-nusantara",
+      "requires": "ipas.paham.kerajaan-hindu-buddha-nusantara",
+      "strength": "wajib",
+      "reason": "Urutan waktu sejarah: kerajaan Hindu-Buddha lebih dulu."
+    },
+    {
+      "topic": "ipas.paham.perlawanan-terhadap-penjajah",
+      "requires": "ipas.paham.kerajaan-islam-nusantara",
+      "strength": "bantu",
+      "reason": "Banyak perlawanan dipimpin raja dan sultan dari kerajaan Nusantara."
+    },
+    {
+      "topic": "ipas.paham.perlawanan-terhadap-penjajah",
+      "requires": "ipas.paham.perubahan-lingkungan-dulu-dan-sekarang",
+      "strength": "bantu",
+      "reason": "Sudah terbiasa membandingkan kehidupan dulu dan sekarang."
+    },
+    {
+      "topic": "ipas.paham.menuju-proklamasi-kemerdekaan",
+      "requires": "ipas.paham.perlawanan-terhadap-penjajah",
+      "strength": "wajib",
+      "reason": "Perlu paham perlawanan daerah untuk mengerti mengapa persatuan dibutuhkan."
+    },
+    {
+      "topic": "ipas.paham.pahlawan-dari-daerah-sendiri",
+      "requires": "ipas.paham.menuju-proklamasi-kemerdekaan",
+      "strength": "bantu",
+      "reason": "Mengenal perjuangan nasional membantu menempatkan pahlawan daerah dalam ceritanya."
+    },
+    {
+      "topic": "ipas.paham.pahlawan-dari-daerah-sendiri",
+      "requires": "ipas.paham.perlawanan-terhadap-penjajah",
+      "strength": "wajib",
+      "reason": "Perlu mengenal masa penjajahan untuk memahami perjuangan pahlawan setempat."
+    },
+    {
+      "topic": "ipas.paham.pahlawan-dari-daerah-sendiri",
+      "requires": "ipas.paham.asal-usul-nama-daerah",
+      "strength": "bantu",
+      "reason": "Sudah pernah menelusuri cerita daerah tempat tinggal."
+    },
+    {
+      "topic": "ipas.paham.keragaman-budaya-antarprovinsi",
+      "requires": "ipas.paham.ragam-budaya-daerah",
+      "strength": "wajib",
+      "reason": "Harus mengenal budaya daerah sendiri sebelum membandingkannya."
+    },
+    {
+      "topic": "ipas.paham.keragaman-budaya-antarprovinsi",
+      "requires": "ipas.paham.letak-provinsi-di-peta-indonesia",
+      "strength": "bantu",
+      "reason": "Membandingkan provinsi perlu tahu letaknya di peta."
+    },
+    {
+      "topic": "ipas.paham.kondisi-alam-membentuk-budaya",
+      "requires": "ipas.paham.keragaman-budaya-antarprovinsi",
+      "strength": "wajib",
+      "reason": "Perlu mengenal ragam budaya sebelum mencari penyebabnya."
+    },
+    {
+      "topic": "ipas.paham.kondisi-alam-membentuk-budaya",
+      "requires": "ipas.paham.profesi-sesuai-bentang-alam",
+      "strength": "bantu",
+      "reason": "Sudah tahu bahwa bentang alam memengaruhi pekerjaan orang."
+    },
+    {
+      "topic": "ipas.paham.kearifan-lokal-di-tempat-tinggal",
+      "requires": "ipas.paham.melestarikan-alam-dan-budaya",
+      "strength": "wajib",
+      "reason": "Sudah tahu pentingnya menjaga alam dan budaya daerah."
+    },
+    {
+      "topic": "ipas.paham.kearifan-lokal-di-tempat-tinggal",
+      "requires": "ipas.paham.interaksi-sosial-dan-gotong-royong",
+      "strength": "bantu",
+      "reason": "Gotong royong adalah contoh kearifan lokal yang sudah dikenal."
+    },
+    {
+      "topic": "ipas.paham.kebhinekaan-dan-menghargai-perbedaan",
+      "requires": "ipas.paham.keragaman-budaya-antarprovinsi",
+      "strength": "wajib",
+      "reason": "Perlu melihat keragaman budaya sebelum memahami persatuan dalam perbedaan."
+    },
+    {
+      "topic": "ipas.paham.kebhinekaan-dan-menghargai-perbedaan",
+      "requires": "ipas.paham.kearifan-lokal-di-tempat-tinggal",
+      "strength": "bantu",
+      "reason": "Kearifan lokal banyak mengajarkan kerukunan."
+    },
+    {
+      "topic": "ipas.paham.produksi-distribusi-konsumsi",
+      "requires": "ipas.paham.membedakan-kebutuhan-dan-keinginan",
+      "strength": "wajib",
+      "reason": "Kegiatan ekonomi berawal dari kebutuhan manusia."
+    },
+    {
+      "topic": "ipas.paham.produksi-distribusi-konsumsi",
+      "requires": "ipas.paham.fungsi-uang-sebagai-alat-tukar",
+      "strength": "bantu",
+      "reason": "Uang dipakai dalam setiap tahap kegiatan ekonomi."
+    },
+    {
+      "topic": "ipas.paham.usaha-sesuai-sumber-daya-daerah",
+      "requires": "ipas.paham.produksi-distribusi-konsumsi",
+      "strength": "wajib",
+      "reason": "Perlu tahu kegiatan produksi sebelum melihat jenis usahanya."
+    },
+    {
+      "topic": "ipas.paham.usaha-sesuai-sumber-daya-daerah",
+      "requires": "ipas.paham.profesi-sesuai-bentang-alam",
+      "strength": "wajib",
+      "reason": "Sudah tahu pekerjaan orang menurut bentang alam."
+    },
+    {
+      "topic": "ipas.paham.pasar-tradisional-dan-modern",
+      "requires": "ipas.paham.produksi-distribusi-konsumsi",
+      "strength": "wajib",
+      "reason": "Pasar adalah tempat distribusi dan konsumsi bertemu."
+    },
+    {
+      "topic": "ipas.paham.pasar-tradisional-dan-modern",
+      "requires": "ipas.paham.mengenal-nilai-uang-rupiah",
+      "strength": "bantu",
+      "reason": "Berbelanja di pasar perlu memahami nilai uang."
+    },
+    {
+      "topic": "ipas.paham.koperasi-sekolah-dan-desa",
+      "requires": "ipas.paham.produksi-distribusi-konsumsi",
+      "strength": "wajib",
+      "reason": "Koperasi adalah salah satu pelaku kegiatan ekonomi."
+    },
+    {
+      "topic": "ipas.paham.koperasi-sekolah-dan-desa",
+      "requires": "ipas.paham.menabung-dan-mencatat-uang-jajan",
+      "strength": "bantu",
+      "reason": "Simpanan anggota mirip dengan kebiasaan menabung."
+    },
+    {
+      "topic": "ipas.paham.koperasi-sekolah-dan-desa",
+      "requires": "ipas.paham.interaksi-sosial-dan-gotong-royong",
+      "strength": "bantu",
+      "reason": "Koperasi berdiri di atas semangat gotong royong."
+    },
+    {
+      "topic": "ipas.paham.umkm-dan-usaha-kecil-sendiri",
+      "requires": "ipas.paham.usaha-sesuai-sumber-daya-daerah",
+      "strength": "wajib",
+      "reason": "Perlu tahu usaha apa yang cocok dengan sumber daya sekitar."
+    },
+    {
+      "topic": "ipas.paham.umkm-dan-usaha-kecil-sendiri",
+      "requires": "ipas.paham.pasar-tradisional-dan-modern",
+      "strength": "wajib",
+      "reason": "Perlu paham jual beli sebelum merencanakan usaha."
+    },
+    {
+      "topic": "ipas.paham.umkm-dan-usaha-kecil-sendiri",
+      "requires": "ipas.paham.menabung-dan-mencatat-uang-jajan",
+      "strength": "bantu",
+      "reason": "Mencatat modal dan hasil jualan memakai kebiasaan mencatat uang."
+    },
+    {
+      "topic": "ipas.proses.mengamati-persamaan-dan-perbedaan",
+      "requires": "ipas.proses.mengamati-dan-mencatat-pengamatan",
+      "strength": "wajib",
+      "reason": "Harus terbiasa mengamati dan mencatat sebelum membandingkan."
+    },
+    {
+      "topic": "ipas.proses.pertanyaan-yang-bisa-diselidiki",
+      "requires": "ipas.proses.mengajukan-pertanyaan-saat-mengamati",
+      "strength": "wajib",
+      "reason": "Sudah biasa mengajukan pertanyaan dari hasil mengamati."
+    },
+    {
+      "topic": "ipas.proses.pertanyaan-yang-bisa-diselidiki",
+      "requires": "ipas.proses.mengamati-persamaan-dan-perbedaan",
+      "strength": "bantu",
+      "reason": "Perbedaan yang diamati sering memunculkan pertanyaan yang bisa diuji."
+    },
+    {
+      "topic": "ipas.proses.prediksi-dengan-alasan",
+      "requires": "ipas.proses.pertanyaan-yang-bisa-diselidiki",
+      "strength": "wajib",
+      "reason": "Prediksi dibuat untuk menjawab pertanyaan yang bisa diselidiki."
+    },
+    {
+      "topic": "ipas.proses.prediksi-dengan-alasan",
+      "requires": "ipas.proses.membuat-prediksi-sederhana",
+      "strength": "wajib",
+      "reason": "Sudah biasa membuat dugaan sederhana sebelum mencoba."
+    },
+    {
+      "topic": "ipas.proses.percobaan-adil-satu-yang-diubah",
+      "requires": "ipas.proses.merencanakan-dan-melakukan-percobaan",
+      "strength": "wajib",
+      "reason": "Sudah pernah merencanakan percobaan sederhana dengan bantuan."
+    },
+    {
+      "topic": "ipas.proses.percobaan-adil-satu-yang-diubah",
+      "requires": "ipas.proses.prediksi-dengan-alasan",
+      "strength": "bantu",
+      "reason": "Percobaan disusun untuk menguji prediksi."
+    },
+    {
+      "topic": "ipas.proses.merencanakan-penyelidikan-mandiri",
+      "requires": "ipas.proses.percobaan-adil-satu-yang-diubah",
+      "strength": "wajib",
+      "reason": "Rencana mandiri harus memakai percobaan yang adil."
+    },
+    {
+      "topic": "ipas.proses.merencanakan-penyelidikan-mandiri",
+      "requires": "ipas.proses.pertanyaan-yang-bisa-diselidiki",
+      "strength": "wajib",
+      "reason": "Penyelidikan dimulai dari pertanyaan yang bisa diselidiki."
+    },
+    {
+      "topic": "ipas.proses.mengukur-berulang-dengan-teliti",
+      "requires": "ipas.proses.mengukur-dengan-alat-sederhana",
+      "strength": "wajib",
+      "reason": "Sudah bisa memakai penggaris, timbangan, dan termometer."
+    },
+    {
+      "topic": "ipas.proses.menyusun-tabel-data",
+      "requires": "ipas.proses.mencatat-data-dengan-turus",
+      "strength": "wajib",
+      "reason": "Sudah bisa mencatat data dengan turus."
+    },
+    {
+      "topic": "ipas.proses.menyusun-tabel-data",
+      "requires": "ipas.proses.mengukur-berulang-dengan-teliti",
+      "strength": "bantu",
+      "reason": "Data di tabel berasal dari pengukuran."
+    },
+    {
+      "topic": "ipas.proses.membuat-grafik-batang-dan-garis",
+      "requires": "ipas.proses.menyusun-tabel-data",
+      "strength": "wajib",
+      "reason": "Grafik dibuat dari data yang sudah tersusun di tabel."
+    },
+    {
+      "topic": "ipas.proses.membuat-grafik-batang-dan-garis",
+      "requires": "ipas.proses.menyajikan-diagram-gambar-dan-pola",
+      "strength": "wajib",
+      "reason": "Sudah pernah membuat diagram gambar sederhana."
+    },
+    {
+      "topic": "ipas.proses.membaca-pola-dan-hubungan-data",
+      "requires": "ipas.proses.membuat-grafik-batang-dan-garis",
+      "strength": "wajib",
+      "reason": "Pola lebih mudah dilihat dari grafik yang sudah dibuat."
+    },
+    {
+      "topic": "ipas.proses.membandingkan-data-dengan-prediksi",
+      "requires": "ipas.proses.membaca-pola-dan-hubungan-data",
+      "strength": "wajib",
+      "reason": "Harus bisa membaca pola data sebelum mencocokkannya dengan prediksi."
+    },
+    {
+      "topic": "ipas.proses.membandingkan-data-dengan-prediksi",
+      "requires": "ipas.proses.prediksi-dengan-alasan",
+      "strength": "wajib",
+      "reason": "Perlu ada prediksi tertulis untuk dibandingkan."
+    },
+    {
+      "topic": "ipas.proses.membandingkan-data-dengan-prediksi",
+      "requires": "ipas.proses.membandingkan-hasil-dengan-dugaan",
+      "strength": "bantu",
+      "reason": "Sudah pernah membandingkan hasil dengan dugaan secara sederhana."
+    },
+    {
+      "topic": "ipas.proses.saran-perbaikan-penyelidikan",
+      "requires": "ipas.proses.merefleksikan-penyelidikan",
+      "strength": "wajib",
+      "reason": "Sudah biasa menilai kembali percobaan sederhana."
+    },
+    {
+      "topic": "ipas.proses.saran-perbaikan-penyelidikan",
+      "requires": "ipas.proses.membandingkan-data-dengan-prediksi",
+      "strength": "wajib",
+      "reason": "Refleksi memakai hasil perbandingan data dan prediksi."
+    },
+    {
+      "topic": "ipas.proses.saran-perbaikan-penyelidikan",
+      "requires": "ipas.proses.percobaan-adil-satu-yang-diubah",
+      "strength": "bantu",
+      "reason": "Saran perbaikan sering berkaitan dengan percobaan yang kurang adil."
+    },
+    {
+      "topic": "ipas.proses.laporan-penyelidikan-dengan-argumen",
+      "requires": "ipas.proses.menyampaikan-hasil-penyelidikan",
+      "strength": "wajib",
+      "reason": "Sudah bisa menyampaikan hasil percobaan secara lisan dan tertulis."
+    },
+    {
+      "topic": "ipas.proses.laporan-penyelidikan-dengan-argumen",
+      "requires": "ipas.proses.membandingkan-data-dengan-prediksi",
+      "strength": "wajib",
+      "reason": "Argumen dalam laporan bersumber dari perbandingan data dan prediksi."
+    },
+    {
+      "topic": "ipas.proses.presentasi-dalam-berbagai-media",
+      "requires": "ipas.proses.laporan-penyelidikan-dengan-argumen",
+      "strength": "wajib",
+      "reason": "Isi presentasi berasal dari laporan yang sudah lengkap."
+    },
+    {
       "topic": "mat.bil.membilang-benda-sampai-20",
       "requires": "mat.bil.menyebut-urutan-bilangan-sampai-20",
       "strength": "wajib",
@@ -1225,6 +3055,2070 @@
       "requires": "mat.data.membuat-dan-membaca-piktogram",
       "strength": "wajib",
       "reason": "Anak perlu bisa membuat piktogram untuk menyajikan data."
+    },
+    {
+      "topic": "mat.bil.nilai-tempat-ratusan",
+      "requires": "mat.bil.nilai-tempat-puluhan-dan-satuan",
+      "strength": "wajib",
+      "reason": "Ratusan adalah perluasan dari ide puluhan dan satuan."
+    },
+    {
+      "topic": "mat.bil.nilai-tempat-ratusan",
+      "requires": "mat.bil.membilang-sampai-100",
+      "strength": "bantu",
+      "reason": "Anak perlu paham urutan sampai 100 sebelum melewati seratus."
+    },
+    {
+      "topic": "mat.bil.membaca-menulis-bilangan-sampai-1000",
+      "requires": "mat.bil.membaca-menulis-bilangan-sampai-100",
+      "strength": "wajib",
+      "reason": "Cara membaca bilangan dua angka dipakai lagi di belakang kata ratus."
+    },
+    {
+      "topic": "mat.bil.membaca-menulis-bilangan-sampai-1000",
+      "requires": "mat.bil.nilai-tempat-ratusan",
+      "strength": "wajib",
+      "reason": "Menulis 305 dengan benar butuh paham tempat ratusan, puluhan, dan satuan."
+    },
+    {
+      "topic": "mat.bil.membandingkan-mengurutkan-bilangan-sampai-1000",
+      "requires": "mat.bil.membaca-menulis-bilangan-sampai-1000",
+      "strength": "wajib",
+      "reason": "Anak harus bisa membaca bilangannya sebelum membandingkan."
+    },
+    {
+      "topic": "mat.bil.membandingkan-mengurutkan-bilangan-sampai-1000",
+      "requires": "mat.bil.membandingkan-dan-mengurutkan-bilangan-sampai-100",
+      "strength": "wajib",
+      "reason": "Cara membandingkan puluhan dulu lalu satuan sudah dipelajari sampai 100."
+    },
+    {
+      "topic": "mat.bil.mengurai-bilangan-tiga-angka",
+      "requires": "mat.bil.nilai-tempat-ratusan",
+      "strength": "wajib",
+      "reason": "Mengurai bilangan memakai nilai tiap angka."
+    },
+    {
+      "topic": "mat.bil.mengurai-bilangan-tiga-angka",
+      "requires": "mat.bil.mengurai-bilangan-dua-angka",
+      "strength": "wajib",
+      "reason": "Cara mengurai bilangan dua angka diperluas ke ratusan."
+    },
+    {
+      "topic": "mat.bil.nilai-tempat-ribuan",
+      "requires": "mat.bil.nilai-tempat-ratusan",
+      "strength": "wajib",
+      "reason": "Ribuan dibentuk dari sepuluh ratusan, sama seperti ratusan dari puluhan."
+    },
+    {
+      "topic": "mat.bil.membaca-menulis-bilangan-sampai-10000",
+      "requires": "mat.bil.membaca-menulis-bilangan-sampai-1000",
+      "strength": "wajib",
+      "reason": "Bilangan empat angka dibaca dengan menambah kata ribu di depan bilangan tiga angka."
+    },
+    {
+      "topic": "mat.bil.membaca-menulis-bilangan-sampai-10000",
+      "requires": "mat.bil.nilai-tempat-ribuan",
+      "strength": "wajib",
+      "reason": "Menulis nol di tempat yang benar butuh paham nilai tempat ribuan."
+    },
+    {
+      "topic": "mat.bil.membandingkan-mengurutkan-bilangan-sampai-10000",
+      "requires": "mat.bil.membaca-menulis-bilangan-sampai-10000",
+      "strength": "wajib",
+      "reason": "Anak harus bisa membaca bilangan empat angka sebelum membandingkannya."
+    },
+    {
+      "topic": "mat.bil.membandingkan-mengurutkan-bilangan-sampai-10000",
+      "requires": "mat.bil.membandingkan-mengurutkan-bilangan-sampai-1000",
+      "strength": "wajib",
+      "reason": "Cara membandingkan dari tempat terbesar sudah dipelajari sampai 1.000."
+    },
+    {
+      "topic": "mat.bil.mengurai-bilangan-empat-angka",
+      "requires": "mat.bil.mengurai-bilangan-tiga-angka",
+      "strength": "wajib",
+      "reason": "Cara mengurai bilangan tiga angka diperluas ke ribuan."
+    },
+    {
+      "topic": "mat.bil.mengurai-bilangan-empat-angka",
+      "requires": "mat.bil.nilai-tempat-ribuan",
+      "strength": "wajib",
+      "reason": "Mengurai bilangan empat angka memakai nilai tempat ribuan."
+    },
+    {
+      "topic": "mat.bil.membulatkan-dan-memperkirakan-bilangan",
+      "requires": "mat.bil.membandingkan-mengurutkan-bilangan-sampai-10000",
+      "strength": "wajib",
+      "reason": "Membulatkan butuh tahu bilangan mana yang lebih dekat."
+    },
+    {
+      "topic": "mat.bil.membulatkan-dan-memperkirakan-bilangan",
+      "requires": "mat.bil.letak-bilangan-pada-garis-bilangan",
+      "strength": "bantu",
+      "reason": "Garis bilangan sampai 100 menjadi dasar garis bilangan yang lebih panjang."
+    },
+    {
+      "topic": "mat.bil.menjumlah-tanpa-menyimpan-sampai-1000",
+      "requires": "mat.bil.mengurai-bilangan-tiga-angka",
+      "strength": "wajib",
+      "reason": "Menjumlah per tempat memakai penguraian ratusan, puluhan, dan satuan."
+    },
+    {
+      "topic": "mat.bil.menjumlah-tanpa-menyimpan-sampai-1000",
+      "requires": "mat.bil.menjumlah-dan-mengurang-melewati-10",
+      "strength": "wajib",
+      "reason": "Fakta penjumlahan dasar dipakai di setiap tempat."
+    },
+    {
+      "topic": "mat.bil.menjumlah-dengan-menyimpan-sampai-1000",
+      "requires": "mat.bil.menjumlah-tanpa-menyimpan-sampai-1000",
+      "strength": "wajib",
+      "reason": "Cara bersusun dikenal dulu tanpa menyimpan."
+    },
+    {
+      "topic": "mat.bil.menjumlah-dengan-menyimpan-sampai-1000",
+      "requires": "mat.bil.nilai-tempat-ratusan",
+      "strength": "wajib",
+      "reason": "Menyimpan artinya menukar 10 satuan menjadi 1 puluhan."
+    },
+    {
+      "topic": "mat.bil.mengurang-tanpa-meminjam-sampai-1000",
+      "requires": "mat.bil.mengurai-bilangan-tiga-angka",
+      "strength": "wajib",
+      "reason": "Mengurang per tempat memakai penguraian ratusan, puluhan, dan satuan."
+    },
+    {
+      "topic": "mat.bil.mengurang-tanpa-meminjam-sampai-1000",
+      "requires": "mat.bil.hubungan-penjumlahan-dan-pengurangan",
+      "strength": "bantu",
+      "reason": "Hubungan tambah dan kurang dipakai untuk memeriksa hasil."
+    },
+    {
+      "topic": "mat.bil.mengurang-dengan-meminjam-sampai-1000",
+      "requires": "mat.bil.mengurang-tanpa-meminjam-sampai-1000",
+      "strength": "wajib",
+      "reason": "Cara bersusun dikenal dulu tanpa meminjam."
+    },
+    {
+      "topic": "mat.bil.mengurang-dengan-meminjam-sampai-1000",
+      "requires": "mat.bil.mengurai-bilangan-tiga-angka",
+      "strength": "wajib",
+      "reason": "Meminjam artinya mengurai bilangan dengan cara lain, misalnya 432 = 300 + 120 + 12."
+    },
+    {
+      "topic": "mat.bil.soal-cerita-tambah-kurang-sampai-1000",
+      "requires": "mat.bil.menjumlah-dengan-menyimpan-sampai-1000",
+      "strength": "wajib",
+      "reason": "Soal cerita memakai penjumlahan dengan menyimpan."
+    },
+    {
+      "topic": "mat.bil.soal-cerita-tambah-kurang-sampai-1000",
+      "requires": "mat.bil.mengurang-dengan-meminjam-sampai-1000",
+      "strength": "wajib",
+      "reason": "Soal cerita memakai pengurangan dengan meminjam."
+    },
+    {
+      "topic": "mat.bil.soal-cerita-tambah-kurang-sampai-1000",
+      "requires": "mat.bil.soal-cerita-penjumlahan-dan-pengurangan",
+      "strength": "bantu",
+      "reason": "Cara memahami soal cerita sudah dilatih dengan bilangan kecil."
+    },
+    {
+      "topic": "mat.bil.memeriksa-hasil-dengan-perkiraan",
+      "requires": "mat.bil.membulatkan-dan-memperkirakan-bilangan",
+      "strength": "wajib",
+      "reason": "Perkiraan hasil dibuat dari bilangan yang sudah dibulatkan."
+    },
+    {
+      "topic": "mat.bil.memeriksa-hasil-dengan-perkiraan",
+      "requires": "mat.bil.soal-cerita-tambah-kurang-sampai-1000",
+      "strength": "bantu",
+      "reason": "Memeriksa hasil paling berguna saat menyelesaikan soal cerita."
+    },
+    {
+      "topic": "mat.bil.perkalian-sebagai-penjumlahan-berulang",
+      "requires": "mat.bil.membilang-loncat-2-5-10",
+      "strength": "wajib",
+      "reason": "Membilang loncat adalah cara pertama menghitung kelompok sama besar."
+    },
+    {
+      "topic": "mat.bil.perkalian-sebagai-penjumlahan-berulang",
+      "requires": "mat.bil.menjumlah-dan-mengurang-melewati-10",
+      "strength": "bantu",
+      "reason": "Penjumlahan berulang butuh penjumlahan yang lancar."
+    },
+    {
+      "topic": "mat.bil.perkalian-dengan-susunan-baris-dan-kolom",
+      "requires": "mat.bil.perkalian-sebagai-penjumlahan-berulang",
+      "strength": "wajib",
+      "reason": "Tiap baris adalah satu kelompok dalam penjumlahan berulang."
+    },
+    {
+      "topic": "mat.bil.perkalian-dasar-2-5-10",
+      "requires": "mat.bil.perkalian-sebagai-penjumlahan-berulang",
+      "strength": "wajib",
+      "reason": "Fakta perkalian harus punya arti dulu sebelum dihafal."
+    },
+    {
+      "topic": "mat.bil.perkalian-dasar-2-5-10",
+      "requires": "mat.bil.membilang-loncat-2-5-10",
+      "strength": "wajib",
+      "reason": "Perkalian 2, 5, dan 10 adalah hasil membilang loncat."
+    },
+    {
+      "topic": "mat.bil.perkalian-dasar-sampai-10-kali-10",
+      "requires": "mat.bil.perkalian-dasar-2-5-10",
+      "strength": "wajib",
+      "reason": "Fakta yang lebih sulit diturunkan dari fakta 2, 5, dan 10."
+    },
+    {
+      "topic": "mat.bil.perkalian-dasar-sampai-10-kali-10",
+      "requires": "mat.bil.perkalian-dengan-susunan-baris-dan-kolom",
+      "strength": "wajib",
+      "reason": "Sifat pertukaran memangkas fakta yang harus dihafal menjadi separuh."
+    },
+    {
+      "topic": "mat.bil.pembagian-sebagai-berbagi-rata",
+      "requires": "mat.bil.membagi-benda-sama-banyak",
+      "strength": "wajib",
+      "reason": "Pengalaman membagi benda sama banyak menjadi dasar lambang pembagian."
+    },
+    {
+      "topic": "mat.bil.pembagian-sebagai-berbagi-rata",
+      "requires": "mat.bil.perkalian-sebagai-penjumlahan-berulang",
+      "strength": "bantu",
+      "reason": "Mengelompokkan sama besar adalah kebalikan dari menghitung kelompok."
+    },
+    {
+      "topic": "mat.bil.hubungan-perkalian-dan-pembagian",
+      "requires": "mat.bil.perkalian-dasar-sampai-10-kali-10",
+      "strength": "wajib",
+      "reason": "Pembagian dihitung dengan mencari fakta perkalian yang cocok."
+    },
+    {
+      "topic": "mat.bil.hubungan-perkalian-dan-pembagian",
+      "requires": "mat.bil.pembagian-sebagai-berbagi-rata",
+      "strength": "wajib",
+      "reason": "Anak harus tahu arti pembagian sebelum menghubungkannya dengan perkalian."
+    },
+    {
+      "topic": "mat.bil.soal-cerita-kali-dan-bagi",
+      "requires": "mat.bil.hubungan-perkalian-dan-pembagian",
+      "strength": "wajib",
+      "reason": "Memilih kali atau bagi butuh paham hubungan keduanya."
+    },
+    {
+      "topic": "mat.bil.kelipatan-bilangan",
+      "requires": "mat.bil.perkalian-dasar-sampai-10-kali-10",
+      "strength": "wajib",
+      "reason": "Kelipatan adalah deretan hasil perkalian."
+    },
+    {
+      "topic": "mat.bil.faktor-bilangan",
+      "requires": "mat.bil.hubungan-perkalian-dan-pembagian",
+      "strength": "wajib",
+      "reason": "Faktor ditemukan lewat pembagian tanpa sisa dan pasangan perkalian."
+    },
+    {
+      "topic": "mat.bil.faktor-bilangan",
+      "requires": "mat.bil.kelipatan-bilangan",
+      "strength": "bantu",
+      "reason": "Faktor dan kelipatan adalah dua sisi dari hubungan yang sama."
+    },
+    {
+      "topic": "mat.bil.membaca-menulis-pecahan",
+      "requires": "mat.bil.pecahan-seperempat-dari-satu-benda",
+      "strength": "wajib",
+      "reason": "Setengah dan seperempat adalah pecahan pertama yang dikenal anak."
+    },
+    {
+      "topic": "mat.bil.membaca-menulis-pecahan",
+      "requires": "mat.bil.pecahan-setengah-dari-satu-benda",
+      "strength": "bantu",
+      "reason": "Ide bagian yang sama besar mulai dari setengah."
+    },
+    {
+      "topic": "mat.bil.membandingkan-pecahan-pembilang-satu",
+      "requires": "mat.bil.membaca-menulis-pecahan",
+      "strength": "wajib",
+      "reason": "Anak harus bisa membaca pecahan sebelum membandingkannya."
+    },
+    {
+      "topic": "mat.bil.membandingkan-pecahan-penyebut-sama",
+      "requires": "mat.bil.membaca-menulis-pecahan",
+      "strength": "wajib",
+      "reason": "Anak harus paham arti pembilang dan penyebut dulu."
+    },
+    {
+      "topic": "mat.bil.membandingkan-pecahan-penyebut-sama",
+      "requires": "mat.bil.membandingkan-pecahan-pembilang-satu",
+      "strength": "bantu",
+      "reason": "Pengalaman membandingkan pecahan sederhana membantu cara berpikir yang sama."
+    },
+    {
+      "topic": "mat.bil.pecahan-dari-kumpulan-benda",
+      "requires": "mat.bil.membaca-menulis-pecahan",
+      "strength": "wajib",
+      "reason": "Anak harus paham arti pembilang dan penyebut."
+    },
+    {
+      "topic": "mat.bil.pecahan-dari-kumpulan-benda",
+      "requires": "mat.bil.setengah-dan-seperempat-dari-kumpulan-benda",
+      "strength": "wajib",
+      "reason": "Setengah dan seperempat dari kumpulan benda sudah dikenal di Fase A."
+    },
+    {
+      "topic": "mat.bil.pecahan-dari-kumpulan-benda",
+      "requires": "mat.bil.pembagian-sebagai-berbagi-rata",
+      "strength": "wajib",
+      "reason": "Pecahan dari kumpulan dihitung dengan membagi rata."
+    },
+    {
+      "topic": "mat.bil.pecahan-pada-garis-bilangan",
+      "requires": "mat.bil.membandingkan-pecahan-penyebut-sama",
+      "strength": "wajib",
+      "reason": "Urutan pecahan berpenyebut sama terlihat langsung pada garis bilangan."
+    },
+    {
+      "topic": "mat.bil.pecahan-pada-garis-bilangan",
+      "requires": "mat.bil.letak-bilangan-pada-garis-bilangan",
+      "strength": "bantu",
+      "reason": "Anak sudah biasa memakai garis bilangan untuk bilangan cacah."
+    },
+    {
+      "topic": "mat.bil.pecahan-senilai-dengan-gambar",
+      "requires": "mat.bil.pecahan-pada-garis-bilangan",
+      "strength": "bantu",
+      "reason": "Pecahan senilai terlihat di titik yang sama pada garis bilangan."
+    },
+    {
+      "topic": "mat.bil.pecahan-senilai-dengan-gambar",
+      "requires": "mat.bil.membandingkan-pecahan-penyebut-sama",
+      "strength": "wajib",
+      "reason": "Anak harus bisa membandingkan pecahan sebelum melihat pecahan yang sama besar."
+    },
+    {
+      "topic": "mat.bil.mencari-pecahan-senilai",
+      "requires": "mat.bil.pecahan-senilai-dengan-gambar",
+      "strength": "wajib",
+      "reason": "Aturan kali dan bagi baru masuk akal setelah anak melihat pecahan senilai pada gambar."
+    },
+    {
+      "topic": "mat.bil.mencari-pecahan-senilai",
+      "requires": "mat.bil.perkalian-dasar-sampai-10-kali-10",
+      "strength": "wajib",
+      "reason": "Mencari pecahan senilai memakai perkalian dan pembagian."
+    },
+    {
+      "topic": "mat.bil.mengenal-desimal-persepuluhan",
+      "requires": "mat.bil.pecahan-pada-garis-bilangan",
+      "strength": "wajib",
+      "reason": "Desimal persepuluhan dipahami sebagai pecahan per sepuluh di antara 0 dan 1."
+    },
+    {
+      "topic": "mat.bil.mengenal-desimal-persepuluhan",
+      "requires": "mat.bil.nilai-tempat-ratusan",
+      "strength": "bantu",
+      "reason": "Desimal melanjutkan pola nilai tempat ke kanan dari satuan."
+    },
+    {
+      "topic": "mat.bil.mengubah-pecahan-ke-desimal",
+      "requires": "mat.bil.mengenal-desimal-persepuluhan",
+      "strength": "wajib",
+      "reason": "Anak harus tahu arti desimal dulu."
+    },
+    {
+      "topic": "mat.bil.mengubah-pecahan-ke-desimal",
+      "requires": "mat.bil.mencari-pecahan-senilai",
+      "strength": "wajib",
+      "reason": "Pecahan diubah dulu menjadi pecahan senilai berpenyebut 10 atau 100."
+    },
+    {
+      "topic": "mat.bil.mengenal-persen",
+      "requires": "mat.bil.mengubah-pecahan-ke-desimal",
+      "strength": "wajib",
+      "reason": "Persen dipahami lewat pecahan per seratus, yang juga dipakai untuk desimal."
+    },
+    {
+      "topic": "mat.bil.mengenal-persen",
+      "requires": "mat.bil.mencari-pecahan-senilai",
+      "strength": "wajib",
+      "reason": "Pecahan diubah menjadi pecahan senilai berpenyebut 100 sebelum menjadi persen."
+    },
+    {
+      "topic": "mat.alj.sifat-pertukaran-dan-pengelompokan",
+      "requires": "mat.alj.makna-tanda-sama-dengan",
+      "strength": "wajib",
+      "reason": "Sifat pertukaran ditulis sebagai kesamaan dua kalimat matematika."
+    },
+    {
+      "topic": "mat.alj.sifat-pertukaran-dan-pengelompokan",
+      "requires": "mat.bil.menjumlah-dan-mengurang-melewati-10",
+      "strength": "bantu",
+      "reason": "Mengelompokkan menjadi 10 butuh penjumlahan dasar yang lancar."
+    },
+    {
+      "topic": "mat.alj.mencari-bilangan-yang-hilang-sampai-100",
+      "requires": "mat.alj.mencari-bilangan-yang-hilang",
+      "strength": "wajib",
+      "reason": "Cara mencari bilangan yang hilang sudah dikenal dengan bilangan kecil."
+    },
+    {
+      "topic": "mat.alj.mencari-bilangan-yang-hilang-sampai-100",
+      "requires": "mat.bil.hubungan-penjumlahan-dan-pengurangan",
+      "strength": "wajib",
+      "reason": "Bilangan yang hilang dicari dengan operasi kebalikannya."
+    },
+    {
+      "topic": "mat.alj.kalimat-matematika-seimbang",
+      "requires": "mat.alj.mencari-bilangan-yang-hilang-sampai-100",
+      "strength": "wajib",
+      "reason": "Kalimat seimbang adalah bentuk yang lebih sulit dari mencari bilangan yang hilang."
+    },
+    {
+      "topic": "mat.alj.kalimat-matematika-seimbang",
+      "requires": "mat.alj.sifat-pertukaran-dan-pengelompokan",
+      "strength": "wajib",
+      "reason": "Menyeimbangkan memakai sifat bilangan dan operasinya."
+    },
+    {
+      "topic": "mat.alj.pola-gambar-dan-benda-yang-bertumbuh",
+      "requires": "mat.alj.meniru-dan-melanjutkan-pola",
+      "strength": "wajib",
+      "reason": "Meniru dan melanjutkan pola berulang sudah dilatih di Fase A."
+    },
+    {
+      "topic": "mat.alj.pola-bilangan-membesar",
+      "requires": "mat.bil.membilang-loncat-2-5-10",
+      "strength": "wajib",
+      "reason": "Pola bilangan naik adalah perluasan dari membilang loncat."
+    },
+    {
+      "topic": "mat.alj.pola-bilangan-membesar",
+      "requires": "mat.alj.meniru-dan-melanjutkan-pola",
+      "strength": "bantu",
+      "reason": "Ide mencari aturan pola sudah dikenal dari pola gambar."
+    },
+    {
+      "topic": "mat.alj.pola-bilangan-mengecil",
+      "requires": "mat.alj.pola-bilangan-membesar",
+      "strength": "wajib",
+      "reason": "Pola yang turun lebih mudah setelah anak paham pola yang naik."
+    },
+    {
+      "topic": "mat.ukur.mengukur-panjang-dengan-penggaris",
+      "requires": "mat.ukur.hasil-ukur-berbeda-karena-satuan-berbeda",
+      "strength": "wajib",
+      "reason": "Anak perlu paham kenapa butuh satuan yang sama untuk semua orang."
+    },
+    {
+      "topic": "mat.ukur.mengukur-panjang-dengan-penggaris",
+      "requires": "mat.ukur.mengukur-panjang-dengan-satuan-tidak-baku",
+      "strength": "wajib",
+      "reason": "Cara mengukur tanpa celah sudah dilatih dengan jengkal dan benda."
+    },
+    {
+      "topic": "mat.ukur.mengukur-panjang-dengan-meteran",
+      "requires": "mat.ukur.mengukur-panjang-dengan-penggaris",
+      "strength": "wajib",
+      "reason": "Cara membaca alat ukur dari 0 dipelajari dulu dengan penggaris."
+    },
+    {
+      "topic": "mat.ukur.mengukur-panjang-dengan-meteran",
+      "requires": "mat.ukur.memperkirakan-panjang-benda",
+      "strength": "bantu",
+      "reason": "Kebiasaan menebak panjang membantu memilih satuan yang cocok."
+    },
+    {
+      "topic": "mat.ukur.hubungan-meter-dan-sentimeter",
+      "requires": "mat.ukur.mengukur-panjang-dengan-meteran",
+      "strength": "wajib",
+      "reason": "Anak harus pernah memakai cm dan m sebelum menghubungkan keduanya."
+    },
+    {
+      "topic": "mat.ukur.hubungan-meter-dan-sentimeter",
+      "requires": "mat.bil.nilai-tempat-ratusan",
+      "strength": "wajib",
+      "reason": "1 m = 100 cm memakai pengertian seratus."
+    },
+    {
+      "topic": "mat.ukur.mengukur-berat-dengan-timbangan",
+      "requires": "mat.ukur.mengukur-berat-dengan-satuan-tidak-baku",
+      "strength": "wajib",
+      "reason": "Ide menimbang dengan pembanding sudah dikenal di Fase A."
+    },
+    {
+      "topic": "mat.ukur.mengukur-berat-dengan-timbangan",
+      "requires": "mat.ukur.memperkirakan-berat-benda",
+      "strength": "bantu",
+      "reason": "Kebiasaan menebak berat membantu memilih gram atau kilogram."
+    },
+    {
+      "topic": "mat.ukur.hubungan-kilogram-dan-gram",
+      "requires": "mat.ukur.mengukur-berat-dengan-timbangan",
+      "strength": "wajib",
+      "reason": "Anak harus pernah memakai gram dan kilogram sebelum menghubungkannya."
+    },
+    {
+      "topic": "mat.ukur.hubungan-kilogram-dan-gram",
+      "requires": "mat.bil.nilai-tempat-ribuan",
+      "strength": "wajib",
+      "reason": "1 kg = 1.000 g memakai pengertian seribu."
+    },
+    {
+      "topic": "mat.ukur.mengukur-luas-dengan-satuan-tidak-baku",
+      "requires": "mat.ukur.mengukur-panjang-dengan-satuan-tidak-baku",
+      "strength": "wajib",
+      "reason": "Ide mengukur dengan satuan berulang tanpa celah sudah dipakai untuk panjang."
+    },
+    {
+      "topic": "mat.ukur.mengukur-luas-dengan-satuan-tidak-baku",
+      "requires": "mat.geo.menyusun-bangun-datar",
+      "strength": "bantu",
+      "reason": "Menutup permukaan mirip dengan menyusun bangun datar tanpa celah."
+    },
+    {
+      "topic": "mat.ukur.mengukur-luas-dengan-persegi-satuan",
+      "requires": "mat.ukur.mengukur-luas-dengan-satuan-tidak-baku",
+      "strength": "wajib",
+      "reason": "Ide menutup permukaan tanpa celah dipakai lagi dengan persegi yang sama besar."
+    },
+    {
+      "topic": "mat.ukur.mengukur-luas-dengan-persegi-satuan",
+      "requires": "mat.bil.perkalian-dengan-susunan-baris-dan-kolom",
+      "strength": "wajib",
+      "reason": "Menghitung kotak dalam baris dan kolom memakai perkalian."
+    },
+    {
+      "topic": "mat.ukur.mengukur-volume-dengan-satuan-tidak-baku",
+      "requires": "mat.ukur.hasil-ukur-berbeda-karena-satuan-berbeda",
+      "strength": "wajib",
+      "reason": "Anak perlu paham bahwa takaran yang berbeda memberi hasil berbeda."
+    },
+    {
+      "topic": "mat.ukur.mengukur-volume-dengan-kubus-satuan",
+      "requires": "mat.ukur.mengukur-volume-dengan-satuan-tidak-baku",
+      "strength": "wajib",
+      "reason": "Ide mengisi wadah dengan takaran yang sama sudah dikenal."
+    },
+    {
+      "topic": "mat.ukur.mengukur-volume-dengan-kubus-satuan",
+      "requires": "mat.ukur.mengukur-luas-dengan-persegi-satuan",
+      "strength": "bantu",
+      "reason": "Satu lapis kubus dihitung seperti luas dengan persegi satuan."
+    },
+    {
+      "topic": "mat.ukur.mengukur-volume-dengan-kubus-satuan",
+      "requires": "mat.geo.mengenal-bangun-ruang",
+      "strength": "bantu",
+      "reason": "Anak perlu mengenal kubus dan balok."
+    },
+    {
+      "topic": "mat.geo.mengenal-sudut-siku-siku",
+      "requires": "mat.geo.membedakan-bangun-datar-dari-sisi-dan-sudut",
+      "strength": "wajib",
+      "reason": "Anak sudah mengenal sudut sebagai pojok bangun datar."
+    },
+    {
+      "topic": "mat.geo.ciri-persegi-dan-persegi-panjang",
+      "requires": "mat.geo.mengenal-sudut-siku-siku",
+      "strength": "wajib",
+      "reason": "Kedua bangun dikenali dari sudut siku-sikunya."
+    },
+    {
+      "topic": "mat.geo.ciri-persegi-dan-persegi-panjang",
+      "requires": "mat.ukur.mengukur-panjang-dengan-penggaris",
+      "strength": "bantu",
+      "reason": "Membandingkan panjang sisi lebih tepat dengan penggaris."
+    },
+    {
+      "topic": "mat.geo.macam-macam-segiempat",
+      "requires": "mat.geo.ciri-persegi-dan-persegi-panjang",
+      "strength": "wajib",
+      "reason": "Segiempat lain dibandingkan dengan ciri persegi dan persegi panjang."
+    },
+    {
+      "topic": "mat.geo.macam-macam-segitiga",
+      "requires": "mat.geo.mengenal-sudut-siku-siku",
+      "strength": "wajib",
+      "reason": "Segitiga siku-siku dikenali dari sudutnya."
+    },
+    {
+      "topic": "mat.geo.macam-macam-segitiga",
+      "requires": "mat.geo.membedakan-bangun-datar-dari-sisi-dan-sudut",
+      "strength": "wajib",
+      "reason": "Anak sudah mengenal segitiga sebagai bangun bersisi tiga."
+    },
+    {
+      "topic": "mat.geo.mengenal-segi-banyak",
+      "requires": "mat.geo.macam-macam-segitiga",
+      "strength": "bantu",
+      "reason": "Segitiga adalah segi banyak yang paling sederhana."
+    },
+    {
+      "topic": "mat.geo.mengenal-segi-banyak",
+      "requires": "mat.geo.ciri-persegi-dan-persegi-panjang",
+      "strength": "bantu",
+      "reason": "Cara mendeskripsikan sisi dan sudut segiempat dipakai lagi."
+    },
+    {
+      "topic": "mat.geo.menyusun-bangun-datar-dengan-beberapa-cara",
+      "requires": "mat.geo.menyusun-bangun-datar",
+      "strength": "wajib",
+      "reason": "Menyusun bangun datar sederhana sudah dikenal di Fase A."
+    },
+    {
+      "topic": "mat.geo.menyusun-bangun-datar-dengan-beberapa-cara",
+      "requires": "mat.geo.macam-macam-segitiga",
+      "strength": "bantu",
+      "reason": "Anak perlu menamai bangun yang dipakai dan bangun yang dihasilkan."
+    },
+    {
+      "topic": "mat.geo.mengurai-bangun-datar-dengan-beberapa-cara",
+      "requires": "mat.geo.mengurai-bangun-datar",
+      "strength": "wajib",
+      "reason": "Mengurai bangun datar sederhana sudah dikenal di Fase A."
+    },
+    {
+      "topic": "mat.geo.mengurai-bangun-datar-dengan-beberapa-cara",
+      "requires": "mat.geo.menyusun-bangun-datar-dengan-beberapa-cara",
+      "strength": "bantu",
+      "reason": "Menyusun dan mengurai adalah dua arah dari kegiatan yang sama."
+    },
+    {
+      "topic": "mat.geo.mengurai-bangun-datar-dengan-beberapa-cara",
+      "requires": "mat.geo.mengenal-segi-banyak",
+      "strength": "bantu",
+      "reason": "Anak perlu menamai segi banyak yang diurai."
+    },
+    {
+      "topic": "mat.data.membaca-dan-membuat-tabel-data",
+      "requires": "mat.data.mencatat-data-dengan-turus",
+      "strength": "wajib",
+      "reason": "Data dikumpulkan dulu dengan turus sebelum dipindah ke tabel."
+    },
+    {
+      "topic": "mat.data.mengurutkan-dan-membandingkan-data",
+      "requires": "mat.data.membaca-dan-membuat-tabel-data",
+      "strength": "wajib",
+      "reason": "Data yang diurutkan dibaca dari tabel."
+    },
+    {
+      "topic": "mat.data.mengurutkan-dan-membandingkan-data",
+      "requires": "mat.data.membandingkan-dan-mengurutkan-kelompok-data",
+      "strength": "wajib",
+      "reason": "Membandingkan kelompok data sudah dikenal di Fase A."
+    },
+    {
+      "topic": "mat.data.diagram-gambar-dan-piktogram",
+      "requires": "mat.data.membuat-dan-membaca-piktogram",
+      "strength": "wajib",
+      "reason": "Piktogram sederhana sudah dikenal di Fase A."
+    },
+    {
+      "topic": "mat.data.diagram-gambar-dan-piktogram",
+      "requires": "mat.data.membaca-dan-membuat-tabel-data",
+      "strength": "wajib",
+      "reason": "Data dari tabel dipindahkan menjadi gambar."
+    },
+    {
+      "topic": "mat.data.membuat-diagram-batang",
+      "requires": "mat.data.diagram-gambar-dan-piktogram",
+      "strength": "wajib",
+      "reason": "Batang adalah gambar yang ditumpuk menjadi satu bentuk."
+    },
+    {
+      "topic": "mat.data.membaca-diagram-batang",
+      "requires": "mat.data.membuat-diagram-batang",
+      "strength": "wajib",
+      "reason": "Anak lebih paham diagram batang setelah membuatnya sendiri."
+    },
+    {
+      "topic": "mat.data.membaca-diagram-batang",
+      "requires": "mat.data.mengurutkan-dan-membandingkan-data",
+      "strength": "wajib",
+      "reason": "Analisis memakai cara mengurutkan dan menghitung selisih data."
+    },
+    {
+      "topic": "mat.data.menafsirkan-data-dan-menarik-kesimpulan",
+      "requires": "mat.data.membaca-diagram-batang",
+      "strength": "wajib",
+      "reason": "Kesimpulan dibuat dari data yang sudah dibaca dengan benar."
+    },
+    {
+      "topic": "mat.data.menafsirkan-data-dan-menarik-kesimpulan",
+      "requires": "mat.data.menyajikan-data-dari-benda-di-sekitar",
+      "strength": "bantu",
+      "reason": "Pengalaman mengumpulkan data sendiri membantu melihat arti data."
+    },
+    {
+      "topic": "mat.bil.nilai-tempat-sampai-ratusan-ribu",
+      "requires": "mat.bil.nilai-tempat-ribuan",
+      "strength": "wajib",
+      "reason": "Nilai tempat ribuan diperluas ke puluh ribuan dan ratus ribuan."
+    },
+    {
+      "topic": "mat.bil.membaca-menulis-bilangan-sampai-1000000",
+      "requires": "mat.bil.nilai-tempat-sampai-ratusan-ribu",
+      "strength": "wajib",
+      "reason": "Cara membaca bilangan besar mengikuti nilai tempat tiap angka."
+    },
+    {
+      "topic": "mat.bil.membaca-menulis-bilangan-sampai-1000000",
+      "requires": "mat.bil.membaca-menulis-bilangan-sampai-10000",
+      "strength": "wajib",
+      "reason": "Membaca bilangan sampai 10.000 harus lancar lebih dulu."
+    },
+    {
+      "topic": "mat.bil.membandingkan-mengurutkan-bilangan-sampai-1000000",
+      "requires": "mat.bil.membaca-menulis-bilangan-sampai-1000000",
+      "strength": "wajib",
+      "reason": "Bilangan harus bisa dibaca sebelum dibandingkan."
+    },
+    {
+      "topic": "mat.bil.membandingkan-mengurutkan-bilangan-sampai-1000000",
+      "requires": "mat.bil.membandingkan-mengurutkan-bilangan-sampai-10000",
+      "strength": "wajib",
+      "reason": "Cara membandingkan dari angka paling kiri sudah dipakai sampai 10.000."
+    },
+    {
+      "topic": "mat.bil.mengurai-bilangan-sampai-1000000",
+      "requires": "mat.bil.nilai-tempat-sampai-ratusan-ribu",
+      "strength": "wajib",
+      "reason": "Mengurai bilangan memakai nilai tiap angka."
+    },
+    {
+      "topic": "mat.bil.mengurai-bilangan-sampai-1000000",
+      "requires": "mat.bil.mengurai-bilangan-empat-angka",
+      "strength": "wajib",
+      "reason": "Cara mengurai bilangan empat angka diperluas ke bilangan yang lebih besar."
+    },
+    {
+      "topic": "mat.bil.memperkirakan-bilangan-besar",
+      "requires": "mat.bil.membandingkan-mengurutkan-bilangan-sampai-1000000",
+      "strength": "wajib",
+      "reason": "Meletakkan bilangan di garis bilangan butuh kemampuan membandingkan."
+    },
+    {
+      "topic": "mat.bil.memperkirakan-bilangan-besar",
+      "requires": "mat.bil.membulatkan-dan-memperkirakan-bilangan",
+      "strength": "wajib",
+      "reason": "Cara membulatkan ke ribuan terdekat sudah dikenal sebelumnya."
+    },
+    {
+      "topic": "mat.bil.menjumlah-mengurang-sampai-100000",
+      "requires": "mat.bil.menjumlah-dengan-menyimpan-sampai-1000",
+      "strength": "wajib",
+      "reason": "Cara menyimpan pada tiga angka dipakai lagi untuk lima angka."
+    },
+    {
+      "topic": "mat.bil.menjumlah-mengurang-sampai-100000",
+      "requires": "mat.bil.mengurang-dengan-meminjam-sampai-1000",
+      "strength": "wajib",
+      "reason": "Cara meminjam pada tiga angka dipakai lagi untuk lima angka."
+    },
+    {
+      "topic": "mat.bil.menjumlah-mengurang-sampai-100000",
+      "requires": "mat.bil.nilai-tempat-sampai-ratusan-ribu",
+      "strength": "bantu",
+      "reason": "Menyusun angka sesuai nilai tempat mencegah salah lajur."
+    },
+    {
+      "topic": "mat.bil.perkalian-bersusun",
+      "requires": "mat.bil.perkalian-dasar-sampai-10-kali-10",
+      "strength": "wajib",
+      "reason": "Perkalian bersusun memakai fakta perkalian dasar di setiap langkah."
+    },
+    {
+      "topic": "mat.bil.perkalian-bersusun",
+      "requires": "mat.bil.nilai-tempat-ribuan",
+      "strength": "wajib",
+      "reason": "Angka yang disimpan dipindah ke nilai tempat berikutnya."
+    },
+    {
+      "topic": "mat.bil.pembagian-bersusun",
+      "requires": "mat.bil.perkalian-bersusun",
+      "strength": "wajib",
+      "reason": "Setiap langkah porogapit mengalikan lalu mengurangkan."
+    },
+    {
+      "topic": "mat.bil.pembagian-bersusun",
+      "requires": "mat.bil.hubungan-perkalian-dan-pembagian",
+      "strength": "wajib",
+      "reason": "Pembagian dipahami sebagai kebalikan perkalian."
+    },
+    {
+      "topic": "mat.bil.hitung-campuran-dan-soal-cerita",
+      "requires": "mat.bil.menjumlah-mengurang-sampai-100000",
+      "strength": "wajib",
+      "reason": "Hitung campuran memakai penjumlahan dan pengurangan bilangan besar."
+    },
+    {
+      "topic": "mat.bil.hitung-campuran-dan-soal-cerita",
+      "requires": "mat.bil.pembagian-bersusun",
+      "strength": "wajib",
+      "reason": "Hitung campuran juga memakai perkalian dan pembagian bilangan besar."
+    },
+    {
+      "topic": "mat.bil.hitung-campuran-dan-soal-cerita",
+      "requires": "mat.bil.soal-cerita-kali-dan-bagi",
+      "strength": "bantu",
+      "reason": "Pengalaman memilih operasi dari soal cerita sederhana sudah ada."
+    },
+    {
+      "topic": "mat.bil.menyelesaikan-masalah-uang",
+      "requires": "mat.bil.menjumlah-mengurang-sampai-100000",
+      "strength": "wajib",
+      "reason": "Total belanja dan kembalian dihitung dengan tambah dan kurang."
+    },
+    {
+      "topic": "mat.bil.menyelesaikan-masalah-uang",
+      "requires": "mat.bil.mengurai-bilangan-sampai-1000000",
+      "strength": "bantu",
+      "reason": "Memilih lembaran uang sama dengan mengurai bilangan."
+    },
+    {
+      "topic": "mat.bil.menyelesaikan-masalah-uang",
+      "requires": "mat.bil.soal-cerita-tambah-kurang-sampai-1000",
+      "strength": "bantu",
+      "reason": "Cara membaca soal cerita sudah dilatih dengan bilangan kecil."
+    },
+    {
+      "topic": "mat.bil.menghitung-harga-diskon",
+      "requires": "mat.bil.menyelesaikan-masalah-uang",
+      "strength": "wajib",
+      "reason": "Harga akhir dihitung seperti soal belanja biasa."
+    },
+    {
+      "topic": "mat.bil.menghitung-harga-diskon",
+      "requires": "mat.bil.mengenal-persen",
+      "strength": "wajib",
+      "reason": "Diskon ditulis dalam persen."
+    },
+    {
+      "topic": "mat.bil.menghitung-harga-diskon",
+      "requires": "mat.bil.mengalikan-pecahan-dengan-bilangan-asli",
+      "strength": "wajib",
+      "reason": "Potongan harga adalah pecahan dari harga asli."
+    },
+    {
+      "topic": "mat.bil.mencari-kpk",
+      "requires": "mat.bil.kelipatan-bilangan",
+      "strength": "wajib",
+      "reason": "KPK dicari dari daftar kelipatan."
+    },
+    {
+      "topic": "mat.bil.mencari-fpb",
+      "requires": "mat.bil.faktor-bilangan",
+      "strength": "wajib",
+      "reason": "FPB dicari dari daftar faktor."
+    },
+    {
+      "topic": "mat.bil.mencari-fpb",
+      "requires": "mat.bil.mencari-kpk",
+      "strength": "bantu",
+      "reason": "Membandingkan dengan KPK membantu anak tidak tertukar."
+    },
+    {
+      "topic": "mat.bil.soal-cerita-kpk-dan-fpb",
+      "requires": "mat.bil.mencari-kpk",
+      "strength": "wajib",
+      "reason": "Soal 'bertemu lagi' diselesaikan dengan KPK."
+    },
+    {
+      "topic": "mat.bil.soal-cerita-kpk-dan-fpb",
+      "requires": "mat.bil.mencari-fpb",
+      "strength": "wajib",
+      "reason": "Soal 'dibagi sama rata' diselesaikan dengan FPB."
+    },
+    {
+      "topic": "mat.bil.pecahan-biasa-dan-pecahan-campuran",
+      "requires": "mat.bil.pecahan-pada-garis-bilangan",
+      "strength": "wajib",
+      "reason": "Garis bilangan menunjukkan pecahan yang melewati angka 1."
+    },
+    {
+      "topic": "mat.bil.pecahan-biasa-dan-pecahan-campuran",
+      "requires": "mat.bil.pembagian-sebagai-berbagi-rata",
+      "strength": "bantu",
+      "reason": "Mengubah ke pecahan campuran memakai pembagian dengan sisa."
+    },
+    {
+      "topic": "mat.bil.menyederhanakan-pecahan",
+      "requires": "mat.bil.mencari-pecahan-senilai",
+      "strength": "wajib",
+      "reason": "Pecahan yang disederhanakan adalah pecahan senilai."
+    },
+    {
+      "topic": "mat.bil.menyederhanakan-pecahan",
+      "requires": "mat.bil.mencari-fpb",
+      "strength": "bantu",
+      "reason": "FPB membuat penyederhanaan selesai dalam satu langkah."
+    },
+    {
+      "topic": "mat.bil.membandingkan-mengurutkan-pecahan-berbeda-penyebut",
+      "requires": "mat.bil.membandingkan-pecahan-penyebut-sama",
+      "strength": "wajib",
+      "reason": "Setelah penyebut disamakan, pecahan dibandingkan dari pembilangnya."
+    },
+    {
+      "topic": "mat.bil.membandingkan-mengurutkan-pecahan-berbeda-penyebut",
+      "requires": "mat.bil.mencari-pecahan-senilai",
+      "strength": "wajib",
+      "reason": "Menyamakan penyebut memakai pecahan senilai."
+    },
+    {
+      "topic": "mat.bil.membandingkan-mengurutkan-pecahan-berbeda-penyebut",
+      "requires": "mat.bil.pecahan-biasa-dan-pecahan-campuran",
+      "strength": "wajib",
+      "reason": "Pecahan campuran perlu dipahami sebelum diurutkan."
+    },
+    {
+      "topic": "mat.bil.menjumlah-mengurang-pecahan-penyebut-sama",
+      "requires": "mat.bil.membandingkan-pecahan-penyebut-sama",
+      "strength": "wajib",
+      "reason": "Anak perlu paham arti pembilang dan penyebut yang sama."
+    },
+    {
+      "topic": "mat.bil.menjumlah-mengurang-pecahan-penyebut-sama",
+      "requires": "mat.bil.menyederhanakan-pecahan",
+      "strength": "bantu",
+      "reason": "Hasil penjumlahan sering perlu disederhanakan."
+    },
+    {
+      "topic": "mat.bil.menjumlah-mengurang-pecahan-berbeda-penyebut",
+      "requires": "mat.bil.menjumlah-mengurang-pecahan-penyebut-sama",
+      "strength": "wajib",
+      "reason": "Setelah penyebut disamakan, caranya sama dengan pecahan berpenyebut sama."
+    },
+    {
+      "topic": "mat.bil.menjumlah-mengurang-pecahan-berbeda-penyebut",
+      "requires": "mat.bil.membandingkan-mengurutkan-pecahan-berbeda-penyebut",
+      "strength": "wajib",
+      "reason": "Cara menyamakan penyebut sudah dilatih saat membandingkan."
+    },
+    {
+      "topic": "mat.bil.menjumlah-mengurang-pecahan-berbeda-penyebut",
+      "requires": "mat.bil.mencari-kpk",
+      "strength": "bantu",
+      "reason": "KPK memberi penyebut bersama yang paling kecil."
+    },
+    {
+      "topic": "mat.bil.mengalikan-pecahan-dengan-bilangan-asli",
+      "requires": "mat.bil.pecahan-dari-kumpulan-benda",
+      "strength": "wajib",
+      "reason": "Pecahan dari suatu bilangan berawal dari pecahan kumpulan benda."
+    },
+    {
+      "topic": "mat.bil.mengalikan-pecahan-dengan-bilangan-asli",
+      "requires": "mat.bil.menjumlah-mengurang-pecahan-penyebut-sama",
+      "strength": "wajib",
+      "reason": "Perkalian pecahan dipahami sebagai penjumlahan berulang."
+    },
+    {
+      "topic": "mat.bil.mengalikan-pecahan-dengan-bilangan-asli",
+      "requires": "mat.bil.pecahan-biasa-dan-pecahan-campuran",
+      "strength": "bantu",
+      "reason": "Hasil perkalian sering ditulis sebagai pecahan campuran."
+    },
+    {
+      "topic": "mat.bil.membagi-pecahan-dengan-bilangan-asli",
+      "requires": "mat.bil.mengalikan-pecahan-dengan-bilangan-asli",
+      "strength": "wajib",
+      "reason": "Pembagian pecahan diperiksa dengan perkalian."
+    },
+    {
+      "topic": "mat.bil.membagi-pecahan-dengan-bilangan-asli",
+      "requires": "mat.bil.pembagian-sebagai-berbagi-rata",
+      "strength": "bantu",
+      "reason": "Makna berbagi rata dipakai lagi untuk pecahan."
+    },
+    {
+      "topic": "mat.bil.mengubah-pecahan-desimal-persen",
+      "requires": "mat.bil.mengubah-pecahan-ke-desimal",
+      "strength": "wajib",
+      "reason": "Pengubahan pecahan ke desimal persepuluhan sudah dikenal."
+    },
+    {
+      "topic": "mat.bil.mengubah-pecahan-desimal-persen",
+      "requires": "mat.bil.mengenal-persen",
+      "strength": "wajib",
+      "reason": "Persen sebagai per seratus sudah dikenal."
+    },
+    {
+      "topic": "mat.bil.mengubah-pecahan-desimal-persen",
+      "requires": "mat.bil.menyederhanakan-pecahan",
+      "strength": "bantu",
+      "reason": "Pecahan senilai dipakai untuk mendapat penyebut 10 atau 100."
+    },
+    {
+      "topic": "mat.bil.membandingkan-mengurutkan-desimal",
+      "requires": "mat.bil.mengenal-desimal-persepuluhan",
+      "strength": "wajib",
+      "reason": "Arti angka di belakang koma harus dipahami lebih dulu."
+    },
+    {
+      "topic": "mat.bil.membandingkan-mengurutkan-desimal",
+      "requires": "mat.bil.pecahan-pada-garis-bilangan",
+      "strength": "bantu",
+      "reason": "Garis bilangan membantu melihat urutan desimal."
+    },
+    {
+      "topic": "mat.alj.nilai-belum-diketahui-tambah-kurang-sampai-1000",
+      "requires": "mat.alj.mencari-bilangan-yang-hilang-sampai-100",
+      "strength": "wajib",
+      "reason": "Cara mencari bilangan yang hilang sampai 100 diperluas ke 1000."
+    },
+    {
+      "topic": "mat.alj.nilai-belum-diketahui-tambah-kurang-sampai-1000",
+      "requires": "mat.alj.kalimat-matematika-seimbang",
+      "strength": "wajib",
+      "reason": "Kalimat matematika dipahami sebagai dua sisi yang seimbang."
+    },
+    {
+      "topic": "mat.alj.nilai-belum-diketahui-kali-bagi-sampai-1000",
+      "requires": "mat.alj.nilai-belum-diketahui-tambah-kurang-sampai-1000",
+      "strength": "wajib",
+      "reason": "Cara memakai operasi kebalikan sudah dilatih dengan tambah dan kurang."
+    },
+    {
+      "topic": "mat.alj.nilai-belum-diketahui-kali-bagi-sampai-1000",
+      "requires": "mat.bil.hubungan-perkalian-dan-pembagian",
+      "strength": "wajib",
+      "reason": "Pembagian dipakai untuk mencari faktor yang hilang."
+    },
+    {
+      "topic": "mat.alj.nilai-belum-diketahui-kali-bagi-sampai-1000",
+      "requires": "mat.alj.sifat-pertukaran-dan-pengelompokan",
+      "strength": "bantu",
+      "reason": "Sifat operasi membuat hitungan lebih mudah."
+    },
+    {
+      "topic": "mat.alj.pola-bilangan-perkalian",
+      "requires": "mat.alj.pola-bilangan-membesar",
+      "strength": "wajib",
+      "reason": "Pola membesar dengan penjumlahan dikenal lebih dulu."
+    },
+    {
+      "topic": "mat.alj.pola-bilangan-perkalian",
+      "requires": "mat.bil.perkalian-dasar-sampai-10-kali-10",
+      "strength": "wajib",
+      "reason": "Pola ini dihitung dengan perkalian."
+    },
+    {
+      "topic": "mat.alj.pola-bilangan-pembagian",
+      "requires": "mat.alj.pola-bilangan-perkalian",
+      "strength": "wajib",
+      "reason": "Pola dibagi adalah kebalikan pola dikali."
+    },
+    {
+      "topic": "mat.alj.pola-bilangan-pembagian",
+      "requires": "mat.alj.pola-bilangan-mengecil",
+      "strength": "wajib",
+      "reason": "Pola mengecil dengan pengurangan dikenal lebih dulu."
+    },
+    {
+      "topic": "mat.alj.menemukan-aturan-dan-mengembangkan-pola",
+      "requires": "mat.alj.pola-bilangan-perkalian",
+      "strength": "wajib",
+      "reason": "Aturan dikali harus bisa dikenali dulu."
+    },
+    {
+      "topic": "mat.alj.menemukan-aturan-dan-mengembangkan-pola",
+      "requires": "mat.alj.pola-bilangan-pembagian",
+      "strength": "wajib",
+      "reason": "Aturan dibagi harus bisa dikenali dulu."
+    },
+    {
+      "topic": "mat.alj.mengenal-rasio",
+      "requires": "mat.bil.perkalian-dasar-sampai-10-kali-10",
+      "strength": "wajib",
+      "reason": "Rasio yang setara dibuat dengan mengalikan kedua bagian."
+    },
+    {
+      "topic": "mat.alj.mengenal-rasio",
+      "requires": "mat.bil.menyederhanakan-pecahan",
+      "strength": "bantu",
+      "reason": "Menyederhanakan rasio mirip dengan menyederhanakan pecahan."
+    },
+    {
+      "topic": "mat.alj.rasio-satuan-dan-harga-satuan",
+      "requires": "mat.alj.mengenal-rasio",
+      "strength": "wajib",
+      "reason": "Rasio satuan adalah rasio dengan salah satu bagian bernilai satu."
+    },
+    {
+      "topic": "mat.alj.rasio-satuan-dan-harga-satuan",
+      "requires": "mat.bil.pembagian-bersusun",
+      "strength": "wajib",
+      "reason": "Harga satuan dicari dengan pembagian."
+    },
+    {
+      "topic": "mat.alj.proporsi-dalam-resep-dan-belanja",
+      "requires": "mat.alj.rasio-satuan-dan-harga-satuan",
+      "strength": "wajib",
+      "reason": "Proporsi sering diselesaikan dengan mencari nilai satu satuan dulu."
+    },
+    {
+      "topic": "mat.alj.proporsi-dalam-resep-dan-belanja",
+      "requires": "mat.bil.hitung-campuran-dan-soal-cerita",
+      "strength": "bantu",
+      "reason": "Soal proporsi memakai kali dan bagi dalam satu soal cerita."
+    },
+    {
+      "topic": "mat.alj.skala-pada-denah-dan-peta",
+      "requires": "mat.alj.proporsi-dalam-resep-dan-belanja",
+      "strength": "wajib",
+      "reason": "Skala adalah salah satu bentuk proporsi."
+    },
+    {
+      "topic": "mat.alj.skala-pada-denah-dan-peta",
+      "requires": "mat.ukur.hubungan-meter-dan-sentimeter",
+      "strength": "wajib",
+      "reason": "Menghitung skala sering mengubah sentimeter ke meter."
+    },
+    {
+      "topic": "mat.alj.skala-pada-denah-dan-peta",
+      "requires": "mat.geo.lokasi-pada-peta-berpetak",
+      "strength": "bantu",
+      "reason": "Denah dan peta berpetak dibaca dengan cara yang mirip."
+    },
+    {
+      "topic": "mat.ukur.keliling-bangun-datar",
+      "requires": "mat.ukur.mengukur-panjang-dengan-penggaris",
+      "strength": "wajib",
+      "reason": "Panjang sisi harus bisa diukur sebelum keliling dihitung."
+    },
+    {
+      "topic": "mat.ukur.keliling-bangun-datar",
+      "requires": "mat.geo.mengenal-segi-banyak",
+      "strength": "wajib",
+      "reason": "Anak perlu tahu banyak sisi tiap bangun."
+    },
+    {
+      "topic": "mat.ukur.keliling-bangun-datar",
+      "requires": "mat.geo.ciri-persegi-dan-persegi-panjang",
+      "strength": "bantu",
+      "reason": "Sisi yang sama panjang membuat rumus keliling lebih singkat."
+    },
+    {
+      "topic": "mat.ukur.luas-persegi-dan-persegi-panjang",
+      "requires": "mat.ukur.mengukur-luas-dengan-persegi-satuan",
+      "strength": "wajib",
+      "reason": "Rumus luas berasal dari menghitung persegi satuan."
+    },
+    {
+      "topic": "mat.ukur.luas-persegi-dan-persegi-panjang",
+      "requires": "mat.bil.perkalian-dengan-susunan-baris-dan-kolom",
+      "strength": "wajib",
+      "reason": "Susunan baris dan kolom menjelaskan mengapa luas dihitung dengan perkalian."
+    },
+    {
+      "topic": "mat.ukur.membedakan-keliling-dan-luas",
+      "requires": "mat.ukur.keliling-bangun-datar",
+      "strength": "wajib",
+      "reason": "Arti keliling harus dipahami lebih dulu."
+    },
+    {
+      "topic": "mat.ukur.membedakan-keliling-dan-luas",
+      "requires": "mat.ukur.luas-persegi-dan-persegi-panjang",
+      "strength": "wajib",
+      "reason": "Arti luas harus dipahami lebih dulu."
+    },
+    {
+      "topic": "mat.ukur.luas-segitiga",
+      "requires": "mat.ukur.luas-persegi-dan-persegi-panjang",
+      "strength": "wajib",
+      "reason": "Luas segitiga diturunkan dari luas persegi panjang."
+    },
+    {
+      "topic": "mat.ukur.luas-segitiga",
+      "requires": "mat.geo.mengurai-bangun-datar-dengan-beberapa-cara",
+      "strength": "bantu",
+      "reason": "Memotong bangun menjadi bagian membantu melihat asal rumus."
+    },
+    {
+      "topic": "mat.ukur.luas-segitiga",
+      "requires": "mat.bil.mengalikan-pecahan-dengan-bilangan-asli",
+      "strength": "bantu",
+      "reason": "Rumus memakai setengah dari alas kali tinggi."
+    },
+    {
+      "topic": "mat.ukur.luas-jajargenjang-trapesium-layang-layang",
+      "requires": "mat.ukur.luas-segitiga",
+      "strength": "wajib",
+      "reason": "Segiempat lain bisa dipecah menjadi segitiga."
+    },
+    {
+      "topic": "mat.ukur.luas-jajargenjang-trapesium-layang-layang",
+      "requires": "mat.geo.macam-macam-segiempat",
+      "strength": "wajib",
+      "reason": "Anak perlu mengenal jajargenjang, trapesium, dan layang-layang."
+    },
+    {
+      "topic": "mat.ukur.luas-segi-banyak-dengan-membagi",
+      "requires": "mat.ukur.luas-segitiga",
+      "strength": "wajib",
+      "reason": "Segi banyak biasanya dipecah menjadi segitiga."
+    },
+    {
+      "topic": "mat.ukur.luas-segi-banyak-dengan-membagi",
+      "requires": "mat.ukur.luas-jajargenjang-trapesium-layang-layang",
+      "strength": "bantu",
+      "reason": "Kadang potongan yang paling mudah adalah trapesium."
+    },
+    {
+      "topic": "mat.ukur.luas-segi-banyak-dengan-membagi",
+      "requires": "mat.geo.mengenal-segi-banyak",
+      "strength": "wajib",
+      "reason": "Anak perlu mengenal segi banyak lebih dulu."
+    },
+    {
+      "topic": "mat.ukur.keliling-dan-luas-bangun-gabungan",
+      "requires": "mat.ukur.membedakan-keliling-dan-luas",
+      "strength": "wajib",
+      "reason": "Anak harus tahu sisi mana yang masuk keliling dan bagian mana yang masuk luas."
+    },
+    {
+      "topic": "mat.ukur.keliling-dan-luas-bangun-gabungan",
+      "requires": "mat.ukur.luas-segi-banyak-dengan-membagi",
+      "strength": "wajib",
+      "reason": "Bangun gabungan dihitung dengan cara memotong menjadi bagian."
+    },
+    {
+      "topic": "mat.ukur.membaca-jam-dan-satuan-waktu",
+      "requires": "mat.ukur.membandingkan-lama-waktu-kegiatan",
+      "strength": "wajib",
+      "reason": "Rasa lama dan sebentar menjadi dasar memahami satuan waktu."
+    },
+    {
+      "topic": "mat.ukur.membaca-jam-dan-satuan-waktu",
+      "requires": "mat.bil.membilang-loncat-2-5-10",
+      "strength": "wajib",
+      "reason": "Menit pada jam analog dibaca dengan membilang loncat lima."
+    },
+    {
+      "topic": "mat.ukur.membaca-jam-dan-satuan-waktu",
+      "requires": "mat.bil.perkalian-dasar-sampai-10-kali-10",
+      "strength": "bantu",
+      "reason": "Mengubah jam ke menit memakai perkalian dengan 60."
+    },
+    {
+      "topic": "mat.ukur.menghitung-durasi-waktu",
+      "requires": "mat.ukur.membaca-jam-dan-satuan-waktu",
+      "strength": "wajib",
+      "reason": "Jam mulai dan selesai harus bisa dibaca dulu."
+    },
+    {
+      "topic": "mat.ukur.menghitung-durasi-waktu",
+      "requires": "mat.bil.mengurang-dengan-meminjam-sampai-1000",
+      "strength": "bantu",
+      "reason": "Menghitung durasi sering meminjam satu jam menjadi 60 menit."
+    },
+    {
+      "topic": "mat.ukur.jenis-sudut-lancip-siku-tumpul",
+      "requires": "mat.geo.mengenal-sudut-siku-siku",
+      "strength": "wajib",
+      "reason": "Jenis sudut lain ditentukan dengan membandingkannya dengan siku-siku."
+    },
+    {
+      "topic": "mat.ukur.mengukur-sudut-dengan-busur-derajat",
+      "requires": "mat.ukur.jenis-sudut-lancip-siku-tumpul",
+      "strength": "wajib",
+      "reason": "Jenis sudut membantu memeriksa apakah hasil ukur masuk akal."
+    },
+    {
+      "topic": "mat.ukur.mengukur-sudut-dengan-busur-derajat",
+      "requires": "mat.ukur.mengukur-panjang-dengan-penggaris",
+      "strength": "bantu",
+      "reason": "Cara meletakkan alat ukur di titik nol sudah dilatih dengan penggaris."
+    },
+    {
+      "topic": "mat.ukur.sudut-dari-dua-garis-berpotongan",
+      "requires": "mat.ukur.mengukur-sudut-dengan-busur-derajat",
+      "strength": "wajib",
+      "reason": "Sudut-sudut harus bisa diukur sebelum hubungannya ditemukan."
+    },
+    {
+      "topic": "mat.ukur.jumlah-sudut-pada-bangun-datar",
+      "requires": "mat.ukur.mengukur-sudut-dengan-busur-derajat",
+      "strength": "wajib",
+      "reason": "Sudut di dalam bangun diukur dengan busur."
+    },
+    {
+      "topic": "mat.ukur.jumlah-sudut-pada-bangun-datar",
+      "requires": "mat.geo.macam-macam-segitiga",
+      "strength": "bantu",
+      "reason": "Jenis segitiga membantu menebak besar sudutnya."
+    },
+    {
+      "topic": "mat.ukur.jumlah-sudut-pada-bangun-datar",
+      "requires": "mat.ukur.sudut-dari-dua-garis-berpotongan",
+      "strength": "bantu",
+      "reason": "Sudut lurus 180° dipakai untuk menjelaskan jumlah sudut segitiga."
+    },
+    {
+      "topic": "mat.geo.ciri-kubus-dan-balok",
+      "requires": "mat.geo.mengenal-bangun-ruang",
+      "strength": "wajib",
+      "reason": "Kubus dan balok harus dikenali dulu bentuknya."
+    },
+    {
+      "topic": "mat.geo.ciri-kubus-dan-balok",
+      "requires": "mat.geo.ciri-persegi-dan-persegi-panjang",
+      "strength": "wajib",
+      "reason": "Sisi kubus dan balok berbentuk persegi dan persegi panjang."
+    },
+    {
+      "topic": "mat.geo.membandingkan-bangun-ruang",
+      "requires": "mat.geo.ciri-kubus-dan-balok",
+      "strength": "wajib",
+      "reason": "Cara menghitung sisi, rusuk, dan titik sudut dilatih pada kubus dan balok."
+    },
+    {
+      "topic": "mat.geo.membandingkan-bangun-ruang",
+      "requires": "mat.geo.macam-macam-segitiga",
+      "strength": "bantu",
+      "reason": "Sisi prisma dan limas sering berbentuk segitiga."
+    },
+    {
+      "topic": "mat.geo.membandingkan-sifat-bangun-datar",
+      "requires": "mat.geo.macam-macam-segiempat",
+      "strength": "wajib",
+      "reason": "Anak perlu mengenal jenis segiempat sebelum membandingkannya."
+    },
+    {
+      "topic": "mat.geo.membandingkan-sifat-bangun-datar",
+      "requires": "mat.geo.macam-macam-segitiga",
+      "strength": "wajib",
+      "reason": "Anak perlu mengenal jenis segitiga sebelum membandingkannya."
+    },
+    {
+      "topic": "mat.geo.membandingkan-sifat-bangun-datar",
+      "requires": "mat.ukur.jenis-sudut-lancip-siku-tumpul",
+      "strength": "bantu",
+      "reason": "Jenis sudut dipakai untuk membandingkan bangun."
+    },
+    {
+      "topic": "mat.geo.jaring-jaring-kubus",
+      "requires": "mat.geo.ciri-kubus-dan-balok",
+      "strength": "wajib",
+      "reason": "Anak perlu tahu kubus punya 6 sisi persegi yang sama."
+    },
+    {
+      "topic": "mat.geo.jaring-jaring-kubus",
+      "requires": "mat.geo.mengurai-bangun-datar-dengan-beberapa-cara",
+      "strength": "bantu",
+      "reason": "Menyusun dan mengurai bangun datar melatih cara melihat bagian-bagian."
+    },
+    {
+      "topic": "mat.geo.jaring-jaring-balok",
+      "requires": "mat.geo.jaring-jaring-kubus",
+      "strength": "wajib",
+      "reason": "Jaring-jaring kubus lebih mudah karena semua sisinya sama."
+    },
+    {
+      "topic": "mat.geo.menyusun-dan-mengurai-bangun-ruang-gabungan",
+      "requires": "mat.geo.ciri-kubus-dan-balok",
+      "strength": "wajib",
+      "reason": "Bagian penyusun bangun gabungan adalah kubus dan balok."
+    },
+    {
+      "topic": "mat.geo.menyusun-dan-mengurai-bangun-ruang-gabungan",
+      "requires": "mat.ukur.mengukur-volume-dengan-kubus-satuan",
+      "strength": "wajib",
+      "reason": "Pengalaman menyusun kubus satuan sudah ada."
+    },
+    {
+      "topic": "mat.geo.tampak-depan-atas-samping",
+      "requires": "mat.geo.menyusun-dan-mengurai-bangun-ruang-gabungan",
+      "strength": "wajib",
+      "reason": "Anak perlu terbiasa dengan tumpukan kubus sebelum melihatnya dari tiga arah."
+    },
+    {
+      "topic": "mat.geo.tampak-depan-atas-samping",
+      "requires": "mat.geo.posisi-atas-bawah-depan-belakang",
+      "strength": "wajib",
+      "reason": "Kata depan, atas, dan samping harus dipahami lebih dulu."
+    },
+    {
+      "topic": "mat.geo.menyusun-bangun-dari-gambar-tampak",
+      "requires": "mat.geo.tampak-depan-atas-samping",
+      "strength": "wajib",
+      "reason": "Membaca gambar tampak adalah kebalikan dari menggambarnya."
+    },
+    {
+      "topic": "mat.geo.lokasi-pada-peta-berpetak",
+      "requires": "mat.geo.membedakan-kanan-dan-kiri",
+      "strength": "wajib",
+      "reason": "Membaca petak butuh arah kanan-kiri yang mantap."
+    },
+    {
+      "topic": "mat.geo.lokasi-pada-peta-berpetak",
+      "requires": "mat.data.membaca-dan-membuat-tabel-data",
+      "strength": "bantu",
+      "reason": "Membaca baris dan kolom tabel melatih cara membaca petak."
+    },
+    {
+      "topic": "mat.geo.rute-dan-arah-pada-peta-berpetak",
+      "requires": "mat.geo.lokasi-pada-peta-berpetak",
+      "strength": "wajib",
+      "reason": "Titik awal dan tujuan harus bisa ditentukan lebih dulu."
+    },
+    {
+      "topic": "mat.data.tabel-frekuensi",
+      "requires": "mat.data.mencatat-data-dengan-turus",
+      "strength": "wajib",
+      "reason": "Data dicatat dengan turus sebelum dipindah ke tabel frekuensi."
+    },
+    {
+      "topic": "mat.data.tabel-frekuensi",
+      "requires": "mat.data.membaca-dan-membuat-tabel-data",
+      "strength": "wajib",
+      "reason": "Cara membuat tabel sudah dikenal."
+    },
+    {
+      "topic": "mat.data.data-hasil-pengukuran",
+      "requires": "mat.data.tabel-frekuensi",
+      "strength": "wajib",
+      "reason": "Data ukur yang dikelompokkan disajikan dalam tabel frekuensi."
+    },
+    {
+      "topic": "mat.data.data-hasil-pengukuran",
+      "requires": "mat.ukur.mengukur-panjang-dengan-meteran",
+      "strength": "wajib",
+      "reason": "Data diperoleh dengan mengukur memakai meteran."
+    },
+    {
+      "topic": "mat.data.data-hasil-pengukuran",
+      "requires": "mat.data.mengurutkan-dan-membandingkan-data",
+      "strength": "bantu",
+      "reason": "Cara mengurutkan data banyak benda sudah dilatih."
+    },
+    {
+      "topic": "mat.data.diagram-batang-dengan-skala",
+      "requires": "mat.data.membuat-diagram-batang",
+      "strength": "wajib",
+      "reason": "Diagram batang sederhana dikenal lebih dulu."
+    },
+    {
+      "topic": "mat.data.diagram-batang-dengan-skala",
+      "requires": "mat.data.tabel-frekuensi",
+      "strength": "wajib",
+      "reason": "Data diagram batang diambil dari tabel frekuensi."
+    },
+    {
+      "topic": "mat.data.diagram-batang-dengan-skala",
+      "requires": "mat.bil.membilang-loncat-2-5-10",
+      "strength": "bantu",
+      "reason": "Skala sumbu dibaca dengan membilang loncat."
+    },
+    {
+      "topic": "mat.data.memilih-cara-menyajikan-data",
+      "requires": "mat.data.diagram-batang-dengan-skala",
+      "strength": "wajib",
+      "reason": "Anak perlu bisa membuat diagram batang dengan skala."
+    },
+    {
+      "topic": "mat.data.memilih-cara-menyajikan-data",
+      "requires": "mat.data.diagram-gambar-dan-piktogram",
+      "strength": "wajib",
+      "reason": "Piktogram sudah dikenal sebelumnya."
+    },
+    {
+      "topic": "mat.data.menganalisis-data-untuk-informasi",
+      "requires": "mat.data.memilih-cara-menyajikan-data",
+      "strength": "wajib",
+      "reason": "Data harus bisa dibaca dalam berbagai bentuk penyajian."
+    },
+    {
+      "topic": "mat.data.menganalisis-data-untuk-informasi",
+      "requires": "mat.data.menafsirkan-data-dan-menarik-kesimpulan",
+      "strength": "wajib",
+      "reason": "Cara menarik kesimpulan sederhana sudah dilatih."
+    },
+    {
+      "topic": "mat.data.menganalisis-data-untuk-informasi",
+      "requires": "mat.data.data-hasil-pengukuran",
+      "strength": "bantu",
+      "reason": "Data ukur sering dianalisis dengan selisih dan kelompok."
+    },
+    {
+      "topic": "mat.data.kemungkinan-pasti-mungkin-mustahil",
+      "requires": "mat.data.menyortir-dan-mengelompokkan-benda",
+      "strength": "bantu",
+      "reason": "Anak perlu tahu isi kumpulan benda untuk menilai kemungkinannya."
+    },
+    {
+      "topic": "mat.data.kemungkinan-pasti-mungkin-mustahil",
+      "requires": "mat.data.mencatat-data-dengan-turus",
+      "strength": "bantu",
+      "reason": "Hasil percobaan dicatat dengan turus."
+    },
+    {
+      "topic": "mat.data.kemungkinan-lebih-besar-lebih-kecil",
+      "requires": "mat.data.kemungkinan-pasti-mungkin-mustahil",
+      "strength": "wajib",
+      "reason": "Kejadian yang mungkin harus dikenali dulu sebelum dibandingkan."
+    },
+    {
+      "topic": "mat.data.kemungkinan-lebih-besar-lebih-kecil",
+      "requires": "mat.data.tabel-frekuensi",
+      "strength": "bantu",
+      "reason": "Hasil percobaan berulang dicatat dalam tabel frekuensi."
+    },
+    {
+      "topic": "mat.data.kemungkinan-lebih-besar-lebih-kecil",
+      "requires": "mat.bil.membandingkan-mengurutkan-pecahan-berbeda-penyebut",
+      "strength": "bantu",
+      "reason": "Kemungkinan bisa dibandingkan sebagai bagian dari seluruh isi kantong."
+    },
+    {
+      "topic": "ipas.paham.mengenal-nilai-uang-rupiah",
+      "requires": "mat.bil.membandingkan-dan-mengurutkan-bilangan-sampai-100",
+      "strength": "wajib",
+      "reason": "Membandingkan nilai uang memakai kemampuan membandingkan bilangan.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.mengenal-nilai-uang-rupiah",
+      "requires": "mat.bil.membaca-menulis-bilangan-sampai-1000",
+      "strength": "bantu",
+      "reason": "Nilai uang seperti 500 dan 1.000 lebih mudah dibaca kalau anak kenal bilangan ratusan dan ribuan.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.fungsi-uang-sebagai-alat-tukar",
+      "requires": "mat.bil.menjumlah-tanpa-menyimpan-sampai-1000",
+      "strength": "bantu",
+      "reason": "Menukar uang dengan barang sering butuh menjumlah beberapa harga.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.menabung-dan-mencatat-uang-jajan",
+      "requires": "mat.bil.menjumlah-dengan-menyimpan-sampai-1000",
+      "strength": "wajib",
+      "reason": "Menghitung tabungan dan sisa uang jajan butuh penjumlahan dengan menyimpan.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.menabung-dan-mencatat-uang-jajan",
+      "requires": "mat.data.membaca-dan-membuat-tabel-data",
+      "strength": "bantu",
+      "reason": "Catatan uang jajan paling rapi dibuat dalam bentuk tabel.",
+      "cross": true
+    },
+    {
+      "topic": "mat.bil.menyelesaikan-masalah-uang",
+      "requires": "ipas.paham.mengenal-nilai-uang-rupiah",
+      "strength": "bantu",
+      "reason": "Anak yang kenal nilai uang rupiah lebih mudah memahami soal belanja dan kembalian.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.proses.mengamati-dan-mencatat-pengamatan",
+      "requires": "bind.tulis.menulis-kalimat-sederhana",
+      "strength": "wajib",
+      "reason": "Mencatat hasil pengamatan butuh kemampuan menulis kalimat sederhana.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.proses.mengamati-dan-mencatat-pengamatan",
+      "requires": "mat.data.menyortir-dan-mengelompokkan-benda",
+      "strength": "bantu",
+      "reason": "Mengelompokkan benda melatih anak memperhatikan ciri yang sama dan berbeda.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.mengenal-lima-pancaindra-dan-fungsinya",
+      "requires": "bind.simak.memahami-teks-informasi-yang-dibacakan",
+      "strength": "bantu",
+      "reason": "Pengetahuan tentang pancaindra sering didapat dari teks informasi yang dibacakan guru.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.peran-anggota-keluarga",
+      "requires": "bind.tulis.menulis-tentang-keluarga-dan-lingkungan",
+      "strength": "bantu",
+      "reason": "Anak yang pernah menulis tentang keluarganya lebih mudah menjelaskan peran tiap anggota.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.peran-anggota-keluarga",
+      "requires": "bind.bicara.menjawab-pertanyaan-dengan-kalimat-lengkap",
+      "strength": "bantu",
+      "reason": "Menjelaskan tugas anggota keluarga butuh jawaban dalam kalimat lengkap.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.proses.mengukur-dengan-alat-sederhana",
+      "requires": "mat.ukur.mengukur-panjang-dengan-penggaris",
+      "strength": "wajib",
+      "reason": "Memakai penggaris dan meteran dengan benar dipelajari di Matematika.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.proses.mengukur-dengan-alat-sederhana",
+      "requires": "mat.ukur.mengukur-berat-dengan-timbangan",
+      "strength": "bantu",
+      "reason": "Membaca angka pada timbangan dilatih saat mengukur berat di Matematika.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.proses.mencatat-data-dengan-turus",
+      "requires": "mat.data.mencatat-data-dengan-turus",
+      "strength": "wajib",
+      "reason": "Cara membuat dan membaca turus dipelajari lebih dulu di Matematika.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.proses.menyajikan-diagram-gambar-dan-pola",
+      "requires": "mat.data.diagram-gambar-dan-piktogram",
+      "strength": "wajib",
+      "reason": "Menyajikan data pengamatan sebagai piktogram memakai cara membuat diagram gambar.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.proses.membandingkan-hasil-dengan-dugaan",
+      "requires": "mat.data.mengurutkan-dan-membandingkan-data",
+      "strength": "bantu",
+      "reason": "Membandingkan data membantu anak melihat apakah hasil sesuai dugaan.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.proses.mengukur-berulang-dengan-teliti",
+      "requires": "mat.data.data-hasil-pengukuran",
+      "strength": "bantu",
+      "reason": "Mencatat dan membaca data hasil ukur dilatih di Matematika.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.proses.mengukur-berulang-dengan-teliti",
+      "requires": "mat.bil.membandingkan-mengurutkan-desimal",
+      "strength": "bantu",
+      "reason": "Hasil ukur yang teliti sering berupa bilangan desimal yang perlu dibandingkan.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.proses.menyusun-tabel-data",
+      "requires": "mat.data.membaca-dan-membuat-tabel-data",
+      "strength": "wajib",
+      "reason": "Anak perlu bisa membuat tabel sebelum memakainya untuk data penyelidikan.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.proses.membuat-grafik-batang-dan-garis",
+      "requires": "mat.data.diagram-batang-dengan-skala",
+      "strength": "wajib",
+      "reason": "Grafik hasil penyelidikan memakai cara membuat diagram batang dengan skala.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.proses.membaca-pola-dan-hubungan-data",
+      "requires": "mat.data.menganalisis-data-untuk-informasi",
+      "strength": "bantu",
+      "reason": "Menganalisis data di Matematika melatih anak menemukan pola dalam data.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.proses.membaca-pola-dan-hubungan-data",
+      "requires": "bind.baca.membaca-grafik-tabel-dan-infografik",
+      "strength": "bantu",
+      "reason": "Membaca grafik dan tabel dengan cermat membantu menemukan hubungan data.",
+      "cross": true
+    },
+    {
+      "topic": "mat.data.data-hasil-pengukuran",
+      "requires": "ipas.proses.mengukur-dengan-alat-sederhana",
+      "strength": "bantu",
+      "reason": "Pengalaman mengukur dengan alat sungguhan memberi data yang bermakna untuk diolah.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.mengenal-arah-mata-angin",
+      "requires": "mat.geo.membedakan-kanan-dan-kiri",
+      "strength": "bantu",
+      "reason": "Anak yang sudah paham kanan dan kiri lebih mudah memahami arah mata angin.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.membaca-simbol-dan-legenda-peta",
+      "requires": "bind.baca.memirsa-gambar-dan-tanda-di-sekitar",
+      "strength": "bantu",
+      "reason": "Membaca tanda di sekitar melatih anak memahami arti simbol.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.memakai-peta-digital",
+      "requires": "bind.baca.membaca-teks-elektronik",
+      "strength": "bantu",
+      "reason": "Peta digital dibaca di layar seperti teks elektronik.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.letak-astronomis-indonesia",
+      "requires": "mat.geo.lokasi-pada-peta-berpetak",
+      "strength": "bantu",
+      "reason": "Garis lintang dan bujur dibaca seperti menentukan lokasi pada peta berpetak.",
+      "cross": true
+    },
+    {
+      "topic": "mat.alj.skala-pada-denah-dan-peta",
+      "requires": "ipas.paham.membaca-simbol-dan-legenda-peta",
+      "strength": "bantu",
+      "reason": "Anak yang terbiasa membaca peta lebih mudah memahami skala pada peta.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.iklim-tropis-musim-hujan-dan-kemarau",
+      "requires": "mat.data.membaca-diagram-batang",
+      "strength": "bantu",
+      "reason": "Data curah hujan tiap bulan biasanya disajikan dalam diagram batang.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.rotasi-bumi-siang-dan-malam",
+      "requires": "mat.ukur.membaca-jam-dan-satuan-waktu",
+      "strength": "bantu",
+      "reason": "Satu kali rotasi dihitung dalam jam, jadi anak perlu paham satuan waktu.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.revolusi-bumi-dan-satu-tahun",
+      "requires": "mat.ukur.membaca-jam-dan-satuan-waktu",
+      "strength": "bantu",
+      "reason": "Lama revolusi dinyatakan dalam hari dan tahun, jadi anak perlu paham satuan waktu.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.ciri-dan-urutan-planet",
+      "requires": "mat.bil.membandingkan-mengurutkan-bilangan-sampai-1000000",
+      "strength": "bantu",
+      "reason": "Membandingkan ukuran dan jarak planet memakai bilangan besar.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.menghitung-dan-menghemat-listrik",
+      "requires": "mat.bil.menjumlah-mengurang-sampai-100000",
+      "strength": "bantu",
+      "reason": "Membaca sisa token dan tagihan listrik butuh menjumlah dan mengurang bilangan besar.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.pasar-tradisional-dan-modern",
+      "requires": "mat.bil.menyelesaikan-masalah-uang",
+      "strength": "bantu",
+      "reason": "Membandingkan belanja di pasar dan toko melibatkan hitungan harga dan kembalian.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.koperasi-sekolah-dan-desa",
+      "requires": "mat.bil.menyelesaikan-masalah-uang",
+      "strength": "bantu",
+      "reason": "Memahami simpanan dan jual beli di koperasi butuh hitungan uang.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.umkm-dan-usaha-kecil-sendiri",
+      "requires": "mat.bil.menyelesaikan-masalah-uang",
+      "strength": "wajib",
+      "reason": "Menghitung modal, harga jual, dan untung usaha kecil butuh hitungan uang.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.umkm-dan-usaha-kecil-sendiri",
+      "requires": "mat.bil.menghitung-harga-diskon",
+      "strength": "bantu",
+      "reason": "Memberi potongan harga pada usaha kecil memakai hitungan persen.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.proses.mengajukan-pertanyaan-saat-mengamati",
+      "requires": "bind.bicara.bertanya-dengan-kata-tanya",
+      "strength": "wajib",
+      "reason": "Anak perlu bisa memakai kata tanya sebelum menyusun pertanyaan tentang pengamatan.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.proses.membuat-prediksi-sederhana",
+      "requires": "bind.bicara.menyampaikan-pendapat-dengan-alasan",
+      "strength": "bantu",
+      "reason": "Prediksi yang baik disampaikan bersama alasannya.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.proses.merencanakan-dan-melakukan-percobaan",
+      "requires": "bind.baca.memahami-teks-prosedur",
+      "strength": "bantu",
+      "reason": "Melakukan percobaan butuh kemampuan membaca dan mengikuti langkah kerja.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.proses.menyampaikan-hasil-penyelidikan",
+      "requires": "bind.bicara.menyampaikan-gagasan-dengan-bantuan-gambar",
+      "strength": "wajib",
+      "reason": "Hasil penyelidikan disampaikan dengan berbicara sambil menunjukkan gambar atau data.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.proses.menyampaikan-hasil-penyelidikan",
+      "requires": "bind.bicara.presentasi-singkat-di-depan-kelas",
+      "strength": "bantu",
+      "reason": "Latihan presentasi singkat membuat anak lebih siap melaporkan hasil penyelidikan.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.proses.merefleksikan-penyelidikan",
+      "requires": "bind.tulis.menulis-paragraf-dengan-ide-pokok",
+      "strength": "bantu",
+      "reason": "Refleksi tertulis lebih jelas kalau anak bisa menulis paragraf yang runtut.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.proses.pertanyaan-yang-bisa-diselidiki",
+      "requires": "bind.bicara.bertanya-dengan-kata-tanya",
+      "strength": "bantu",
+      "reason": "Pertanyaan penyelidikan disusun dengan kata tanya yang tepat.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.proses.prediksi-dengan-alasan",
+      "requires": "bind.bicara.menyampaikan-pendapat-dengan-alasan",
+      "strength": "wajib",
+      "reason": "Prediksi dengan alasan memakai cara menyampaikan pendapat beserta alasannya.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.proses.merencanakan-penyelidikan-mandiri",
+      "requires": "bind.tulis.menulis-teks-prosedur",
+      "strength": "wajib",
+      "reason": "Rencana penyelidikan ditulis sebagai langkah kerja yang urut.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.proses.laporan-penyelidikan-dengan-argumen",
+      "requires": "bind.tulis.menulis-teks-laporan-pengamatan",
+      "strength": "wajib",
+      "reason": "Laporan penyelidikan memakai susunan teks laporan pengamatan.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.proses.laporan-penyelidikan-dengan-argumen",
+      "requires": "bind.bicara.mempertahankan-pendapat-dengan-fakta",
+      "strength": "bantu",
+      "reason": "Argumen dalam laporan harus didukung fakta dari data.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.proses.presentasi-dalam-berbagai-media",
+      "requires": "bind.bicara.presentasi-dengan-alat-bantu-visual",
+      "strength": "wajib",
+      "reason": "Presentasi hasil penyelidikan memakai poster, slide, atau alat bantu visual lain.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.asal-usul-nama-daerah",
+      "requires": "bind.simak.menangkap-informasi-dari-percakapan",
+      "strength": "bantu",
+      "reason": "Cerita asal-usul daerah didapat dengan menyimak penjelasan orang tua atau tokoh masyarakat.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.peninggalan-sejarah-setempat",
+      "requires": "bind.simak.mencatat-informasi-penting-saat-menyimak",
+      "strength": "bantu",
+      "reason": "Saat mengunjungi peninggalan sejarah, anak perlu mencatat penjelasan yang penting.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.perubahan-lingkungan-dulu-dan-sekarang",
+      "requires": "bind.bicara.bertanya-dengan-kata-tanya",
+      "strength": "bantu",
+      "reason": "Anak mencari tahu keadaan dulu dengan bertanya kepada orang yang lebih tua.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.pahlawan-dari-daerah-sendiri",
+      "requires": "bind.bicara.melakukan-wawancara",
+      "strength": "bantu",
+      "reason": "Kisah pahlawan setempat bisa digali dengan mewawancarai tokoh masyarakat.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.kearifan-lokal-di-tempat-tinggal",
+      "requires": "bind.bicara.melakukan-wawancara",
+      "strength": "bantu",
+      "reason": "Kearifan lokal sering diketahui dengan mewawancarai warga atau tetua adat.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.kerajaan-hindu-buddha-nusantara",
+      "requires": "bind.baca.menentukan-ide-pokok-paragraf",
+      "strength": "bantu",
+      "reason": "Bacaan sejarah kerajaan lebih mudah dipahami kalau anak bisa menemukan ide pokok.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.kerajaan-islam-nusantara",
+      "requires": "bind.baca.menentukan-ide-pokok-paragraf",
+      "strength": "bantu",
+      "reason": "Bacaan sejarah kerajaan lebih mudah dipahami kalau anak bisa menemukan ide pokok.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.menuju-proklamasi-kemerdekaan",
+      "requires": "bind.simak.menyimak-urutan-peristiwa-cerita",
+      "strength": "bantu",
+      "reason": "Kisah menuju proklamasi dipahami sebagai urutan peristiwa.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.ragam-budaya-daerah",
+      "requires": "bind.baca.memahami-teks-deskripsi",
+      "strength": "bantu",
+      "reason": "Bacaan tentang rumah adat, pakaian, dan tarian daerah biasanya berupa teks deskripsi.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.merancang-solusi-lingkungan",
+      "requires": "bind.bicara.menyampaikan-pendapat-dengan-alasan",
+      "strength": "bantu",
+      "reason": "Usulan solusi perlu disampaikan bersama alasannya.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.sistem-pencernaan-manusia",
+      "requires": "bind.baca.memahami-teks-eksplanasi",
+      "strength": "bantu",
+      "reason": "Cara kerja pencernaan biasanya dijelaskan dalam teks eksplanasi.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.cincin-api-gunung-api-dan-gempa",
+      "requires": "bind.baca.memahami-teks-eksplanasi",
+      "strength": "bantu",
+      "reason": "Proses terjadinya gempa dan letusan gunung dijelaskan dalam teks eksplanasi.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.siaga-bencana-gempa-dan-erupsi",
+      "requires": "bind.baca.memahami-teks-prosedur",
+      "strength": "bantu",
+      "reason": "Langkah siaga bencana ditulis sebagai teks prosedur yang harus diikuti.",
+      "cross": true
+    },
+    {
+      "topic": "ipas.paham.energi-fosil-dan-perubahan-iklim",
+      "requires": "bind.baca.memahami-teks-eksposisi",
+      "strength": "bantu",
+      "reason": "Bacaan tentang dampak energi fosil biasanya berupa teks eksposisi dengan pendapat dan bukti.",
+      "cross": true
+    },
+    {
+      "topic": "mat.bil.soal-cerita-penjumlahan-dan-pengurangan",
+      "requires": "bind.baca.membaca-kalimat-sederhana",
+      "strength": "wajib",
+      "reason": "Anak perlu bisa membaca kalimat soal sebelum menyelesaikannya.",
+      "cross": true
+    },
+    {
+      "topic": "mat.bil.soal-cerita-penjumlahan-dan-pengurangan",
+      "requires": "bind.baca.memahami-isi-bacaan-pendek",
+      "strength": "bantu",
+      "reason": "Memahami isi cerita pendek membantu anak tahu apa yang ditanyakan.",
+      "cross": true
+    },
+    {
+      "topic": "mat.bil.soal-cerita-tambah-kurang-sampai-1000",
+      "requires": "bind.baca.memahami-isi-bacaan-pendek",
+      "strength": "wajib",
+      "reason": "Anak harus memahami isi cerita untuk memilih operasi yang tepat.",
+      "cross": true
+    },
+    {
+      "topic": "mat.bil.soal-cerita-kali-dan-bagi",
+      "requires": "bind.baca.membaca-teks-dengan-fasih",
+      "strength": "bantu",
+      "reason": "Membaca soal dengan lancar membuat anak bisa fokus pada hitungannya.",
+      "cross": true
+    },
+    {
+      "topic": "mat.bil.hitung-campuran-dan-soal-cerita",
+      "requires": "bind.baca.menemukan-ide-pendukung",
+      "strength": "bantu",
+      "reason": "Soal cerita panjang menuntut anak memilah informasi yang diperlukan.",
+      "cross": true
+    },
+    {
+      "topic": "mat.bil.soal-cerita-kpk-dan-fpb",
+      "requires": "bind.baca.menemukan-ide-pendukung",
+      "strength": "bantu",
+      "reason": "Anak perlu menemukan informasi penting dalam cerita untuk tahu kapan memakai KPK atau FPB.",
+      "cross": true
+    },
+    {
+      "topic": "mat.data.menafsirkan-data-dan-menarik-kesimpulan",
+      "requires": "bind.bicara.menyampaikan-pendapat-dengan-alasan",
+      "strength": "bantu",
+      "reason": "Kesimpulan dari data disampaikan sebagai pendapat dengan alasan.",
+      "cross": true
+    },
+    {
+      "topic": "bind.baca.membaca-grafik-tabel-dan-infografik",
+      "requires": "mat.data.membaca-diagram-batang",
+      "strength": "wajib",
+      "reason": "Membaca grafik dalam bacaan memakai cara membaca diagram batang dari Matematika.",
+      "cross": true
+    },
+    {
+      "topic": "bind.baca.membaca-informasi-pada-label-dan-jadwal",
+      "requires": "mat.data.membaca-dan-membuat-tabel-data",
+      "strength": "bantu",
+      "reason": "Jadwal sering berbentuk tabel, jadi anak perlu terbiasa membaca tabel.",
+      "cross": true
+    },
+    {
+      "topic": "bind.tulis.menulis-teks-deskripsi",
+      "requires": "ipas.proses.mengamati-dan-mencatat-pengamatan",
+      "strength": "bantu",
+      "reason": "Pengamatan yang teliti memberi bahan untuk mendeskripsikan benda.",
+      "cross": true
+    },
+    {
+      "topic": "bind.baca.memahami-teks-laporan-pengamatan",
+      "requires": "ipas.proses.mengamati-dan-mencatat-pengamatan",
+      "strength": "bantu",
+      "reason": "Anak yang pernah mengamati sendiri lebih mudah memahami teks laporan pengamatan.",
+      "cross": true
+    },
+    {
+      "topic": "bind.tulis.menulis-teks-laporan-pengamatan",
+      "requires": "ipas.proses.mengamati-persamaan-dan-perbedaan",
+      "strength": "bantu",
+      "reason": "Laporan pengamatan berisi ciri yang ditemukan saat mengamati persamaan dan perbedaan.",
+      "cross": true
+    },
+    {
+      "topic": "bind.tulis.menulis-teks-laporan-pengamatan",
+      "requires": "ipas.proses.mengamati-dan-mencatat-pengamatan",
+      "strength": "bantu",
+      "reason": "Catatan pengamatan menjadi bahan utama teks laporan.",
+      "cross": true
+    },
+    {
+      "topic": "bind.bicara.mempresentasikan-hasil-pengamatan",
+      "requires": "ipas.proses.mengamati-persamaan-dan-perbedaan",
+      "strength": "bantu",
+      "reason": "Presentasi hasil pengamatan butuh pengamatan yang teliti lebih dulu.",
+      "cross": true
+    },
+    {
+      "topic": "bind.tulis.menulis-teks-eksplanasi",
+      "requires": "ipas.paham.menguap-dan-mengembun",
+      "strength": "bantu",
+      "reason": "Proses alam seperti menguap dan mengembun menjadi bahan khas teks eksplanasi.",
+      "cross": true
     }
   ]
 }
