@@ -1,0 +1,96 @@
+---
+// Static charts of the dataset, drawn at build time. No script.
+import { topics, deps, MAPEL, topicById } from '../lib/data';
+
+const codes = MAPEL.map((m) => m.code);
+const perKelas = [1, 2, 3, 4, 5, 6].map((k) => ({
+  k,
+  by: codes.map((c) => topics.filter((t) => t.mapel === c && t.kelas[0] === k).length),
+}));
+const maxKelas = Math.max(...perKelas.map((r) => r.by.reduce((a, b) => a + b, 0)));
+
+const key = [...topics].sort((a, b) => b.unlocks - a.unlocks).slice(0, 8);
+const maxUnlock = key[0]?.unlocks ?? 1;
+
+// Prerequisite links that cross from one mapel into another.
+const flows = codes.flatMap((from) => codes.filter((to) => to !== from).map((to) => ({
+  from, to,
+  n: deps.filter((d) => topicById.get(d.requires)?.mapel === from && topicById.get(d.topic)?.mapel === to).length,
+}))).filter((f) => f.n).sort((a, b) => b.n - a.n);
+const maxFlow = Math.max(...flows.map((f) => f.n), 1);
+const short = (c: string) => MAPEL.find((m) => m.code === c)!.short;
+---
+<section class="charts">
+  <div class="chart card">
+    <h3>Topik per kelas</h3>
+    <p class="small muted">Kelas pertama tempat topik diajarkan. IPAS mulai di kelas 3.</p>
+    <ol class="bars" aria-label="Jumlah topik per kelas, per mata pelajaran">
+      {perKelas.map((r) => (
+        <li>
+          <span class="lbl">Kelas {r.k}</span>
+          <span class="track">
+            {r.by.map((n, i) => n > 0 && (
+              <span class="seg-bar" style={`width:${(n / maxKelas) * 100}%;background:var(--${codes[i]})`} title={`${short(codes[i])}: ${n} topik`}></span>
+            ))}
+          </span>
+          <span class="num">{r.by.reduce((a, b) => a + b, 0)}</span>
+        </li>
+      ))}
+    </ol>
+    <p class="keys small">{MAPEL.map((m) => <span><i class="dot" style={`background:var(--${m.code})`}></i>{m.short}</span>)}</p>
+  </div>
+
+  <div class="chart card">
+    <h3>Topik kunci</h3>
+    <p class="small muted">Topik yang membuka paling banyak topik lain. Kalau anak belum bisa ini, banyak topik berikutnya ikut sulit.</p>
+    <ol class="rank">
+      {key.map((t) => (
+        <li>
+          <a href={`/topik/${t.id}/`}>
+            <span class="name">{t.name}</span>
+            <span class="track"><span class="seg-bar" style={`width:${(t.unlocks / maxUnlock) * 100}%;background:var(--${t.mapel})`}></span></span>
+            <span class="num">{t.unlocks}</span>
+          </a>
+        </li>
+      ))}
+    </ol>
+  </div>
+
+  <div class="chart card">
+    <h3>Antarmapel</h3>
+    <p class="small muted">Prasyarat yang menyeberang mata pelajaran. Contoh: membaca diagram batang di IPAS perlu Matematika.</p>
+    <ol class="rank flows">
+      {flows.map((f) => (
+        <li>
+          <span class="name"><i class="dot" style={`background:var(--${f.from})`}></i>{short(f.from)} → {short(f.to)}</span>
+          <span class="track"><span class="seg-bar" style={`width:${(f.n / maxFlow) * 100}%;background:linear-gradient(90deg,var(--${f.from}),var(--${f.to}))`}></span></span>
+          <span class="num">{f.n}</span>
+        </li>
+      ))}
+    </ol>
+  </div>
+</section>
+
+<style>
+  .charts { margin-top: 32px; display: grid; gap: 12px; }
+  @media (min-width: 900px) { .charts { grid-template-columns: 1.1fr 1.2fr 1fr; } }
+  .chart { display: grid; gap: 8px; align-content: start; }
+  .chart h3 { font-size: 17px; }
+  ol { list-style: none; margin: 6px 0 0; padding: 0; display: grid; gap: 8px; }
+  .bars li { display: grid; grid-template-columns: 62px 1fr 32px; gap: 10px; align-items: center; font-size: 14px; }
+  .lbl, .num { color: var(--label-3); font-variant-numeric: tabular-nums; }
+  .num { text-align: right; font-size: 14px; }
+  .track { display: flex; height: 12px; border-radius: 6px; background: var(--bg-2); overflow: hidden; }
+  .seg-bar { display: block; height: 100%; }
+  .seg-bar + .seg-bar { box-shadow: inset 2px 0 0 var(--card); }
+  .keys { display: flex; gap: 12px; flex-wrap: wrap; color: var(--label-3); }
+  .keys span { display: inline-flex; gap: 6px; align-items: center; }
+  .rank li > a, .rank li { display: grid; grid-template-columns: 1fr 32px; column-gap: 10px; row-gap: 4px; align-items: center; font-size: 14px; }
+  .rank li > a { color: var(--label); }
+  .rank li:has(> a) { display: block; }
+  .rank .name { grid-column: 1 / -1; display: inline-flex; gap: 6px; align-items: center; line-height: 1.3; }
+  .rank a .name { display: block; }
+  .rank a:hover .name { text-decoration: underline; }
+  .rank .track { height: 8px; }
+  .flows .name { color: var(--label-2); }
+</style>

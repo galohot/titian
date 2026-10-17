@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import Graph3D from '../components/Graph3D.astro';
 import { topics, deps, MAPEL, ordered, elemenOf, mapelByCode } from '../lib/data';
 
 // Layout: one column per kelas (1–6). Inside a column, mapel → elemen → easy-to-hard.
@@ -49,7 +50,16 @@ for (const d of deps) (req[d.topic] ??= []).push(d.requires);
 <Base title="Graf prasyarat" description="Semua topik Titian dalam satu graf: setiap kolom satu kelas, setiap garis satu prasyarat. Ketuk topik untuk melihat jalurnya." path="/graf/" wide>
   <p class="eyebrow">Graf prasyarat</p>
   <h1>Semua topik, satu peta.</h1>
-  <p class="lead">Setiap kolom satu kelas. Setiap garis menghubungkan topik dengan prasyaratnya. Ketuk sebuah topik untuk menyorot semua yang perlu dikuasai sebelumnya.</p>
+  <p class="lead">Setiap titik satu topik. Setiap garis satu prasyarat. Ketuk sebuah topik untuk menyorot semua yang perlu dikuasai sebelumnya.</p>
+  <div class="seg views" role="group" aria-label="Tampilan">
+    <a href="?tampilan=3d" data-view="3d" aria-current="true">3D</a>
+    <a href="?tampilan=kolom" data-view="kolom">Kolom per kelas</a>
+  </div>
+  <section id="v-3d" class="view">
+    <p class="small muted note">Tinggi menunjukkan kelas: kelas 1 di bawah, kelas 6 di atas. Warna menunjukkan mata pelajaran. Titik yang lebih besar membuka lebih banyak topik lain.</p>
+    <Graph3D mode="full" />
+  </section>
+  <section id="v-kolom" class="view" hidden>
   <div class="legend small">
     {MAPEL.map((m) => <span><i class="dot" style={`background: var(--${m.code})`}></i> {m.short}</span>)}
     <span class="muted">Geser ke samping untuk kelas berikutnya.</span>
@@ -77,10 +87,13 @@ for (const d of deps) (req[d.topic] ??= []).push(d.requires);
       </g>
     </svg>
   </div>
+  </section>
   <script type="application/json" id="req" set:html={JSON.stringify(req)} />
 </Base>
 
 <style>
+  .views { margin-top: 20px; }
+  .note { margin: 16px 0 12px; max-width: 46em; }
   .legend { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 18px; align-items: center; }
   .legend span { display: inline-flex; gap: 6px; align-items: center; }
   .scroll { margin-top: 16px; overflow: auto; border: 1px solid var(--sep); border-radius: var(--r); background: var(--card); max-height: 78vh; -webkit-overflow-scrolling: touch; }
@@ -100,6 +113,14 @@ for (const d of deps) (req[d.topic] ??= []).push(d.requires);
 </style>
 
 <script>
+  // View switch: 3D by default, columns on ?tampilan=kolom. The hash keeps the focused topic.
+  const view = new URLSearchParams(location.search).get('tampilan') === 'kolom' ? 'kolom' : '3d';
+  document.getElementById('v-3d')!.hidden = view !== '3d';
+  document.getElementById('v-kolom')!.hidden = view !== 'kolom';
+  document.querySelectorAll<HTMLAnchorElement>('.views a').forEach((a) => {
+    a.setAttribute('aria-current', String(a.dataset.view === view));
+    a.addEventListener('click', (ev) => { ev.preventDefault(); location.replace(`?tampilan=${a.dataset.view}${location.hash}`); });
+  });
   const req: Record<string, string[]> = JSON.parse(document.getElementById('req')!.textContent!);
   const svg = document.getElementById('g') as unknown as SVGSVGElement;
   const panel = document.getElementById('panel') as HTMLDivElement;
@@ -134,13 +155,13 @@ for (const d of deps) (req[d.topic] ??= []).push(d.requires);
   let current: string | null = null;
   svg.addEventListener('click', (ev) => {
     const a = (ev.target as Element).closest('a');
-    if (!a) { current = null; focus(null); history.replaceState(null, '', location.pathname); return; }
+    if (!a) { current = null; focus(null); history.replaceState(null, '', location.pathname + location.search); return; }
     const id = (a as SVGAElement).dataset.id!;
     if (current === id) return; // let the link open
     ev.preventDefault();
     current = id;
     focus(id);
-    history.replaceState(null, '', `#${id}`);
+    history.replaceState(null, '', `${location.search}#${id}`);
   });
   const fromHash = decodeURIComponent(location.hash.slice(1));
   if (fromHash && nodes.has(fromHash)) {

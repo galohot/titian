@@ -1,0 +1,380 @@
+---
+// Rotating 3D prerequisite graph on a plain 2D canvas. No libraries.
+// mode "full": drag, zoom, tap to trace a path, search. mode "hero": turns slowly, a tap opens /graf/.
+import { layout3d } from '../lib/layout3d';
+import { MAPEL } from '../lib/data';
+
+interface Props { mode?: 'full' | 'hero' }
+const { mode = 'full' } = Astro.props;
+const L = layout3d();
+const payload = mode === 'full' ? L : { ...L, names: [], kelas: [] };
+const uid = `g3d-${mode}`;
+---
+<div class={`g3d g3d-${mode}`} data-g3d={uid} data-mode={mode}>
+  <canvas role="img" aria-label={`Graf tiga dimensi: ${L.ids.length} topik dan ${L.w.length} prasyarat. Tinggi menunjukkan kelas, warna menunjukkan mata pelajaran.`}></canvas>
+  {mode === 'full' && (
+    <>
+      <div class="g3d-top">
+        <div class="g3d-legend" role="group" aria-label="Tampilkan mata pelajaran">
+          {MAPEL.map((m, i) => (
+            <button type="button" data-m={i} aria-pressed="true"><i class={`dot d${i}`}></i>{m.short}</button>
+          ))}
+        </div>
+        <input class="g3d-find" type="search" list={`${uid}-names`} placeholder="Cari topik di peta" autocomplete="off" aria-label="Cari topik di peta" />
+        <datalist id={`${uid}-names`}>{L.names.map((n) => <option value={n} />)}</datalist>
+      </div>
+      <div class="g3d-panel" hidden>
+        <p class="g3d-meta"></p>
+        <p class="g3d-name"></p>
+        <p class="g3d-count"></p>
+        <div class="g3d-actions">
+          <a class="g3d-open" href="#">Buka topik</a>
+          <button type="button" class="g3d-clear">Tutup</button>
+        </div>
+      </div>
+      <p class="g3d-hint">Seret untuk memutar · cubit atau gulir untuk memperbesar · ketuk titik untuk melihat jalurnya</p>
+    </>
+  )}
+  <script type="application/json" set:html={JSON.stringify(payload)} />
+</div>
+
+<style>
+  .g3d { position: relative; border-radius: var(--r); overflow: hidden; background: radial-gradient(120% 90% at 50% 40%, #0d1a1f 0%, #05080b 60%, #020304 100%); color: #f5f5f7; isolation: isolate; }
+  .g3d canvas { display: block; width: 100%; height: 100%; touch-action: none; cursor: grab; }
+  .g3d canvas:active { cursor: grabbing; }
+  .g3d-full { height: min(78vh, 780px); min-height: 460px; }
+  @media (max-width: 600px) { .g3d-full { height: 64vh; } }
+  .g3d-hero { height: 340px; }
+  .g3d-hero canvas { touch-action: pan-y; cursor: pointer; }
+  @media (min-width: 720px) { .g3d-hero { height: 420px; } }
+  .g3d-top { position: absolute; top: 12px; left: 12px; right: 12px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; pointer-events: none; }
+  .g3d-top > * { pointer-events: auto; }
+  .g3d-legend { display: flex; gap: 6px; flex-wrap: wrap; }
+  .g3d-legend button { font: inherit; font-size: 13px; font-weight: 600; color: #f5f5f7; background: rgb(255 255 255 / 0.08); border: 1px solid rgb(255 255 255 / 0.14); border-radius: 999px; padding: 5px 11px; display: inline-flex; gap: 6px; align-items: center; cursor: pointer; backdrop-filter: blur(8px); }
+  .g3d-legend button[aria-pressed='false'] { opacity: 0.45; }
+  .g3d-legend button[aria-pressed='false'] .dot { background: transparent !important; box-shadow: inset 0 0 0 1.5px currentColor; }
+  .d0 { background: #4cc79a; } .d1 { background: #f0896d; } .d2 { background: #7aa7ec; }
+  .g3d-find { margin-left: auto; width: min(280px, 100%) !important; font-size: 15px !important; padding: 7px 12px !important; border-radius: 999px !important; background: rgb(255 255 255 / 0.08) !important; color: #f5f5f7 !important; border: 1px solid rgb(255 255 255 / 0.14) !important; backdrop-filter: blur(8px); }
+  .g3d-find::placeholder { color: #a1a1a6; }
+  .g3d-panel { position: absolute; left: 12px; bottom: 44px; max-width: min(360px, calc(100% - 24px)); background: rgb(18 22 26 / 0.86); border: 1px solid rgb(255 255 255 / 0.12); border-radius: 14px; padding: 14px 16px; display: grid; gap: 4px; backdrop-filter: blur(12px); }
+  .g3d-meta { font-size: 13px; color: #a1a1a6; }
+  .g3d-name { font-size: 18px; font-weight: 600; line-height: 1.25; }
+  .g3d-count { font-size: 14px; color: #c7c7cc; }
+  .g3d-actions { display: flex; gap: 8px; margin-top: 8px; }
+  .g3d-open { font-size: 15px; font-weight: 600; padding: 7px 14px; border-radius: 999px; background: #4cc79a; color: #000; }
+  .g3d-open:hover { text-decoration: none; filter: brightness(1.08); }
+  .g3d-clear { font: inherit; font-size: 15px; padding: 7px 14px; border-radius: 999px; background: rgb(255 255 255 / 0.1); color: #f5f5f7; border: 0; cursor: pointer; }
+  .g3d-hint { position: absolute; left: 0; right: 0; bottom: 0; text-align: center; font-size: 12.5px; color: #a1a1a6; pointer-events: none; padding: 18px 12px 8px; margin: 0; background: linear-gradient(transparent, rgb(2 3 4 / 0.9) 55%); }
+  .g3d :focus-visible { outline: 3px solid #4cc79a; outline-offset: 2px; }
+</style>
+
+<script>
+  type L3 = { p: number[]; m: number[]; s: number[]; ids: string[]; names: string[]; kelas: number[]; e: number[]; w: number[] };
+  const COLOR = ['#4cc79a', '#f0896d', '#7aa7ec'];
+  const MAPEL_NAME = ['Matematika', 'Bahasa Indonesia', 'IPAS'];
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // One soft glow sprite per colour, drawn once and scaled per node.
+  function sprite(color: string) {
+    const c = document.createElement('canvas');
+    c.width = c.height = 64;
+    const g = c.getContext('2d')!;
+    const grad = g.createRadialGradient(32, 32, 0, 32, 32, 32);
+    grad.addColorStop(0, '#ffffff');
+    grad.addColorStop(0.12, color);
+    grad.addColorStop(0.32, color + '88');
+    grad.addColorStop(1, color + '00');
+    g.fillStyle = grad;
+    g.fillRect(0, 0, 64, 64);
+    return c;
+  }
+
+  function mount(root: HTMLElement) {
+    const full = root.dataset.mode === 'full';
+    const L: L3 = JSON.parse(root.querySelector('script[type="application/json"]')!.textContent!);
+    const canvas = root.querySelector('canvas')!;
+    const ctx = canvas.getContext('2d')!;
+    const N = L.m.length, E = L.w.length;
+    const sprites = COLOR.map(sprite);
+    const sx = new Float32Array(N), sy = new Float32Array(N), sd = new Float32Array(N), sr = new Float32Array(N);
+    const order = Array.from({ length: N }, (_, i) => i);
+    const req: number[][] = Array.from({ length: N }, () => []);
+    for (let i = 0; i < E; i++) req[L.e[i * 2 + 1]].push(L.e[i * 2]);
+    const shown = [true, true, true];
+
+    let W = 0, H = 0, dpr = 1;
+    let yaw = 0.6, pitch = 0.28, zoom = full ? 1 : 1.08;
+    let spin = reduce ? 0 : full ? 0.07 : 0.11;
+    let idleUntil = 0;
+    let focus = -1, hover = -1;
+    let path = new Set<number>();
+    let visible = true;
+    const D = 3.6;
+
+    function resize() {
+      dpr = Math.min(devicePixelRatio || 1, 2);
+      W = canvas.clientWidth; H = canvas.clientHeight;
+      canvas.width = Math.round(W * dpr); canvas.height = Math.round(H * dpr);
+    }
+    new ResizeObserver(resize).observe(canvas);
+    resize();
+
+    function project() {
+      const cy = Math.cos(yaw), syw = Math.sin(yaw), cp = Math.cos(pitch), sp = Math.sin(pitch);
+      const F = Math.min(W * 0.4, H * 0.3) * D * zoom;
+      for (let i = 0; i < N; i++) {
+        const x = L.p[i * 3], y = L.p[i * 3 + 1] * 0.95, z = L.p[i * 3 + 2];
+        const x1 = x * cy - z * syw, z1 = x * syw + z * cy;
+        const y2 = y * cp - z1 * sp, z2 = y * sp + z1 * cp;
+        const depth = D + z2;
+        sx[i] = W / 2 + (x1 * F) / depth;
+        sy[i] = H / 2 + (full ? 6 : 0) - (y2 * F) / depth;
+        sd[i] = depth;
+        sr[i] = (1.6 + L.s[i] * 4.2) * (D / depth) * Math.sqrt(zoom) * (full ? 1 : 0.9);
+      }
+    }
+
+    function worldToScreen(x: number, y: number, z: number) {
+      const cy = Math.cos(yaw), syw = Math.sin(yaw), cp = Math.cos(pitch), sp = Math.sin(pitch);
+      const F = Math.min(W * 0.4, H * 0.3) * D * zoom;
+      const x1 = x * cy - z * syw, z1 = x * syw + z * cy;
+      const y2 = y * 0.95 * cp - z1 * sp, z2 = y * 0.95 * sp + z1 * cp;
+      const depth = D + z2;
+      return [W / 2 + (x1 * F) / depth, H / 2 + (full ? 6 : 0) - (y2 * F) / depth];
+    }
+
+    const fog = (d: number) => Math.max(0.25, Math.min(1, 1.25 - (d - (D - 1.1)) / 2.6));
+
+    function draw(t: number) {
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      ctx.clearRect(0, 0, W, H);
+      project();
+
+      // Kelas rings and labels.
+      ctx.globalCompositeOperation = 'source-over';
+      ctx.lineWidth = 1;
+      ctx.font = '600 12px -apple-system, BlinkMacSystemFont, system-ui, sans-serif';
+      for (let k = 1; k <= 6; k++) {
+        const y = ((k - 1) / 5) * 2 - 1;
+        ctx.beginPath();
+        for (let a = 0; a <= 64; a++) {
+          const th = (a / 64) * Math.PI * 2;
+          const [px, py] = worldToScreen(Math.cos(th) * 1.08, y, Math.sin(th) * 1.08);
+          a ? ctx.lineTo(px, py) : ctx.moveTo(px, py);
+        }
+        ctx.strokeStyle = 'rgba(255,255,255,0.07)';
+        ctx.stroke();
+        if (full || W > 420) {
+          const [lx, ly] = worldToScreen(-1.22 * Math.cos(yaw), y, 1.22 * Math.sin(yaw));
+          ctx.fillStyle = 'rgba(245,245,247,0.55)';
+          // On narrow screens the ring's left edge leaves the canvas, so pin labels to the margin.
+          const narrow = lx < 64;
+          ctx.textAlign = narrow ? 'left' : 'right';
+          ctx.fillText(narrow ? `${k}` : `Kelas ${k}`, narrow ? 10 : lx, ly + 4);
+        }
+      }
+
+      // Edges: additive, so dense bundles glow.
+      ctx.globalCompositeOperation = 'lighter';
+      const focusing = focus >= 0;
+      for (let c = 0; c < 3; c++) {
+        if (!shown[c]) continue;
+        ctx.beginPath();
+        for (let i = 0; i < E; i++) {
+          const a = L.e[i * 2], b = L.e[i * 2 + 1];
+          if (L.m[a] !== c || !shown[L.m[b]]) continue;
+          if (focusing && path.has(a) && path.has(b)) continue;
+          ctx.moveTo(sx[a], sy[a]);
+          ctx.lineTo(sx[b], sy[b]);
+        }
+        ctx.strokeStyle = COLOR[c] + (focusing ? '0a' : '1c');
+        ctx.lineWidth = 1;
+        ctx.stroke();
+      }
+      if (focusing) {
+        ctx.lineWidth = 1.6;
+        for (let i = 0; i < E; i++) {
+          const a = L.e[i * 2], b = L.e[i * 2 + 1];
+          if (!(path.has(a) && path.has(b)) || !shown[L.m[a]] || !shown[L.m[b]]) continue;
+          ctx.strokeStyle = COLOR[L.m[a]] + 'cc';
+          ctx.beginPath(); ctx.moveTo(sx[a], sy[a]); ctx.lineTo(sx[b], sy[b]); ctx.stroke();
+          // A bright pulse runs from the prerequisite to the topic that needs it.
+          if (!reduce) {
+            const f = (t * 0.00045 + i * 0.137) % 1;
+            const px = sx[a] + (sx[b] - sx[a]) * f, py = sy[a] + (sy[b] - sy[a]) * f;
+            ctx.drawImage(sprites[L.m[a]], px - 6, py - 6, 12, 12);
+          }
+        }
+      }
+
+      // Nodes, far to near.
+      order.sort((i, j) => sd[j] - sd[i]);
+      for (const i of order) {
+        if (!shown[L.m[i]]) continue;
+        let alpha = fog(sd[i]);
+        if (focusing && !path.has(i)) alpha *= 0.14;
+        const r = sr[i] * (i === focus ? 1.8 : 1);
+        ctx.globalAlpha = alpha;
+        ctx.drawImage(sprites[L.m[i]], sx[i] - r * 3, sy[i] - r * 3, r * 6, r * 6);
+      }
+      ctx.globalAlpha = 1;
+      ctx.globalCompositeOperation = 'source-over';
+
+      if (full) {
+        if (focus >= 0) label(focus, true);
+        if (hover >= 0 && hover !== focus && shown[L.m[hover]]) label(hover, false);
+      }
+    }
+
+    function label(i: number, strong: boolean) {
+      const text = L.names[i];
+      ctx.font = `${strong ? 700 : 600} 13px -apple-system, BlinkMacSystemFont, system-ui, sans-serif`;
+      const w = ctx.measureText(text).width + 16;
+      let x = sx[i] + 10, y = sy[i] - 30;
+      if (x + w > W - 8) x = sx[i] - 10 - w;
+      if (y < 56) y = sy[i] + 12;
+      ctx.fillStyle = 'rgba(18,22,26,0.88)';
+      ctx.beginPath(); ctx.roundRect(x, y, w, 24, 8); ctx.fill();
+      ctx.strokeStyle = COLOR[L.m[i]] + '99'; ctx.lineWidth = 1; ctx.stroke();
+      ctx.fillStyle = '#f5f5f7'; ctx.textAlign = 'left';
+      ctx.fillText(text, x + 8, y + 16.5);
+    }
+
+    function pick(x: number, y: number, max = 18) {
+      let best = -1, bd = max * max;
+      for (let i = 0; i < N; i++) {
+        if (!shown[L.m[i]]) continue;
+        const dx = sx[i] - x, dy = sy[i] - y, d = dx * dx + dy * dy;
+        // Prefer the nearer node when two overlap.
+        if (d < bd || (best >= 0 && d < max * max && Math.abs(d - bd) < 16 && sd[i] < sd[best])) { bd = d; best = i; }
+      }
+      return best;
+    }
+
+    // Panel, search and legend (full mode only).
+    const panel = root.querySelector<HTMLDivElement>('.g3d-panel');
+    function setFocus(i: number, updateHash = true) {
+      focus = i;
+      path = new Set<number>();
+      if (i >= 0) {
+        const walk = (x: number) => { path.add(x); for (const r of req[x]) if (!path.has(r)) walk(r); };
+        walk(i);
+      }
+      if (panel) {
+        panel.hidden = i < 0;
+        if (i >= 0) {
+          panel.querySelector('.g3d-meta')!.textContent = `${MAPEL_NAME[L.m[i]]} · Kelas ${L.kelas[i]}`;
+          panel.querySelector('.g3d-name')!.textContent = L.names[i];
+          const n = path.size - 1;
+          panel.querySelector('.g3d-count')!.textContent = n ? `${n} topik perlu dikuasai sebelumnya. Jalurnya menyala.` : 'Titik awal: tidak ada prasyarat.';
+          (panel.querySelector('.g3d-open') as HTMLAnchorElement).href = `/topik/${L.ids[i]}/`;
+        }
+      }
+      if (full && updateHash) history.replaceState(null, '', i >= 0 ? `${location.search}#${L.ids[i]}` : location.pathname + location.search);
+      if (!running) frame(performance.now());
+    }
+    panel?.querySelector('.g3d-clear')!.addEventListener('click', () => setFocus(-1));
+    const find = root.querySelector<HTMLInputElement>('.g3d-find');
+    find?.addEventListener('change', () => {
+      const q = find.value.trim().toLowerCase();
+      const i = L.names.findIndex((n) => n.toLowerCase() === q);
+      const j = i >= 0 ? i : L.names.findIndex((n) => n.toLowerCase().includes(q));
+      if (q && j >= 0) { if (!shown[L.m[j]]) toggle(L.m[j]); setFocus(j); idleUntil = performance.now() + 6000; }
+    });
+    function toggle(c: number) {
+      shown[c] = !shown[c];
+      root.querySelector(`.g3d-legend [data-m="${c}"]`)?.setAttribute('aria-pressed', String(shown[c]));
+      if (focus >= 0 && !shown[L.m[focus]]) setFocus(-1);
+      if (reduce) requestAnimationFrame(frame);
+    }
+    root.querySelectorAll<HTMLButtonElement>('.g3d-legend button').forEach((b) => b.addEventListener('click', () => toggle(Number(b.dataset.m))));
+
+    // Pointer input: one finger rotates, two fingers zoom, a tap picks.
+    const pts = new Map<number, { x: number; y: number }>();
+    let down: { x: number; y: number; moved: boolean } | null = null;
+    let pinch = 0;
+    const local = (ev: PointerEvent) => { const r = canvas.getBoundingClientRect(); return { x: ev.clientX - r.left, y: ev.clientY - r.top }; };
+    canvas.addEventListener('pointerdown', (ev) => {
+      pts.set(ev.pointerId, local(ev));
+      if (full) canvas.setPointerCapture(ev.pointerId);
+      down = { ...local(ev), moved: false };
+      if (pts.size === 2) { const [a, b] = [...pts.values()]; pinch = Math.hypot(a.x - b.x, a.y - b.y); }
+    });
+    canvas.addEventListener('pointermove', (ev) => {
+      const p = local(ev);
+      if (!pts.has(ev.pointerId)) {
+        if (full && ev.pointerType === 'mouse') { const h = pick(p.x, p.y, 12); if (h !== hover) { hover = h; canvas.style.cursor = h >= 0 ? 'pointer' : ''; } }
+        return;
+      }
+      if (!full) return;
+      const prev = pts.get(ev.pointerId)!;
+      pts.set(ev.pointerId, p);
+      if (pts.size === 2) {
+        const [a, b] = [...pts.values()];
+        const d = Math.hypot(a.x - b.x, a.y - b.y);
+        if (pinch) zoom = Math.max(0.6, Math.min(3.2, zoom * (d / pinch)));
+        pinch = d;
+        if (down) down.moved = true;
+      } else {
+        yaw += (p.x - prev.x) * 0.008;
+        pitch = Math.max(-1.25, Math.min(1.25, pitch + (p.y - prev.y) * 0.006));
+        if (down && Math.hypot(p.x - down.x, p.y - down.y) > 6) down.moved = true;
+      }
+      idleUntil = performance.now() + 5000;
+    });
+    const up = (ev: PointerEvent) => {
+      pts.delete(ev.pointerId);
+      if (pts.size < 2) pinch = 0;
+      if (down && !down.moved && ev.type === 'pointerup') {
+        const p = local(ev);
+        const i = pick(p.x, p.y, ev.pointerType === 'touch' ? 24 : 16);
+        if (!full) { location.href = i >= 0 ? `/graf/#${L.ids[i]}` : '/graf/'; return; }
+        if (i >= 0 && i === focus) location.href = `/topik/${L.ids[i]}/`;
+        else setFocus(i);
+        idleUntil = performance.now() + 6000;
+      }
+      if (!pts.size) down = null;
+    };
+    canvas.addEventListener('pointerup', up);
+    canvas.addEventListener('pointercancel', up);
+    canvas.addEventListener('pointerleave', () => { if (hover >= 0) hover = -1; });
+    if (full) canvas.addEventListener('wheel', (ev) => {
+      ev.preventDefault();
+      zoom = Math.max(0.6, Math.min(3.2, zoom * Math.exp(-ev.deltaY * 0.0012)));
+      idleUntil = performance.now() + 5000;
+    }, { passive: false });
+
+    // Animation loop: runs only while the canvas is on screen.
+    let running = false, last = performance.now();
+    function frame(t: number) {
+      const dt = Math.min(64, t - last);
+      last = t;
+      if (t > idleUntil) yaw += spin * (dt / 1000);
+      draw(t);
+    }
+    function loop(t: number) {
+      if (!visible) { running = false; return; }
+      frame(t);
+      requestAnimationFrame(loop);
+    }
+    function start() { if (!running && visible) { running = true; last = performance.now(); requestAnimationFrame(loop); } }
+    new IntersectionObserver(([en]) => { visible = en.isIntersecting; start(); }).observe(canvas);
+    if (reduce) {
+      // No motion: draw on input only.
+      running = true;
+      const redraw = () => requestAnimationFrame(frame);
+      ['pointermove', 'pointerup', 'wheel'].forEach((e) => canvas.addEventListener(e, redraw));
+      new ResizeObserver(redraw).observe(canvas);
+      redraw();
+    } else start();
+
+    // Focus from the URL hash, as /graf/#<topic id>.
+    if (full) {
+      const id = decodeURIComponent(location.hash.slice(1));
+      const i = L.ids.indexOf(id);
+      if (i >= 0) { setFocus(i, false); idleUntil = performance.now() + 4000; }
+    }
+  }
+
+  document.querySelectorAll<HTMLElement>('[data-g3d]').forEach(mount);
+</script>

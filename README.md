@@ -4,6 +4,12 @@
 terhubung. Setiap topik punya tanda anak sudah bisa, pertanyaan untuk dicoba orang tua di rumah,
 dan daftar topik yang perlu dikuasai lebih dulu. Jelajahi di **[titian.irawan.dev](https://titian.irawan.dev)**.
 
+![Peta 3D Titian: setiap titik satu topik, warna = mata pelajaran, tinggi = kelas, setiap garis = prasyarat](media/peta-3d.gif)
+
+Setiap titik satu topik, diwarnai menurut mata pelajaran. Tinggi menunjukkan kelas (1 di bawah, 6 di atas).
+Setiap garis satu prasyarat ([video](media/peta-3d.mp4)). Jelajahi di
+[titian.irawan.dev/graf](https://titian.irawan.dev/graf/): ketuk satu topik untuk menyorot semua yang perlu dikuasai sebelumnya.
+
 *English:* Titian is an open learning map for Indonesian primary school (SD, kelas 1–6). It
 splits the official Capaian Pembelajaran into micro-topics, wires them into a prerequisite graph,
 and links every topic back to the exact phrase of the decree it serves.
@@ -87,7 +93,8 @@ topic requires a topic from a later fase, and that every `;`-clause of every cov
 is served by at least one topic. Topics are written in [`authoring/`](authoring/) following
 [`authoring/GUIDE.md`](authoring/GUIDE.md). Never edit `data/topics.json` by hand.
 
-The explorer site lives in [`site/`](site/) (Astro, static, deployed to Cloudflare).
+The explorer site lives in [`site/`](site/) (Astro, static, deployed to Cloudflare). The 3D map is a plain
+2D canvas with no libraries; its layout is computed at build time in `site/src/lib/layout3d.ts`.
 
 ## How it was made
 
