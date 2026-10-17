@@ -1,0 +1,36 @@
+---
+import Base from '../layouts/Base.astro';
+import { manifest } from '../lib/data';
+const label: Record<string, string> = {
+  'data/standards.json': 'Butir Capaian Pembelajaran SD, kata per kata',
+  'data/topics.json': 'Topik (simpul graf)',
+  'data/dependencies.json': 'Prasyarat (sisi graf), dengan alasan',
+  'data/clusters.json': 'Ringkasan untuk orang tua per elemen dan fase',
+};
+const kb = (b: number) => `${Math.round(b / 1024)} KB`;
+---
+<Base title="Unduh data" description="Unduh data Titian dalam JSON: Capaian Pembelajaran SD, topik, prasyarat, dan ringkasan. CC BY 4.0." path="/data/">
+  <p class="eyebrow">Data terbuka</p>
+  <h1>Unduh data</h1>
+  <p class="lead">Semua data Titian dalam JSON UTF-8. Pakai untuk aplikasi, riset, atau bahan ajar. Cantumkan sumbernya.</p>
+  <ul class="list files">
+    {manifest.files.map((f) => (
+      <li><a href={`/${f.file}`} download>
+        <span class="t"><code>{f.file.replace('data/', '')}</code><span class="why">{label[f.file]}</span></span>
+        <span class="s">{kb(f.bytes)}</span>
+      </a></li>
+    ))}
+    <li><a href="/data/manifest.json" download><span class="t"><code>manifest.json</code><span class="why">Jumlah dan checksum SHA-256 setiap berkas</span></span></a></li>
+  </ul>
+  <section class="grouped stack" style="--gap: 10px; margin-top: 28px">
+    <h2>Skema</h2>
+    <p class="muted">JSON Schema untuk setiap berkas: <a href="/schema/topics.schema.json">topics</a> · <a href="/schema/dependencies.schema.json">dependencies</a> · <a href="/schema/standards.schema.json">standards</a> · <a href="/schema/clusters.schema.json">clusters</a>.</p>
+    <h2>Lisensi</h2>
+    <p class="muted">Topik, prasyarat, dan ringkasan: CC BY 4.0. Atribusi: <em>Titian — peta belajar SD Indonesia (v1), titian.irawan.dev</em>. Teks Capaian Pembelajaran: keputusan pemerintah, tanpa hak cipta (UU 28/2014 Pasal 42).</p>
+    <p class="muted">Kode sumber dan riwayat perubahan ada di <a href="https://github.com/galohot/titian">GitHub</a>.</p>
+  </section>
+</Base>
+<style>
+  .files { margin-top: 24px; }
+  code { font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 15px; }
+</style>

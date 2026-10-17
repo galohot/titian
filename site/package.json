@@ -1,0 +1,15 @@
+{
+  "name": "titian-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prebuild": "node scripts/copy-data.mjs",
+    "build": "astro build",
+    "dev": "node scripts/copy-data.mjs && astro dev",
+    "check": "astro check",
+    "deploy": "pnpm build && wrangler deploy"
+  },
+  "dependencies": {
+    "astro": "^7.4.0"
+  }
+}

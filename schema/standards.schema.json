@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://titian.irawan.dev/schema/standards.schema.json",
+  "title": "Capaian Pembelajaran statements (verbatim)",
+  "type": "object",
+  "required": ["version", "source", "mapel", "standards"],
+  "properties": {
+    "version": { "type": "string" },
+    "source": { "type": "object" },
+    "mapel": { "type": "array", "items": { "type": "object", "required": ["code", "name", "section", "elemen"] } },
+    "standards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "mapel", "fase", "kelas", "elemen", "elemenCode", "text", "source"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^cp046\\.[a-z-]+\\.[A-C]\\.[a-z-]+$" },
+          "mapel": { "type": "string" },
+          "fase": { "enum": ["A", "B", "C"] },
+          "kelas": { "type": "array", "items": { "type": "integer" } },
+          "elemen": { "type": "string" },
+          "elemenCode": { "type": "string" },
+          "text": { "type": "string", "description": "verbatim CP text" },
+          "source": { "type": "object", "required": ["decree", "lampiran", "section"] }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,4893 @@
+{
+  "version": "v1",
+  "topicCount": 148,
+  "topics": [
+    {
+      "id": "bind.simak.menyimak-dengan-perhatian",
+      "mapel": "bind",
+      "elemen": "Menyimak",
+      "elemenCode": "simak",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "bahasa",
+      "name": "Mendengarkan orang berbicara dengan perhatian",
+      "description": "Anak diam dan memandang orang yang berbicara, tidak memotong, lalu bisa mengulang apa yang baru saja dikatakan.",
+      "evidence": [
+        "Menatap orang yang berbicara dan tidak memotong sampai kalimatnya selesai",
+        "Mengulang dengan kata-katanya sendiri kalimat pendek yang baru didengar, misalnya 'Besok kita ke rumah Nenek'"
+      ],
+      "parentPrompt": "Saat makan malam, ceritakan satu hal kecil tentang hari Ayah atau Ibu. Lalu tanya {{nama}}, 'Tadi Ibu cerita apa?' Apakah {{nama}} bisa mengulangnya?",
+      "standards": [
+        "cp046.bind.A.simak"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.simak",
+          "phrase": "berupa percakapan yang berkaitan dengan diri, keluarga, dan/atau lingkungan sekitar"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 37,
+      "centrality": 0.2517
+    },
+    {
+      "id": "bind.simak.mengikuti-perintah-lisan",
+      "mapel": "bind",
+      "elemen": "Menyimak",
+      "elemenCode": "simak",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "bahasa",
+      "name": "Mengikuti perintah lisan dua atau tiga langkah",
+      "description": "Anak mendengar perintah yang berisi dua atau tiga langkah, mengingat urutannya, lalu melakukannya tanpa diulang.",
+      "evidence": [
+        "Melakukan 'Ambil sandalmu, taruh di rak, lalu cuci tangan' dengan urutan yang benar",
+        "Bertanya kembali bila ada bagian perintah yang tidak ia dengar"
+      ],
+      "parentPrompt": "Beri {{nama}} perintah tiga langkah sekaligus, misalnya 'Tolong ambil piring, taruh di meja, lalu panggil Kakak.' Apakah {{nama}} melakukan semuanya sesuai urutan?",
+      "standards": [
+        "cp046.bind.A.simak"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.simak",
+          "phrase": "Memahami informasi dari teks nonsastra berbentuk teks aural"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 3,
+      "centrality": 0.0204
+    },
+    {
+      "id": "bind.simak.menangkap-informasi-dari-percakapan",
+      "mapel": "bind",
+      "elemen": "Menyimak",
+      "elemenCode": "simak",
+      "fase": "A",
+      "kelas": [
+        1,
+        2
+      ],
+      "type": "bahasa",
+      "name": "Menangkap siapa, apa, dan di mana dari percakapan",
+      "description": "Setelah mendengar percakapan pendek tentang keluarga atau lingkungan, anak bisa menjawab pertanyaan siapa, apa, dan di mana.",
+      "evidence": [
+        "Setelah mendengar orang tua bercakap tentang belanja, menjawab 'Ibu mau beli apa di warung?' dengan benar",
+        "Menyebut siapa yang akan datang dan kapan, dari percakapan telepon yang ia dengar"
+      ],
+      "parentPrompt": "Bercakaplah singkat dengan pasangan di depan {{nama}}, misalnya tentang rencana ke pasar besok. Lalu tanya {{nama}}, 'Siapa yang ke pasar? Mau beli apa?'",
+      "standards": [
+        "cp046.bind.A.simak"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.simak",
+          "phrase": "berupa percakapan yang berkaitan dengan diri, keluarga, dan/atau lingkungan sekitar"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 5,
+      "centrality": 0.034
+    },
+    {
+      "id": "bind.simak.memahami-teks-informasi-yang-dibacakan",
+      "mapel": "bind",
+      "elemen": "Menyimak",
+      "elemenCode": "simak",
+      "fase": "A",
+      "kelas": [
+        2
+      ],
+      "type": "bahasa",
+      "name": "Memahami teks informasi yang dibacakan",
+      "description": "Anak mendengar teks pendek bukan cerita, misalnya pengumuman, petunjuk, atau penjelasan tentang hewan, lalu menyebut isi pentingnya.",
+      "evidence": [
+        "Setelah mendengar pengumuman 'Besok murid memakai baju olahraga', menyebut apa yang harus dibawa atau dipakai",
+        "Menyebut dua fakta dari teks pendek tentang kucing yang dibacakan"
+      ],
+      "parentPrompt": "Bacakan pesan dari grup WhatsApp sekolah atau tulisan di bungkus makanan untuk {{nama}}. Lalu tanya, 'Jadi kita harus apa?' atau 'Tadi tulisannya bilang apa?'",
+      "standards": [
+        "cp046.bind.A.simak"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.simak",
+          "phrase": "teks aural (teks yang dibacakan dan/atau didengarkan)"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 2,
+      "centrality": 0.0136
+    },
+    {
+      "id": "bind.simak.menyimak-dongeng-tokoh-dan-kejadian",
+      "mapel": "bind",
+      "elemen": "Menyimak",
+      "elemenCode": "simak",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "bahasa",
+      "name": "Menyebut tokoh dan kejadian dari dongeng",
+      "description": "Setelah mendengar dongeng atau cerita, anak bisa menyebut tokohnya, tempatnya, dan apa yang terjadi.",
+      "evidence": [
+        "Setelah mendengar cerita Kancil dan Buaya, menyebut kedua tokohnya dan tempatnya di sungai",
+        "Menjawab 'Lalu apa yang terjadi?' dengan satu kejadian dari cerita"
+      ],
+      "parentPrompt": "Sebelum tidur, ceritakan dongeng pendek untuk {{nama}}. Setelah selesai, tanya, 'Siapa saja yang ada di cerita tadi? Mereka ada di mana?'",
+      "standards": [
+        "cp046.bind.A.simak"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.simak",
+          "phrase": "memahami pesan teks sastra berbentuk teks aural"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 2,
+      "centrality": 0.0136
+    },
+    {
+      "id": "bind.simak.menangkap-pesan-cerita",
+      "mapel": "bind",
+      "elemen": "Menyimak",
+      "elemenCode": "simak",
+      "fase": "A",
+      "kelas": [
+        1,
+        2
+      ],
+      "type": "konsep",
+      "name": "Menangkap pesan dari cerita yang didengar",
+      "description": "Anak bisa mengatakan pelajaran atau pesan dari cerita, misalnya jangan sombong atau harus jujur, dan menghubungkannya dengan hidupnya.",
+      "evidence": [
+        "Setelah cerita Malin Kundang, mengatakan 'Kita harus sayang sama ibu'",
+        "Memberi satu contoh kapan ia sendiri bisa melakukan pesan cerita itu"
+      ],
+      "parentPrompt": "Setelah membacakan cerita, tanya {{nama}}, 'Menurutmu, cerita ini mengajari kita apa?' Lalu tanya, 'Kamu pernah begitu juga?'",
+      "standards": [
+        "cp046.bind.A.simak"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.simak",
+          "phrase": "memahami pesan teks sastra berbentuk teks aural"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "bind.simak.menyimak-puisi-dan-lagu-anak",
+      "mapel": "bind",
+      "elemen": "Menyimak",
+      "elemenCode": "simak",
+      "fase": "A",
+      "kelas": [
+        1,
+        2
+      ],
+      "type": "bahasa",
+      "name": "Menyimak puisi dan lagu anak",
+      "description": "Anak mendengar puisi atau lagu anak, mengenali bunyi akhir yang sama (rima), dan bisa mengatakan perasaan atau isi yang disampaikan.",
+      "evidence": [
+        "Menyebut dua kata yang berbunyi akhir sama dari lagu, misalnya 'pelangi' dan 'pagi'",
+        "Mengatakan puisi itu tentang apa dan apakah terasa senang atau sedih"
+      ],
+      "parentPrompt": "Nyanyikan lagu 'Pelangi-Pelangi' atau bacakan puisi pendek untuk {{nama}}. Tanya, 'Lagu ini tentang apa? Kata mana yang bunyinya mirip?'",
+      "standards": [
+        "cp046.bind.A.simak"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.simak",
+          "phrase": "memahami pesan teks sastra"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "bind.baca.mengenal-buku-dan-arah-membaca",
+      "mapel": "bind",
+      "elemen": "Membaca dan Memirsa",
+      "elemenCode": "baca",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "konsep",
+      "name": "Mengenal buku dan arah membaca",
+      "description": "Anak tahu cara memegang buku, membuka halaman satu per satu, dan bahwa tulisan dibaca dari kiri ke kanan dan dari atas ke bawah.",
+      "evidence": [
+        "Memegang buku dengan sisi yang benar dan membalik halaman dari depan ke belakang",
+        "Menunjuk tulisan dari kiri ke kanan saat orang tua membaca",
+        "Membedakan mana gambar dan mana tulisan di satu halaman"
+      ],
+      "parentPrompt": "Beri {{nama}} buku cerita bergambar. Minta {{nama}} menunjukkan, 'Kita mulai baca dari mana?' Lalu bacakan sambil {{nama}} menunjuk kata yang Ibu baca.",
+      "standards": [
+        "cp046.bind.A.baca"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.baca",
+          "phrase": "dari bacaan dan/atau tayangan yang dipirsa"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 26,
+      "centrality": 0.1769
+    },
+    {
+      "id": "bind.baca.mendengar-bunyi-dalam-kata",
+      "mapel": "bind",
+      "elemen": "Membaca dan Memirsa",
+      "elemenCode": "baca",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "konsep",
+      "name": "Mendengar bunyi awal dan suku kata",
+      "description": "Sebelum membaca, anak bisa mendengar bunyi awal sebuah kata dan memecah kata menjadi suku kata dengan bertepuk.",
+      "evidence": [
+        "Bertepuk tiga kali untuk 'ke-la-pa' dan dua kali untuk 'bo-la'",
+        "Menyebut bunyi awal 'sapu' adalah /s/",
+        "Menyebut benda di rumah yang bunyinya dimulai dengan /m/, misalnya meja atau mangkuk"
+      ],
+      "parentPrompt": "Main tebak bunyi dengan {{nama}}: 'Cari benda di dapur yang bunyinya mulai dengan /p/!' Lalu ajak {{nama}} bertepuk untuk setiap suku kata, misalnya 'pi-ring'.",
+      "standards": [
+        "cp046.bind.A.baca"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.baca",
+          "phrase": "Membaca kata-kata sederhana"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 21,
+      "centrality": 0.1429
+    },
+    {
+      "id": "bind.baca.mengenal-huruf-vokal",
+      "mapel": "bind",
+      "elemen": "Membaca dan Memirsa",
+      "elemenCode": "baca",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "bahasa",
+      "name": "Mengenal huruf vokal a, i, u, e, o",
+      "description": "Anak mengenali bentuk lima huruf vokal dan menyebut bunyinya, termasuk dua bunyi e seperti pada 'enak' dan 'sate'.",
+      "evidence": [
+        "Menunjuk huruf a, i, u, e, o yang disebut orang tua di kemasan atau koran",
+        "Menyebut bunyi setiap huruf vokal ketika hurufnya ditunjuk secara acak"
+      ],
+      "parentPrompt": "Ambil kotak susu atau bungkus mi. Minta {{nama}} mencari semua huruf 'a' lalu huruf 'o'. Apakah {{nama}} bisa menyebut bunyinya?",
+      "standards": [
+        "cp046.bind.A.baca"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.baca",
+          "phrase": "Membaca kata-kata sederhana"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 20,
+      "centrality": 0.1361
+    },
+    {
+      "id": "bind.baca.mengenal-huruf-konsonan",
+      "mapel": "bind",
+      "elemen": "Membaca dan Memirsa",
+      "elemenCode": "baca",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "bahasa",
+      "name": "Mengenal huruf konsonan dan bunyinya",
+      "description": "Anak mengenali huruf konsonan b sampai z, menyebut nama dan bunyinya, dan tidak tertukar antara huruf yang mirip seperti b dan d, p dan q, m dan n.",
+      "evidence": [
+        "Menyebut nama dan bunyi 15 huruf konsonan yang ditunjuk acak",
+        "Membedakan b dan d serta m dan n tanpa ragu",
+        "Menyebut satu benda yang diawali huruf yang ditunjuk, misalnya k untuk kursi"
+      ],
+      "parentPrompt": "Tulis beberapa huruf di kertas, misalnya b, d, m, n, s, k. Tunjuk satu per satu dan tanya {{nama}}, 'Ini huruf apa? Bunyinya bagaimana?'",
+      "standards": [
+        "cp046.bind.A.baca"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.baca",
+          "phrase": "Membaca kata-kata sederhana"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 19,
+      "centrality": 0.1293
+    },
+    {
+      "id": "bind.baca.mengenal-huruf-kapital-dan-kecil",
+      "mapel": "bind",
+      "elemen": "Membaca dan Memirsa",
+      "elemenCode": "baca",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "bahasa",
+      "name": "Memasangkan huruf kapital dan huruf kecil",
+      "description": "Anak tahu bahwa setiap huruf punya bentuk besar (kapital) dan kecil, misalnya A dan a, lalu bisa memasangkannya.",
+      "evidence": [
+        "Memasangkan kartu huruf kapital dengan huruf kecilnya, misalnya G dengan g dan R dengan r",
+        "Menemukan huruf kapital di awal namanya sendiri dan nama kota di papan nama"
+      ],
+      "parentPrompt": "Tunjukkan nama {{nama}} yang ditulis di kertas. Tanya, 'Huruf pertama namamu kok lebih besar? Huruf kecilnya yang mana?'",
+      "standards": [
+        "cp046.bind.A.baca"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.baca",
+          "phrase": "Membaca kata-kata sederhana"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 6,
+      "centrality": 0.0408
+    },
+    {
+      "id": "bind.baca.membaca-suku-kata-terbuka",
+      "mapel": "bind",
+      "elemen": "Membaca dan Memirsa",
+      "elemenCode": "baca",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "prosedur",
+      "name": "Membaca suku kata seperti ba, bi, bu",
+      "description": "Anak menggabungkan satu konsonan dan satu vokal menjadi suku kata dan membacanya langsung, misalnya ma, mi, mu, me, mo.",
+      "evidence": [
+        "Membaca kartu suku kata 'sa', 'ku', 'lo', 'pi' tanpa mengeja huruf satu per satu",
+        "Mengubah 'ba' menjadi 'bu' ketika vokalnya diganti"
+      ],
+      "parentPrompt": "Tulis suku kata di potongan kardus: ma, pa, ka, bu, ti. Kocok, lalu minta {{nama}} membaca satu per satu. Apakah {{nama}} langsung membaca 'ma', bukan 'em-a'?",
+      "standards": [
+        "cp046.bind.A.baca"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.baca",
+          "phrase": "Membaca kata-kata sederhana"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 10,
+      "centrality": 0.068
+    },
+    {
+      "id": "bind.baca.membaca-kata-dua-suku-kata",
+      "mapel": "bind",
+      "elemen": "Membaca dan Memirsa",
+      "elemenCode": "baca",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "prosedur",
+      "name": "Membaca kata dua suku kata",
+      "description": "Anak membaca kata yang terdiri atas dua suku kata terbuka, seperti buku, bola, mata, sapu, dan tahu artinya.",
+      "evidence": [
+        "Membaca 'meja', 'kaki', 'roti', dan 'sapi' lalu menunjuk benda atau gambarnya",
+        "Membaca kata tanpa berhenti lama di antara dua suku kata"
+      ],
+      "parentPrompt": "Tempel kertas bertuliskan 'meja', 'pintu', 'kursi' di benda aslinya, atau tulis kata 'susu', 'roti', 'nasi' di kertas. Minta {{nama}} membaca lalu menunjuk bendanya.",
+      "standards": [
+        "cp046.bind.A.baca"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.baca",
+          "phrase": "Membaca kata-kata sederhana"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 9,
+      "centrality": 0.0612
+    },
+    {
+      "id": "bind.baca.membaca-kata-tiga-suku-kata",
+      "mapel": "bind",
+      "elemen": "Membaca dan Memirsa",
+      "elemenCode": "baca",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "prosedur",
+      "name": "Membaca kata tiga suku kata",
+      "description": "Anak membaca kata yang lebih panjang seperti sepatu, kelapa, celana, termasuk huruf e yang dibaca lemah seperti pada 'sepeda'.",
+      "evidence": [
+        "Membaca 'sepatu', 'kelapa', dan 'jendela' dengan bunyi e yang tepat",
+        "Membaca kata tiga suku kata dengan lancar setelah sekali mencoba"
+      ],
+      "parentPrompt": "Tulis 'sepatu', 'kelapa', 'celana', 'sepeda' di kertas. Minta {{nama}} membacanya. Dengar apakah 'se' pada sepatu dibaca seperti 'se' pada 'senang', bukan 'sate'.",
+      "standards": [
+        "cp046.bind.A.baca"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.baca",
+          "phrase": "Membaca kata-kata sederhana"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 2,
+      "centrality": 0.0136
+    },
+    {
+      "id": "bind.baca.membaca-kata-berakhiran-konsonan",
+      "mapel": "bind",
+      "elemen": "Membaca dan Memirsa",
+      "elemenCode": "baca",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "prosedur",
+      "name": "Membaca kata berakhiran konsonan",
+      "description": "Anak membaca kata dengan suku kata tertutup, yaitu suku kata yang diakhiri konsonan, seperti ikan, makan, tas, dan sendok.",
+      "evidence": [
+        "Membaca 'ikan', 'pasar', 'sabun', dan 'tas' dengan bunyi akhir yang jelas",
+        "Membedakan 'mata' dan 'makan' ketika keduanya ditulis berdampingan"
+      ],
+      "parentPrompt": "Ajak {{nama}} membaca tulisan di dapur atau warung, misalnya 'sabun', 'garam', 'minyak'. Perhatikan apakah huruf terakhirnya ikut dibaca.",
+      "standards": [
+        "cp046.bind.A.baca"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.baca",
+          "phrase": "Membaca kata-kata sederhana"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 2,
+      "centrality": 0.0136
+    },
+    {
+      "id": "bind.baca.membaca-gabungan-huruf-ng-ny",
+      "mapel": "bind",
+      "elemen": "Membaca dan Memirsa",
+      "elemenCode": "baca",
+      "fase": "A",
+      "kelas": [
+        1,
+        2
+      ],
+      "type": "prosedur",
+      "name": "Membaca gabungan huruf ng, ny, kh, sy",
+      "description": "Anak tahu bahwa dua huruf seperti ng, ny, kh, dan sy dibaca sebagai satu bunyi, lalu membaca kata seperti nyanyi, bangun, dan syukur.",
+      "evidence": [
+        "Membaca 'nyamuk', 'bunga', dan 'singa' tanpa memisahkan n dan g",
+        "Membaca 'khusus' dan 'syarat' dengan satu bunyi untuk kh dan sy"
+      ],
+      "parentPrompt": "Tulis 'bunga', 'nyamuk', 'pisang', 'kunyit'. Minta {{nama}} membaca. Apakah 'nga' di bunga dibaca satu bunyi, bukan 'bun-ga'?",
+      "standards": [
+        "cp046.bind.A.baca"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.baca",
+          "phrase": "Membaca kata-kata sederhana dengan fasih"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "bind.baca.mengenal-kata-yang-sering-muncul",
+      "mapel": "bind",
+      "elemen": "Membaca dan Memirsa",
+      "elemenCode": "baca",
+      "fase": "A",
+      "kelas": [
+        1,
+        2
+      ],
+      "type": "bahasa",
+      "name": "Membaca kata yang sering muncul tanpa mengeja",
+      "description": "Anak langsung mengenali kata-kata pendek yang sering muncul di bacaan, seperti ini, itu, dan, di, ke, yang, ada, tanpa mengejanya lagi.",
+      "evidence": [
+        "Membaca kartu 'ini', 'itu', 'dan', 'yang', 'ada' secara acak dalam waktu kurang dari tiga detik per kartu",
+        "Menemukan kata 'dan' di satu halaman buku cerita"
+      ],
+      "parentPrompt": "Tulis 'ini', 'itu', 'dan', 'ada', 'di', 'ke', 'yang' di kartu kecil. Tunjukkan cepat satu per satu ke {{nama}}. Kata mana yang langsung terbaca, mana yang masih dieja?",
+      "standards": [
+        "cp046.bind.A.baca"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.baca",
+          "phrase": "Membaca kata-kata sederhana dengan fasih"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "bind.baca.membaca-kalimat-sederhana",
+      "mapel": "bind",
+      "elemen": "Membaca dan Memirsa",
+      "elemenCode": "baca",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "prosedur",
+      "name": "Membaca kalimat sederhana",
+      "description": "Anak membaca kalimat pendek tiga sampai lima kata, seperti 'Ibu memasak nasi di dapur', dan memahami artinya.",
+      "evidence": [
+        "Membaca 'Adik minum susu' lalu memperagakan atau menunjuk gambar yang cocok",
+        "Membaca kalimat lima kata sampai titik tanpa melompati kata"
+      ],
+      "parentPrompt": "Tulis satu kalimat tentang rumah, misalnya 'Ayah pergi naik motor.' Minta {{nama}} membacanya, lalu tanya, 'Siapa yang pergi? Naik apa?'",
+      "standards": [
+        "cp046.bind.A.baca"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.baca",
+          "phrase": "Membaca kata-kata sederhana dengan fasih dari bacaan"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 1,
+      "centrality": 0.0068
+    },
+    {
+      "id": "bind.baca.membaca-lancar-dengan-jeda-dan-intonasi",
+      "mapel": "bind",
+      "elemen": "Membaca dan Memirsa",
+      "elemenCode": "baca",
+      "fase": "A",
+      "kelas": [
+        2
+      ],
+      "type": "bahasa",
+      "name": "Membaca lancar dengan jeda dan intonasi",
+      "description": "Anak membaca beberapa kalimat dengan lancar, berhenti sebentar di tanda titik dan koma, dan suaranya naik pada kalimat tanya.",
+      "evidence": [
+        "Membaca paragraf pendek empat kalimat tanpa terbata-bata",
+        "Berhenti di tanda titik dan membaca 'Kamu mau ke mana?' dengan nada bertanya"
+      ],
+      "parentPrompt": "Minta {{nama}} membacakan satu halaman buku cerita untuk adik atau untuk Ibu. Dengarkan apakah {{nama}} berhenti sebentar di titik dan nadanya naik di tanda tanya.",
+      "standards": [
+        "cp046.bind.A.baca"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.baca",
+          "phrase": "dengan fasih"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "bind.baca.memirsa-gambar-dan-tanda-di-sekitar",
+      "mapel": "bind",
+      "elemen": "Membaca dan Memirsa",
+      "elemenCode": "baca",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "representasi",
+      "name": "Memahami gambar, simbol, dan tanda di sekitar",
+      "description": "Anak memahami arti gambar, simbol, dan tanda yang sering dilihat, seperti tanda toilet, larangan merokok, atau gambar langkah cuci tangan.",
+      "evidence": [
+        "Menjelaskan arti tanda dilarang membuang sampah atau tanda toilet di pasar",
+        "Mengurutkan tiga gambar seri, misalnya bangun tidur, mandi, sarapan"
+      ],
+      "parentPrompt": "Saat di jalan atau di minimarket, tunjuk satu tanda atau gambar dan tanya {{nama}}, 'Itu artinya apa ya?'",
+      "standards": [
+        "cp046.bind.A.baca"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.baca",
+          "phrase": "tayangan yang dipirsa tentang diri, keluarga, kesehatan, dan/atau lingkungan sekitar"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 5,
+      "centrality": 0.034
+    },
+    {
+      "id": "bind.baca.memahami-isi-bacaan-pendek",
+      "mapel": "bind",
+      "elemen": "Membaca dan Memirsa",
+      "elemenCode": "baca",
+      "fase": "A",
+      "kelas": [
+        1,
+        2
+      ],
+      "type": "bahasa",
+      "name": "Memahami isi bacaan pendek",
+      "description": "Setelah membaca sendiri teks pendek tentang diri, keluarga, atau lingkungan, anak bisa menjawab pertanyaan siapa, apa, di mana, dan mengapa.",
+      "evidence": [
+        "Setelah membaca 'Beni pergi ke sawah bersama Kakek', menjawab 'Beni pergi dengan siapa?'",
+        "Menunjuk kalimat dalam bacaan yang berisi jawaban pertanyaan"
+      ],
+      "parentPrompt": "Minta {{nama}} membaca satu halaman buku cerita sendiri. Lalu tanya dua hal: 'Siapa tokohnya?' dan 'Dia sedang apa?' Kalau ragu, minta {{nama}} mencari jawabannya di bacaan.",
+      "standards": [
+        "cp046.bind.A.baca"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.baca",
+          "phrase": "memahami isi bacaan dan/atau tayangan yang dipirsa tentang diri, keluarga, kesehatan, dan/atau lingkungan sekitar"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 1,
+      "centrality": 0.0068
+    },
+    {
+      "id": "bind.baca.memahami-isi-tayangan",
+      "mapel": "bind",
+      "elemen": "Membaca dan Memirsa",
+      "elemenCode": "baca",
+      "fase": "A",
+      "kelas": [
+        1,
+        2
+      ],
+      "type": "bahasa",
+      "name": "Memahami isi video atau tayangan pendek",
+      "description": "Anak menonton tayangan pendek, misalnya tentang menggosok gigi atau menjaga kebersihan, lalu menyebut isi dan urutan langkahnya.",
+      "evidence": [
+        "Setelah menonton video cuci tangan, menyebut tiga langkahnya dengan urutan benar",
+        "Mengatakan apa yang harus dilakukan menurut tayangan itu, misalnya 'gosok gigi dua kali sehari'"
+      ],
+      "parentPrompt": "Tonton bersama satu video pendek anak tentang kesehatan, misalnya cara menggosok gigi. Setelah selesai, tanya {{nama}}, 'Tadi videonya mengajari apa? Langkah pertamanya apa?'",
+      "standards": [
+        "cp046.bind.A.baca"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.baca",
+          "phrase": "memahami isi bacaan dan/atau tayangan yang dipirsa"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 1,
+      "centrality": 0.0068
+    },
+    {
+      "id": "bind.baca.menebak-arti-kata-baru-dari-bacaan",
+      "mapel": "bind",
+      "elemen": "Membaca dan Memirsa",
+      "elemenCode": "baca",
+      "fase": "A",
+      "kelas": [
+        2
+      ],
+      "type": "bahasa",
+      "name": "Menebak arti kata baru dari bacaan",
+      "description": "Saat menemukan kata yang belum dikenal, anak menebak artinya dari gambar atau kalimat di sekitarnya, lalu memakai kata itu.",
+      "evidence": [
+        "Menebak arti 'lumbung' dari gambar sawah dan padi di halaman yang sama",
+        "Memakai satu kata baru dari bacaan dalam kalimatnya sendiri"
+      ],
+      "parentPrompt": "Saat membaca bersama, berhenti di satu kata yang mungkin baru bagi {{nama}}. Tanya, 'Menurutmu artinya apa? Lihat gambarnya.' Lalu minta {{nama}} membuat kalimat dengan kata itu.",
+      "standards": [
+        "cp046.bind.A.baca"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.baca",
+          "phrase": "memahami isi bacaan"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "bind.bicara.memperkenalkan-diri",
+      "mapel": "bind",
+      "elemen": "Berbicara dan Mempresentasikan",
+      "elemenCode": "bicara",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "bahasa",
+      "name": "Memperkenalkan diri dan keluarga",
+      "description": "Anak menyebut nama, umur, kelas, alamat, dan anggota keluarganya dengan kalimat yang jelas dan suara yang cukup keras.",
+      "evidence": [
+        "Mengatakan 'Nama saya Rina, umur saya tujuh tahun, saya kelas satu' di depan orang lain",
+        "Menyebut nama ayah, ibu, dan saudaranya"
+      ],
+      "parentPrompt": "Pura-pura jadi tamu baru di rumah. Minta {{nama}} memperkenalkan diri seperti di depan kelas: nama, umur, sekolah, dan siapa saja di rumah.",
+      "standards": [
+        "cp046.bind.A.bicara"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.bicara",
+          "phrase": "dalam suatu percakapan tentang diri, keluarga, kesehatan, dan/atau lingkungan sekitar"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 8,
+      "centrality": 0.0544
+    },
+    {
+      "id": "bind.bicara.berbicara-santun-dan-bergiliran",
+      "mapel": "bind",
+      "elemen": "Berbicara dan Mempresentasikan",
+      "elemenCode": "bicara",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "bahasa",
+      "name": "Berbicara santun dan menunggu giliran",
+      "description": "Anak memakai kata tolong, maaf, terima kasih, dan permisi, memakai sapaan yang tepat untuk orang dewasa, dan menunggu giliran berbicara.",
+      "evidence": [
+        "Mengatakan 'Bu, boleh minta tolong ambilkan gelas?' tanpa diingatkan",
+        "Menunggu orang dewasa selesai berbicara sebelum ikut bicara",
+        "Memakai sapaan Bapak, Ibu, atau Kak saat berbicara dengan orang yang lebih tua"
+      ],
+      "parentPrompt": "Perhatikan saat {{nama}} meminta sesuatu ke Nenek atau ke penjual di warung. Apakah {{nama}} memakai 'tolong' dan 'terima kasih' sendiri?",
+      "standards": [
+        "cp046.bind.A.bicara"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.bicara",
+          "phrase": "dengan baik dan santun"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "bind.bicara.menjawab-pertanyaan-dengan-kalimat-lengkap",
+      "mapel": "bind",
+      "elemen": "Berbicara dan Mempresentasikan",
+      "elemenCode": "bicara",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "bahasa",
+      "name": "Menjawab pertanyaan dengan kalimat lengkap",
+      "description": "Anak menjawab pertanyaan dengan kalimat utuh yang sesuai dengan pertanyaannya, tidak hanya dengan satu kata atau anggukan.",
+      "evidence": [
+        "Menjawab 'Tadi di sekolah belajar apa?' dengan 'Tadi aku belajar membaca huruf'",
+        "Jawabannya sesuai dengan kata tanya: 'di mana' dijawab dengan tempat, 'kapan' dijawab dengan waktu"
+      ],
+      "parentPrompt": "Tanya {{nama}} sepulang sekolah, 'Tadi istirahat main apa? Dengan siapa?' Kalau {{nama}} hanya menjawab satu kata, ajak menjawab dengan kalimat lengkap.",
+      "standards": [
+        "cp046.bind.A.bicara"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.bicara",
+          "phrase": "Merespons dengan bertanya tentang sesuatu, menjawab"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 2,
+      "centrality": 0.0136
+    },
+    {
+      "id": "bind.bicara.bertanya-dengan-kata-tanya",
+      "mapel": "bind",
+      "elemen": "Berbicara dan Mempresentasikan",
+      "elemenCode": "bicara",
+      "fase": "A",
+      "kelas": [
+        1,
+        2
+      ],
+      "type": "bahasa",
+      "name": "Bertanya dengan apa, siapa, di mana, mengapa",
+      "description": "Anak membuat pertanyaan sendiri dengan kata tanya apa, siapa, di mana, kapan, mengapa, dan bagaimana untuk mencari tahu sesuatu.",
+      "evidence": [
+        "Bertanya 'Mengapa daun itu warnanya kuning?' saat melihat pohon",
+        "Membuat tiga pertanyaan berbeda tentang satu benda, misalnya tentang motor Ayah"
+      ],
+      "parentPrompt": "Taruh satu benda di meja, misalnya payung atau jam dinding. Ajak {{nama}} bergantian membuat pertanyaan tentang benda itu dengan kata tanya yang berbeda.",
+      "standards": [
+        "cp046.bind.A.bicara"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.bicara",
+          "phrase": "Merespons dengan bertanya tentang sesuatu"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 1,
+      "centrality": 0.0068
+    },
+    {
+      "id": "bind.bicara.menanggapi-pendapat-orang-lain",
+      "mapel": "bind",
+      "elemen": "Berbicara dan Mempresentasikan",
+      "elemenCode": "bicara",
+      "fase": "A",
+      "kelas": [
+        2
+      ],
+      "type": "bahasa",
+      "name": "Menanggapi omongan orang lain dengan santun",
+      "description": "Dalam percakapan, anak menanggapi cerita atau komentar teman, guru, atau orang dewasa: setuju, tidak setuju, atau menambahkan, dengan cara yang santun.",
+      "evidence": [
+        "Mengatakan 'Aku juga suka, soalnya…' atau 'Kalau aku beda, aku…' ketika teman bercerita",
+        "Tidak mengejek atau memotong ketika tidak setuju"
+      ],
+      "parentPrompt": "Ceritakan pendapat Ibu tentang sesuatu, misalnya 'Menurut Ibu, hujan itu enak buat tidur.' Tanya {{nama}}, 'Kamu setuju atau tidak? Kenapa?'",
+      "standards": [
+        "cp046.bind.A.bicara"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.bicara",
+          "phrase": "menanggapi komentar orang lain (teman, pendidik, dan/atau orang dewasa) dengan baik dan santun"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "bind.bicara.mengungkapkan-perasaan",
+      "mapel": "bind",
+      "elemen": "Berbicara dan Mempresentasikan",
+      "elemenCode": "bicara",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "bahasa",
+      "name": "Mengungkapkan perasaan dengan kata-kata",
+      "description": "Anak menyebut perasaannya, seperti senang, sedih, marah, takut, atau kecewa, dan menjelaskan sebabnya dengan kata 'karena'.",
+      "evidence": [
+        "Mengatakan 'Aku sedih karena layanganku putus' alih-alih hanya menangis",
+        "Menyebut nama perasaan dari wajah di gambar, misalnya marah atau takut"
+      ],
+      "parentPrompt": "Sebelum tidur, tanya {{nama}}, 'Hari ini kamu paling senang waktu apa? Ada yang bikin sedih atau kesal?' Bantu dengan kata 'karena' kalau {{nama}} bingung.",
+      "standards": [
+        "cp046.bind.A.bicara"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.bicara",
+          "phrase": "mengungkapkan perasaan dan gagasan secara lisan"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 3,
+      "centrality": 0.0204
+    },
+    {
+      "id": "bind.bicara.menyampaikan-gagasan-dengan-bantuan-gambar",
+      "mapel": "bind",
+      "elemen": "Berbicara dan Mempresentasikan",
+      "elemenCode": "bicara",
+      "fase": "A",
+      "kelas": [
+        1,
+        2
+      ],
+      "type": "bahasa",
+      "name": "Bercerita atau menyampaikan ide dari gambar",
+      "description": "Anak menyampaikan ide atau pengalamannya secara lisan, mula-mula dengan bantuan gambar, lalu tanpa gambar, memakai kata urutan seperti pertama, lalu, dan akhirnya.",
+      "evidence": [
+        "Bercerita tentang gambar buatannya sendiri dalam tiga kalimat atau lebih",
+        "Menceritakan liburan atau kegiatan Minggu dengan kata 'pertama', 'lalu', 'akhirnya' tanpa melihat gambar"
+      ],
+      "parentPrompt": "Minta {{nama}} menggambar kegiatan akhir pekan, lalu menceritakan gambarnya. Lain kali, minta {{nama}} bercerita tanpa gambar: 'Tadi pagi kamu ngapain saja, dari bangun tidur?'",
+      "standards": [
+        "cp046.bind.A.bicara"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.bicara",
+          "phrase": "mengungkapkan perasaan dan gagasan secara lisan dengan atau tanpa bantuan gambar"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 2,
+      "centrality": 0.0136
+    },
+    {
+      "id": "bind.bicara.menceritakan-kembali-cerita-yang-didengar",
+      "mapel": "bind",
+      "elemen": "Berbicara dan Mempresentasikan",
+      "elemenCode": "bicara",
+      "fase": "A",
+      "kelas": [
+        1,
+        2
+      ],
+      "type": "bahasa",
+      "name": "Menceritakan kembali cerita yang didengar",
+      "description": "Anak menceritakan kembali dongeng atau cerita yang ia dengar dengan kata-katanya sendiri, menyebut tokoh dan kejadian sesuai urutan.",
+      "evidence": [
+        "Menceritakan kembali cerita Kancil dengan awal, tengah, dan akhir yang benar",
+        "Menyebut semua tokoh utama saat menceritakan kembali"
+      ],
+      "parentPrompt": "Setelah mendongeng sebelum tidur, minta {{nama}} gantian bercerita, 'Sekarang kamu yang cerita ke Ibu, ya. Tadi ceritanya bagaimana?'",
+      "standards": [
+        "cp046.bind.A.bicara"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.bicara",
+          "phrase": "menceritakan kembali isi berbagai tipe teks yang dibaca, dipirsa, atau didengar"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "bind.bicara.menceritakan-kembali-bacaan-dan-tayangan",
+      "mapel": "bind",
+      "elemen": "Berbicara dan Mempresentasikan",
+      "elemenCode": "bicara",
+      "fase": "A",
+      "kelas": [
+        2
+      ],
+      "type": "bahasa",
+      "name": "Menceritakan kembali isi bacaan atau tayangan",
+      "description": "Anak menceritakan kembali isi buku yang ia baca sendiri atau video yang ia tonton, tentang diri, keluarga, kesehatan, atau lingkungan.",
+      "evidence": [
+        "Menceritakan isi buku bacaan dua halaman dengan tiga kalimat atau lebih",
+        "Menjelaskan kembali isi video tentang membuang sampah kepada adik atau teman"
+      ],
+      "parentPrompt": "Setelah {{nama}} membaca buku atau menonton video anak, minta {{nama}} menceritakannya ke Ayah atau Nenek yang belum tahu ceritanya.",
+      "standards": [
+        "cp046.bind.A.bicara"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.bicara",
+          "phrase": "menceritakan kembali isi berbagai tipe teks yang dibaca, dipirsa, atau didengar tentang diri, keluarga, kesehatan, dan/atau lingkungan sekitar"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "bind.tulis.memegang-pensil-dan-duduk-dengan-benar",
+      "mapel": "bind",
+      "elemen": "Menulis",
+      "elemenCode": "tulis",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "prosedur",
+      "name": "Memegang pensil dan duduk dengan benar",
+      "description": "Anak memegang pensil dengan tiga jari, duduk tegak, dan menahan kertas dengan tangan yang lain saat menulis.",
+      "evidence": [
+        "Memegang pensil dengan ibu jari, telunjuk, dan jari tengah, tidak dengan kepalan",
+        "Duduk tegak dengan buku lurus di depan dan tangan lain menahan kertas"
+      ],
+      "parentPrompt": "Lihat {{nama}} saat mengerjakan PR. Apakah pensilnya dipegang dengan tiga jari dan badannya tegak? Kalau masih menggenggam, coba ajari dengan pensil pendek atau krayon kecil.",
+      "standards": [
+        "cp046.bind.A.tulis"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.tulis",
+          "phrase": "Menulis permulaan dengan benar di atas kertas"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 2,
+      "centrality": 0.0136
+    },
+    {
+      "id": "bind.tulis.menarik-garis-dan-bentuk-dasar",
+      "mapel": "bind",
+      "elemen": "Menulis",
+      "elemenCode": "tulis",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "prosedur",
+      "name": "Menarik garis dan bentuk dasar huruf",
+      "description": "Anak menarik garis tegak, datar, miring, lengkung, dan lingkaran dengan terkendali. Bentuk ini adalah bagian dari semua huruf.",
+      "evidence": [
+        "Menebalkan garis putus-putus tegak, miring, dan lengkung tanpa keluar jalur",
+        "Menggambar lingkaran yang tertutup dan garis lurus dari atas ke bawah"
+      ],
+      "parentPrompt": "Buat garis putus-putus berbentuk zig-zag, gelombang, dan lingkaran di kertas bekas. Minta {{nama}} menebalkannya dengan pensil warna.",
+      "standards": [
+        "cp046.bind.A.tulis"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.tulis",
+          "phrase": "Menulis permulaan dengan benar"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 1,
+      "centrality": 0.0068
+    },
+    {
+      "id": "bind.tulis.menulis-huruf-kecil",
+      "mapel": "bind",
+      "elemen": "Menulis",
+      "elemenCode": "tulis",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "prosedur",
+      "name": "Menulis huruf kecil dengan urutan goresan benar",
+      "description": "Anak menulis semua huruf kecil dengan arah goresan yang benar, dimulai dari atas, dan dengan tinggi yang pas di garis buku.",
+      "evidence": [
+        "Menulis huruf a sampai z yang didiktekan acak, tanpa membalik b dan d",
+        "Memulai huruf dari atas, misalnya huruf l dari atas ke bawah"
+      ],
+      "parentPrompt": "Sebut beberapa huruf secara acak, misalnya 'm', 'b', 'd', 'k', dan minta {{nama}} menuliskannya di buku bergaris. Perhatikan apakah {{nama}} mulai menulis dari atas.",
+      "standards": [
+        "cp046.bind.A.tulis"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.tulis",
+          "phrase": "Menulis permulaan dengan benar"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "bind.tulis.menulis-huruf-kapital",
+      "mapel": "bind",
+      "elemen": "Menulis",
+      "elemenCode": "tulis",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "prosedur",
+      "name": "Menulis huruf kapital",
+      "description": "Anak menulis huruf kapital A sampai Z dan tahu bahwa huruf kapital lebih tinggi dan dipakai di awal kalimat dan nama.",
+      "evidence": [
+        "Menulis huruf kapital yang disebut acak, misalnya G, R, dan K",
+        "Menulis huruf kapital setinggi garis atas buku bergaris"
+      ],
+      "parentPrompt": "Minta {{nama}} menulis huruf pertama nama semua anggota keluarga dengan huruf kapital, misalnya A untuk Ayah dan B untuk Budi.",
+      "standards": [
+        "cp046.bind.A.tulis"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.tulis",
+          "phrase": "Menulis permulaan dengan benar di atas kertas"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 4,
+      "centrality": 0.0272
+    },
+    {
+      "id": "bind.tulis.menulis-nama-sendiri",
+      "mapel": "bind",
+      "elemen": "Menulis",
+      "elemenCode": "tulis",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "prosedur",
+      "name": "Menulis nama sendiri",
+      "description": "Anak menulis nama lengkapnya sendiri tanpa contoh, dengan huruf kapital di awal dan huruf kecil sesudahnya.",
+      "evidence": [
+        "Menulis nama lengkap di sampul buku tanpa melihat contoh",
+        "Memakai huruf kapital hanya di awal setiap bagian nama"
+      ],
+      "parentPrompt": "Minta {{nama}} menulis namanya sendiri di label buku tulis atau di kartu ucapan untuk Nenek. Apakah huruf pertamanya kapital dan sisanya kecil?",
+      "standards": [
+        "cp046.bind.A.tulis"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.tulis",
+          "phrase": "Menulis permulaan dengan benar"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "bind.tulis.menyalin-kata-dan-kalimat",
+      "mapel": "bind",
+      "elemen": "Menulis",
+      "elemenCode": "tulis",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "prosedur",
+      "name": "Menyalin kata dan kalimat dengan tepat",
+      "description": "Anak menyalin kata dan kalimat pendek dari buku atau papan tulis tanpa huruf yang hilang atau tertukar.",
+      "evidence": [
+        "Menyalin kalimat 'Ibu pergi ke pasar.' tanpa ada huruf yang hilang",
+        "Menyalin satu kata sekaligus setelah melihatnya, bukan satu huruf demi satu huruf"
+      ],
+      "parentPrompt": "Tulis daftar belanja pendek, misalnya 'gula, telur, sabun'. Minta {{nama}} menyalinnya untuk dibawa ke warung. Periksa bersama apakah ada huruf yang terlewat.",
+      "standards": [
+        "cp046.bind.A.tulis"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.tulis",
+          "phrase": "mengembangkan tulisan tangan yang semakin baik"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 1,
+      "centrality": 0.0068
+    },
+    {
+      "id": "bind.tulis.menulis-rapi-dengan-spasi",
+      "mapel": "bind",
+      "elemen": "Menulis",
+      "elemenCode": "tulis",
+      "fase": "A",
+      "kelas": [
+        1,
+        2
+      ],
+      "type": "prosedur",
+      "name": "Menulis rapi dengan jarak antarkata",
+      "description": "Tulisan tangan anak makin rapi: huruf duduk di atas garis, ukurannya sama, dan ada jarak yang jelas di antara kata.",
+      "evidence": [
+        "Memberi jarak selebar satu jari di antara kata dalam kalimat",
+        "Menulis satu baris dengan semua huruf berada di atas garis buku dan ukurannya sama"
+      ],
+      "parentPrompt": "Bandingkan tulisan {{nama}} minggu ini dengan bulan lalu di buku tulisnya. Tunjukkan bagian yang paling rapi dan ajak {{nama}} memakai jari sebagai jarak antarkata.",
+      "standards": [
+        "cp046.bind.A.tulis"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.tulis",
+          "phrase": "mengembangkan tulisan tangan yang semakin baik"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "bind.tulis.menulis-kata-yang-didiktekan",
+      "mapel": "bind",
+      "elemen": "Menulis",
+      "elemenCode": "tulis",
+      "fase": "A",
+      "kelas": [
+        1,
+        2
+      ],
+      "type": "prosedur",
+      "name": "Menulis kata yang didiktekan",
+      "description": "Anak mendengar sebuah kata, memecahnya menjadi suku kata dan bunyi, lalu menuliskannya dengan ejaan yang benar tanpa contoh.",
+      "evidence": [
+        "Menulis 'sapu', 'kucing', dan 'sepeda' yang didiktekan dengan ejaan benar",
+        "Mengucapkan suku kata pelan-pelan sambil menulis, misalnya 'ku… cing'"
+      ],
+      "parentPrompt": "Main dikte nama benda di dapur: sebut 'piring', 'gelas', 'sendok', lalu {{nama}} menuliskannya. Setelah itu cocokkan bersama dengan tulisan Ibu.",
+      "standards": [
+        "cp046.bind.A.tulis"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.tulis",
+          "phrase": "Menulis permulaan dengan benar"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "bind.tulis.mengetik-kata-di-gawai",
+      "mapel": "bind",
+      "elemen": "Menulis",
+      "elemenCode": "tulis",
+      "fase": "A",
+      "kelas": [
+        2
+      ],
+      "type": "prosedur",
+      "name": "Mengetik kata dan kalimat di ponsel",
+      "description": "Anak mencari huruf di papan ketik ponsel atau laptop, mengetik kata dan kalimat pendek, memakai spasi, dan menghapus huruf yang salah.",
+      "evidence": [
+        "Mengetik namanya sendiri dan satu kalimat pendek dengan spasi di antara kata",
+        "Memakai tombol hapus untuk memperbaiki huruf yang salah ketik"
+      ],
+      "parentPrompt": "Minta {{nama}} mengetik pesan singkat untuk Nenek di ponsel Ibu, misalnya 'Nenek, aku kangen.' Biarkan {{nama}} mencari hurufnya sendiri sebelum Ibu kirim.",
+      "standards": [
+        "cp046.bind.A.tulis"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.tulis",
+          "phrase": "melalui media digital"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "bind.tulis.menulis-kalimat-sederhana",
+      "mapel": "bind",
+      "elemen": "Menulis",
+      "elemenCode": "tulis",
+      "fase": "A",
+      "kelas": [
+        1,
+        2
+      ],
+      "type": "prosedur",
+      "name": "Menulis kalimat dengan huruf kapital dan titik",
+      "description": "Anak menulis kalimat sendiri yang lengkap, dimulai dengan huruf kapital dan diakhiri tanda titik atau tanda tanya.",
+      "evidence": [
+        "Menulis kalimat sendiri tentang gambar, misalnya 'Kucing tidur di kursi.'",
+        "Memulai kalimat dengan huruf kapital dan mengakhirinya dengan titik tanpa diingatkan"
+      ],
+      "parentPrompt": "Tunjuk satu kegiatan di rumah, misalnya Ayah mencuci motor. Minta {{nama}} menulis satu kalimat tentang itu. Periksa bersama huruf kapital di depan dan titik di belakang.",
+      "standards": [
+        "cp046.bind.A.tulis"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.tulis",
+          "phrase": "dengan beberapa kalimat sederhana"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 2,
+      "centrality": 0.0136
+    },
+    {
+      "id": "bind.tulis.menulis-beberapa-kalimat-tentang-diri",
+      "mapel": "bind",
+      "elemen": "Menulis",
+      "elemenCode": "tulis",
+      "fase": "A",
+      "kelas": [
+        2
+      ],
+      "type": "bahasa",
+      "name": "Menulis beberapa kalimat tentang diri sendiri",
+      "description": "Anak menulis tiga sampai lima kalimat tentang dirinya, misalnya nama, hobi, makanan kesukaan, dan cita-cita.",
+      "evidence": [
+        "Menulis tiga kalimat atau lebih tentang dirinya tanpa disalinkan",
+        "Setiap kalimat membahas hal yang berbeda tentang dirinya"
+      ],
+      "parentPrompt": "Minta {{nama}} menulis 'Tentang Aku' di selembar kertas: nama, kesukaan, dan cita-cita. Tempel di kulkas dan minta {{nama}} membacakannya ke keluarga.",
+      "standards": [
+        "cp046.bind.A.tulis"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.tulis",
+          "phrase": "menulis berbagai tipe teks sederhana tentang diri, keluarga, dan/atau lingkungan sekitar"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 1,
+      "centrality": 0.0068
+    },
+    {
+      "id": "bind.tulis.menulis-tentang-keluarga-dan-lingkungan",
+      "mapel": "bind",
+      "elemen": "Menulis",
+      "elemenCode": "tulis",
+      "fase": "A",
+      "kelas": [
+        2
+      ],
+      "type": "bahasa",
+      "name": "Menulis tentang keluarga, rumah, dan lingkungan",
+      "description": "Anak menulis beberapa kalimat dalam berbagai bentuk sederhana, seperti cerita pengalaman, gambaran tempat, atau kartu ucapan, tentang keluarga dan lingkungan sekitarnya.",
+      "evidence": [
+        "Menulis tiga kalimat atau lebih tentang kegiatan bersama keluarga pada hari Minggu",
+        "Menulis kartu ucapan pendek, misalnya 'Selamat ulang tahun, Kak. Semoga sehat selalu.'",
+        "Menggambarkan rumah atau kampungnya dengan beberapa kalimat"
+      ],
+      "parentPrompt": "Saat ada yang berulang tahun atau saat Lebaran, minta {{nama}} menulis kartu ucapan sendiri. Di hari lain, minta {{nama}} menulis tiga kalimat tentang jalan-jalan ke pasar atau sawah.",
+      "standards": [
+        "cp046.bind.A.tulis"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.bind.A.tulis",
+          "phrase": "menulis berbagai tipe teks sederhana tentang diri, keluarga, dan/atau lingkungan sekitar dengan beberapa kalimat sederhana"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "ipas.proses.mengamati-dan-mencatat-pengamatan",
+      "mapel": "ipas",
+      "elemen": "Keterampilan Proses",
+      "elemenCode": "proses",
+      "fase": "B",
+      "kelas": [
+        3
+      ],
+      "type": "prosedur",
+      "name": "Mengamati benda dan mencatat hasilnya",
+      "description": "Memperhatikan benda atau peristiwa di sekitar dengan pancaindra, lalu menuliskan atau menggambar apa yang dilihat, didengar, dicium, atau diraba.",
+      "evidence": [
+        "Menyebut paling sedikit 4 hal yang terlihat dari sehelai daun (warna, bentuk, tulang daun, tepi daun)",
+        "Menulis catatan singkat atau gambar berlabel tentang awan atau hujan yang diamati pagi ini",
+        "Membedakan apa yang benar-benar diamati dari apa yang hanya ditebak"
+      ],
+      "parentPrompt": "Ambil satu buah dari dapur, misalnya jeruk atau pisang. Minta {{nama}} mengamatinya baik-baik, lalu menulis atau menggambar 4 hal yang ditemukannya di kertas.",
+      "standards": [
+        "cp046.ipas.B.proses"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.proses",
+          "phrase": "Mampu menerapkan keterampilan proses"
+        },
+        {
+          "standard": "cp046.ipas.B.proses",
+          "phrase": "Murid mengamati fenomena dan peristiwa secara sederhana dan dapat mencatat hasil pengamatannya."
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 44,
+      "centrality": 0.2993
+    },
+    {
+      "id": "ipas.proses.mengajukan-pertanyaan-saat-mengamati",
+      "mapel": "ipas",
+      "elemen": "Keterampilan Proses",
+      "elemenCode": "proses",
+      "fase": "B",
+      "kelas": [
+        3
+      ],
+      "type": "prosedur",
+      "name": "Mengajukan pertanyaan dari hasil mengamati",
+      "description": "Membuat pertanyaan sendiri tentang hal yang ingin diketahui ketika mengamati, terutama pertanyaan yang bisa dijawab dengan mencoba.",
+      "evidence": [
+        "Mengajukan 3 pertanyaan sendiri setelah melihat es batu mencair, misalnya \"Kenapa es di luar kulkas cepat cair?\"",
+        "Membedakan pertanyaan yang bisa dicoba (\"Apakah es lebih cepat cair di bawah matahari?\") dari yang tidak bisa dicoba",
+        "Memulai pertanyaan dengan kata apa, mengapa, bagaimana, atau apakah"
+      ],
+      "parentPrompt": "Saat hujan turun atau sesudahnya, ajak {{nama}} melihat genangan di halaman. Tanya {{nama}}: \"Apa yang ingin kamu ketahui dari genangan ini?\" Bantu ubah satu pertanyaannya menjadi sesuatu yang bisa dicoba.",
+      "standards": [
+        "cp046.ipas.B.proses"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.proses",
+          "phrase": "murid mengajukan pertanyaan tentang hal-hal yang ingin diketahui saat melakukan pengamatan"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 13,
+      "centrality": 0.0884
+    },
+    {
+      "id": "ipas.proses.membuat-prediksi-sederhana",
+      "mapel": "ipas",
+      "elemen": "Keterampilan Proses",
+      "elemenCode": "proses",
+      "fase": "B",
+      "kelas": [
+        3
+      ],
+      "type": "prosedur",
+      "name": "Membuat dugaan sebelum mencoba",
+      "description": "Menebak apa yang akan terjadi sebelum percobaan, dan memberi alasan dari pengalaman yang sudah dimiliki.",
+      "evidence": [
+        "Menebak benda mana yang tenggelam dan mana yang terapung (paku, daun, tutup botol) sebelum dicoba",
+        "Memberi alasan untuk dugaannya, misalnya \"paku tenggelam karena dari besi dan berat\"",
+        "Menuliskan dugaan dalam kalimat \"Aku menduga ... karena ...\""
+      ],
+      "parentPrompt": "Siapkan baskom air dan 4 benda kecil, misalnya sendok, sandal jepit, batu, dan kulit jeruk. Sebelum dicemplungkan, minta {{nama}} menebak mana yang terapung dan mengapa.",
+      "standards": [
+        "cp046.ipas.B.proses"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.proses",
+          "phrase": "membuat prediksi berdasarkan pengetahuan yang dimiliki sebelumnya"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 10,
+      "centrality": 0.068
+    },
+    {
+      "id": "ipas.proses.merencanakan-dan-melakukan-percobaan",
+      "mapel": "ipas",
+      "elemen": "Keterampilan Proses",
+      "elemenCode": "proses",
+      "fase": "B",
+      "kelas": [
+        3,
+        4
+      ],
+      "type": "prosedur",
+      "name": "Merencanakan dan melakukan percobaan sederhana",
+      "description": "Bersama orang dewasa, menyusun alat, bahan, dan langkah percobaan untuk menjawab pertanyaan, lalu menjalankannya sesuai urutan.",
+      "evidence": [
+        "Menulis daftar alat dan bahan serta 3–5 langkah untuk menguji \"Di mana es batu paling cepat cair?\"",
+        "Menjalankan langkah sesuai urutan yang ditulis",
+        "Menjelaskan mengapa hanya satu hal yang diubah, misalnya tempat es, sementara ukuran es dibuat sama"
+      ],
+      "parentPrompt": "Ajak {{nama}} membuat rencana kecil: dua es batu yang sama besar, satu di dalam rumah dan satu di teras. Minta {{nama}} menulis langkahnya dulu, lalu menjalankannya sendiri.",
+      "standards": [
+        "cp046.ipas.B.proses"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.proses",
+          "phrase": "murid membuat rencana dan melakukan langkah-langkah operasional untuk menjawab pertanyaan yang diajukan"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 7,
+      "centrality": 0.0476
+    },
+    {
+      "id": "ipas.proses.mengukur-dengan-alat-sederhana",
+      "mapel": "ipas",
+      "elemen": "Keterampilan Proses",
+      "elemenCode": "proses",
+      "fase": "B",
+      "kelas": [
+        3,
+        4
+      ],
+      "type": "prosedur",
+      "name": "Mengukur dengan penggaris, timbangan, dan termometer",
+      "description": "Memakai alat ukur sederhana seperti penggaris, meteran, timbangan dapur, gelas takar, dan termometer, lalu mencatat angka beserta satuannya.",
+      "evidence": [
+        "Mengukur tinggi kecambah dengan penggaris dan menulis hasilnya, misalnya \"4 cm\"",
+        "Membaca angka pada timbangan dapur saat menimbang 1 kg beras",
+        "Menyebut alat yang cocok untuk mengukur panjang, berat, isi air, dan suhu"
+      ],
+      "parentPrompt": "Ajak {{nama}} menimbang beras atau gula dengan timbangan dapur, lalu mengukur panjang meja dengan meteran. Minta {{nama}} menulis hasilnya lengkap dengan satuannya.",
+      "standards": [
+        "cp046.ipas.B.proses"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.proses",
+          "phrase": "Murid melakukan observasi menggunakan alat bantu pengukuran sederhana."
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 2,
+      "centrality": 0.0136
+    },
+    {
+      "id": "ipas.proses.mencatat-data-dengan-turus",
+      "mapel": "ipas",
+      "elemen": "Keterampilan Proses",
+      "elemenCode": "proses",
+      "fase": "B",
+      "kelas": [
+        3
+      ],
+      "type": "representasi",
+      "name": "Mencatat data dengan turus",
+      "description": "Menghitung dan mencatat kejadian dengan garis turus (empat garis tegak lalu satu garis miring), lalu mengubahnya menjadi angka di tabel.",
+      "evidence": [
+        "Mencatat jenis kendaraan yang lewat depan rumah selama 5 menit dengan turus",
+        "Membaca turus \"IIII IIII II\" sebagai 12",
+        "Menyusun tabel dua kolom: jenis dan jumlah"
+      ],
+      "parentPrompt": "Duduk bersama {{nama}} di teras 5 menit. Minta {{nama}} mencatat motor, mobil, dan sepeda yang lewat dengan garis turus, lalu menghitung jumlah masing-masing.",
+      "standards": [
+        "cp046.ipas.B.proses"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.proses",
+          "phrase": "mengorganisasikan data dalam bentuk turus"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 3,
+      "centrality": 0.0204
+    },
+    {
+      "id": "ipas.proses.menyajikan-diagram-gambar-dan-pola",
+      "mapel": "ipas",
+      "elemen": "Keterampilan Proses",
+      "elemenCode": "proses",
+      "fase": "B",
+      "kelas": [
+        3,
+        4
+      ],
+      "type": "representasi",
+      "name": "Membuat diagram gambar dan mencari pola",
+      "description": "Mengubah data turus menjadi diagram gambar (piktogram), lalu membaca mana yang paling banyak, paling sedikit, atau pola yang berulang.",
+      "evidence": [
+        "Menggambar diagram gambar cuaca seminggu, satu gambar matahari atau awan hujan untuk tiap hari",
+        "Menyebut cuaca yang paling sering muncul dari diagramnya",
+        "Menemukan pola, misalnya \"hujan selalu turun sore hari\""
+      ],
+      "parentPrompt": "Minta {{nama}} mencatat cuaca tiap sore selama seminggu dengan gambar matahari, awan, atau hujan. Di akhir minggu tanya {{nama}}: cuaca apa yang paling sering, dan adakah polanya?",
+      "standards": [
+        "cp046.ipas.B.proses"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.proses",
+          "phrase": "diagram gambar untuk menyajikan dan mengidentifikasi pola"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "ipas.proses.membandingkan-hasil-dengan-dugaan",
+      "mapel": "ipas",
+      "elemen": "Keterampilan Proses",
+      "elemenCode": "proses",
+      "fase": "B",
+      "kelas": [
+        3,
+        4
+      ],
+      "type": "meta",
+      "name": "Membandingkan hasil percobaan dengan dugaan",
+      "description": "Melihat kembali dugaan awal, membandingkannya dengan hasil yang diamati, dan menjelaskan mengapa sama atau berbeda.",
+      "evidence": [
+        "Mengatakan \"dugaanku benar\" atau \"dugaanku salah\" setelah percobaan tenggelam-terapung",
+        "Memberi penjelasan, misalnya \"sandal terapung walaupun besar karena bahannya ringan\"",
+        "Tidak mengubah catatan dugaan awal setelah tahu hasilnya"
+      ],
+      "parentPrompt": "Setelah percobaan es batu atau benda terapung, ambil kertas dugaan {{nama}}. Tanya {{nama}}: \"Mana tebakanmu yang cocok, mana yang tidak? Kenapa menurutmu begitu?\"",
+      "standards": [
+        "cp046.ipas.B.proses"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.proses",
+          "phrase": "Murid membandingkan antara hasil pengamatan dengan prediksi dan memberikan penjelasan."
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 4,
+      "centrality": 0.0272
+    },
+    {
+      "id": "ipas.proses.merefleksikan-penyelidikan",
+      "mapel": "ipas",
+      "elemen": "Keterampilan Proses",
+      "elemenCode": "proses",
+      "fase": "B",
+      "kelas": [
+        4
+      ],
+      "type": "meta",
+      "name": "Menilai kembali percobaan yang sudah dilakukan",
+      "description": "Memikirkan apa yang berjalan baik, apa yang kurang, dan apa yang akan diubah kalau percobaan diulang.",
+      "evidence": [
+        "Menyebut satu kesalahan dalam percobaannya, misalnya \"es batunya tidak sama besar\"",
+        "Mengusulkan satu perbaikan untuk percobaan berikutnya",
+        "Menyebut satu hal baru yang dipelajari dari percobaan"
+      ],
+      "parentPrompt": "Sesudah mencoba sesuatu bersama, tanya {{nama}} dua hal: \"Kalau diulang, apa yang mau kamu ubah?\" dan \"Apa yang baru kamu tahu hari ini?\"",
+      "standards": [
+        "cp046.ipas.B.proses"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.proses",
+          "phrase": "Murid melakukan refleksi terhadap penyelidikan yang sudah dilakukan."
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "ipas.proses.menyampaikan-hasil-penyelidikan",
+      "mapel": "ipas",
+      "elemen": "Keterampilan Proses",
+      "elemenCode": "proses",
+      "fase": "B",
+      "kelas": [
+        3,
+        4
+      ],
+      "type": "bahasa",
+      "name": "Menyampaikan hasil percobaan secara lisan dan tertulis",
+      "description": "Menceritakan dan menuliskan pertanyaan, langkah, hasil, dan kesimpulan percobaan dengan poster, laporan pendek, atau presentasi di depan keluarga.",
+      "evidence": [
+        "Menceritakan percobaannya di depan keluarga dengan urutan: pertanyaan, langkah, hasil, kesimpulan",
+        "Membuat poster atau laporan satu halaman berisi gambar dan tabel hasil",
+        "Menjawab satu pertanyaan dari pendengar tentang percobaannya"
+      ],
+      "parentPrompt": "Malam ini, minta {{nama}} jadi \"ilmuwan cilik\" dan menceritakan percobaan terakhirnya di depan keluarga selama 2 menit. Kalau mau, {{nama}} boleh menunjukkan poster atau gambarnya.",
+      "standards": [
+        "cp046.ipas.B.proses"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.proses",
+          "phrase": "Murid mengomunikasikan hasil penyelidikan secara lisan dan tertulis dalam berbagai media."
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 1,
+      "centrality": 0.0068
+    },
+    {
+      "id": "ipas.paham.mengenal-lima-pancaindra-dan-fungsinya",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        3
+      ],
+      "type": "konsep",
+      "name": "Mengenal lima pancaindra dan gunanya",
+      "description": "Menyebut mata, telinga, hidung, lidah, dan kulit sebagai pancaindra, serta guna masing-masing: melihat, mendengar, mencium, mengecap, dan meraba.",
+      "evidence": [
+        "Menyebut kelima pancaindra dan gunanya tanpa melihat buku",
+        "Menebak benda dengan mata tertutup hanya dari bau atau rabaan, lalu menyebut indra yang dipakai",
+        "Menyebut rasa manis, asin, asam, dan pahit dan indra yang mengecapnya"
+      ],
+      "parentPrompt": "Tutup mata {{nama}} dengan kain, lalu beri bau kopi, rabaan kain handuk, dan sedikit garam. Minta {{nama}} menebak benda dan menyebut indra mana yang dipakai.",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "Menjelaskan bentuk dan fungsi pancaindra"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 2,
+      "centrality": 0.0136
+    },
+    {
+      "id": "ipas.paham.bentuk-dan-bagian-pancaindra",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        3
+      ],
+      "type": "konsep",
+      "name": "Mengenal bagian-bagian mata dan telinga",
+      "description": "Mengenal bentuk dan bagian luar pancaindra, seperti kelopak, bulu mata, dan pupil pada mata, daun telinga pada telinga, serta gunanya.",
+      "evidence": [
+        "Menunjuk kelopak mata, bulu mata, alis, dan pupil di cermin",
+        "Menjelaskan guna bulu mata dan alis, yaitu menahan debu dan keringat",
+        "Menjelaskan guna daun telinga, yaitu mengumpulkan bunyi"
+      ],
+      "parentPrompt": "Ajak {{nama}} berdiri di depan cermin. Minta {{nama}} menunjuk alis, bulu mata, dan daun telinga, lalu menebak apa gunanya masing-masing.",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "Menjelaskan bentuk dan fungsi pancaindra"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 1,
+      "centrality": 0.0068
+    },
+    {
+      "id": "ipas.paham.merawat-pancaindra",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        3
+      ],
+      "type": "konsep",
+      "name": "Merawat dan menjaga pancaindra",
+      "description": "Tahu kebiasaan yang menjaga pancaindra tetap sehat, seperti membaca di tempat terang, tidak mengorek telinga dengan benda tajam, dan menggosok gigi.",
+      "evidence": [
+        "Menyebut 1 cara merawat untuk tiap pancaindra",
+        "Menjelaskan mengapa menonton HP terlalu dekat dan lama merusak mata",
+        "Menunjukkan jarak baca yang benar, sekitar 30 cm"
+      ],
+      "parentPrompt": "Saat {{nama}} main HP atau membaca, tanya {{nama}}: \"Jaraknya sudah benar belum? Apa yang terjadi pada mata kalau terlalu dekat?\" Lanjutkan dengan telinga dan kulit.",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "Menjelaskan bentuk dan fungsi pancaindra"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "ipas.paham.siklus-hidup-tumbuhan",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        3,
+        4
+      ],
+      "type": "konsep",
+      "name": "Siklus hidup tumbuhan dari biji sampai berbuah",
+      "description": "Mengurutkan tahap hidup tumbuhan: biji, berkecambah, tumbuhan muda, tumbuhan dewasa yang berbunga dan berbuah, lalu menghasilkan biji lagi.",
+      "evidence": [
+        "Mengurutkan 5 gambar tahap hidup padi atau kacang hijau",
+        "Menanam kacang hijau di kapas dan mencatat tingginya tiap hari",
+        "Menjelaskan bahwa biji dari buah bisa ditanam lagi sehingga siklusnya berulang"
+      ],
+      "parentPrompt": "Tanam beberapa kacang hijau di kapas basah bersama {{nama}}. Minta {{nama}} mengukur dan mencatat tinggi kecambahnya setiap hari selama seminggu.",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "menganalisis siklus hidup makhluk hidup"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 1,
+      "centrality": 0.0068
+    },
+    {
+      "id": "ipas.paham.siklus-hidup-hewan-tanpa-metamorfosis",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        3
+      ],
+      "type": "konsep",
+      "name": "Siklus hidup ayam dan kucing",
+      "description": "Memahami bahwa banyak hewan seperti ayam dan kucing lahir atau menetas dengan bentuk yang mirip induknya, lalu tumbuh besar tanpa berubah bentuk.",
+      "evidence": [
+        "Mengurutkan gambar telur, anak ayam, ayam muda, ayam dewasa",
+        "Membedakan hewan yang bertelur (ayam, bebek) dan hewan yang melahirkan (kucing, kambing)",
+        "Menjelaskan bahwa anak kucing sudah mirip kucing dewasa sejak lahir"
+      ],
+      "parentPrompt": "Kalau ada ayam atau kucing di sekitar rumah, ajak {{nama}} mengamatinya. Tanya {{nama}}: \"Waktu kecil bentuknya seperti apa? Apa yang berubah sampai dewasa?\"",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "menganalisis siklus hidup makhluk hidup"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 2,
+      "centrality": 0.0136
+    },
+    {
+      "id": "ipas.paham.metamorfosis-sempurna-kupu-kupu",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        3,
+        4
+      ],
+      "type": "konsep",
+      "name": "Metamorfosis kupu-kupu dan katak",
+      "description": "Mengurutkan tahap metamorfosis, yaitu perubahan bentuk total: telur, ulat, kepompong, kupu-kupu, dan pada katak: telur, berudu, katak muda, katak.",
+      "evidence": [
+        "Mengurutkan 4 gambar telur, ulat, kepompong, kupu-kupu",
+        "Menjelaskan bahwa berudu bernapas di air dan berekor, lalu berubah menjadi katak",
+        "Menyebut tahap mana yang tidak makan, yaitu kepompong"
+      ],
+      "parentPrompt": "Cari ulat di daun tanaman di sekitar rumah atau lihat gambarnya bersama {{nama}}. Minta {{nama}} menggambar urutan ulat itu sampai menjadi kupu-kupu.",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "menganalisis siklus hidup makhluk hidup"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 1,
+      "centrality": 0.0068
+    },
+    {
+      "id": "ipas.paham.metamorfosis-tidak-sempurna",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        4
+      ],
+      "type": "konsep",
+      "name": "Membedakan metamorfosis sempurna dan tidak sempurna",
+      "description": "Membedakan hewan yang melewati tahap kepompong (kupu-kupu, nyamuk) dari hewan yang langsung dari telur menjadi nimfa, yaitu anak yang mirip induk tanpa sayap (belalang, kecoak).",
+      "evidence": [
+        "Mengelompokkan kupu-kupu, nyamuk, belalang, dan kecoak ke metamorfosis sempurna atau tidak sempurna",
+        "Menjelaskan bahwa nimfa belalang mirip induknya tetapi belum bersayap",
+        "Menjelaskan mengapa jentik nyamuk di bak mandi perlu dibuang untuk mencegah demam berdarah"
+      ],
+      "parentPrompt": "Lihat bak mandi atau tempat air bersama {{nama}}. Kalau ada jentik, tanya {{nama}}: \"Nanti jentik ini jadi apa? Kenapa bak mandi harus dikuras?\"",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "menganalisis siklus hidup makhluk hidup"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "ipas.paham.melestarikan-makhluk-hidup",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        4
+      ],
+      "type": "konsep",
+      "name": "Menjaga hewan dan tumbuhan supaya tidak punah",
+      "description": "Menjelaskan apa yang terjadi kalau satu tahap siklus hidup terganggu, dan cara menjaganya, seperti tidak menangkap ikan kecil, menanam pohon, dan tidak merusak sarang.",
+      "evidence": [
+        "Menjelaskan mengapa menangkap semua anak ikan membuat ikan di sungai habis",
+        "Menyebut 3 cara melestarikan hewan atau tumbuhan di sekitarnya",
+        "Menyebut satu hewan langka di Indonesia, misalnya badak bercula satu atau jalak bali"
+      ],
+      "parentPrompt": "Tanya {{nama}}: \"Kalau semua telur penyu diambil orang, apa yang terjadi beberapa tahun lagi?\" Lalu minta {{nama}} menyebut satu hal yang bisa dilakukan keluarga untuk menjaga makhluk hidup.",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "upaya pelestariannya"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "ipas.paham.mengenal-sumber-daya-alam",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        4
+      ],
+      "type": "konsep",
+      "name": "Mengenal sumber daya alam di sekitar",
+      "description": "Mengenal kekayaan alam yang dipakai manusia, seperti air, tanah, hutan, ikan, dan minyak bumi, dan membedakan yang bisa diperbarui dan yang bisa habis.",
+      "evidence": [
+        "Menyebut 5 sumber daya alam yang dipakai di rumah hari ini, misalnya air, beras, kayu, gas elpiji",
+        "Mengelompokkan sumber daya alam yang dapat diperbarui (pohon, ikan) dan tidak dapat diperbarui (minyak bumi, batu bara)",
+        "Menelusuri asal satu benda, misalnya nasi dari padi di sawah"
+      ],
+      "parentPrompt": "Saat makan malam, tanya {{nama}}: \"Nasi, ikan, air minum, dan gas kompor ini asalnya dari alam yang mana?\" Lalu tanya mana yang bisa habis.",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "pelestarian sumber daya alam"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 1,
+      "centrality": 0.0068
+    },
+    {
+      "id": "ipas.paham.perubahan-iklim-banjir-dan-kemarau",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        4
+      ],
+      "type": "konsep",
+      "name": "Perubahan iklim, banjir, dan kemarau panjang",
+      "description": "Memahami bahwa bumi makin panas karena asap kendaraan, pabrik, dan hutan yang ditebang, sehingga banjir dan kemarau panjang makin sering terjadi.",
+      "evidence": [
+        "Menjelaskan hubungan hutan gundul dengan banjir dan tanah longsor",
+        "Menyebut dua dampak kemarau panjang bagi petani sawah",
+        "Menyebut dua penyebab bumi makin panas"
+      ],
+      "parentPrompt": "Kalau di televisi ada kabar banjir atau kemarau, tonton bersama {{nama}}. Tanya {{nama}}: \"Menurutmu kenapa banjir bisa terjadi? Apa hubungannya dengan pohon dan sampah?\"",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "sebagai upaya mitigasi perubahan iklim"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "ipas.paham.menghemat-air-dan-listrik",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        4
+      ],
+      "type": "prosedur",
+      "name": "Menghemat air dan listrik di rumah",
+      "description": "Melakukan kebiasaan hemat sumber daya, seperti menutup keran, mematikan lampu dan kipas yang tidak dipakai, dan memakai air bekas cucian beras untuk menyiram tanaman.",
+      "evidence": [
+        "Menyebut 3 cara hemat air dan 3 cara hemat listrik di rumah",
+        "Mematikan lampu saat keluar kamar tanpa diingatkan selama seminggu",
+        "Menjelaskan mengapa hemat listrik ikut mengurangi asap pembangkit listrik"
+      ],
+      "parentPrompt": "Minta {{nama}} jadi \"petugas hemat\" seminggu: mencatat dengan turus berapa kali menemukan lampu atau keran yang lupa dimatikan di rumah.",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "pelestarian sumber daya alam"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "ipas.paham.merancang-solusi-lingkungan",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        4
+      ],
+      "type": "prosedur",
+      "name": "Membuat solusi untuk masalah lingkungan sekitar",
+      "description": "Memilih satu masalah lingkungan di sekitar, seperti sampah plastik di selokan atau kekurangan air saat kemarau, lalu merancang dan mencoba solusi sederhana.",
+      "evidence": [
+        "Menyebut satu masalah lingkungan nyata di sekitar rumah atau sekolah",
+        "Membuat rencana solusi, misalnya memilah sampah, membuat lubang biopori, atau menanam pohon",
+        "Menjelaskan bagaimana solusinya membantu mengurangi banjir atau menghemat sumber daya"
+      ],
+      "parentPrompt": "Ajak {{nama}} jalan keliling kampung 10 menit. Minta {{nama}} menunjuk satu masalah lingkungan, lalu memikirkan satu hal yang bisa dilakukan keluarga untuk memperbaikinya, misalnya memilah sampah.",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "menghasilkan solusi untuk masalah yang berkaitan dengan pelestarian sumber daya alam"
+        },
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "sebagai upaya mitigasi perubahan iklim"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "ipas.paham.mengenal-wujud-padat-cair-gas",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        4
+      ],
+      "type": "konsep",
+      "name": "Mengenal benda padat, cair, dan gas",
+      "description": "Membedakan benda padat (bentuk tetap), benda cair (bentuk mengikuti wadah), dan gas (mengisi seluruh ruang dan sering tidak terlihat).",
+      "evidence": [
+        "Mengelompokkan 10 benda di dapur menjadi padat, cair, dan gas",
+        "Menunjukkan bahwa air berubah bentuk saat dituang ke gelas dan ke piring",
+        "Menunjukkan adanya udara dengan meniup balon atau kantong plastik"
+      ],
+      "parentPrompt": "Di dapur, minta {{nama}} menunjuk tiga benda padat, tiga benda cair, dan satu contoh gas. Tuang air ke gelas lalu ke mangkuk, dan tanya {{nama}} apa yang berubah.",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "menyimpulkan proses perubahan wujud zat"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "ipas.paham.mencair-dan-membeku",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        4
+      ],
+      "type": "konsep",
+      "name": "Es batu mencair dan air membeku",
+      "description": "Memahami bahwa benda padat mencair ketika dipanaskan, seperti es batu dan mentega, dan benda cair membeku ketika didinginkan, seperti air di freezer.",
+      "evidence": [
+        "Menjelaskan mengapa es batu di luar kulkas berubah menjadi air",
+        "Memasukkan air ke freezer dan menyebut perubahan wujudnya",
+        "Menyebut contoh lain mencair, misalnya cokelat atau lilin yang kena panas"
+      ],
+      "parentPrompt": "Taruh satu es batu di piring di dalam rumah dan satu lagi di bawah matahari. Minta {{nama}} menebak dulu mana yang lebih cepat cair, lalu cek setiap 5 menit.",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "menyimpulkan proses perubahan wujud zat"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 1,
+      "centrality": 0.0068
+    },
+    {
+      "id": "ipas.paham.menguap-dan-mengembun",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        4
+      ],
+      "type": "konsep",
+      "name": "Air mendidih menguap dan embun di gelas es",
+      "description": "Memahami bahwa air yang dipanaskan menguap menjadi gas, seperti uap air mendidih atau jemuran yang kering, dan uap air yang didinginkan mengembun menjadi titik air.",
+      "evidence": [
+        "Menjelaskan asal asap putih di atas panci air mendidih",
+        "Menjelaskan titik-titik air di luar gelas berisi es",
+        "Menjelaskan mengapa jemuran lebih cepat kering saat panas terik"
+      ],
+      "parentPrompt": "Saat merebus air, tunjukkan uapnya kepada {{nama}} dari jarak aman. Lalu taruh es di gelas, dan tanya {{nama}}: \"Air di luar gelas ini datang dari mana?\"",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "menyimpulkan proses perubahan wujud zat"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "ipas.paham.menyimpulkan-perubahan-wujud",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        4
+      ],
+      "type": "konsep",
+      "name": "Menyimpulkan pengaruh panas pada perubahan wujud",
+      "description": "Menyimpulkan bahwa menambah panas membuat benda mencair, menguap, atau menyublim, misalnya kapur barus yang mengecil, dan mengurangi panas membuat benda membeku atau mengembun.",
+      "evidence": [
+        "Mengisi bagan 6 perubahan wujud (mencair, membeku, menguap, mengembun, menyublim, mengkristal) dengan contoh sehari-hari",
+        "Menyebut perubahan mana yang butuh panas dan mana yang melepas panas",
+        "Menjelaskan mengapa kapur barus di lemari lama-lama habis"
+      ],
+      "parentPrompt": "Tanya {{nama}}: \"Es batu, air mendidih, kapur barus di lemari, dan embun pagi, mana yang kena panas dan mana yang kena dingin?\" Minta {{nama}} menjelaskan aturannya sendiri.",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "menyimpulkan proses perubahan wujud zat"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "ipas.paham.mengenal-sumber-energi",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        4
+      ],
+      "type": "konsep",
+      "name": "Mengenal sumber energi di sekitar",
+      "description": "Menyebut sumber energi, seperti matahari, makanan, bensin, gas elpiji, angin, air terjun, dan baterai, serta gunanya bagi kehidupan.",
+      "evidence": [
+        "Menyebut 5 sumber energi dan benda yang memakainya, misalnya bensin untuk motor",
+        "Menjelaskan bahwa makanan adalah sumber energi bagi tubuh",
+        "Menjelaskan mengapa matahari disebut sumber energi utama"
+      ],
+      "parentPrompt": "Tanya {{nama}}: \"Motor jalan pakai apa? Kompor menyala pakai apa? Kamu bisa lari pakai apa?\" Bantu {{nama}} menyimpulkan bahwa semuanya butuh energi.",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "menjelaskan sumber dan bentuk energi"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 2,
+      "centrality": 0.0136
+    },
+    {
+      "id": "ipas.paham.mengenal-bentuk-energi",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        4
+      ],
+      "type": "konsep",
+      "name": "Mengenal bentuk energi: panas, cahaya, bunyi, gerak, listrik",
+      "description": "Membedakan bentuk-bentuk energi, seperti energi panas, cahaya, bunyi, gerak, dan listrik, dari benda di sekitar.",
+      "evidence": [
+        "Menyebut bentuk energi dari kompor, lampu, radio, kipas angin, dan baterai",
+        "Mengelompokkan 8 gambar benda menurut bentuk energinya",
+        "Menjelaskan bahwa bunyi gendang adalah energi bunyi"
+      ],
+      "parentPrompt": "Ajak {{nama}} berkeliling rumah. Tunjuk lampu, kompor, radio, dan kipas, lalu minta {{nama}} menyebut energi apa yang dihasilkan masing-masing.",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "menjelaskan sumber dan bentuk energi"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 1,
+      "centrality": 0.0068
+    },
+    {
+      "id": "ipas.paham.perubahan-bentuk-energi",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        4
+      ],
+      "type": "konsep",
+      "name": "Perubahan bentuk energi dalam kehidupan sehari-hari",
+      "description": "Menjelaskan bahwa energi bisa berubah bentuk, misalnya listrik menjadi panas pada setrika, listrik menjadi gerak pada kipas, dan energi dari makanan menjadi gerak pada tubuh.",
+      "evidence": [
+        "Menulis perubahan energi pada setrika, kipas angin, lampu senter, dan rice cooker",
+        "Menjelaskan bahwa tangan terasa hangat setelah digosok karena energi gerak berubah menjadi panas",
+        "Menjelaskan perubahan energi pada kincir angin atau PLTA"
+      ],
+      "parentPrompt": "Minta {{nama}} menggosok kedua telapak tangan cepat-cepat selama 10 detik. Tanya {{nama}}: \"Kenapa jadi hangat? Energi apa berubah jadi energi apa?\"",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "proses perubahan bentuk energi dalam kehidupan sehari-hari"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "ipas.paham.mengenal-gaya-dorong-dan-tarik",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        4
+      ],
+      "type": "konsep",
+      "name": "Gaya adalah dorongan dan tarikan",
+      "description": "Memahami bahwa gaya adalah dorongan atau tarikan pada benda, seperti mendorong gerobak, menarik laci, atau menendang bola.",
+      "evidence": [
+        "Mengelompokkan 6 kegiatan menjadi dorongan atau tarikan, misalnya membuka pintu, menimba air, menendang bola",
+        "Menunjukkan dorongan dan tarikan dengan kursi atau laci",
+        "Menjelaskan bahwa benda diam tidak bergerak tanpa gaya"
+      ],
+      "parentPrompt": "Minta {{nama}} membuka laci, menutup pintu, dan menggeser kursi. Tanya {{nama}} setiap kali: \"Itu dorongan atau tarikan?\"",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "membedakan jenis gaya"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 2,
+      "centrality": 0.0136
+    },
+    {
+      "id": "ipas.paham.gaya-mengubah-gerak-dan-arah",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        4
+      ],
+      "type": "konsep",
+      "name": "Gaya mengubah gerak dan arah benda",
+      "description": "Memahami bahwa gaya dapat membuat benda diam bergerak, benda bergerak berhenti, dan benda berubah arah, seperti bola yang ditendang lalu dibelokkan.",
+      "evidence": [
+        "Menunjukkan bola diam yang bergerak setelah ditendang dan berhenti setelah ditahan",
+        "Membelokkan arah kelereng yang menggelinding dengan dorongan kecil",
+        "Menjelaskan bahwa tendangan lebih kuat membuat bola bergerak lebih jauh"
+      ],
+      "parentPrompt": "Gelindingkan kelereng atau bola kecil ke arah {{nama}}. Minta {{nama}} menghentikannya, lalu membelokkannya. Tanya {{nama}}: \"Apa yang membuat geraknya berubah?\"",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "pengaruhnya terhadap arah, gerak, dan bentuk benda"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "ipas.paham.gaya-mengubah-bentuk-benda",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        4
+      ],
+      "type": "konsep",
+      "name": "Gaya mengubah bentuk benda",
+      "description": "Memahami bahwa gaya dapat mengubah bentuk benda, seperti plastisin yang ditekan, kaleng yang diinjak, atau adonan kue yang diuleni.",
+      "evidence": [
+        "Membentuk plastisin atau adonan menjadi bentuk lain dengan menekan dan memilin",
+        "Membedakan benda yang kembali ke bentuk semula (karet, spons) dan yang tidak (plastisin, kaleng)",
+        "Menyebut 3 contoh gaya mengubah bentuk di dapur"
+      ],
+      "parentPrompt": "Saat membuat adonan atau memegang spons cuci piring, ajak {{nama}} menekannya. Tanya {{nama}}: \"Bentuknya berubah? Kembali lagi atau tidak?\"",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "pengaruhnya terhadap arah, gerak, dan bentuk benda"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "ipas.paham.jenis-gaya-magnet-gravitasi-gesek",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        4
+      ],
+      "type": "konsep",
+      "name": "Membedakan gaya magnet, gravitasi, dan gesek",
+      "description": "Membedakan gaya otot, gaya magnet (menarik benda besi), gaya gravitasi (menarik benda jatuh ke bawah), dan gaya gesek (memperlambat benda di permukaan kasar).",
+      "evidence": [
+        "Menguji benda mana yang ditarik magnet: paku, peniti, kertas, sendok plastik",
+        "Menjelaskan mengapa buah mangga jatuh ke bawah, bukan ke atas",
+        "Membandingkan mainan mobil yang meluncur di lantai keramik dan di karpet, lalu menyebut gaya geseknya"
+      ],
+      "parentPrompt": "Kalau ada magnet kulkas, ajak {{nama}} mencoba menempelkannya ke 6 benda. Minta {{nama}} menebak dulu, lalu mencatat mana yang menempel.",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "membedakan jenis gaya"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "ipas.paham.peran-anggota-keluarga",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        3
+      ],
+      "type": "konsep",
+      "name": "Peran dan tugas anggota keluarga",
+      "description": "Menjelaskan peran, tugas, dan tanggung jawab setiap anggota keluarga di rumah, termasuk tugas dirinya sendiri.",
+      "evidence": [
+        "Menyebut peran ayah, ibu, kakak, dan dirinya di rumah",
+        "Menyebut 3 tugas rumah yang menjadi tanggung jawabnya, misalnya merapikan tempat tidur",
+        "Menjelaskan apa yang terjadi kalau satu anggota keluarga tidak menjalankan tugasnya"
+      ],
+      "parentPrompt": "Ajak {{nama}} membuat daftar tugas rumah untuk setiap orang di keluarga. Tanya {{nama}}: \"Tugasmu apa saja, dan apa yang terjadi kalau tidak dikerjakan?\"",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "menjelaskan peran, tugas, dan tanggung jawab"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 3,
+      "centrality": 0.0204
+    },
+    {
+      "id": "ipas.paham.peran-warga-sekolah",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        3
+      ],
+      "type": "konsep",
+      "name": "Peran dan tugas warga sekolah",
+      "description": "Menjelaskan peran kepala sekolah, guru, penjaga sekolah, petugas kantin, dan murid, serta tanggung jawab murid seperti piket kelas.",
+      "evidence": [
+        "Menyebut tugas 4 orang di sekolahnya",
+        "Menjelaskan tugas piket kelasnya dan harinya",
+        "Menyebut aturan kelas dan alasannya"
+      ],
+      "parentPrompt": "Sepulang sekolah, tanya {{nama}}: \"Siapa saja yang bekerja di sekolahmu, dan apa tugas mereka? Kamu piket hari apa?\"",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "menjelaskan peran, tugas, dan tanggung jawab"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 2,
+      "centrality": 0.0136
+    },
+    {
+      "id": "ipas.paham.peran-di-lingkungan-tempat-tinggal",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        3,
+        4
+      ],
+      "type": "konsep",
+      "name": "Peran warga di lingkungan tempat tinggal",
+      "description": "Mengenal peran ketua RT, RW, kepala desa atau lurah, petugas kebersihan, dan tetangga, serta kewajiban warga seperti ronda dan iuran.",
+      "evidence": [
+        "Menyebut nama atau peran ketua RT di lingkungannya",
+        "Menyebut 3 orang yang membantu warga dan tugasnya, misalnya petugas sampah atau bidan desa",
+        "Menyebut satu kewajiban keluarganya sebagai warga"
+      ],
+      "parentPrompt": "Saat bertemu Pak RT atau petugas sampah, beri tahu {{nama}} siapa mereka. Di rumah tanya {{nama}}: \"Apa tugas mereka untuk kampung kita?\"",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "menjelaskan peran, tugas, dan tanggung jawab"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 1,
+      "centrality": 0.0068
+    },
+    {
+      "id": "ipas.paham.interaksi-sosial-dan-gotong-royong",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        3,
+        4
+      ],
+      "type": "konsep",
+      "name": "Interaksi sosial dan gotong royong",
+      "description": "Memahami bahwa orang saling berhubungan dan membutuhkan, seperti bekerja sama, bergotong royong, dan menyelesaikan perbedaan dengan musyawarah.",
+      "evidence": [
+        "Menceritakan kegiatan gotong royong yang pernah dilihat, misalnya kerja bakti membersihkan selokan",
+        "Membedakan contoh interaksi yang baik (bekerja sama) dan yang tidak (bertengkar)",
+        "Menjelaskan cara menyelesaikan rebutan mainan dengan musyawarah"
+      ],
+      "parentPrompt": "Kalau ada kerja bakti di kampung, ajak {{nama}} ikut. Sesudahnya tanya {{nama}}: \"Apa yang lebih mudah kalau dikerjakan bersama?\"",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "interaksi sosial yang terjadi di sekitar tempat tinggal dan sekolah"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "ipas.paham.mengenal-arah-mata-angin",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        4
+      ],
+      "type": "konsep",
+      "name": "Mengenal arah mata angin",
+      "description": "Menentukan arah utara, timur, selatan, dan barat dari arah matahari terbit, lalu mengenal arah di antaranya seperti timur laut dan barat daya.",
+      "evidence": [
+        "Menunjuk arah timur dari tempat matahari terbit pagi ini",
+        "Menyebut 8 arah mata angin berurutan searah jarum jam",
+        "Menyebut di sebelah mana rumah tetangga atau masjid dari rumahnya"
+      ],
+      "parentPrompt": "Pagi hari, ajak {{nama}} ke halaman dan tanya: \"Matahari terbit di arah mana?\" Lalu minta {{nama}} menunjuk utara, selatan, dan barat.",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "dengan menggunakan peta konvensional/digital"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 8,
+      "centrality": 0.0544
+    },
+    {
+      "id": "ipas.paham.membaca-simbol-dan-legenda-peta",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        4
+      ],
+      "type": "representasi",
+      "name": "Membaca simbol, warna, dan legenda peta",
+      "description": "Membaca peta dengan memakai mata angin, legenda (keterangan simbol), dan warna peta, seperti biru untuk laut, hijau untuk dataran rendah, cokelat untuk pegunungan.",
+      "evidence": [
+        "Menunjuk mata angin, judul, dan legenda pada peta",
+        "Menyebut arti 4 simbol pada legenda, misalnya kota, sungai, gunung, jalan",
+        "Menjelaskan arti warna biru, hijau, dan cokelat pada peta"
+      ],
+      "parentPrompt": "Buka peta di buku atau atlas bersama {{nama}}. Minta {{nama}} menunjuk legenda, lalu mencari satu sungai dan satu gunung memakai simbolnya.",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "dengan menggunakan peta konvensional/digital"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 7,
+      "centrality": 0.0476
+    },
+    {
+      "id": "ipas.paham.letak-kabupaten-kota-di-peta-provinsi",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        4
+      ],
+      "type": "representasi",
+      "name": "Menemukan kabupaten/kota sendiri di peta provinsi",
+      "description": "Menemukan kabupaten atau kota tempat tinggalnya di peta provinsi, dan menyebut kabupaten/kota yang berbatasan dengannya.",
+      "evidence": [
+        "Menunjuk kabupaten/kota tempat tinggalnya di peta provinsi",
+        "Menyebut nama ibu kota provinsinya",
+        "Menyebut 2 kabupaten/kota tetangga dan arahnya dari daerahnya"
+      ],
+      "parentPrompt": "Cari peta provinsi kalian di buku atau di HP bersama {{nama}}. Minta {{nama}} menunjuk kabupaten atau kota tempat tinggal, lalu menyebut tetangganya di sebelah utara dan selatan.",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "mengenali letak kabupaten/kota dan provinsi tempat tinggalnya"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 4,
+      "centrality": 0.0272
+    },
+    {
+      "id": "ipas.paham.letak-provinsi-di-peta-indonesia",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        4
+      ],
+      "type": "representasi",
+      "name": "Menemukan provinsi sendiri di peta Indonesia",
+      "description": "Menemukan provinsi tempat tinggalnya di peta Indonesia, menyebut pulaunya, dan provinsi yang berbatasan.",
+      "evidence": [
+        "Menunjuk provinsinya di peta Indonesia",
+        "Menyebut pulau tempat provinsinya berada",
+        "Menyebut 2 provinsi tetangga atau laut di sekitarnya"
+      ],
+      "parentPrompt": "Tempel atau buka peta Indonesia bersama {{nama}}. Minta {{nama}} menunjuk provinsi kita, lalu provinsi tempat kakek-nenek atau saudara tinggal.",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "mengenali letak kabupaten/kota dan provinsi tempat tinggalnya"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 2,
+      "centrality": 0.0136
+    },
+    {
+      "id": "ipas.paham.memakai-peta-digital",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        4
+      ],
+      "type": "representasi",
+      "name": "Memakai peta digital di HP",
+      "description": "Memakai peta digital di HP untuk mencari rumah, sekolah, dan kabupaten/kota sendiri, serta memperbesar dan memperkecil peta.",
+      "evidence": [
+        "Menemukan rumah atau sekolahnya di peta digital dengan bantuan",
+        "Memperkecil peta sampai terlihat batas kabupaten/kota dan provinsi",
+        "Membandingkan peta digital dengan peta di buku: mana yang lebih rinci"
+      ],
+      "parentPrompt": "Buka aplikasi peta di HP bersama {{nama}}. Minta {{nama}} mencari sekolahnya, lalu memperkecil peta sampai nama kabupaten dan provinsi kalian terlihat.",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "dengan menggunakan peta konvensional/digital"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "ipas.paham.mengelompokkan-bentang-alam",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        4
+      ],
+      "type": "konsep",
+      "name": "Mengelompokkan bentang alam: gunung, dataran, pantai",
+      "description": "Mengenal dan mengelompokkan bentang alam daratan (gunung, bukit, dataran tinggi, dataran rendah, lembah) dan perairan (sungai, danau, pantai, laut).",
+      "evidence": [
+        "Mengelompokkan 8 gambar bentang alam ke daratan atau perairan",
+        "Menjelaskan beda gunung dan bukit, serta danau dan laut",
+        "Menyebut bentang alam di daerah tempat tinggalnya"
+      ],
+      "parentPrompt": "Saat bepergian atau melihat foto liburan, tanya {{nama}}: \"Ini gunung, dataran rendah, atau pantai? Daerah kita termasuk yang mana?\"",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "mengklasifikasikan ragam bentang alam"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 1,
+      "centrality": 0.0068
+    },
+    {
+      "id": "ipas.paham.profesi-sesuai-bentang-alam",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        4
+      ],
+      "type": "konsep",
+      "name": "Pekerjaan orang menurut bentang alamnya",
+      "description": "Menjelaskan hubungan bentang alam dengan pekerjaan masyarakat, seperti petani sawah di dataran rendah, petani teh dan sayur di pegunungan, dan nelayan di pantai.",
+      "evidence": [
+        "Memasangkan 5 pekerjaan dengan bentang alamnya, misalnya nelayan dengan pantai",
+        "Menjelaskan mengapa sawah banyak di dataran rendah dan kebun teh di pegunungan",
+        "Menyebut pekerjaan yang banyak di daerahnya dan alasannya"
+      ],
+      "parentPrompt": "Di pasar, tunjuk ikan, sayur, dan beras kepada {{nama}}. Tanya {{nama}}: \"Siapa yang menghasilkan ini, dan mereka tinggal di daerah seperti apa?\"",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "keterkaitannya dengan profesi masyarakat"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "ipas.paham.ragam-budaya-daerah",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        4
+      ],
+      "type": "konsep",
+      "name": "Mengenal ragam budaya daerah",
+      "description": "Mengenal budaya dari berbagai daerah, seperti rumah adat, pakaian adat, tarian, alat musik, dan makanan khas, serta hubungannya dengan alam daerah itu.",
+      "evidence": [
+        "Menyebut rumah adat, tarian, dan makanan khas daerahnya",
+        "Menyebut budaya dari 3 provinsi lain",
+        "Menjelaskan contoh budaya yang terkait alam, misalnya rumah panggung di daerah rawa atau sering banjir"
+      ],
+      "parentPrompt": "Saat makan makanan khas daerah, ceritakan asalnya kepada {{nama}}. Tanya {{nama}}: \"Kamu tahu tarian atau rumah adat dari daerah kita?\"",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "ragam budaya"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 1,
+      "centrality": 0.0068
+    },
+    {
+      "id": "ipas.paham.melestarikan-alam-dan-budaya",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        4
+      ],
+      "type": "konsep",
+      "name": "Menjaga bentang alam dan budaya daerah",
+      "description": "Menyebut cara melestarikan alam dan budaya, seperti tidak membuang sampah ke sungai, menanam pohon di lereng, belajar tarian daerah, dan memakai bahasa daerah.",
+      "evidence": [
+        "Menyebut 2 cara menjaga bentang alam di daerahnya",
+        "Menyebut 2 cara melestarikan budaya daerah",
+        "Menjelaskan apa yang hilang kalau budaya daerah tidak dipelajari anak-anak"
+      ],
+      "parentPrompt": "Tanya {{nama}}: \"Apa satu hal yang bisa kita lakukan supaya sungai di dekat sini tetap bersih? Dan satu hal supaya budaya daerah kita tidak hilang?\"",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "upaya untuk melestarikannya"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "ipas.paham.asal-usul-nama-daerah",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        4
+      ],
+      "type": "konsep",
+      "name": "Asal-usul nama daerah tempat tinggal",
+      "description": "Mengetahui cerita asal-usul nama kampung, desa, atau kota tempat tinggalnya dari cerita orang tua atau tokoh masyarakat.",
+      "evidence": [
+        "Menceritakan asal-usul nama desa atau kotanya dengan kalimat sendiri",
+        "Menyebut dari siapa ia mendapat cerita itu",
+        "Membedakan cerita rakyat (legenda) dengan kejadian sejarah yang ada buktinya"
+      ],
+      "parentPrompt": "Ajak {{nama}} bertanya kepada kakek, nenek, atau tetangga yang sudah lama tinggal di sini: \"Kenapa kampung kita diberi nama ini?\" Minta {{nama}} menceritakannya kembali.",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "menganalisis sejarah masyarakat di lingkungan tempat tinggal"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 1,
+      "centrality": 0.0068
+    },
+    {
+      "id": "ipas.paham.peninggalan-sejarah-setempat",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        4
+      ],
+      "type": "konsep",
+      "name": "Mengenal peninggalan sejarah di sekitar",
+      "description": "Mengenal bangunan atau benda bersejarah di daerahnya, seperti masjid atau gereja tua, makam tokoh, tugu, atau museum, dan cerita di baliknya.",
+      "evidence": [
+        "Menyebut satu peninggalan sejarah di kabupaten/kotanya",
+        "Menceritakan siapa yang membuatnya atau peristiwa apa yang dikenang",
+        "Menjelaskan mengapa peninggalan sejarah harus dijaga dan tidak dicoret-coret"
+      ],
+      "parentPrompt": "Kalau lewat tugu, masjid tua, atau museum, berhenti sebentar bersama {{nama}}. Baca papan keterangannya bersama, lalu minta {{nama}} menceritakannya kembali di rumah.",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "menganalisis sejarah masyarakat di lingkungan tempat tinggal"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "ipas.paham.perubahan-lingkungan-dulu-dan-sekarang",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        4
+      ],
+      "type": "konsep",
+      "name": "Membandingkan kehidupan dulu dan sekarang",
+      "description": "Membandingkan kehidupan masyarakat setempat dulu dan sekarang, seperti alat transportasi, pekerjaan, permainan, dan bentuk rumah, dari wawancara dan foto lama.",
+      "evidence": [
+        "Mewawancarai kakek, nenek, atau orang tua dengan 3 pertanyaan yang disiapkan sendiri",
+        "Membuat tabel \"dulu\" dan \"sekarang\" dengan 4 hal",
+        "Menjelaskan satu alasan perubahan, misalnya jalan sudah diaspal sehingga banyak motor"
+      ],
+      "parentPrompt": "Telepon atau kunjungi kakek-nenek bersama {{nama}}. Minta {{nama}} bertanya: \"Waktu Kakek kecil, ke sekolah naik apa? Main apa?\" Lalu bandingkan dengan sekarang.",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "menganalisis sejarah masyarakat di lingkungan tempat tinggal"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "ipas.paham.mengenal-nilai-uang-rupiah",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        3
+      ],
+      "type": "konsep",
+      "name": "Mengenal nilai uang rupiah",
+      "description": "Mengenal uang logam dan uang kertas rupiah, membaca nilainya, dan membandingkan mana yang lebih besar.",
+      "evidence": [
+        "Menyebut nilai uang logam Rp500 dan Rp1.000 serta uang kertas Rp2.000 sampai Rp100.000",
+        "Mengurutkan 5 lembar uang dari nilai terkecil ke terbesar",
+        "Menukar satu lembar Rp10.000 dengan kumpulan uang lain yang nilainya sama"
+      ],
+      "parentPrompt": "Keluarkan isi dompet ke meja. Minta {{nama}} mengurutkan uangnya dari yang paling kecil, lalu menunjukkan dua lembar yang kalau digabung bernilai Rp10.000.",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "menjelaskan nilai mata uang dan fungsinya"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 3,
+      "centrality": 0.0204
+    },
+    {
+      "id": "ipas.paham.fungsi-uang-sebagai-alat-tukar",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        3
+      ],
+      "type": "konsep",
+      "name": "Guna uang sebagai alat tukar",
+      "description": "Memahami bahwa dulu orang barter, yaitu menukar barang dengan barang, dan sekarang memakai uang karena lebih mudah untuk membeli, menyimpan, dan menghitung nilai barang.",
+      "evidence": [
+        "Menjelaskan apa itu barter dengan contoh beras ditukar ikan",
+        "Menyebut satu kesulitan barter",
+        "Menyebut 3 guna uang: alat tukar, alat menyimpan, dan alat mengukur harga"
+      ],
+      "parentPrompt": "Main jual-beli di rumah dengan {{nama}}: pertama tukar barang dengan barang, lalu pakai uang mainan. Tanya {{nama}}: \"Mana yang lebih mudah, kenapa?\"",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "menjelaskan nilai mata uang dan fungsinya"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 2,
+      "centrality": 0.0136
+    },
+    {
+      "id": "ipas.paham.membedakan-kebutuhan-dan-keinginan",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        3,
+        4
+      ],
+      "type": "konsep",
+      "name": "Membedakan kebutuhan dan keinginan",
+      "description": "Membedakan kebutuhan (yang harus ada untuk hidup, seperti makan dan seragam) dari keinginan (yang menyenangkan tetapi bisa ditunda, seperti mainan baru), lalu memilih yang didahulukan.",
+      "evidence": [
+        "Mengelompokkan 8 barang belanjaan menjadi kebutuhan dan keinginan",
+        "Memilih apa yang dibeli dulu jika uang hanya Rp20.000",
+        "Menjelaskan mengapa jajan bukan kebutuhan utama"
+      ],
+      "parentPrompt": "Sebelum ke pasar atau warung, buat daftar belanja bersama {{nama}}. Minta {{nama}} memberi tanda mana kebutuhan dan mana keinginan.",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "cara mengelola keuangan secara bijak"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 1,
+      "centrality": 0.0068
+    },
+    {
+      "id": "ipas.paham.menabung-dan-mencatat-uang-jajan",
+      "mapel": "ipas",
+      "elemen": "Pemahaman IPAS",
+      "elemenCode": "paham",
+      "fase": "B",
+      "kelas": [
+        4
+      ],
+      "type": "prosedur",
+      "name": "Menabung dan mencatat uang jajan",
+      "description": "Mengelola uang jajan dengan menyisihkan sebagian untuk ditabung, mencatat uang masuk dan keluar, dan merencanakan tabungan untuk barang yang diinginkan.",
+      "evidence": [
+        "Mencatat uang jajan masuk dan keluar selama seminggu di buku kecil",
+        "Menghitung berapa minggu menabung Rp2.000 per hari untuk membeli barang seharga Rp50.000",
+        "Menyisihkan uang ke celengan tanpa disuruh"
+      ],
+      "parentPrompt": "Beri {{nama}} buku kecil untuk mencatat uang jajan. Di akhir minggu, hitung bersama: berapa yang terpakai, berapa yang masuk celengan, dan berapa lama lagi sampai cukup untuk barang yang diinginkan.",
+      "standards": [
+        "cp046.ipas.B.paham"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.ipas.B.paham",
+          "phrase": "cara mengelola keuangan secara bijak"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "mat.bil.menyebut-urutan-bilangan-sampai-20",
+      "mapel": "mat",
+      "elemen": "Bilangan",
+      "elemenCode": "bil",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "prosedur",
+      "name": "Menyebut urutan bilangan sampai 20",
+      "description": "Menyebut nama bilangan berurutan dari 1 sampai 20 tanpa melompat, dan bisa mulai dari bilangan mana saja.",
+      "evidence": [
+        "Menyebut 1 sampai 20 tanpa ada yang terlewat",
+        "Melanjutkan hitungan dari 8: \"sembilan, sepuluh, sebelas...\"",
+        "Menyebut bilangan sebelum 15 dan sesudah 15"
+      ],
+      "parentPrompt": "Sambil menunggu nasi matang, ajak {{nama}} berhitung keras-keras dari 1 sampai 20. Lalu coba mulai dari 7, apakah {{nama}} bisa melanjutkan tanpa mengulang dari 1?",
+      "standards": [
+        "cp046.mat.A.bil"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "pada bilangan cacah sampai 100"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 39,
+      "centrality": 0.2653
+    },
+    {
+      "id": "mat.bil.membilang-benda-sampai-20",
+      "mapel": "mat",
+      "elemen": "Bilangan",
+      "elemenCode": "bil",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "prosedur",
+      "name": "Membilang benda sampai 20",
+      "description": "Menghitung banyak benda satu per satu sampai 20 dan tahu bahwa bilangan terakhir yang disebut adalah banyaknya benda.",
+      "evidence": [
+        "Menghitung 17 butir kelereng dengan menunjuk satu per satu tanpa terlewat",
+        "Menjawab \"ada berapa?\" dengan bilangan terakhir tanpa menghitung ulang",
+        "Mengambil tepat 12 sendok dari laci saat diminta"
+      ],
+      "parentPrompt": "Taruh segenggam kacang di meja. Minta {{nama}} menghitungnya, lalu tanya \"jadi ada berapa?\". Apakah {{nama}} menunjuk satu per satu dan langsung bisa menyebut jumlahnya?",
+      "standards": [
+        "cp046.mat.A.bil"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "Menunjukkan pemahaman dan memiliki intuisi bilangan (number sense)"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 35,
+      "centrality": 0.2381
+    },
+    {
+      "id": "mat.bil.mengenali-banyak-benda-sekilas",
+      "mapel": "mat",
+      "elemen": "Bilangan",
+      "elemenCode": "bil",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "konsep",
+      "name": "Mengenali banyak benda dengan sekilas lihat",
+      "description": "Langsung tahu banyak benda yang sedikit (sampai 5 atau 6) tanpa menghitung satu per satu, misalnya dari titik pada dadu atau jari.",
+      "evidence": [
+        "Menyebut \"empat\" saat melihat mata dadu empat, tanpa menghitung",
+        "Menunjukkan tiga jari dengan cepat saat diminta",
+        "Tahu ada lima sandal di depan pintu hanya dengan melihat sebentar"
+      ],
+      "parentPrompt": "Lempar dadu atau tunjukkan beberapa jari sebentar saja, lalu sembunyikan. Tanya {{nama}}, \"tadi ada berapa?\" Apakah {{nama}} bisa menjawab tanpa menghitung?",
+      "standards": [
+        "cp046.mat.A.bil"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "memiliki intuisi bilangan (number sense)"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 12,
+      "centrality": 0.0816
+    },
+    {
+      "id": "mat.bil.membaca-menulis-lambang-bilangan-sampai-20",
+      "mapel": "mat",
+      "elemen": "Bilangan",
+      "elemenCode": "bil",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "bahasa",
+      "name": "Membaca dan menulis angka sampai 20",
+      "description": "Membaca lambang bilangan 0 sampai 20, menulisnya dengan benar, dan mencocokkan angka dengan banyak benda.",
+      "evidence": [
+        "Membaca angka 14 pada kalender dengan benar",
+        "Menulis angka 0 sampai 20 tanpa ada yang terbalik",
+        "Menaruh 9 tutup botol di samping kartu angka 9"
+      ],
+      "parentPrompt": "Tunjuk angka di kalender atau nomor rumah, lalu tanya {{nama}} itu angka berapa. Setelah itu minta {{nama}} menulis angka 13 dan 17 di kertas.",
+      "standards": [
+        "cp046.mat.A.bil"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "membaca, menulis"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 5,
+      "centrality": 0.034
+    },
+    {
+      "id": "mat.bil.membandingkan-banyak-benda-sampai-20",
+      "mapel": "mat",
+      "elemen": "Bilangan",
+      "elemenCode": "bil",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "konsep",
+      "name": "Membandingkan banyak dua kumpulan benda",
+      "description": "Menentukan kumpulan mana yang lebih banyak, lebih sedikit, atau sama banyak, dengan memasangkan atau menghitung benda.",
+      "evidence": [
+        "Memasangkan sendok dan piring untuk melihat mana yang lebih banyak",
+        "Mengatakan \"12 lebih banyak dari 9\" setelah menghitung dua kumpulan",
+        "Menambah atau mengambil benda supaya dua kumpulan sama banyak"
+      ],
+      "parentPrompt": "Siapkan dua tumpuk kerupuk dengan jumlah berbeda. Tanya {{nama}}, \"yang mana lebih banyak? Lebih banyak berapa?\" Coba minta {{nama}} membuat keduanya sama banyak.",
+      "standards": [
+        "cp046.mat.A.bil"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "membandingkan"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 7,
+      "centrality": 0.0476
+    },
+    {
+      "id": "mat.bil.mengurutkan-bilangan-sampai-20",
+      "mapel": "mat",
+      "elemen": "Bilangan",
+      "elemenCode": "bil",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "prosedur",
+      "name": "Mengurutkan bilangan sampai 20",
+      "description": "Menyusun beberapa bilangan sampai 20 dari yang terkecil ke terbesar atau sebaliknya, dan tahu bilangan sebelum dan sesudahnya.",
+      "evidence": [
+        "Mengurutkan kartu angka 15, 3, 11, 8 dari yang terkecil",
+        "Menyebut bilangan di antara 16 dan 18",
+        "Mengurutkan tiga tumpuk biskuit dari yang paling sedikit"
+      ],
+      "parentPrompt": "Tulis angka 12, 5, 19, dan 9 di potongan kertas lalu acak. Minta {{nama}} menyusunnya dari yang paling kecil. Tanya juga, \"angka berapa yang datang sesudah 19?\"",
+      "standards": [
+        "cp046.mat.A.bil"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "mengurutkan"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 2,
+      "centrality": 0.0136
+    },
+    {
+      "id": "mat.bil.menyusun-dan-mengurai-bilangan-sampai-10",
+      "mapel": "mat",
+      "elemen": "Bilangan",
+      "elemenCode": "bil",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "konsep",
+      "name": "Menyusun dan mengurai bilangan sampai 10",
+      "description": "Memahami bahwa satu bilangan bisa dipecah menjadi dua bagian dengan berbagai cara, misalnya 7 adalah 5 dan 2, atau 4 dan 3.",
+      "evidence": [
+        "Membagi 7 kelereng ke dua tangan dengan tiga cara berbeda",
+        "Mengatakan \"6 itu 4 dan 2\" sambil menunjukkan benda",
+        "Menebak isi tangan yang tertutup: ada 8, di tangan kiri 5, jadi tangan kanan 3"
+      ],
+      "parentPrompt": "Ambil 8 kacang, sembunyikan sebagian di tangan, dan tunjukkan sisanya. Tanya {{nama}}, \"berapa yang ada di tanganku?\" Ulangi dengan cara bagi yang lain.",
+      "standards": [
+        "cp046.mat.A.bil"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "melakukan komposisi (menyusun) dan dekomposisi (mengurai) bilangan"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 11,
+      "centrality": 0.0748
+    },
+    {
+      "id": "mat.bil.pasangan-bilangan-yang-jumlahnya-10",
+      "mapel": "mat",
+      "elemen": "Bilangan",
+      "elemenCode": "bil",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "prosedur",
+      "name": "Pasangan bilangan yang jumlahnya 10",
+      "description": "Hafal dan paham pasangan bilangan yang bersama-sama menjadi 10, seperti 7 dan 3 atau 6 dan 4.",
+      "evidence": [
+        "Langsung menjawab \"3\" saat ditanya \"7 dan berapa supaya jadi 10?\"",
+        "Menyebutkan semua pasangan dari 1 dan 9 sampai 5 dan 5",
+        "Menunjukkan 10 jari lalu menekuk 4 dan menyebut sisanya 6"
+      ],
+      "parentPrompt": "Main tebak jari: Ayah atau Ibu menunjukkan beberapa jari, {{nama}} menyebut berapa jari lagi supaya jadi 10. Coba juga dengan 10 butir telur di rak.",
+      "standards": [
+        "cp046.mat.A.bil"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "melakukan komposisi (menyusun) dan dekomposisi (mengurai) bilangan"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 1,
+      "centrality": 0.0068
+    },
+    {
+      "id": "mat.bil.penjumlahan-dengan-menggabungkan-benda",
+      "mapel": "mat",
+      "elemen": "Bilangan",
+      "elemenCode": "bil",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "konsep",
+      "name": "Penjumlahan dengan menggabungkan benda",
+      "description": "Memahami penjumlahan sebagai menggabungkan atau menambah benda, lalu menghitung hasilnya dengan benda nyata sampai 20.",
+      "evidence": [
+        "Menggabungkan 6 dan 5 kelereng lalu menghitung hasilnya 11",
+        "Menceritakan \"tadi ada 4, ditambah 3, jadi 7\" sambil memegang benda",
+        "Menunjukkan dengan benda bahwa 8 + 4 sama dengan 12"
+      ],
+      "parentPrompt": "Taruh 5 jeruk di piring, lalu tambahkan 4 lagi. Tanya {{nama}}, \"sekarang jadi berapa?\" Biarkan {{nama}} menghitung dengan jeruknya.",
+      "standards": [
+        "cp046.mat.A.bil"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "melakukan operasi penjumlahan dan pengurangan menggunakan benda-benda konkret yang banyaknya sampai 20"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 6,
+      "centrality": 0.0408
+    },
+    {
+      "id": "mat.bil.pengurangan-dengan-mengambil-benda",
+      "mapel": "mat",
+      "elemen": "Bilangan",
+      "elemenCode": "bil",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "konsep",
+      "name": "Pengurangan dengan mengambil benda",
+      "description": "Memahami pengurangan sebagai mengambil sebagian benda, lalu menghitung sisanya dengan benda nyata sampai 20.",
+      "evidence": [
+        "Mengambil 4 dari 13 biskuit lalu menghitung sisanya 9",
+        "Menceritakan \"ada 10, dimakan 3, sisa 7\" sambil memegang benda",
+        "Menunjukkan dengan benda bahwa 15 - 6 sama dengan 9"
+      ],
+      "parentPrompt": "Hitung bersama 12 kerupuk di toples. Ambil 5 untuk dimakan, lalu tanya {{nama}}, \"sisanya berapa?\" Biarkan {{nama}} menghitung kerupuk yang tersisa.",
+      "standards": [
+        "cp046.mat.A.bil"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "melakukan operasi penjumlahan dan pengurangan menggunakan benda-benda konkret yang banyaknya sampai 20"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "mat.bil.menjumlah-dengan-menghitung-lanjut",
+      "mapel": "mat",
+      "elemen": "Bilangan",
+      "elemenCode": "bil",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "prosedur",
+      "name": "Menjumlah dengan menghitung lanjut",
+      "description": "Menjumlah dengan mulai dari bilangan yang lebih besar lalu menghitung maju, tanpa menghitung ulang dari satu.",
+      "evidence": [
+        "Untuk 9 + 4, menyebut \"sembilan... sepuluh, sebelas, dua belas, tiga belas\"",
+        "Memilih mulai dari 8, bukan dari 3, untuk 3 + 8",
+        "Memakai jari hanya untuk bagian yang ditambahkan"
+      ],
+      "parentPrompt": "Masukkan 9 kelereng ke kaleng dan katakan \"di dalam ada 9\". Lalu masukkan 4 lagi satu per satu. Tanya {{nama}} jumlahnya, apakah {{nama}} menghitung lanjut dari 9?",
+      "standards": [
+        "cp046.mat.A.bil"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "melakukan operasi penjumlahan dan pengurangan"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "mat.bil.hubungan-penjumlahan-dan-pengurangan",
+      "mapel": "mat",
+      "elemen": "Bilangan",
+      "elemenCode": "bil",
+      "fase": "A",
+      "kelas": [
+        1,
+        2
+      ],
+      "type": "konsep",
+      "name": "Hubungan penjumlahan dan pengurangan",
+      "description": "Memahami bahwa penjumlahan dan pengurangan saling berkebalikan, sehingga 8 + 5 = 13 berarti juga 13 - 5 = 8.",
+      "evidence": [
+        "Dari 7 + 6 = 13, menuliskan 13 - 6 = 7 dan 13 - 7 = 6",
+        "Memeriksa jawaban 15 - 8 = 7 dengan menghitung 7 + 8",
+        "Menunjukkan dengan benda bahwa yang ditambah lalu diambil kembali ke semula"
+      ],
+      "parentPrompt": "Taruh 8 jeruk, tambah 5, lalu ambil lagi 5 jeruk itu. Tanya {{nama}}, \"kenapa jadi 8 lagi?\" Ajak {{nama}} menyebutkan soal tambah dan kurang dari kejadian itu.",
+      "standards": [
+        "cp046.mat.A.bil"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "operasi penjumlahan dan pengurangan"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 1,
+      "centrality": 0.0068
+    },
+    {
+      "id": "mat.bil.menjumlah-dan-mengurang-melewati-10",
+      "mapel": "mat",
+      "elemen": "Bilangan",
+      "elemenCode": "bil",
+      "fase": "A",
+      "kelas": [
+        1,
+        2
+      ],
+      "type": "prosedur",
+      "name": "Menjumlah dan mengurang melewati 10",
+      "description": "Menyelesaikan penjumlahan dan pengurangan yang melewati 10, misalnya 8 + 5 atau 13 - 6, dengan cara melengkapi atau memecah 10.",
+      "evidence": [
+        "Menjelaskan 8 + 5 sebagai \"8 tambah 2 jadi 10, lalu tambah 3 jadi 13\"",
+        "Menjelaskan 14 - 6 sebagai \"14 kurang 4 jadi 10, kurang 2 lagi jadi 8\"",
+        "Memakai rak telur isi 10 untuk menunjukkan 9 + 4"
+      ],
+      "parentPrompt": "Pakai rak telur atau wadah 10 lubang. Isi 9 lubang dengan kelereng, lalu tambah 4. Tanya {{nama}}, \"berapa yang harus pindah ke rak kedua?\" lalu \"jadi berapa semuanya?\"",
+      "standards": [
+        "cp046.mat.A.bil"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "yang banyaknya sampai 20"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "mat.bil.soal-cerita-penjumlahan-dan-pengurangan",
+      "mapel": "mat",
+      "elemen": "Bilangan",
+      "elemenCode": "bil",
+      "fase": "A",
+      "kelas": [
+        1,
+        2
+      ],
+      "type": "prosedur",
+      "name": "Soal cerita tambah dan kurang",
+      "description": "Memahami cerita sehari-hari, memilih apakah perlu menjumlah atau mengurang, lalu menyelesaikannya dengan benda atau gambar sampai 20.",
+      "evidence": [
+        "Menyelesaikan \"Ibu beli 9 telur, lalu 6 lagi. Ada berapa telur?\"",
+        "Memilih pengurangan untuk \"ada 15 permen, dibagikan 7, sisa berapa?\"",
+        "Membuat cerita sendiri untuk 12 - 4"
+      ],
+      "parentPrompt": "Buat cerita dari warung: \"{{nama}} punya 15 permen, 6 diberikan ke adik. Sisa berapa?\" Lalu minta {{nama}} membuat cerita sendiri untuk Ayah atau Ibu jawab.",
+      "standards": [
+        "cp046.mat.A.bil"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "melakukan operasi penjumlahan dan pengurangan menggunakan benda-benda konkret yang banyaknya sampai 20"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "mat.bil.membilang-sampai-100",
+      "mapel": "mat",
+      "elemen": "Bilangan",
+      "elemenCode": "bil",
+      "fase": "A",
+      "kelas": [
+        1,
+        2
+      ],
+      "type": "prosedur",
+      "name": "Membilang sampai 100",
+      "description": "Menyebut dan membilang bilangan berurutan sampai 100, termasuk melewati puluhan seperti 29 ke 30 dan 79 ke 80.",
+      "evidence": [
+        "Menyebut 1 sampai 100 tanpa ada yang terlewat",
+        "Melanjutkan dari 58: \"lima puluh sembilan, enam puluh, enam puluh satu\"",
+        "Menyebut bilangan sesudah 89 dan sebelum 70"
+      ],
+      "parentPrompt": "Saat jalan kaki ke warung, ajak {{nama}} berhitung langkah mulai dari 45. Perhatikan apakah {{nama}} lancar melewati 49 ke 50 dan 59 ke 60.",
+      "standards": [
+        "cp046.mat.A.bil"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "pada bilangan cacah sampai 100"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 2,
+      "centrality": 0.0136
+    },
+    {
+      "id": "mat.bil.membilang-loncat-2-5-10",
+      "mapel": "mat",
+      "elemen": "Bilangan",
+      "elemenCode": "bil",
+      "fase": "A",
+      "kelas": [
+        2
+      ],
+      "type": "prosedur",
+      "name": "Membilang loncat dua, lima, dan sepuluh",
+      "description": "Membilang dengan loncatan dua, lima, dan sepuluh, lalu memakainya untuk menghitung benda lebih cepat.",
+      "evidence": [
+        "Menyebut 10, 20, 30 sampai 100",
+        "Menghitung sandal berpasangan: 2, 4, 6, 8",
+        "Menghitung uang koin lima ratusan dengan loncat lima: 5, 10, 15"
+      ],
+      "parentPrompt": "Kumpulkan sandal di rumah dan minta {{nama}} menghitungnya per pasang: \"dua, empat, enam...\". Coba juga menghitung jari semua anggota keluarga dengan loncat lima.",
+      "standards": [
+        "cp046.mat.A.bil"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "pada bilangan cacah sampai 100"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 1,
+      "centrality": 0.0068
+    },
+    {
+      "id": "mat.bil.membaca-menulis-bilangan-sampai-100",
+      "mapel": "mat",
+      "elemen": "Bilangan",
+      "elemenCode": "bil",
+      "fase": "A",
+      "kelas": [
+        2
+      ],
+      "type": "bahasa",
+      "name": "Membaca dan menulis bilangan sampai 100",
+      "description": "Membaca dan menulis bilangan dua angka dengan lambang maupun kata, misalnya 47 dibaca \"empat puluh tujuh\".",
+      "evidence": [
+        "Membaca harga Rp75 di label mainan sebagai \"tujuh puluh lima\"",
+        "Menulis angka untuk \"enam puluh delapan\" dengan benar, bukan 608",
+        "Tidak tertukar antara 31 dan 13 saat membaca"
+      ],
+      "parentPrompt": "Tunjuk nomor halaman buku atau harga di bungkus jajan, lalu minta {{nama}} membacanya. Ganti giliran: sebutkan \"delapan puluh empat\" dan minta {{nama}} menuliskannya.",
+      "standards": [
+        "cp046.mat.A.bil"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "membaca, menulis"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 1,
+      "centrality": 0.0068
+    },
+    {
+      "id": "mat.bil.nilai-tempat-puluhan-dan-satuan",
+      "mapel": "mat",
+      "elemen": "Bilangan",
+      "elemenCode": "bil",
+      "fase": "A",
+      "kelas": [
+        2
+      ],
+      "type": "konsep",
+      "name": "Nilai tempat puluhan dan satuan",
+      "description": "Memahami bahwa pada bilangan dua angka, angka kiri menunjukkan banyak puluhan dan angka kanan menunjukkan satuan, misalnya 36 adalah 3 puluhan dan 6 satuan.",
+      "evidence": [
+        "Mengikat 36 lidi menjadi 3 ikat isi sepuluh dan 6 lidi lepas",
+        "Menjelaskan bahwa angka 4 pada 45 bernilai 40",
+        "Menulis bilangan dari 7 puluhan dan 2 satuan sebagai 72"
+      ],
+      "parentPrompt": "Kumpulkan sedotan atau lidi, lalu minta {{nama}} mengikatnya per sepuluh dengan karet. Tanya, \"ada berapa ikat dan berapa yang lepas? Jadi semuanya berapa?\"",
+      "standards": [
+        "cp046.mat.A.bil"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "menentukan nilai tempat"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "mat.bil.letak-bilangan-pada-garis-bilangan",
+      "mapel": "mat",
+      "elemen": "Bilangan",
+      "elemenCode": "bil",
+      "fase": "A",
+      "kelas": [
+        2
+      ],
+      "type": "representasi",
+      "name": "Letak bilangan pada garis bilangan",
+      "description": "Menempatkan bilangan sampai 100 pada garis bilangan dan memakainya untuk melihat mana yang lebih dekat atau lebih jauh.",
+      "evidence": [
+        "Menunjuk letak 50 kira-kira di tengah garis 0 sampai 100",
+        "Menempatkan 38 di antara 30 dan 40, lebih dekat ke 40",
+        "Melangkah maju 3 dari 17 pada garis bilangan dan sampai di 20"
+      ],
+      "parentPrompt": "Gambar garis panjang di kertas, tulis 0 di ujung kiri dan 100 di ujung kanan. Minta {{nama}} menandai di mana kira-kira 50, 25, dan 90.",
+      "standards": [
+        "cp046.mat.A.bil"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "memiliki intuisi bilangan (number sense) pada bilangan cacah sampai 100"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "mat.bil.membandingkan-dan-mengurutkan-bilangan-sampai-100",
+      "mapel": "mat",
+      "elemen": "Bilangan",
+      "elemenCode": "bil",
+      "fase": "A",
+      "kelas": [
+        2
+      ],
+      "type": "prosedur",
+      "name": "Membandingkan dan mengurutkan bilangan sampai 100",
+      "description": "Membandingkan dua bilangan dua angka dengan melihat puluhan lalu satuannya, dan mengurutkan beberapa bilangan sampai 100.",
+      "evidence": [
+        "Menjelaskan 62 lebih besar dari 58 karena 6 puluhan lebih banyak dari 5 puluhan",
+        "Mengurutkan 45, 54, 40, 49 dari yang terkecil",
+        "Memakai kata \"lebih besar\", \"lebih kecil\", \"sama dengan\" dengan tepat"
+      ],
+      "parentPrompt": "Tulis harga dua jajan, misalnya 65 dan 56 (ratus rupiah). Tanya {{nama}} mana yang lebih mahal dan kenapa. Lalu minta {{nama}} mengurutkan nomor rumah tetangga dari yang terkecil.",
+      "standards": [
+        "cp046.mat.A.bil"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "membandingkan, mengurutkan"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "mat.bil.mengurai-bilangan-dua-angka",
+      "mapel": "mat",
+      "elemen": "Bilangan",
+      "elemenCode": "bil",
+      "fase": "A",
+      "kelas": [
+        2
+      ],
+      "type": "konsep",
+      "name": "Mengurai bilangan dua angka",
+      "description": "Mengurai bilangan sampai 100 menjadi puluhan dan satuan, atau cara lain, misalnya 45 = 40 + 5 = 30 + 15.",
+      "evidence": [
+        "Menulis 58 sebagai 50 + 8",
+        "Menunjukkan 45 dengan 3 ikat lidi dan 15 lidi lepas",
+        "Menyusun 70 dari 40 dan 30 dengan ikatan lidi"
+      ],
+      "parentPrompt": "Dengan ikatan lidi atau uang mainan sepuluhan, minta {{nama}} membuat 46. Lalu tanya, \"bisa nggak dibuat dengan cara lain, misalnya dengan lebih sedikit ikatan?\"",
+      "standards": [
+        "cp046.mat.A.bil"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "serta melakukan komposisi (menyusun) dan dekomposisi (mengurai) bilangan"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "mat.bil.membagi-benda-sama-banyak",
+      "mapel": "mat",
+      "elemen": "Bilangan",
+      "elemenCode": "bil",
+      "fase": "A",
+      "kelas": [
+        1,
+        2
+      ],
+      "type": "konsep",
+      "name": "Membagi benda sama banyak",
+      "description": "Membagi satu kumpulan benda kepada beberapa orang sampai setiap orang mendapat bagian yang sama banyak.",
+      "evidence": [
+        "Membagi 12 kue kepada 3 orang dengan cara satu-satu bergiliran",
+        "Memeriksa bahwa setiap piring berisi sama banyak",
+        "Mengatakan \"tidak adil\" kalau satu bagian lebih banyak"
+      ],
+      "parentPrompt": "Minta {{nama}} membagi 10 potong buah ke 2 piring untuk kakak dan adik supaya adil. Tanya, \"bagaimana {{nama}} tahu bagiannya sudah sama?\"",
+      "standards": [
+        "cp046.mat.A.bil"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "melalui konteks membagi sebuah benda atau kumpulan benda sama banyak"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 3,
+      "centrality": 0.0204
+    },
+    {
+      "id": "mat.bil.pecahan-setengah-dari-satu-benda",
+      "mapel": "mat",
+      "elemen": "Bilangan",
+      "elemenCode": "bil",
+      "fase": "A",
+      "kelas": [
+        2
+      ],
+      "type": "konsep",
+      "name": "Mengenal setengah dari satu benda",
+      "description": "Memahami setengah sebagai satu dari dua bagian yang sama besar ketika satu benda dibagi dua.",
+      "evidence": [
+        "Melipat kertas menjadi dua bagian sama besar dan menyebut tiap bagian \"setengah\"",
+        "Menjelaskan kenapa potongan roti yang besar sebelah bukan setengah",
+        "Menunjuk gambar yang diarsir setengahnya"
+      ],
+      "parentPrompt": "Saat makan, minta {{nama}} membagi sepotong roti atau tempe untuk berdua supaya adil. Tanya, \"tiap bagian namanya apa? Apakah keduanya sama besar?\"",
+      "standards": [
+        "cp046.mat.A.bil"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "pecahan yang diperkenalkan adalah setengah dan seperempat"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 2,
+      "centrality": 0.0136
+    },
+    {
+      "id": "mat.bil.pecahan-seperempat-dari-satu-benda",
+      "mapel": "mat",
+      "elemen": "Bilangan",
+      "elemenCode": "bil",
+      "fase": "A",
+      "kelas": [
+        2
+      ],
+      "type": "konsep",
+      "name": "Mengenal seperempat dari satu benda",
+      "description": "Memahami seperempat sebagai satu dari empat bagian yang sama besar, dan bahwa dua seperempat sama dengan setengah.",
+      "evidence": [
+        "Melipat kertas dua kali menjadi empat bagian sama besar",
+        "Menunjukkan seperempat potong martabak dari satu loyang",
+        "Menjelaskan bahwa dua potong seperempat sama dengan setengah"
+      ],
+      "parentPrompt": "Potong satu semangka atau martabak menjadi 4 bagian sama besar bersama {{nama}}. Tanya, \"satu potong ini namanya apa? Kalau dua potong, sama dengan berapa bagian?\"",
+      "standards": [
+        "cp046.mat.A.bil"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "setengah dan seperempat"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 1,
+      "centrality": 0.0068
+    },
+    {
+      "id": "mat.bil.setengah-dan-seperempat-dari-kumpulan-benda",
+      "mapel": "mat",
+      "elemen": "Bilangan",
+      "elemenCode": "bil",
+      "fase": "A",
+      "kelas": [
+        2
+      ],
+      "type": "konsep",
+      "name": "Setengah dan seperempat dari kumpulan benda",
+      "description": "Menemukan setengah dan seperempat dari sekumpulan benda dengan membaginya menjadi dua atau empat kelompok sama banyak.",
+      "evidence": [
+        "Mengambil setengah dari 10 kelereng, yaitu 5",
+        "Membagi 12 permen menjadi 4 kelompok dan menyebut satu kelompok sebagai seperempat",
+        "Menjelaskan bahwa setengah dari 8 telur lebih banyak dari seperempatnya"
+      ],
+      "parentPrompt": "Siapkan 8 butir telur atau 12 permen. Minta {{nama}} mengambil setengahnya, lalu seperempatnya. Tanya, \"mana yang lebih banyak, setengah atau seperempat?\"",
+      "standards": [
+        "cp046.mat.A.bil"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "menunjukkan pemahaman pecahan sebagai bagian dari keseluruhan"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "mat.alj.mengenali-pola-gambar-dan-warna",
+      "mapel": "mat",
+      "elemen": "Aljabar",
+      "elemenCode": "alj",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "konsep",
+      "name": "Mengenali pola gambar dan warna",
+      "description": "Melihat bagian yang berulang pada deretan gambar, warna, atau benda, misalnya merah-biru-merah-biru.",
+      "evidence": [
+        "Menunjuk bagian yang berulang pada deretan manik merah-kuning-merah-kuning",
+        "Membedakan deretan yang berpola dengan yang acak",
+        "Menemukan pola pada motif batik atau ubin lantai"
+      ],
+      "parentPrompt": "Ajak {{nama}} melihat motif sarung, batik, atau ubin di rumah. Tanya, \"bagian mana yang diulang-ulang?\"",
+      "standards": [
+        "cp046.mat.A.alj"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.alj",
+          "phrase": "Murid dapat mengenali, meniru, dan melanjutkan pola bukan bilangan"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 1,
+      "centrality": 0.0068
+    },
+    {
+      "id": "mat.alj.meniru-dan-melanjutkan-pola",
+      "mapel": "mat",
+      "elemen": "Aljabar",
+      "elemenCode": "alj",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "prosedur",
+      "name": "Meniru dan melanjutkan pola",
+      "description": "Membuat ulang sebuah pola dengan benda lain dan menyebut atau menyusun bagian berikutnya.",
+      "evidence": [
+        "Melanjutkan deretan sendok-garpu-garpu-sendok-garpu-garpu dengan dua benda berikutnya",
+        "Meniru pola tutup botol merah-biru-biru memakai kancing",
+        "Menemukan bagian yang hilang di tengah pola"
+      ],
+      "parentPrompt": "Susun pola dari sendok dan garpu, misalnya sendok-garpu-garpu, ulang dua kali. Minta {{nama}} melanjutkannya, lalu meniru pola itu dengan sandal atau kancing.",
+      "standards": [
+        "cp046.mat.A.alj"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.alj",
+          "phrase": "mengenali, meniru, dan melanjutkan pola bukan bilangan (misalnya, gambar, warna, bunyi/suara)"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "mat.alj.makna-tanda-sama-dengan",
+      "mapel": "mat",
+      "elemen": "Aljabar",
+      "elemenCode": "alj",
+      "fase": "A",
+      "kelas": [
+        1,
+        2
+      ],
+      "type": "konsep",
+      "name": "Makna tanda sama dengan",
+      "description": "Memahami bahwa tanda \"=\" berarti nilai di kedua sisi sama banyak, bukan sekadar \"hasilnya adalah\".",
+      "evidence": [
+        "Menjelaskan 4 + 3 = 7 dengan dua kelompok benda yang sama banyak",
+        "Menerima 7 = 4 + 3 sebagai kalimat yang benar",
+        "Mengatakan 5 + 2 = 6 salah karena kedua sisi tidak sama banyak"
+      ],
+      "parentPrompt": "Taruh 4 sendok dan 3 sendok di satu sisi meja, dan 7 sendok di sisi lain. Tulis 4 + 3 = 7 di kertas. Tanya {{nama}}, \"tanda sama dengan ini maksudnya apa?\"",
+      "standards": [
+        "cp046.mat.A.alj"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.alj",
+          "phrase": "Menunjukan pemahaman makna simbol matematika \"=\""
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 1,
+      "centrality": 0.0068
+    },
+    {
+      "id": "mat.alj.kalimat-matematika-dari-gambar",
+      "mapel": "mat",
+      "elemen": "Aljabar",
+      "elemenCode": "alj",
+      "fase": "A",
+      "kelas": [
+        1,
+        2
+      ],
+      "type": "representasi",
+      "name": "Menulis kalimat matematika dari gambar",
+      "description": "Membaca gambar kejadian menambah atau mengambil, lalu menuliskannya sebagai kalimat matematika dengan tanda \"=\" sampai 20.",
+      "evidence": [
+        "Menulis 6 + 5 = 11 dari gambar 6 burung lalu datang 5 burung",
+        "Menulis 12 - 4 = 8 dari gambar 12 balon yang 4 pecah",
+        "Menggambar sendiri cerita untuk 9 + 3 = 12"
+      ],
+      "parentPrompt": "Gambar 7 ikan di kolam lalu 3 ikan berenang masuk. Minta {{nama}} menulis kalimat matematikanya. Lalu minta {{nama}} menggambar cerita untuk 10 - 4 = 6.",
+      "standards": [
+        "cp046.mat.A.alj"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.alj",
+          "phrase": "dalam suatu kalimat matematika yang terkait dengan penjumlahan dan pengurangan bilangan cacah sampai 20 menggunakan gambar"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "mat.alj.mencari-bilangan-yang-hilang",
+      "mapel": "mat",
+      "elemen": "Aljabar",
+      "elemenCode": "alj",
+      "fase": "A",
+      "kelas": [
+        2
+      ],
+      "type": "prosedur",
+      "name": "Mencari bilangan yang hilang",
+      "description": "Menemukan bilangan yang belum diketahui dalam kalimat seperti 5 + ... = 12 atau ... - 4 = 9, dengan bantuan gambar atau benda.",
+      "evidence": [
+        "Menjawab 5 + ... = 12 dengan 7 dan memeriksanya dengan benda",
+        "Menjawab 4 + 3 = ... + 5 dengan 2",
+        "Menjelaskan cara menemukan bilangan yang hilang"
+      ],
+      "parentPrompt": "Sembunyikan beberapa kelereng di bawah gelas. Katakan, \"aku punya 5 di luar, semuanya ada 12. Di bawah gelas ada berapa?\" Minta {{nama}} menebak lalu membuka gelasnya.",
+      "standards": [
+        "cp046.mat.A.alj"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.alj",
+          "phrase": "penjumlahan dan pengurangan bilangan cacah sampai 20 menggunakan gambar"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "mat.ukur.membandingkan-panjang-secara-langsung",
+      "mapel": "mat",
+      "elemen": "Pengukuran",
+      "elemenCode": "ukur",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "konsep",
+      "name": "Membandingkan panjang dua benda",
+      "description": "Menentukan benda mana yang lebih panjang, lebih pendek, atau sama panjang dengan menjajarkan ujungnya.",
+      "evidence": [
+        "Menjajarkan dua pensil dari ujung yang sama sebelum membandingkan",
+        "Memakai kata \"lebih panjang\", \"lebih pendek\", \"sama panjang\"",
+        "Membandingkan tinggi badan dengan kakak sambil berdiri berdampingan"
+      ],
+      "parentPrompt": "Ambil dua sendok atau dua sandal yang berbeda ukuran. Minta {{nama}} menunjukkan mana yang lebih panjang. Perhatikan apakah {{nama}} menjajarkan ujungnya dulu.",
+      "standards": [
+        "cp046.mat.A.ukur"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.ukur",
+          "phrase": "Membandingkan panjang dan berat benda secara langsung"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 3,
+      "centrality": 0.0204
+    },
+    {
+      "id": "mat.ukur.membandingkan-berat-secara-langsung",
+      "mapel": "mat",
+      "elemen": "Pengukuran",
+      "elemenCode": "ukur",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "konsep",
+      "name": "Membandingkan berat dua benda",
+      "description": "Menentukan benda mana yang lebih berat, lebih ringan, atau sama berat dengan mengangkat di dua tangan atau memakai timbangan sederhana.",
+      "evidence": [
+        "Mengangkat jeruk dan semangka lalu menyebut mana yang lebih berat",
+        "Menjelaskan bahwa benda besar tidak selalu lebih berat, misalnya bantal dan batu",
+        "Membaca jungkat-jungkit atau gantungan baju: sisi yang turun lebih berat"
+      ],
+      "parentPrompt": "Beri {{nama}} sebuah bantal di satu tangan dan sebotol air di tangan lain. Tanya, \"mana yang lebih berat?\" Tanya juga, \"mana yang lebih besar?\"",
+      "standards": [
+        "cp046.mat.A.ukur"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.ukur",
+          "phrase": "berat benda secara langsung"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 2,
+      "centrality": 0.0136
+    },
+    {
+      "id": "mat.ukur.membandingkan-lama-waktu-kegiatan",
+      "mapel": "mat",
+      "elemen": "Pengukuran",
+      "elemenCode": "ukur",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "konsep",
+      "name": "Membandingkan lama waktu kegiatan",
+      "description": "Menentukan kegiatan mana yang berlangsung lebih lama atau lebih singkat, dan mengurutkan kegiatan dari yang paling singkat.",
+      "evidence": [
+        "Mengatakan bahwa tidur malam lebih lama daripada mandi",
+        "Mengurutkan gosok gigi, makan siang, dan sekolah dari yang paling singkat",
+        "Membandingkan siapa yang lebih lama melompat dengan satu kaki"
+      ],
+      "parentPrompt": "Tanya {{nama}}, \"mana yang lebih lama: makan nasi atau minum segelas air? Perjalanan ke sekolah atau ke warung?\" Minta {{nama}} menjelaskan jawabannya.",
+      "standards": [
+        "cp046.mat.A.ukur"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.ukur",
+          "phrase": "membandingkan durasi waktu"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "mat.ukur.mengukur-panjang-dengan-satuan-tidak-baku",
+      "mapel": "mat",
+      "elemen": "Pengukuran",
+      "elemenCode": "ukur",
+      "fase": "A",
+      "kelas": [
+        1,
+        2
+      ],
+      "type": "prosedur",
+      "name": "Mengukur panjang dengan jengkal dan benda",
+      "description": "Mengukur panjang benda dengan satuan tidak baku seperti jengkal, langkah, pensil, atau klip, diletakkan rapat tanpa celah dan tanpa tumpang tindih.",
+      "evidence": [
+        "Mengukur panjang meja dan menyebut \"8 jengkal\"",
+        "Menjajarkan klip kertas rapat tanpa celah di sepanjang buku",
+        "Mengukur panjang kamar dengan langkah kaki"
+      ],
+      "parentPrompt": "Minta {{nama}} mengukur panjang meja makan dengan jengkalnya. Lalu ukur pakai sendok. Tanya, \"berapa jengkal? Berapa sendok?\"",
+      "standards": [
+        "cp046.mat.A.ukur"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.ukur",
+          "phrase": "mengukur dan mengestimasi panjang dan berat benda menggunakan satuan tidak baku"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 2,
+      "centrality": 0.0136
+    },
+    {
+      "id": "mat.ukur.hasil-ukur-berbeda-karena-satuan-berbeda",
+      "mapel": "mat",
+      "elemen": "Pengukuran",
+      "elemenCode": "ukur",
+      "fase": "A",
+      "kelas": [
+        2
+      ],
+      "type": "konsep",
+      "name": "Hasil ukur berbeda jika satuannya berbeda",
+      "description": "Memahami bahwa satu benda bisa punya hasil ukur berbeda karena satuannya berbeda, dan satuan yang lebih kecil memberi angka lebih besar.",
+      "evidence": [
+        "Menjelaskan kenapa meja 6 jengkal Ayah tetapi 9 jengkal anak",
+        "Memperkirakan bahwa mengukur dengan klip akan menghasilkan angka lebih besar daripada dengan pensil",
+        "Menyarankan memakai satuan yang sama supaya adil"
+      ],
+      "parentPrompt": "Ukur panjang kasur dengan jengkal Ayah atau Ibu, lalu minta {{nama}} mengukur dengan jengkalnya sendiri. Tanya, \"kenapa angkanya beda padahal kasurnya sama?\"",
+      "standards": [
+        "cp046.mat.A.ukur"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.ukur",
+          "phrase": "menggunakan satuan tidak baku"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "mat.ukur.memperkirakan-panjang-benda",
+      "mapel": "mat",
+      "elemen": "Pengukuran",
+      "elemenCode": "ukur",
+      "fase": "A",
+      "kelas": [
+        2
+      ],
+      "type": "konsep",
+      "name": "Memperkirakan panjang benda",
+      "description": "Menebak panjang benda dalam satuan tidak baku sebelum mengukur, lalu memeriksa tebakannya dengan mengukur.",
+      "evidence": [
+        "Menebak meja sekitar 7 jengkal, lalu mengukur dan mendapat 8",
+        "Menebak mana yang lebih masuk akal: pintu 5 langkah atau 50 langkah",
+        "Tebakannya makin dekat setelah beberapa kali mencoba"
+      ],
+      "parentPrompt": "Sebelum mengukur, tanya {{nama}}, \"kira-kira lemari ini berapa jengkal?\" Lalu ukur bersama. Tanya, \"tebakan {{nama}} tadi dekat atau jauh?\"",
+      "standards": [
+        "cp046.mat.A.ukur"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.ukur",
+          "phrase": "mengestimasi panjang"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "mat.ukur.mengukur-berat-dengan-satuan-tidak-baku",
+      "mapel": "mat",
+      "elemen": "Pengukuran",
+      "elemenCode": "ukur",
+      "fase": "A",
+      "kelas": [
+        2
+      ],
+      "type": "prosedur",
+      "name": "Mengukur berat dengan timbangan sederhana",
+      "description": "Mengukur berat benda dengan satuan tidak baku, misalnya berapa kelereng atau tutup botol yang seimbang dengan benda itu pada timbangan sederhana.",
+      "evidence": [
+        "Menyebut \"jeruk ini seberat 15 kelereng\" dari timbangan gantungan baju",
+        "Menambah satuan sampai timbangan seimbang",
+        "Membandingkan dua benda dari jumlah kelereng yang dibutuhkan"
+      ],
+      "parentPrompt": "Buat timbangan dari gantungan baju dan dua kantong plastik. Taruh satu jeruk di satu sisi, lalu minta {{nama}} memasukkan kelereng ke sisi lain sampai seimbang. Tanya, \"jeruk ini seberat berapa kelereng?\"",
+      "standards": [
+        "cp046.mat.A.ukur"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.ukur",
+          "phrase": "mengukur dan mengestimasi panjang dan berat benda"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 1,
+      "centrality": 0.0068
+    },
+    {
+      "id": "mat.ukur.memperkirakan-berat-benda",
+      "mapel": "mat",
+      "elemen": "Pengukuran",
+      "elemenCode": "ukur",
+      "fase": "A",
+      "kelas": [
+        2
+      ],
+      "type": "konsep",
+      "name": "Memperkirakan berat benda",
+      "description": "Menebak berat benda dalam satuan tidak baku sebelum menimbang, lalu memeriksa tebakannya.",
+      "evidence": [
+        "Menebak buku seberat sekitar 20 tutup botol, lalu menimbang",
+        "Memperkirakan dari dua benda mana yang butuh lebih banyak kelereng",
+        "Memperbaiki tebakan setelah melihat hasil timbangan"
+      ],
+      "parentPrompt": "Sebelum menimbang dengan timbangan gantungan baju, tanya {{nama}}, \"kira-kira apel ini seberat berapa kelereng?\" Lalu timbang dan bandingkan dengan tebakannya.",
+      "standards": [
+        "cp046.mat.A.ukur"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.ukur",
+          "phrase": "mengukur dan mengestimasi"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "mat.geo.mengenal-bangun-datar",
+      "mapel": "mat",
+      "elemen": "Geometri",
+      "elemenCode": "geo",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "bahasa",
+      "name": "Mengenal segitiga, segiempat, dan lingkaran",
+      "description": "Menyebut nama bangun datar segitiga, segiempat, dan lingkaran, dan menemukannya pada benda di sekitar.",
+      "evidence": [
+        "Menunjuk bentuk lingkaran pada jam dinding dan piring",
+        "Menyebut jendela berbentuk segiempat",
+        "Memilih semua segitiga dari tumpukan potongan kertas"
+      ],
+      "parentPrompt": "Ajak {{nama}} berburu bentuk di rumah: cari tiga benda yang bentuknya lingkaran, tiga yang segiempat, dan satu yang segitiga.",
+      "standards": [
+        "cp046.mat.A.geo"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.geo",
+          "phrase": "Mengenal berbagai bangun datar (segitiga, segiempat, segi banyak, lingkaran)"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 3,
+      "centrality": 0.0204
+    },
+    {
+      "id": "mat.geo.membedakan-bangun-datar-dari-sisi-dan-sudut",
+      "mapel": "mat",
+      "elemen": "Geometri",
+      "elemenCode": "geo",
+      "fase": "A",
+      "kelas": [
+        1,
+        2
+      ],
+      "type": "konsep",
+      "name": "Membedakan bangun datar dari sisi dan sudutnya",
+      "description": "Membedakan bangun datar dengan menghitung sisi dan sudutnya, termasuk mengenal segi banyak seperti segilima dan segienam.",
+      "evidence": [
+        "Menghitung 3 sisi dan 3 sudut pada segitiga",
+        "Menjelaskan bahwa lingkaran tidak punya sudut",
+        "Menyebut bentuk dengan 6 sisi sebagai segienam"
+      ],
+      "parentPrompt": "Gambar beberapa bentuk di kertas, termasuk yang bersisi lima dan enam. Minta {{nama}} menghitung sisinya dengan jari, lalu menyebut namanya.",
+      "standards": [
+        "cp046.mat.A.geo"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.geo",
+          "phrase": "segi banyak"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 2,
+      "centrality": 0.0136
+    },
+    {
+      "id": "mat.geo.mengenal-bangun-ruang",
+      "mapel": "mat",
+      "elemen": "Geometri",
+      "elemenCode": "geo",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "bahasa",
+      "name": "Mengenal balok, kubus, kerucut, dan bola",
+      "description": "Menyebut nama bangun ruang balok, kubus, kerucut, dan bola, dan menemukannya pada benda di sekitar.",
+      "evidence": [
+        "Menyebut kotak susu sebagai balok dan dadu sebagai kubus",
+        "Menunjuk topi ulang tahun atau tumpeng sebagai kerucut",
+        "Menjelaskan beda kubus dan balok dari sisi-sisinya"
+      ],
+      "parentPrompt": "Kumpulkan kotak susu, dadu, bola, dan topi ulang tahun atau corong. Minta {{nama}} menyebut nama bentuknya dan mencari satu benda lain yang bentuknya sama.",
+      "standards": [
+        "cp046.mat.A.geo"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.geo",
+          "phrase": "bangun ruang (balok, kubus, kerucut, dan bola)"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "mat.geo.menyusun-bangun-datar",
+      "mapel": "mat",
+      "elemen": "Geometri",
+      "elemenCode": "geo",
+      "fase": "A",
+      "kelas": [
+        1,
+        2
+      ],
+      "type": "prosedur",
+      "name": "Menyusun bangun datar dari bangun lain",
+      "description": "Menggabungkan beberapa bangun datar untuk membentuk bangun baru, misalnya dua segitiga menjadi segiempat.",
+      "evidence": [
+        "Menyusun dua potongan segitiga menjadi persegi",
+        "Membuat gambar rumah dari segitiga dan segiempat",
+        "Menyusun segienam dari beberapa segitiga"
+      ],
+      "parentPrompt": "Gunting selembar kertas persegi menjadi dua segitiga. Minta {{nama}} menyusunnya kembali, lalu mencoba membuat bentuk lain dari dua segitiga itu.",
+      "standards": [
+        "cp046.mat.A.geo"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.geo",
+          "phrase": "melakukan komposisi (penyusunan) dan dekomposisi (penguraian) suatu bangun datar (segitiga, segiempat, dan segi banyak)"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 1,
+      "centrality": 0.0068
+    },
+    {
+      "id": "mat.geo.mengurai-bangun-datar",
+      "mapel": "mat",
+      "elemen": "Geometri",
+      "elemenCode": "geo",
+      "fase": "A",
+      "kelas": [
+        2
+      ],
+      "type": "konsep",
+      "name": "Mengurai bangun datar menjadi bangun lain",
+      "description": "Memecah bangun datar menjadi beberapa bangun lain dan melihat bangun kecil di dalam bangun besar.",
+      "evidence": [
+        "Menggaris persegi panjang menjadi dua segitiga",
+        "Menemukan berapa segitiga di dalam gambar segienam",
+        "Melipat segiempat menjadi empat segiempat kecil"
+      ],
+      "parentPrompt": "Beri {{nama}} selembar kertas persegi. Tanya, \"bisa dilipat atau digunting jadi dua segitiga? Jadi empat segitiga?\" Biarkan {{nama}} mencoba sendiri.",
+      "standards": [
+        "cp046.mat.A.geo"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.geo",
+          "phrase": "dekomposisi (penguraian) suatu bangun datar"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "mat.geo.posisi-atas-bawah-depan-belakang",
+      "mapel": "mat",
+      "elemen": "Geometri",
+      "elemenCode": "geo",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "bahasa",
+      "name": "Posisi atas, bawah, depan, dan belakang",
+      "description": "Menyebut dan menunjukkan posisi benda terhadap benda lain dengan kata atas, bawah, depan, dan belakang.",
+      "evidence": [
+        "Menaruh sandal di bawah kursi saat diminta",
+        "Menjawab \"bukunya di atas meja\"",
+        "Berdiri di belakang Ayah lalu di depan Ayah sesuai perintah"
+      ],
+      "parentPrompt": "Main perintah: \"Taruh sendok di atas piring. Sekarang taruh di bawah piring.\" Lalu tanya {{nama}} di mana letak kucing atau tas dibandingkan dengan meja.",
+      "standards": [
+        "cp046.mat.A.geo"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.geo",
+          "phrase": "menentukan posisi benda terhadap benda lain (kanan, kiri, depan belakang, bawah, atas)"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 1,
+      "centrality": 0.0068
+    },
+    {
+      "id": "mat.geo.membedakan-kanan-dan-kiri",
+      "mapel": "mat",
+      "elemen": "Geometri",
+      "elemenCode": "geo",
+      "fase": "A",
+      "kelas": [
+        1,
+        2
+      ],
+      "type": "konsep",
+      "name": "Membedakan kanan dan kiri",
+      "description": "Membedakan sisi kanan dan kiri pada tubuh sendiri, lalu memakainya untuk menyebut letak benda terhadap benda lain.",
+      "evidence": [
+        "Mengangkat tangan kanan saat diminta tanpa ragu",
+        "Mengatakan \"gelas ada di sebelah kiri piring\"",
+        "Memakai sandal kanan di kaki kanan"
+      ],
+      "parentPrompt": "Saat makan, tanya {{nama}}, \"sendok ada di sebelah kanan atau kiri piring?\" Lalu minta {{nama}} menaruh gelas di sebelah kiri piring.",
+      "standards": [
+        "cp046.mat.A.geo"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.geo",
+          "phrase": "kanan, kiri"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "mat.data.menyortir-dan-mengelompokkan-benda",
+      "mapel": "mat",
+      "elemen": "Analisis Data dan Peluang",
+      "elemenCode": "data",
+      "fase": "A",
+      "kelas": [
+        1
+      ],
+      "type": "konsep",
+      "name": "Menyortir dan mengelompokkan benda",
+      "description": "Memilah benda ke dalam kelompok menurut satu ciri, seperti warna, bentuk, atau jenis, dan menjelaskan alasannya.",
+      "evidence": [
+        "Memisahkan kancing berdasarkan warna",
+        "Mengelompokkan cucian menjadi baju, celana, dan kaus kaki",
+        "Menjelaskan \"ini kelompok yang bulat\""
+      ],
+      "parentPrompt": "Setelah cucian kering, minta {{nama}} membantu memisahkan baju, celana, dan kaus kaki. Tanya, \"kenapa yang ini masuk kelompok itu?\"",
+      "standards": [
+        "cp046.mat.A.data"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.data",
+          "phrase": "menyortir, mengelompokkan"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 4,
+      "centrality": 0.0272
+    },
+    {
+      "id": "mat.data.membandingkan-dan-mengurutkan-kelompok-data",
+      "mapel": "mat",
+      "elemen": "Analisis Data dan Peluang",
+      "elemenCode": "data",
+      "fase": "A",
+      "kelas": [
+        1,
+        2
+      ],
+      "type": "konsep",
+      "name": "Membandingkan dan mengurutkan kelompok data",
+      "description": "Menghitung isi tiap kelompok, lalu menentukan kelompok mana yang paling banyak dan paling sedikit dan mengurutkannya.",
+      "evidence": [
+        "Menyebut \"kancing merah paling banyak, ada 8\"",
+        "Mengurutkan kelompok buah dari yang paling sedikit",
+        "Menyebut selisih dua kelompok"
+      ],
+      "parentPrompt": "Setelah mengelompokkan buah di keranjang, tanya {{nama}}, \"buah apa yang paling banyak? Yang paling sedikit?\" Minta {{nama}} mengurutkannya.",
+      "standards": [
+        "cp046.mat.A.data"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.data",
+          "phrase": "Mengurutkan, menyortir, mengelompokkan, membandingkan"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 2,
+      "centrality": 0.0136
+    },
+    {
+      "id": "mat.data.mencatat-data-dengan-turus",
+      "mapel": "mat",
+      "elemen": "Analisis Data dan Peluang",
+      "elemenCode": "data",
+      "fase": "A",
+      "kelas": [
+        2
+      ],
+      "type": "representasi",
+      "name": "Mencatat data dengan turus",
+      "description": "Mencatat banyak benda atau kejadian dengan garis turus, mengelompokkan setiap lima turus, lalu membacanya kembali.",
+      "evidence": [
+        "Membuat turus untuk warna motor yang lewat depan rumah",
+        "Menggambar turus kelima sebagai garis miring",
+        "Membaca catatan turus dan menyebut jumlahnya 13"
+      ],
+      "parentPrompt": "Duduk di teras bersama {{nama}} dan catat motor, mobil, dan sepeda yang lewat dengan turus. Setelah 10 menit, tanya, \"yang lewat paling banyak apa? Berapa?\"",
+      "standards": [
+        "cp046.mat.A.data"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.data",
+          "phrase": "dengan menggunakan turus"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    },
+    {
+      "id": "mat.data.membuat-dan-membaca-piktogram",
+      "mapel": "mat",
+      "elemen": "Analisis Data dan Peluang",
+      "elemenCode": "data",
+      "fase": "A",
+      "kelas": [
+        2
+      ],
+      "type": "representasi",
+      "name": "Membuat dan membaca piktogram",
+      "description": "Menyajikan data dalam piktogram, yaitu diagram gambar dengan satu gambar untuk satu benda, paling banyak 4 kategori, lalu membacanya.",
+      "evidence": [
+        "Membuat piktogram buah kesukaan anggota keluarga dengan 3 kategori",
+        "Membaca piktogram dan menyebut kategori yang paling banyak",
+        "Menjawab \"berapa lebih banyak?\" dari piktogram"
+      ],
+      "parentPrompt": "Tanya anggota keluarga makanan kesukaannya: nasi goreng, mi, atau bakso. Minta {{nama}} menggambar satu bulatan untuk tiap orang di bawah pilihannya. Lalu tanya, \"mana yang paling disukai?\"",
+      "standards": [
+        "cp046.mat.A.data"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.data",
+          "phrase": "piktogram paling banyak 4 kategori"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 1,
+      "centrality": 0.0068
+    },
+    {
+      "id": "mat.data.menyajikan-data-dari-benda-di-sekitar",
+      "mapel": "mat",
+      "elemen": "Analisis Data dan Peluang",
+      "elemenCode": "data",
+      "fase": "A",
+      "kelas": [
+        2
+      ],
+      "type": "meta",
+      "name": "Mengumpulkan dan menyajikan data sendiri",
+      "description": "Merencanakan pertanyaan sederhana, mengumpulkan data dari benda di sekitar, memilih turus atau piktogram, lalu menceritakan hasilnya.",
+      "evidence": [
+        "Memilih pertanyaan \"warna sandal apa yang paling banyak di rumah?\"",
+        "Mencatat dengan turus lalu memindahkannya ke piktogram",
+        "Menceritakan satu kesimpulan dari datanya"
+      ],
+      "parentPrompt": "Minta {{nama}} memilih satu pertanyaan tentang rumah, misalnya \"warna sandal apa yang paling banyak?\". Biarkan {{nama}} menghitung, membuat gambarnya, dan menceritakan hasilnya ke keluarga.",
+      "standards": [
+        "cp046.mat.A.data"
+      ],
+      "cp": [
+        {
+          "standard": "cp046.mat.A.data",
+          "phrase": "menyajikan data dari banyak benda"
+        }
+      ],
+      "review": {
+        "status": "draf-ai"
+      },
+      "unlocks": 0,
+      "centrality": 0
+    }
+  ]
+}

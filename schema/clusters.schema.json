@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://titian.irawan.dev/schema/clusters.schema.json",
+  "title": "Parent summaries per mapel, elemen and fase",
+  "type": "object",
+  "required": ["version", "clusterCount", "clusters"],
+  "properties": {
+    "version": { "type": "string" },
+    "clusterCount": { "type": "integer" },
+    "clusters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["mapel", "elemenCode", "fase", "summary"],
+        "properties": { "mapel": { "type": "string" }, "elemenCode": { "type": "string" }, "fase": { "enum": ["A", "B", "C"] }, "summary": { "type": "string" } }
+      }
+    }
+  }
+}

@@ -1,0 +1,154 @@
+---
+import Base from '../layouts/Base.astro';
+import { topics, deps, MAPEL, ordered, elemenOf, mapelByCode } from '../lib/data';
+
+// Layout: one column per kelas (1–6). Inside a column, mapel → elemen → easy-to-hard.
+const COL_W = 236;
+const ROW_H = 26;
+const TOP = 56;
+const LEFT = 16;
+const mapelOrder = MAPEL.map((m) => m.code);
+const nodes: { id: string; x: number; y: number; m: string; label: string }[] = [];
+let maxRows = 0;
+for (let k = 1; k <= 6; k++) {
+  const col = topics.filter((t) => t.kelas[0] === k);
+  let row = 0;
+  for (const m of mapelOrder) {
+    const inM = col.filter((t) => t.mapel === m);
+    if (!inM.length) continue;
+    for (const e of elemenOf(m)) {
+      for (const t of ordered(inM.filter((t) => t.elemenCode === e.code))) {
+        nodes.push({ id: t.id, x: LEFT + (k - 1) * COL_W, y: TOP + row * ROW_H, m, label: t.name });
+        row++;
+      }
+    }
+    row += 1; // gap between mapel
+  }
+  maxRows = Math.max(maxRows, row);
+}
+const W = LEFT + 6 * COL_W;
+const H = TOP + maxRows * ROW_H + 20;
+const pos = new Map(nodes.map((n) => [n.id, n]));
+const edges = deps
+  .filter((d) => pos.has(d.topic) && pos.has(d.requires))
+  .map((d) => {
+    const a = pos.get(d.requires)!;
+    const b = pos.get(d.topic)!;
+    const x1 = a.x + 6, y1 = a.y, x2 = b.x + 6, y2 = b.y;
+    const dx = Math.max(40, Math.abs(x2 - x1) / 2);
+    const path = x1 === x2
+      ? `M${x1},${y1} C${x1 - 30},${y1} ${x2 - 30},${y2} ${x2},${y2}`
+      : `M${x1},${y1} C${x1 + dx},${y1} ${x2 - dx},${y2} ${x2},${y2}`;
+    return { from: d.requires, to: d.topic, path, wajib: d.strength === 'wajib' };
+  });
+const trunc = (s: string, n = 30) => (s.length > n ? s.slice(0, n - 1) + '…' : s);
+// Adjacency for the client: who requires whom.
+const req: Record<string, string[]> = {};
+for (const d of deps) (req[d.topic] ??= []).push(d.requires);
+---
+<Base title="Graf prasyarat" description="Semua topik Titian dalam satu graf: setiap kolom satu kelas, setiap garis satu prasyarat. Ketuk topik untuk melihat jalurnya." path="/graf/" wide>
+  <p class="eyebrow">Graf prasyarat</p>
+  <h1>Semua topik, satu peta.</h1>
+  <p class="lead">Setiap kolom satu kelas. Setiap garis menghubungkan topik dengan prasyaratnya. Ketuk sebuah topik untuk menyorot semua yang perlu dikuasai sebelumnya.</p>
+  <div class="legend small">
+    {MAPEL.map((m) => <span><i class="dot" style={`background: var(--${m.code})`}></i> {m.short}</span>)}
+    <span class="muted">Geser ke samping untuk kelas berikutnya.</span>
+  </div>
+  <div id="panel" class="card panel" hidden>
+    <p class="small muted" id="p-meta"></p>
+    <p id="p-name" class="p-name"></p>
+    <p class="small" id="p-count"></p>
+    <a id="p-link" class="btn" href="#">Buka topik</a>
+  </div>
+  <div class="scroll" id="scroll">
+    <svg id="g" viewBox={`0 0 ${W} ${H}`} width={W} height={H} role="img" aria-label={`Graf ${nodes.length} topik dan ${edges.length} prasyarat`}>
+      {[1, 2, 3, 4, 5, 6].map((k) => <text class="colhead" x={LEFT + (k - 1) * COL_W} y={28}>Kelas {k}</text>)}
+      <g class="edges">
+        {edges.map((e) => <path d={e.path} data-from={e.from} data-to={e.to} class:list={[{ soft: !e.wajib }]} />)}
+      </g>
+      <g class="nodes">
+        {nodes.map((n) => (
+          <a href={`/topik/${n.id}/`} data-id={n.id}>
+            <title>{n.label} · {mapelByCode.get(n.m)?.short}</title>
+            <circle cx={n.x + 6} cy={n.y} r="5" style={`fill: var(--${n.m})`} />
+            <text x={n.x + 16} y={n.y + 4}>{trunc(n.label)}</text>
+          </a>
+        ))}
+      </g>
+    </svg>
+  </div>
+  <script type="application/json" id="req" set:html={JSON.stringify(req)} />
+</Base>
+
+<style>
+  .legend { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 18px; align-items: center; }
+  .legend span { display: inline-flex; gap: 6px; align-items: center; }
+  .scroll { margin-top: 16px; overflow: auto; border: 1px solid var(--sep); border-radius: var(--r); background: var(--card); max-height: 78vh; -webkit-overflow-scrolling: touch; }
+  svg { display: block; font-family: inherit; }
+  .colhead { font-size: 14px; font-weight: 700; fill: var(--label); }
+  .edges path { fill: none; stroke: var(--sep); stroke-width: 1; }
+  .edges path.soft { stroke-dasharray: 3 3; }
+  .nodes text { font-size: 12.5px; fill: var(--label-2); }
+  .nodes a:hover text { fill: var(--label); text-decoration: underline; }
+  svg.focus .nodes a { opacity: 0.18; }
+  svg.focus .nodes a.on, svg.focus .nodes a.me { opacity: 1; }
+  svg.focus .nodes a.me text { font-weight: 700; fill: var(--label); }
+  svg.focus .edges path { opacity: 0.15; }
+  svg.focus .edges path.on { opacity: 1; stroke: var(--tint); stroke-width: 1.6; }
+  .panel { position: sticky; top: 64px; z-index: 2; margin-top: 16px; display: grid; gap: 6px; justify-items: start; }
+  .p-name { font-weight: 600; font-size: 18px; }
+</style>
+
+<script>
+  const req: Record<string, string[]> = JSON.parse(document.getElementById('req')!.textContent!);
+  const svg = document.getElementById('g') as unknown as SVGSVGElement;
+  const panel = document.getElementById('panel') as HTMLDivElement;
+  const nodes = new Map([...svg.querySelectorAll<SVGAElement>('.nodes a')].map((a) => [a.dataset.id!, a]));
+  const paths = [...svg.querySelectorAll<SVGPathElement>('.edges path')];
+  function ancestors(id: string) {
+    const out = new Set<string>();
+    const walk = (x: string) => { for (const r of req[x] ?? []) if (!out.has(r)) { out.add(r); walk(r); } };
+    walk(id);
+    return out;
+  }
+  function focus(id: string | null) {
+    svg.classList.toggle('focus', !!id);
+    nodes.forEach((a) => a.classList.remove('on', 'me'));
+    paths.forEach((p) => p.classList.remove('on'));
+    panel.hidden = !id;
+    if (!id || !nodes.has(id)) return;
+    const anc = ancestors(id);
+    nodes.get(id)!.classList.add('me');
+    anc.forEach((x) => nodes.get(x)?.classList.add('on'));
+    const inPath = new Set([id, ...anc]);
+    paths.forEach((p) => { if (inPath.has(p.dataset.to!) && inPath.has(p.dataset.from!)) p.classList.add('on'); });
+    const a = nodes.get(id)!;
+    const title = a.querySelector('title')!.textContent!;
+    const [name, mapel] = title.split(' · ');
+    document.getElementById('p-name')!.textContent = name;
+    document.getElementById('p-meta')!.textContent = mapel;
+    document.getElementById('p-count')!.textContent = anc.size ? `${anc.size} topik perlu dikuasai sebelumnya (disorot).` : 'Titik awal: tidak ada prasyarat.';
+    (document.getElementById('p-link') as HTMLAnchorElement).href = `/topik/${id}/`;
+  }
+  // First tap focuses; a second tap on the same topic opens it.
+  let current: string | null = null;
+  svg.addEventListener('click', (ev) => {
+    const a = (ev.target as Element).closest('a');
+    if (!a) { current = null; focus(null); history.replaceState(null, '', location.pathname); return; }
+    const id = (a as SVGAElement).dataset.id!;
+    if (current === id) return; // let the link open
+    ev.preventDefault();
+    current = id;
+    focus(id);
+    history.replaceState(null, '', `#${id}`);
+  });
+  const fromHash = decodeURIComponent(location.hash.slice(1));
+  if (fromHash && nodes.has(fromHash)) {
+    current = fromHash;
+    focus(fromHash);
+    const a = nodes.get(fromHash)!;
+    const c = a.querySelector('circle')!;
+    const scroll = document.getElementById('scroll')!;
+    scroll.scrollTo({ left: Number(c.getAttribute('cx')) - 60, top: Number(c.getAttribute('cy')) - scroll.clientHeight / 2 });
+  }
+</script>

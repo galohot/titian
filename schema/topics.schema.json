@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://titian.irawan.dev/schema/topics.schema.json",
+  "title": "Titian topics",
+  "type": "object",
+  "required": ["version", "topicCount", "topics"],
+  "properties": {
+    "version": { "type": "string" },
+    "topicCount": { "type": "integer" },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "mapel", "elemen", "elemenCode", "fase", "kelas", "type", "name", "description", "evidence", "parentPrompt", "standards", "cp", "review", "unlocks", "centrality"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z-]+\\.[a-z-]+\\.[a-z0-9-]+$", "description": "<mapel>.<elemen>.<slug>, stable" },
+          "mapel": { "type": "string" },
+          "elemen": { "type": "string", "description": "elemen name as printed in the CP" },
+          "elemenCode": { "type": "string" },
+          "fase": { "enum": ["A", "B", "C"] },
+          "kelas": { "type": "array", "items": { "type": "integer", "minimum": 1, "maximum": 6 }, "description": "estimate inside the fase" },
+          "type": { "enum": ["konsep", "prosedur", "representasi", "bahasa", "meta"] },
+          "name": { "type": "string" },
+          "description": { "type": "string" },
+          "evidence": { "type": "array", "minItems": 2, "maxItems": 4, "items": { "type": "string" } },
+          "parentPrompt": { "type": "string", "description": "contains {{nama}}; substitute the child's name or strip before display" },
+          "standards": { "type": "array", "items": { "type": "string" } },
+          "cp": { "type": "array", "items": { "type": "object", "required": ["standard", "phrase"], "properties": { "standard": { "type": "string" }, "phrase": { "type": "string", "description": "verbatim substring of the standard text" } } } },
+          "review": { "type": "object", "required": ["status"], "properties": { "status": { "enum": ["draf-ai", "ditinjau", "disetujui"] } } },
+          "unlocks": { "type": "integer", "description": "number of topics that depend on this one, transitively" },
+          "centrality": { "type": "number", "description": "unlocks / (topicCount - 1)" }
+        }
+      }
+    }
+  }
+}

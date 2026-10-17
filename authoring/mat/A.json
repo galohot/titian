@@ -1,0 +1,1539 @@
+{
+  "mapel": "mat",
+  "fase": "A",
+  "topics": [
+    {
+      "slug": "menyebut-urutan-bilangan-sampai-20",
+      "elemen": "bil",
+      "name": "Menyebut urutan bilangan sampai 20",
+      "description": "Menyebut nama bilangan berurutan dari 1 sampai 20 tanpa melompat, dan bisa mulai dari bilangan mana saja.",
+      "type": "prosedur",
+      "kelas": [
+        1
+      ],
+      "evidence": [
+        "Menyebut 1 sampai 20 tanpa ada yang terlewat",
+        "Melanjutkan hitungan dari 8: \"sembilan, sepuluh, sebelas...\"",
+        "Menyebut bilangan sebelum 15 dan sesudah 15"
+      ],
+      "parentPrompt": "Sambil menunggu nasi matang, ajak {{nama}} berhitung keras-keras dari 1 sampai 20. Lalu coba mulai dari 7, apakah {{nama}} bisa melanjutkan tanpa mengulang dari 1?",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "pada bilangan cacah sampai 100"
+        }
+      ],
+      "requires": []
+    },
+    {
+      "slug": "membilang-benda-sampai-20",
+      "elemen": "bil",
+      "name": "Membilang benda sampai 20",
+      "description": "Menghitung banyak benda satu per satu sampai 20 dan tahu bahwa bilangan terakhir yang disebut adalah banyaknya benda.",
+      "type": "prosedur",
+      "kelas": [
+        1
+      ],
+      "evidence": [
+        "Menghitung 17 butir kelereng dengan menunjuk satu per satu tanpa terlewat",
+        "Menjawab \"ada berapa?\" dengan bilangan terakhir tanpa menghitung ulang",
+        "Mengambil tepat 12 sendok dari laci saat diminta"
+      ],
+      "parentPrompt": "Taruh segenggam kacang di meja. Minta {{nama}} menghitungnya, lalu tanya \"jadi ada berapa?\". Apakah {{nama}} menunjuk satu per satu dan langsung bisa menyebut jumlahnya?",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "Menunjukkan pemahaman dan memiliki intuisi bilangan (number sense)"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.bil.menyebut-urutan-bilangan-sampai-20",
+          "strength": "wajib",
+          "reason": "Anak perlu hafal urutan nama bilangan sebelum bisa membilang benda."
+        }
+      ]
+    },
+    {
+      "slug": "mengenali-banyak-benda-sekilas",
+      "elemen": "bil",
+      "name": "Mengenali banyak benda dengan sekilas lihat",
+      "description": "Langsung tahu banyak benda yang sedikit (sampai 5 atau 6) tanpa menghitung satu per satu, misalnya dari titik pada dadu atau jari.",
+      "type": "konsep",
+      "kelas": [
+        1
+      ],
+      "evidence": [
+        "Menyebut \"empat\" saat melihat mata dadu empat, tanpa menghitung",
+        "Menunjukkan tiga jari dengan cepat saat diminta",
+        "Tahu ada lima sandal di depan pintu hanya dengan melihat sebentar"
+      ],
+      "parentPrompt": "Lempar dadu atau tunjukkan beberapa jari sebentar saja, lalu sembunyikan. Tanya {{nama}}, \"tadi ada berapa?\" Apakah {{nama}} bisa menjawab tanpa menghitung?",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "memiliki intuisi bilangan (number sense)"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.bil.membilang-benda-sampai-20",
+          "strength": "bantu",
+          "reason": "Pengalaman membilang membantu anak mengenali pola banyak benda."
+        }
+      ]
+    },
+    {
+      "slug": "membaca-menulis-lambang-bilangan-sampai-20",
+      "elemen": "bil",
+      "name": "Membaca dan menulis angka sampai 20",
+      "description": "Membaca lambang bilangan 0 sampai 20, menulisnya dengan benar, dan mencocokkan angka dengan banyak benda.",
+      "type": "bahasa",
+      "kelas": [
+        1
+      ],
+      "evidence": [
+        "Membaca angka 14 pada kalender dengan benar",
+        "Menulis angka 0 sampai 20 tanpa ada yang terbalik",
+        "Menaruh 9 tutup botol di samping kartu angka 9"
+      ],
+      "parentPrompt": "Tunjuk angka di kalender atau nomor rumah, lalu tanya {{nama}} itu angka berapa. Setelah itu minta {{nama}} menulis angka 13 dan 17 di kertas.",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "membaca, menulis"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.bil.membilang-benda-sampai-20",
+          "strength": "wajib",
+          "reason": "Angka baru bermakna kalau anak sudah tahu banyak benda yang diwakilinya."
+        }
+      ]
+    },
+    {
+      "slug": "membandingkan-banyak-benda-sampai-20",
+      "elemen": "bil",
+      "name": "Membandingkan banyak dua kumpulan benda",
+      "description": "Menentukan kumpulan mana yang lebih banyak, lebih sedikit, atau sama banyak, dengan memasangkan atau menghitung benda.",
+      "type": "konsep",
+      "kelas": [
+        1
+      ],
+      "evidence": [
+        "Memasangkan sendok dan piring untuk melihat mana yang lebih banyak",
+        "Mengatakan \"12 lebih banyak dari 9\" setelah menghitung dua kumpulan",
+        "Menambah atau mengambil benda supaya dua kumpulan sama banyak"
+      ],
+      "parentPrompt": "Siapkan dua tumpuk kerupuk dengan jumlah berbeda. Tanya {{nama}}, \"yang mana lebih banyak? Lebih banyak berapa?\" Coba minta {{nama}} membuat keduanya sama banyak.",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "membandingkan"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.bil.membilang-benda-sampai-20",
+          "strength": "wajib",
+          "reason": "Anak harus bisa menghitung tiap kumpulan sebelum membandingkannya."
+        }
+      ]
+    },
+    {
+      "slug": "mengurutkan-bilangan-sampai-20",
+      "elemen": "bil",
+      "name": "Mengurutkan bilangan sampai 20",
+      "description": "Menyusun beberapa bilangan sampai 20 dari yang terkecil ke terbesar atau sebaliknya, dan tahu bilangan sebelum dan sesudahnya.",
+      "type": "prosedur",
+      "kelas": [
+        1
+      ],
+      "evidence": [
+        "Mengurutkan kartu angka 15, 3, 11, 8 dari yang terkecil",
+        "Menyebut bilangan di antara 16 dan 18",
+        "Mengurutkan tiga tumpuk biskuit dari yang paling sedikit"
+      ],
+      "parentPrompt": "Tulis angka 12, 5, 19, dan 9 di potongan kertas lalu acak. Minta {{nama}} menyusunnya dari yang paling kecil. Tanya juga, \"angka berapa yang datang sesudah 19?\"",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "mengurutkan"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.bil.membaca-menulis-lambang-bilangan-sampai-20",
+          "strength": "wajib",
+          "reason": "Anak perlu bisa membaca angka sebelum mengurutkannya."
+        },
+        {
+          "id": "mat.bil.membandingkan-banyak-benda-sampai-20",
+          "strength": "wajib",
+          "reason": "Mengurutkan berarti membandingkan beberapa bilangan sekaligus."
+        }
+      ]
+    },
+    {
+      "slug": "menyusun-dan-mengurai-bilangan-sampai-10",
+      "elemen": "bil",
+      "name": "Menyusun dan mengurai bilangan sampai 10",
+      "description": "Memahami bahwa satu bilangan bisa dipecah menjadi dua bagian dengan berbagai cara, misalnya 7 adalah 5 dan 2, atau 4 dan 3.",
+      "type": "konsep",
+      "kelas": [
+        1
+      ],
+      "evidence": [
+        "Membagi 7 kelereng ke dua tangan dengan tiga cara berbeda",
+        "Mengatakan \"6 itu 4 dan 2\" sambil menunjukkan benda",
+        "Menebak isi tangan yang tertutup: ada 8, di tangan kiri 5, jadi tangan kanan 3"
+      ],
+      "parentPrompt": "Ambil 8 kacang, sembunyikan sebagian di tangan, dan tunjukkan sisanya. Tanya {{nama}}, \"berapa yang ada di tanganku?\" Ulangi dengan cara bagi yang lain.",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "melakukan komposisi (menyusun) dan dekomposisi (mengurai) bilangan"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.bil.membilang-benda-sampai-20",
+          "strength": "wajib",
+          "reason": "Anak perlu menghitung benda untuk memeriksa dua bagian dan keseluruhannya."
+        },
+        {
+          "id": "mat.bil.mengenali-banyak-benda-sekilas",
+          "strength": "bantu",
+          "reason": "Mengenali banyak benda kecil dengan cepat memudahkan melihat bagian-bagian bilangan."
+        }
+      ]
+    },
+    {
+      "slug": "pasangan-bilangan-yang-jumlahnya-10",
+      "elemen": "bil",
+      "name": "Pasangan bilangan yang jumlahnya 10",
+      "description": "Hafal dan paham pasangan bilangan yang bersama-sama menjadi 10, seperti 7 dan 3 atau 6 dan 4.",
+      "type": "prosedur",
+      "kelas": [
+        1
+      ],
+      "evidence": [
+        "Langsung menjawab \"3\" saat ditanya \"7 dan berapa supaya jadi 10?\"",
+        "Menyebutkan semua pasangan dari 1 dan 9 sampai 5 dan 5",
+        "Menunjukkan 10 jari lalu menekuk 4 dan menyebut sisanya 6"
+      ],
+      "parentPrompt": "Main tebak jari: Ayah atau Ibu menunjukkan beberapa jari, {{nama}} menyebut berapa jari lagi supaya jadi 10. Coba juga dengan 10 butir telur di rak.",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "melakukan komposisi (menyusun) dan dekomposisi (mengurai) bilangan"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.bil.menyusun-dan-mengurai-bilangan-sampai-10",
+          "strength": "wajib",
+          "reason": "Pasangan 10 adalah cara mengurai bilangan 10 menjadi dua bagian."
+        }
+      ]
+    },
+    {
+      "slug": "penjumlahan-dengan-menggabungkan-benda",
+      "elemen": "bil",
+      "name": "Penjumlahan dengan menggabungkan benda",
+      "description": "Memahami penjumlahan sebagai menggabungkan atau menambah benda, lalu menghitung hasilnya dengan benda nyata sampai 20.",
+      "type": "konsep",
+      "kelas": [
+        1
+      ],
+      "evidence": [
+        "Menggabungkan 6 dan 5 kelereng lalu menghitung hasilnya 11",
+        "Menceritakan \"tadi ada 4, ditambah 3, jadi 7\" sambil memegang benda",
+        "Menunjukkan dengan benda bahwa 8 + 4 sama dengan 12"
+      ],
+      "parentPrompt": "Taruh 5 jeruk di piring, lalu tambahkan 4 lagi. Tanya {{nama}}, \"sekarang jadi berapa?\" Biarkan {{nama}} menghitung dengan jeruknya.",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "melakukan operasi penjumlahan dan pengurangan menggunakan benda-benda konkret yang banyaknya sampai 20"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.bil.membilang-benda-sampai-20",
+          "strength": "wajib",
+          "reason": "Hasil penjumlahan ditemukan dengan membilang benda."
+        },
+        {
+          "id": "mat.bil.menyusun-dan-mengurai-bilangan-sampai-10",
+          "strength": "bantu",
+          "reason": "Paham bagian dan keseluruhan membuat penjumlahan lebih bermakna."
+        }
+      ]
+    },
+    {
+      "slug": "pengurangan-dengan-mengambil-benda",
+      "elemen": "bil",
+      "name": "Pengurangan dengan mengambil benda",
+      "description": "Memahami pengurangan sebagai mengambil sebagian benda, lalu menghitung sisanya dengan benda nyata sampai 20.",
+      "type": "konsep",
+      "kelas": [
+        1
+      ],
+      "evidence": [
+        "Mengambil 4 dari 13 biskuit lalu menghitung sisanya 9",
+        "Menceritakan \"ada 10, dimakan 3, sisa 7\" sambil memegang benda",
+        "Menunjukkan dengan benda bahwa 15 - 6 sama dengan 9"
+      ],
+      "parentPrompt": "Hitung bersama 12 kerupuk di toples. Ambil 5 untuk dimakan, lalu tanya {{nama}}, \"sisanya berapa?\" Biarkan {{nama}} menghitung kerupuk yang tersisa.",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "melakukan operasi penjumlahan dan pengurangan menggunakan benda-benda konkret yang banyaknya sampai 20"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.bil.membilang-benda-sampai-20",
+          "strength": "wajib",
+          "reason": "Sisa benda ditemukan dengan membilang."
+        },
+        {
+          "id": "mat.bil.menyusun-dan-mengurai-bilangan-sampai-10",
+          "strength": "bantu",
+          "reason": "Paham bagian dan keseluruhan membantu melihat apa yang diambil dan apa yang tersisa."
+        }
+      ]
+    },
+    {
+      "slug": "menjumlah-dengan-menghitung-lanjut",
+      "elemen": "bil",
+      "name": "Menjumlah dengan menghitung lanjut",
+      "description": "Menjumlah dengan mulai dari bilangan yang lebih besar lalu menghitung maju, tanpa menghitung ulang dari satu.",
+      "type": "prosedur",
+      "kelas": [
+        1
+      ],
+      "evidence": [
+        "Untuk 9 + 4, menyebut \"sembilan... sepuluh, sebelas, dua belas, tiga belas\"",
+        "Memilih mulai dari 8, bukan dari 3, untuk 3 + 8",
+        "Memakai jari hanya untuk bagian yang ditambahkan"
+      ],
+      "parentPrompt": "Masukkan 9 kelereng ke kaleng dan katakan \"di dalam ada 9\". Lalu masukkan 4 lagi satu per satu. Tanya {{nama}} jumlahnya, apakah {{nama}} menghitung lanjut dari 9?",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "melakukan operasi penjumlahan dan pengurangan"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.bil.penjumlahan-dengan-menggabungkan-benda",
+          "strength": "wajib",
+          "reason": "Anak perlu paham makna menggabungkan sebelum memakai cara menghitung lanjut."
+        },
+        {
+          "id": "mat.bil.menyebut-urutan-bilangan-sampai-20",
+          "strength": "wajib",
+          "reason": "Menghitung lanjut butuh kemampuan menyebut bilangan mulai dari tengah."
+        }
+      ]
+    },
+    {
+      "slug": "hubungan-penjumlahan-dan-pengurangan",
+      "elemen": "bil",
+      "name": "Hubungan penjumlahan dan pengurangan",
+      "description": "Memahami bahwa penjumlahan dan pengurangan saling berkebalikan, sehingga 8 + 5 = 13 berarti juga 13 - 5 = 8.",
+      "type": "konsep",
+      "kelas": [
+        1,
+        2
+      ],
+      "evidence": [
+        "Dari 7 + 6 = 13, menuliskan 13 - 6 = 7 dan 13 - 7 = 6",
+        "Memeriksa jawaban 15 - 8 = 7 dengan menghitung 7 + 8",
+        "Menunjukkan dengan benda bahwa yang ditambah lalu diambil kembali ke semula"
+      ],
+      "parentPrompt": "Taruh 8 jeruk, tambah 5, lalu ambil lagi 5 jeruk itu. Tanya {{nama}}, \"kenapa jadi 8 lagi?\" Ajak {{nama}} menyebutkan soal tambah dan kurang dari kejadian itu.",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "operasi penjumlahan dan pengurangan"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.bil.penjumlahan-dengan-menggabungkan-benda",
+          "strength": "wajib",
+          "reason": "Anak harus paham penjumlahan dulu."
+        },
+        {
+          "id": "mat.bil.pengurangan-dengan-mengambil-benda",
+          "strength": "wajib",
+          "reason": "Anak harus paham pengurangan dulu."
+        }
+      ]
+    },
+    {
+      "slug": "menjumlah-dan-mengurang-melewati-10",
+      "elemen": "bil",
+      "name": "Menjumlah dan mengurang melewati 10",
+      "description": "Menyelesaikan penjumlahan dan pengurangan yang melewati 10, misalnya 8 + 5 atau 13 - 6, dengan cara melengkapi atau memecah 10.",
+      "type": "prosedur",
+      "kelas": [
+        1,
+        2
+      ],
+      "evidence": [
+        "Menjelaskan 8 + 5 sebagai \"8 tambah 2 jadi 10, lalu tambah 3 jadi 13\"",
+        "Menjelaskan 14 - 6 sebagai \"14 kurang 4 jadi 10, kurang 2 lagi jadi 8\"",
+        "Memakai rak telur isi 10 untuk menunjukkan 9 + 4"
+      ],
+      "parentPrompt": "Pakai rak telur atau wadah 10 lubang. Isi 9 lubang dengan kelereng, lalu tambah 4. Tanya {{nama}}, \"berapa yang harus pindah ke rak kedua?\" lalu \"jadi berapa semuanya?\"",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "yang banyaknya sampai 20"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.bil.pasangan-bilangan-yang-jumlahnya-10",
+          "strength": "wajib",
+          "reason": "Melengkapi 10 butuh hafal pasangan bilangan 10."
+        },
+        {
+          "id": "mat.bil.menjumlah-dengan-menghitung-lanjut",
+          "strength": "bantu",
+          "reason": "Anak yang sudah bisa menghitung lanjut lebih mudah pindah ke cara melengkapi 10."
+        }
+      ]
+    },
+    {
+      "slug": "soal-cerita-penjumlahan-dan-pengurangan",
+      "elemen": "bil",
+      "name": "Soal cerita tambah dan kurang",
+      "description": "Memahami cerita sehari-hari, memilih apakah perlu menjumlah atau mengurang, lalu menyelesaikannya dengan benda atau gambar sampai 20.",
+      "type": "prosedur",
+      "kelas": [
+        1,
+        2
+      ],
+      "evidence": [
+        "Menyelesaikan \"Ibu beli 9 telur, lalu 6 lagi. Ada berapa telur?\"",
+        "Memilih pengurangan untuk \"ada 15 permen, dibagikan 7, sisa berapa?\"",
+        "Membuat cerita sendiri untuk 12 - 4"
+      ],
+      "parentPrompt": "Buat cerita dari warung: \"{{nama}} punya 15 permen, 6 diberikan ke adik. Sisa berapa?\" Lalu minta {{nama}} membuat cerita sendiri untuk Ayah atau Ibu jawab.",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "melakukan operasi penjumlahan dan pengurangan menggunakan benda-benda konkret yang banyaknya sampai 20"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.bil.penjumlahan-dengan-menggabungkan-benda",
+          "strength": "wajib",
+          "reason": "Anak perlu paham makna menambah untuk mengenalinya dalam cerita."
+        },
+        {
+          "id": "mat.bil.pengurangan-dengan-mengambil-benda",
+          "strength": "wajib",
+          "reason": "Anak perlu paham makna mengambil untuk mengenalinya dalam cerita."
+        }
+      ]
+    },
+    {
+      "slug": "membilang-sampai-100",
+      "elemen": "bil",
+      "name": "Membilang sampai 100",
+      "description": "Menyebut dan membilang bilangan berurutan sampai 100, termasuk melewati puluhan seperti 29 ke 30 dan 79 ke 80.",
+      "type": "prosedur",
+      "kelas": [
+        1,
+        2
+      ],
+      "evidence": [
+        "Menyebut 1 sampai 100 tanpa ada yang terlewat",
+        "Melanjutkan dari 58: \"lima puluh sembilan, enam puluh, enam puluh satu\"",
+        "Menyebut bilangan sesudah 89 dan sebelum 70"
+      ],
+      "parentPrompt": "Saat jalan kaki ke warung, ajak {{nama}} berhitung langkah mulai dari 45. Perhatikan apakah {{nama}} lancar melewati 49 ke 50 dan 59 ke 60.",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "pada bilangan cacah sampai 100"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.bil.menyebut-urutan-bilangan-sampai-20",
+          "strength": "wajib",
+          "reason": "Urutan sampai 20 adalah dasar pola bilangan sampai 100."
+        }
+      ]
+    },
+    {
+      "slug": "membilang-loncat-2-5-10",
+      "elemen": "bil",
+      "name": "Membilang loncat dua, lima, dan sepuluh",
+      "description": "Membilang dengan loncatan dua, lima, dan sepuluh, lalu memakainya untuk menghitung benda lebih cepat.",
+      "type": "prosedur",
+      "kelas": [
+        2
+      ],
+      "evidence": [
+        "Menyebut 10, 20, 30 sampai 100",
+        "Menghitung sandal berpasangan: 2, 4, 6, 8",
+        "Menghitung uang koin lima ratusan dengan loncat lima: 5, 10, 15"
+      ],
+      "parentPrompt": "Kumpulkan sandal di rumah dan minta {{nama}} menghitungnya per pasang: \"dua, empat, enam...\". Coba juga menghitung jari semua anggota keluarga dengan loncat lima.",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "pada bilangan cacah sampai 100"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.bil.membilang-sampai-100",
+          "strength": "wajib",
+          "reason": "Anak perlu kenal bilangan sampai 100 sebelum melompatinya."
+        }
+      ]
+    },
+    {
+      "slug": "membaca-menulis-bilangan-sampai-100",
+      "elemen": "bil",
+      "name": "Membaca dan menulis bilangan sampai 100",
+      "description": "Membaca dan menulis bilangan dua angka dengan lambang maupun kata, misalnya 47 dibaca \"empat puluh tujuh\".",
+      "type": "bahasa",
+      "kelas": [
+        2
+      ],
+      "evidence": [
+        "Membaca harga Rp75 di label mainan sebagai \"tujuh puluh lima\"",
+        "Menulis angka untuk \"enam puluh delapan\" dengan benar, bukan 608",
+        "Tidak tertukar antara 31 dan 13 saat membaca"
+      ],
+      "parentPrompt": "Tunjuk nomor halaman buku atau harga di bungkus jajan, lalu minta {{nama}} membacanya. Ganti giliran: sebutkan \"delapan puluh empat\" dan minta {{nama}} menuliskannya.",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "membaca, menulis"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.bil.membaca-menulis-lambang-bilangan-sampai-20",
+          "strength": "wajib",
+          "reason": "Angka 0 sampai 9 dan belasan adalah dasar menulis bilangan dua angka."
+        },
+        {
+          "id": "mat.bil.membilang-sampai-100",
+          "strength": "wajib",
+          "reason": "Anak perlu tahu nama bilangan sampai 100 sebelum menulisnya."
+        }
+      ]
+    },
+    {
+      "slug": "nilai-tempat-puluhan-dan-satuan",
+      "elemen": "bil",
+      "name": "Nilai tempat puluhan dan satuan",
+      "description": "Memahami bahwa pada bilangan dua angka, angka kiri menunjukkan banyak puluhan dan angka kanan menunjukkan satuan, misalnya 36 adalah 3 puluhan dan 6 satuan.",
+      "type": "konsep",
+      "kelas": [
+        2
+      ],
+      "evidence": [
+        "Mengikat 36 lidi menjadi 3 ikat isi sepuluh dan 6 lidi lepas",
+        "Menjelaskan bahwa angka 4 pada 45 bernilai 40",
+        "Menulis bilangan dari 7 puluhan dan 2 satuan sebagai 72"
+      ],
+      "parentPrompt": "Kumpulkan sedotan atau lidi, lalu minta {{nama}} mengikatnya per sepuluh dengan karet. Tanya, \"ada berapa ikat dan berapa yang lepas? Jadi semuanya berapa?\"",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "menentukan nilai tempat"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.bil.membaca-menulis-bilangan-sampai-100",
+          "strength": "wajib",
+          "reason": "Nilai tempat menjelaskan arti tiap angka pada bilangan yang ditulis."
+        },
+        {
+          "id": "mat.bil.membilang-loncat-2-5-10",
+          "strength": "wajib",
+          "reason": "Membilang per sepuluh adalah dasar memahami puluhan."
+        }
+      ]
+    },
+    {
+      "slug": "letak-bilangan-pada-garis-bilangan",
+      "elemen": "bil",
+      "name": "Letak bilangan pada garis bilangan",
+      "description": "Menempatkan bilangan sampai 100 pada garis bilangan dan memakainya untuk melihat mana yang lebih dekat atau lebih jauh.",
+      "type": "representasi",
+      "kelas": [
+        2
+      ],
+      "evidence": [
+        "Menunjuk letak 50 kira-kira di tengah garis 0 sampai 100",
+        "Menempatkan 38 di antara 30 dan 40, lebih dekat ke 40",
+        "Melangkah maju 3 dari 17 pada garis bilangan dan sampai di 20"
+      ],
+      "parentPrompt": "Gambar garis panjang di kertas, tulis 0 di ujung kiri dan 100 di ujung kanan. Minta {{nama}} menandai di mana kira-kira 50, 25, dan 90.",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "memiliki intuisi bilangan (number sense) pada bilangan cacah sampai 100"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.bil.membaca-menulis-bilangan-sampai-100",
+          "strength": "wajib",
+          "reason": "Anak perlu membaca bilangan sebelum menempatkannya."
+        },
+        {
+          "id": "mat.bil.mengurutkan-bilangan-sampai-20",
+          "strength": "bantu",
+          "reason": "Garis bilangan adalah gambaran urutan bilangan."
+        }
+      ]
+    },
+    {
+      "slug": "membandingkan-dan-mengurutkan-bilangan-sampai-100",
+      "elemen": "bil",
+      "name": "Membandingkan dan mengurutkan bilangan sampai 100",
+      "description": "Membandingkan dua bilangan dua angka dengan melihat puluhan lalu satuannya, dan mengurutkan beberapa bilangan sampai 100.",
+      "type": "prosedur",
+      "kelas": [
+        2
+      ],
+      "evidence": [
+        "Menjelaskan 62 lebih besar dari 58 karena 6 puluhan lebih banyak dari 5 puluhan",
+        "Mengurutkan 45, 54, 40, 49 dari yang terkecil",
+        "Memakai kata \"lebih besar\", \"lebih kecil\", \"sama dengan\" dengan tepat"
+      ],
+      "parentPrompt": "Tulis harga dua jajan, misalnya 65 dan 56 (ratus rupiah). Tanya {{nama}} mana yang lebih mahal dan kenapa. Lalu minta {{nama}} mengurutkan nomor rumah tetangga dari yang terkecil.",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "membandingkan, mengurutkan"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.bil.nilai-tempat-puluhan-dan-satuan",
+          "strength": "wajib",
+          "reason": "Membandingkan bilangan dua angka dimulai dari nilai puluhannya."
+        },
+        {
+          "id": "mat.bil.mengurutkan-bilangan-sampai-20",
+          "strength": "wajib",
+          "reason": "Cara mengurutkan sudah dilatih dengan bilangan kecil."
+        }
+      ]
+    },
+    {
+      "slug": "mengurai-bilangan-dua-angka",
+      "elemen": "bil",
+      "name": "Mengurai bilangan dua angka",
+      "description": "Mengurai bilangan sampai 100 menjadi puluhan dan satuan, atau cara lain, misalnya 45 = 40 + 5 = 30 + 15.",
+      "type": "konsep",
+      "kelas": [
+        2
+      ],
+      "evidence": [
+        "Menulis 58 sebagai 50 + 8",
+        "Menunjukkan 45 dengan 3 ikat lidi dan 15 lidi lepas",
+        "Menyusun 70 dari 40 dan 30 dengan ikatan lidi"
+      ],
+      "parentPrompt": "Dengan ikatan lidi atau uang mainan sepuluhan, minta {{nama}} membuat 46. Lalu tanya, \"bisa nggak dibuat dengan cara lain, misalnya dengan lebih sedikit ikatan?\"",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "serta melakukan komposisi (menyusun) dan dekomposisi (mengurai) bilangan"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.bil.nilai-tempat-puluhan-dan-satuan",
+          "strength": "wajib",
+          "reason": "Mengurai bilangan dua angka memakai pengertian puluhan dan satuan."
+        },
+        {
+          "id": "mat.bil.menyusun-dan-mengurai-bilangan-sampai-10",
+          "strength": "wajib",
+          "reason": "Ide mengurai sudah dikenal dengan bilangan kecil."
+        }
+      ]
+    },
+    {
+      "slug": "membagi-benda-sama-banyak",
+      "elemen": "bil",
+      "name": "Membagi benda sama banyak",
+      "description": "Membagi satu kumpulan benda kepada beberapa orang sampai setiap orang mendapat bagian yang sama banyak.",
+      "type": "konsep",
+      "kelas": [
+        1,
+        2
+      ],
+      "evidence": [
+        "Membagi 12 kue kepada 3 orang dengan cara satu-satu bergiliran",
+        "Memeriksa bahwa setiap piring berisi sama banyak",
+        "Mengatakan \"tidak adil\" kalau satu bagian lebih banyak"
+      ],
+      "parentPrompt": "Minta {{nama}} membagi 10 potong buah ke 2 piring untuk kakak dan adik supaya adil. Tanya, \"bagaimana {{nama}} tahu bagiannya sudah sama?\"",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "melalui konteks membagi sebuah benda atau kumpulan benda sama banyak"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.bil.membilang-benda-sampai-20",
+          "strength": "wajib",
+          "reason": "Anak perlu menghitung untuk memeriksa bagian sama banyak."
+        },
+        {
+          "id": "mat.bil.membandingkan-banyak-benda-sampai-20",
+          "strength": "bantu",
+          "reason": "Memeriksa keadilan berarti membandingkan banyak tiap bagian."
+        }
+      ]
+    },
+    {
+      "slug": "pecahan-setengah-dari-satu-benda",
+      "elemen": "bil",
+      "name": "Mengenal setengah dari satu benda",
+      "description": "Memahami setengah sebagai satu dari dua bagian yang sama besar ketika satu benda dibagi dua.",
+      "type": "konsep",
+      "kelas": [
+        2
+      ],
+      "evidence": [
+        "Melipat kertas menjadi dua bagian sama besar dan menyebut tiap bagian \"setengah\"",
+        "Menjelaskan kenapa potongan roti yang besar sebelah bukan setengah",
+        "Menunjuk gambar yang diarsir setengahnya"
+      ],
+      "parentPrompt": "Saat makan, minta {{nama}} membagi sepotong roti atau tempe untuk berdua supaya adil. Tanya, \"tiap bagian namanya apa? Apakah keduanya sama besar?\"",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "pecahan yang diperkenalkan adalah setengah dan seperempat"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.bil.membagi-benda-sama-banyak",
+          "strength": "wajib",
+          "reason": "Setengah berasal dari membagi sama besar."
+        }
+      ]
+    },
+    {
+      "slug": "pecahan-seperempat-dari-satu-benda",
+      "elemen": "bil",
+      "name": "Mengenal seperempat dari satu benda",
+      "description": "Memahami seperempat sebagai satu dari empat bagian yang sama besar, dan bahwa dua seperempat sama dengan setengah.",
+      "type": "konsep",
+      "kelas": [
+        2
+      ],
+      "evidence": [
+        "Melipat kertas dua kali menjadi empat bagian sama besar",
+        "Menunjukkan seperempat potong martabak dari satu loyang",
+        "Menjelaskan bahwa dua potong seperempat sama dengan setengah"
+      ],
+      "parentPrompt": "Potong satu semangka atau martabak menjadi 4 bagian sama besar bersama {{nama}}. Tanya, \"satu potong ini namanya apa? Kalau dua potong, sama dengan berapa bagian?\"",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "setengah dan seperempat"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.bil.pecahan-setengah-dari-satu-benda",
+          "strength": "wajib",
+          "reason": "Seperempat diperoleh dengan membagi setengah menjadi dua lagi."
+        }
+      ]
+    },
+    {
+      "slug": "setengah-dan-seperempat-dari-kumpulan-benda",
+      "elemen": "bil",
+      "name": "Setengah dan seperempat dari kumpulan benda",
+      "description": "Menemukan setengah dan seperempat dari sekumpulan benda dengan membaginya menjadi dua atau empat kelompok sama banyak.",
+      "type": "konsep",
+      "kelas": [
+        2
+      ],
+      "evidence": [
+        "Mengambil setengah dari 10 kelereng, yaitu 5",
+        "Membagi 12 permen menjadi 4 kelompok dan menyebut satu kelompok sebagai seperempat",
+        "Menjelaskan bahwa setengah dari 8 telur lebih banyak dari seperempatnya"
+      ],
+      "parentPrompt": "Siapkan 8 butir telur atau 12 permen. Minta {{nama}} mengambil setengahnya, lalu seperempatnya. Tanya, \"mana yang lebih banyak, setengah atau seperempat?\"",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.bil",
+          "phrase": "menunjukkan pemahaman pecahan sebagai bagian dari keseluruhan"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.bil.pecahan-seperempat-dari-satu-benda",
+          "strength": "wajib",
+          "reason": "Anak perlu kenal setengah dan seperempat pada satu benda dulu."
+        },
+        {
+          "id": "mat.bil.membagi-benda-sama-banyak",
+          "strength": "wajib",
+          "reason": "Pecahan kumpulan benda didapat dengan membagi sama banyak."
+        }
+      ]
+    },
+    {
+      "slug": "mengenali-pola-gambar-dan-warna",
+      "elemen": "alj",
+      "name": "Mengenali pola gambar dan warna",
+      "description": "Melihat bagian yang berulang pada deretan gambar, warna, atau benda, misalnya merah-biru-merah-biru.",
+      "type": "konsep",
+      "kelas": [
+        1
+      ],
+      "evidence": [
+        "Menunjuk bagian yang berulang pada deretan manik merah-kuning-merah-kuning",
+        "Membedakan deretan yang berpola dengan yang acak",
+        "Menemukan pola pada motif batik atau ubin lantai"
+      ],
+      "parentPrompt": "Ajak {{nama}} melihat motif sarung, batik, atau ubin di rumah. Tanya, \"bagian mana yang diulang-ulang?\"",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.alj",
+          "phrase": "Murid dapat mengenali, meniru, dan melanjutkan pola bukan bilangan"
+        }
+      ],
+      "requires": []
+    },
+    {
+      "slug": "meniru-dan-melanjutkan-pola",
+      "elemen": "alj",
+      "name": "Meniru dan melanjutkan pola",
+      "description": "Membuat ulang sebuah pola dengan benda lain dan menyebut atau menyusun bagian berikutnya.",
+      "type": "prosedur",
+      "kelas": [
+        1
+      ],
+      "evidence": [
+        "Melanjutkan deretan sendok-garpu-garpu-sendok-garpu-garpu dengan dua benda berikutnya",
+        "Meniru pola tutup botol merah-biru-biru memakai kancing",
+        "Menemukan bagian yang hilang di tengah pola"
+      ],
+      "parentPrompt": "Susun pola dari sendok dan garpu, misalnya sendok-garpu-garpu, ulang dua kali. Minta {{nama}} melanjutkannya, lalu meniru pola itu dengan sandal atau kancing.",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.alj",
+          "phrase": "mengenali, meniru, dan melanjutkan pola bukan bilangan (misalnya, gambar, warna, bunyi/suara)"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.alj.mengenali-pola-gambar-dan-warna",
+          "strength": "wajib",
+          "reason": "Anak harus melihat bagian yang berulang sebelum bisa melanjutkannya."
+        }
+      ]
+    },
+    {
+      "slug": "makna-tanda-sama-dengan",
+      "elemen": "alj",
+      "name": "Makna tanda sama dengan",
+      "description": "Memahami bahwa tanda \"=\" berarti nilai di kedua sisi sama banyak, bukan sekadar \"hasilnya adalah\".",
+      "type": "konsep",
+      "kelas": [
+        1,
+        2
+      ],
+      "evidence": [
+        "Menjelaskan 4 + 3 = 7 dengan dua kelompok benda yang sama banyak",
+        "Menerima 7 = 4 + 3 sebagai kalimat yang benar",
+        "Mengatakan 5 + 2 = 6 salah karena kedua sisi tidak sama banyak"
+      ],
+      "parentPrompt": "Taruh 4 sendok dan 3 sendok di satu sisi meja, dan 7 sendok di sisi lain. Tulis 4 + 3 = 7 di kertas. Tanya {{nama}}, \"tanda sama dengan ini maksudnya apa?\"",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.alj",
+          "phrase": "Menunjukan pemahaman makna simbol matematika \"=\""
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.bil.penjumlahan-dengan-menggabungkan-benda",
+          "strength": "wajib",
+          "reason": "Anak perlu paham penjumlahan sebelum membaca kalimat penjumlahan."
+        },
+        {
+          "id": "mat.bil.membandingkan-banyak-benda-sampai-20",
+          "strength": "wajib",
+          "reason": "Sama dengan berarti dua kumpulan sama banyak."
+        }
+      ]
+    },
+    {
+      "slug": "kalimat-matematika-dari-gambar",
+      "elemen": "alj",
+      "name": "Menulis kalimat matematika dari gambar",
+      "description": "Membaca gambar kejadian menambah atau mengambil, lalu menuliskannya sebagai kalimat matematika dengan tanda \"=\" sampai 20.",
+      "type": "representasi",
+      "kelas": [
+        1,
+        2
+      ],
+      "evidence": [
+        "Menulis 6 + 5 = 11 dari gambar 6 burung lalu datang 5 burung",
+        "Menulis 12 - 4 = 8 dari gambar 12 balon yang 4 pecah",
+        "Menggambar sendiri cerita untuk 9 + 3 = 12"
+      ],
+      "parentPrompt": "Gambar 7 ikan di kolam lalu 3 ikan berenang masuk. Minta {{nama}} menulis kalimat matematikanya. Lalu minta {{nama}} menggambar cerita untuk 10 - 4 = 6.",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.alj",
+          "phrase": "dalam suatu kalimat matematika yang terkait dengan penjumlahan dan pengurangan bilangan cacah sampai 20 menggunakan gambar"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.alj.makna-tanda-sama-dengan",
+          "strength": "wajib",
+          "reason": "Kalimat matematika memakai tanda \"=\" dengan benar."
+        },
+        {
+          "id": "mat.bil.pengurangan-dengan-mengambil-benda",
+          "strength": "wajib",
+          "reason": "Gambar pengurangan hanya bisa dibaca kalau anak paham makna mengambil."
+        }
+      ]
+    },
+    {
+      "slug": "mencari-bilangan-yang-hilang",
+      "elemen": "alj",
+      "name": "Mencari bilangan yang hilang",
+      "description": "Menemukan bilangan yang belum diketahui dalam kalimat seperti 5 + ... = 12 atau ... - 4 = 9, dengan bantuan gambar atau benda.",
+      "type": "prosedur",
+      "kelas": [
+        2
+      ],
+      "evidence": [
+        "Menjawab 5 + ... = 12 dengan 7 dan memeriksanya dengan benda",
+        "Menjawab 4 + 3 = ... + 5 dengan 2",
+        "Menjelaskan cara menemukan bilangan yang hilang"
+      ],
+      "parentPrompt": "Sembunyikan beberapa kelereng di bawah gelas. Katakan, \"aku punya 5 di luar, semuanya ada 12. Di bawah gelas ada berapa?\" Minta {{nama}} menebak lalu membuka gelasnya.",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.alj",
+          "phrase": "penjumlahan dan pengurangan bilangan cacah sampai 20 menggunakan gambar"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.alj.kalimat-matematika-dari-gambar",
+          "strength": "wajib",
+          "reason": "Anak perlu bisa membaca kalimat matematika sebelum mencari bagian yang hilang."
+        },
+        {
+          "id": "mat.bil.hubungan-penjumlahan-dan-pengurangan",
+          "strength": "bantu",
+          "reason": "Hubungan tambah dan kurang membantu menemukan bilangan yang hilang."
+        }
+      ]
+    },
+    {
+      "slug": "membandingkan-panjang-secara-langsung",
+      "elemen": "ukur",
+      "name": "Membandingkan panjang dua benda",
+      "description": "Menentukan benda mana yang lebih panjang, lebih pendek, atau sama panjang dengan menjajarkan ujungnya.",
+      "type": "konsep",
+      "kelas": [
+        1
+      ],
+      "evidence": [
+        "Menjajarkan dua pensil dari ujung yang sama sebelum membandingkan",
+        "Memakai kata \"lebih panjang\", \"lebih pendek\", \"sama panjang\"",
+        "Membandingkan tinggi badan dengan kakak sambil berdiri berdampingan"
+      ],
+      "parentPrompt": "Ambil dua sendok atau dua sandal yang berbeda ukuran. Minta {{nama}} menunjukkan mana yang lebih panjang. Perhatikan apakah {{nama}} menjajarkan ujungnya dulu.",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.ukur",
+          "phrase": "Membandingkan panjang dan berat benda secara langsung"
+        }
+      ],
+      "requires": []
+    },
+    {
+      "slug": "membandingkan-berat-secara-langsung",
+      "elemen": "ukur",
+      "name": "Membandingkan berat dua benda",
+      "description": "Menentukan benda mana yang lebih berat, lebih ringan, atau sama berat dengan mengangkat di dua tangan atau memakai timbangan sederhana.",
+      "type": "konsep",
+      "kelas": [
+        1
+      ],
+      "evidence": [
+        "Mengangkat jeruk dan semangka lalu menyebut mana yang lebih berat",
+        "Menjelaskan bahwa benda besar tidak selalu lebih berat, misalnya bantal dan batu",
+        "Membaca jungkat-jungkit atau gantungan baju: sisi yang turun lebih berat"
+      ],
+      "parentPrompt": "Beri {{nama}} sebuah bantal di satu tangan dan sebotol air di tangan lain. Tanya, \"mana yang lebih berat?\" Tanya juga, \"mana yang lebih besar?\"",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.ukur",
+          "phrase": "berat benda secara langsung"
+        }
+      ],
+      "requires": []
+    },
+    {
+      "slug": "membandingkan-lama-waktu-kegiatan",
+      "elemen": "ukur",
+      "name": "Membandingkan lama waktu kegiatan",
+      "description": "Menentukan kegiatan mana yang berlangsung lebih lama atau lebih singkat, dan mengurutkan kegiatan dari yang paling singkat.",
+      "type": "konsep",
+      "kelas": [
+        1
+      ],
+      "evidence": [
+        "Mengatakan bahwa tidur malam lebih lama daripada mandi",
+        "Mengurutkan gosok gigi, makan siang, dan sekolah dari yang paling singkat",
+        "Membandingkan siapa yang lebih lama melompat dengan satu kaki"
+      ],
+      "parentPrompt": "Tanya {{nama}}, \"mana yang lebih lama: makan nasi atau minum segelas air? Perjalanan ke sekolah atau ke warung?\" Minta {{nama}} menjelaskan jawabannya.",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.ukur",
+          "phrase": "membandingkan durasi waktu"
+        }
+      ],
+      "requires": []
+    },
+    {
+      "slug": "mengukur-panjang-dengan-satuan-tidak-baku",
+      "elemen": "ukur",
+      "name": "Mengukur panjang dengan jengkal dan benda",
+      "description": "Mengukur panjang benda dengan satuan tidak baku seperti jengkal, langkah, pensil, atau klip, diletakkan rapat tanpa celah dan tanpa tumpang tindih.",
+      "type": "prosedur",
+      "kelas": [
+        1,
+        2
+      ],
+      "evidence": [
+        "Mengukur panjang meja dan menyebut \"8 jengkal\"",
+        "Menjajarkan klip kertas rapat tanpa celah di sepanjang buku",
+        "Mengukur panjang kamar dengan langkah kaki"
+      ],
+      "parentPrompt": "Minta {{nama}} mengukur panjang meja makan dengan jengkalnya. Lalu ukur pakai sendok. Tanya, \"berapa jengkal? Berapa sendok?\"",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.ukur",
+          "phrase": "mengukur dan mengestimasi panjang dan berat benda menggunakan satuan tidak baku"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.ukur.membandingkan-panjang-secara-langsung",
+          "strength": "wajib",
+          "reason": "Anak perlu paham arti panjang sebelum mengukurnya."
+        },
+        {
+          "id": "mat.bil.membilang-benda-sampai-20",
+          "strength": "wajib",
+          "reason": "Hasil ukur didapat dengan membilang satuan."
+        }
+      ]
+    },
+    {
+      "slug": "hasil-ukur-berbeda-karena-satuan-berbeda",
+      "elemen": "ukur",
+      "name": "Hasil ukur berbeda jika satuannya berbeda",
+      "description": "Memahami bahwa satu benda bisa punya hasil ukur berbeda karena satuannya berbeda, dan satuan yang lebih kecil memberi angka lebih besar.",
+      "type": "konsep",
+      "kelas": [
+        2
+      ],
+      "evidence": [
+        "Menjelaskan kenapa meja 6 jengkal Ayah tetapi 9 jengkal anak",
+        "Memperkirakan bahwa mengukur dengan klip akan menghasilkan angka lebih besar daripada dengan pensil",
+        "Menyarankan memakai satuan yang sama supaya adil"
+      ],
+      "parentPrompt": "Ukur panjang kasur dengan jengkal Ayah atau Ibu, lalu minta {{nama}} mengukur dengan jengkalnya sendiri. Tanya, \"kenapa angkanya beda padahal kasurnya sama?\"",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.ukur",
+          "phrase": "menggunakan satuan tidak baku"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.ukur.mengukur-panjang-dengan-satuan-tidak-baku",
+          "strength": "wajib",
+          "reason": "Anak perlu pengalaman mengukur sebelum membandingkan hasil ukur."
+        }
+      ]
+    },
+    {
+      "slug": "memperkirakan-panjang-benda",
+      "elemen": "ukur",
+      "name": "Memperkirakan panjang benda",
+      "description": "Menebak panjang benda dalam satuan tidak baku sebelum mengukur, lalu memeriksa tebakannya dengan mengukur.",
+      "type": "konsep",
+      "kelas": [
+        2
+      ],
+      "evidence": [
+        "Menebak meja sekitar 7 jengkal, lalu mengukur dan mendapat 8",
+        "Menebak mana yang lebih masuk akal: pintu 5 langkah atau 50 langkah",
+        "Tebakannya makin dekat setelah beberapa kali mencoba"
+      ],
+      "parentPrompt": "Sebelum mengukur, tanya {{nama}}, \"kira-kira lemari ini berapa jengkal?\" Lalu ukur bersama. Tanya, \"tebakan {{nama}} tadi dekat atau jauh?\"",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.ukur",
+          "phrase": "mengestimasi panjang"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.ukur.mengukur-panjang-dengan-satuan-tidak-baku",
+          "strength": "wajib",
+          "reason": "Perkiraan yang masuk akal butuh pengalaman mengukur."
+        }
+      ]
+    },
+    {
+      "slug": "mengukur-berat-dengan-satuan-tidak-baku",
+      "elemen": "ukur",
+      "name": "Mengukur berat dengan timbangan sederhana",
+      "description": "Mengukur berat benda dengan satuan tidak baku, misalnya berapa kelereng atau tutup botol yang seimbang dengan benda itu pada timbangan sederhana.",
+      "type": "prosedur",
+      "kelas": [
+        2
+      ],
+      "evidence": [
+        "Menyebut \"jeruk ini seberat 15 kelereng\" dari timbangan gantungan baju",
+        "Menambah satuan sampai timbangan seimbang",
+        "Membandingkan dua benda dari jumlah kelereng yang dibutuhkan"
+      ],
+      "parentPrompt": "Buat timbangan dari gantungan baju dan dua kantong plastik. Taruh satu jeruk di satu sisi, lalu minta {{nama}} memasukkan kelereng ke sisi lain sampai seimbang. Tanya, \"jeruk ini seberat berapa kelereng?\"",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.ukur",
+          "phrase": "mengukur dan mengestimasi panjang dan berat benda"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.ukur.membandingkan-berat-secara-langsung",
+          "strength": "wajib",
+          "reason": "Anak perlu paham arti lebih berat sebelum mengukur berat."
+        },
+        {
+          "id": "mat.bil.membilang-benda-sampai-20",
+          "strength": "wajib",
+          "reason": "Hasil ukur berat didapat dengan membilang satuan."
+        }
+      ]
+    },
+    {
+      "slug": "memperkirakan-berat-benda",
+      "elemen": "ukur",
+      "name": "Memperkirakan berat benda",
+      "description": "Menebak berat benda dalam satuan tidak baku sebelum menimbang, lalu memeriksa tebakannya.",
+      "type": "konsep",
+      "kelas": [
+        2
+      ],
+      "evidence": [
+        "Menebak buku seberat sekitar 20 tutup botol, lalu menimbang",
+        "Memperkirakan dari dua benda mana yang butuh lebih banyak kelereng",
+        "Memperbaiki tebakan setelah melihat hasil timbangan"
+      ],
+      "parentPrompt": "Sebelum menimbang dengan timbangan gantungan baju, tanya {{nama}}, \"kira-kira apel ini seberat berapa kelereng?\" Lalu timbang dan bandingkan dengan tebakannya.",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.ukur",
+          "phrase": "mengukur dan mengestimasi"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.ukur.mengukur-berat-dengan-satuan-tidak-baku",
+          "strength": "wajib",
+          "reason": "Perkiraan berat butuh pengalaman menimbang."
+        }
+      ]
+    },
+    {
+      "slug": "mengenal-bangun-datar",
+      "elemen": "geo",
+      "name": "Mengenal segitiga, segiempat, dan lingkaran",
+      "description": "Menyebut nama bangun datar segitiga, segiempat, dan lingkaran, dan menemukannya pada benda di sekitar.",
+      "type": "bahasa",
+      "kelas": [
+        1
+      ],
+      "evidence": [
+        "Menunjuk bentuk lingkaran pada jam dinding dan piring",
+        "Menyebut jendela berbentuk segiempat",
+        "Memilih semua segitiga dari tumpukan potongan kertas"
+      ],
+      "parentPrompt": "Ajak {{nama}} berburu bentuk di rumah: cari tiga benda yang bentuknya lingkaran, tiga yang segiempat, dan satu yang segitiga.",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.geo",
+          "phrase": "Mengenal berbagai bangun datar (segitiga, segiempat, segi banyak, lingkaran)"
+        }
+      ],
+      "requires": []
+    },
+    {
+      "slug": "membedakan-bangun-datar-dari-sisi-dan-sudut",
+      "elemen": "geo",
+      "name": "Membedakan bangun datar dari sisi dan sudutnya",
+      "description": "Membedakan bangun datar dengan menghitung sisi dan sudutnya, termasuk mengenal segi banyak seperti segilima dan segienam.",
+      "type": "konsep",
+      "kelas": [
+        1,
+        2
+      ],
+      "evidence": [
+        "Menghitung 3 sisi dan 3 sudut pada segitiga",
+        "Menjelaskan bahwa lingkaran tidak punya sudut",
+        "Menyebut bentuk dengan 6 sisi sebagai segienam"
+      ],
+      "parentPrompt": "Gambar beberapa bentuk di kertas, termasuk yang bersisi lima dan enam. Minta {{nama}} menghitung sisinya dengan jari, lalu menyebut namanya.",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.geo",
+          "phrase": "segi banyak"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.geo.mengenal-bangun-datar",
+          "strength": "wajib",
+          "reason": "Anak perlu kenal bentuk dasar sebelum membedakan dari sisinya."
+        },
+        {
+          "id": "mat.bil.membilang-benda-sampai-20",
+          "strength": "bantu",
+          "reason": "Menghitung sisi dan sudut memakai kemampuan membilang."
+        }
+      ]
+    },
+    {
+      "slug": "mengenal-bangun-ruang",
+      "elemen": "geo",
+      "name": "Mengenal balok, kubus, kerucut, dan bola",
+      "description": "Menyebut nama bangun ruang balok, kubus, kerucut, dan bola, dan menemukannya pada benda di sekitar.",
+      "type": "bahasa",
+      "kelas": [
+        1
+      ],
+      "evidence": [
+        "Menyebut kotak susu sebagai balok dan dadu sebagai kubus",
+        "Menunjuk topi ulang tahun atau tumpeng sebagai kerucut",
+        "Menjelaskan beda kubus dan balok dari sisi-sisinya"
+      ],
+      "parentPrompt": "Kumpulkan kotak susu, dadu, bola, dan topi ulang tahun atau corong. Minta {{nama}} menyebut nama bentuknya dan mencari satu benda lain yang bentuknya sama.",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.geo",
+          "phrase": "bangun ruang (balok, kubus, kerucut, dan bola)"
+        }
+      ],
+      "requires": []
+    },
+    {
+      "slug": "menyusun-bangun-datar",
+      "elemen": "geo",
+      "name": "Menyusun bangun datar dari bangun lain",
+      "description": "Menggabungkan beberapa bangun datar untuk membentuk bangun baru, misalnya dua segitiga menjadi segiempat.",
+      "type": "prosedur",
+      "kelas": [
+        1,
+        2
+      ],
+      "evidence": [
+        "Menyusun dua potongan segitiga menjadi persegi",
+        "Membuat gambar rumah dari segitiga dan segiempat",
+        "Menyusun segienam dari beberapa segitiga"
+      ],
+      "parentPrompt": "Gunting selembar kertas persegi menjadi dua segitiga. Minta {{nama}} menyusunnya kembali, lalu mencoba membuat bentuk lain dari dua segitiga itu.",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.geo",
+          "phrase": "melakukan komposisi (penyusunan) dan dekomposisi (penguraian) suatu bangun datar (segitiga, segiempat, dan segi banyak)"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.geo.mengenal-bangun-datar",
+          "strength": "wajib",
+          "reason": "Anak perlu kenal nama bangun sebelum menyusunnya."
+        },
+        {
+          "id": "mat.geo.membedakan-bangun-datar-dari-sisi-dan-sudut",
+          "strength": "bantu",
+          "reason": "Memahami sisi membantu mencocokkan bangun saat menyusun."
+        }
+      ]
+    },
+    {
+      "slug": "mengurai-bangun-datar",
+      "elemen": "geo",
+      "name": "Mengurai bangun datar menjadi bangun lain",
+      "description": "Memecah bangun datar menjadi beberapa bangun lain dan melihat bangun kecil di dalam bangun besar.",
+      "type": "konsep",
+      "kelas": [
+        2
+      ],
+      "evidence": [
+        "Menggaris persegi panjang menjadi dua segitiga",
+        "Menemukan berapa segitiga di dalam gambar segienam",
+        "Melipat segiempat menjadi empat segiempat kecil"
+      ],
+      "parentPrompt": "Beri {{nama}} selembar kertas persegi. Tanya, \"bisa dilipat atau digunting jadi dua segitiga? Jadi empat segitiga?\" Biarkan {{nama}} mencoba sendiri.",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.geo",
+          "phrase": "dekomposisi (penguraian) suatu bangun datar"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.geo.menyusun-bangun-datar",
+          "strength": "wajib",
+          "reason": "Anak yang sudah menyusun bangun lebih mudah melihat cara mengurainya."
+        }
+      ]
+    },
+    {
+      "slug": "posisi-atas-bawah-depan-belakang",
+      "elemen": "geo",
+      "name": "Posisi atas, bawah, depan, dan belakang",
+      "description": "Menyebut dan menunjukkan posisi benda terhadap benda lain dengan kata atas, bawah, depan, dan belakang.",
+      "type": "bahasa",
+      "kelas": [
+        1
+      ],
+      "evidence": [
+        "Menaruh sandal di bawah kursi saat diminta",
+        "Menjawab \"bukunya di atas meja\"",
+        "Berdiri di belakang Ayah lalu di depan Ayah sesuai perintah"
+      ],
+      "parentPrompt": "Main perintah: \"Taruh sendok di atas piring. Sekarang taruh di bawah piring.\" Lalu tanya {{nama}} di mana letak kucing atau tas dibandingkan dengan meja.",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.geo",
+          "phrase": "menentukan posisi benda terhadap benda lain (kanan, kiri, depan belakang, bawah, atas)"
+        }
+      ],
+      "requires": []
+    },
+    {
+      "slug": "membedakan-kanan-dan-kiri",
+      "elemen": "geo",
+      "name": "Membedakan kanan dan kiri",
+      "description": "Membedakan sisi kanan dan kiri pada tubuh sendiri, lalu memakainya untuk menyebut letak benda terhadap benda lain.",
+      "type": "konsep",
+      "kelas": [
+        1,
+        2
+      ],
+      "evidence": [
+        "Mengangkat tangan kanan saat diminta tanpa ragu",
+        "Mengatakan \"gelas ada di sebelah kiri piring\"",
+        "Memakai sandal kanan di kaki kanan"
+      ],
+      "parentPrompt": "Saat makan, tanya {{nama}}, \"sendok ada di sebelah kanan atau kiri piring?\" Lalu minta {{nama}} menaruh gelas di sebelah kiri piring.",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.geo",
+          "phrase": "kanan, kiri"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.geo.posisi-atas-bawah-depan-belakang",
+          "strength": "wajib",
+          "reason": "Kanan dan kiri lebih sulit, jadi dipelajari setelah kata posisi yang lebih mudah."
+        }
+      ]
+    },
+    {
+      "slug": "menyortir-dan-mengelompokkan-benda",
+      "elemen": "data",
+      "name": "Menyortir dan mengelompokkan benda",
+      "description": "Memilah benda ke dalam kelompok menurut satu ciri, seperti warna, bentuk, atau jenis, dan menjelaskan alasannya.",
+      "type": "konsep",
+      "kelas": [
+        1
+      ],
+      "evidence": [
+        "Memisahkan kancing berdasarkan warna",
+        "Mengelompokkan cucian menjadi baju, celana, dan kaus kaki",
+        "Menjelaskan \"ini kelompok yang bulat\""
+      ],
+      "parentPrompt": "Setelah cucian kering, minta {{nama}} membantu memisahkan baju, celana, dan kaus kaki. Tanya, \"kenapa yang ini masuk kelompok itu?\"",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.data",
+          "phrase": "menyortir, mengelompokkan"
+        }
+      ],
+      "requires": []
+    },
+    {
+      "slug": "membandingkan-dan-mengurutkan-kelompok-data",
+      "elemen": "data",
+      "name": "Membandingkan dan mengurutkan kelompok data",
+      "description": "Menghitung isi tiap kelompok, lalu menentukan kelompok mana yang paling banyak dan paling sedikit dan mengurutkannya.",
+      "type": "konsep",
+      "kelas": [
+        1,
+        2
+      ],
+      "evidence": [
+        "Menyebut \"kancing merah paling banyak, ada 8\"",
+        "Mengurutkan kelompok buah dari yang paling sedikit",
+        "Menyebut selisih dua kelompok"
+      ],
+      "parentPrompt": "Setelah mengelompokkan buah di keranjang, tanya {{nama}}, \"buah apa yang paling banyak? Yang paling sedikit?\" Minta {{nama}} mengurutkannya.",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.data",
+          "phrase": "Mengurutkan, menyortir, mengelompokkan, membandingkan"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.data.menyortir-dan-mengelompokkan-benda",
+          "strength": "wajib",
+          "reason": "Data perlu dikelompokkan dulu sebelum dibandingkan."
+        },
+        {
+          "id": "mat.bil.membandingkan-banyak-benda-sampai-20",
+          "strength": "wajib",
+          "reason": "Membandingkan kelompok data memakai kemampuan membandingkan banyak benda."
+        }
+      ]
+    },
+    {
+      "slug": "mencatat-data-dengan-turus",
+      "elemen": "data",
+      "name": "Mencatat data dengan turus",
+      "description": "Mencatat banyak benda atau kejadian dengan garis turus, mengelompokkan setiap lima turus, lalu membacanya kembali.",
+      "type": "representasi",
+      "kelas": [
+        2
+      ],
+      "evidence": [
+        "Membuat turus untuk warna motor yang lewat depan rumah",
+        "Menggambar turus kelima sebagai garis miring",
+        "Membaca catatan turus dan menyebut jumlahnya 13"
+      ],
+      "parentPrompt": "Duduk di teras bersama {{nama}} dan catat motor, mobil, dan sepeda yang lewat dengan turus. Setelah 10 menit, tanya, \"yang lewat paling banyak apa? Berapa?\"",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.data",
+          "phrase": "dengan menggunakan turus"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.data.menyortir-dan-mengelompokkan-benda",
+          "strength": "wajib",
+          "reason": "Anak perlu tahu kelompoknya sebelum mencatatnya."
+        },
+        {
+          "id": "mat.bil.membilang-loncat-2-5-10",
+          "strength": "bantu",
+          "reason": "Turus dikelompokkan per lima, jadi membilang loncat lima membantu membacanya."
+        }
+      ]
+    },
+    {
+      "slug": "membuat-dan-membaca-piktogram",
+      "elemen": "data",
+      "name": "Membuat dan membaca piktogram",
+      "description": "Menyajikan data dalam piktogram, yaitu diagram gambar dengan satu gambar untuk satu benda, paling banyak 4 kategori, lalu membacanya.",
+      "type": "representasi",
+      "kelas": [
+        2
+      ],
+      "evidence": [
+        "Membuat piktogram buah kesukaan anggota keluarga dengan 3 kategori",
+        "Membaca piktogram dan menyebut kategori yang paling banyak",
+        "Menjawab \"berapa lebih banyak?\" dari piktogram"
+      ],
+      "parentPrompt": "Tanya anggota keluarga makanan kesukaannya: nasi goreng, mi, atau bakso. Minta {{nama}} menggambar satu bulatan untuk tiap orang di bawah pilihannya. Lalu tanya, \"mana yang paling disukai?\"",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.data",
+          "phrase": "piktogram paling banyak 4 kategori"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.data.membandingkan-dan-mengurutkan-kelompok-data",
+          "strength": "wajib",
+          "reason": "Membaca piktogram berarti membandingkan kelompok data."
+        }
+      ]
+    },
+    {
+      "slug": "menyajikan-data-dari-benda-di-sekitar",
+      "elemen": "data",
+      "name": "Mengumpulkan dan menyajikan data sendiri",
+      "description": "Merencanakan pertanyaan sederhana, mengumpulkan data dari benda di sekitar, memilih turus atau piktogram, lalu menceritakan hasilnya.",
+      "type": "meta",
+      "kelas": [
+        2
+      ],
+      "evidence": [
+        "Memilih pertanyaan \"warna sandal apa yang paling banyak di rumah?\"",
+        "Mencatat dengan turus lalu memindahkannya ke piktogram",
+        "Menceritakan satu kesimpulan dari datanya"
+      ],
+      "parentPrompt": "Minta {{nama}} memilih satu pertanyaan tentang rumah, misalnya \"warna sandal apa yang paling banyak?\". Biarkan {{nama}} menghitung, membuat gambarnya, dan menceritakan hasilnya ke keluarga.",
+      "cp": [
+        {
+          "standard": "cp046.mat.A.data",
+          "phrase": "menyajikan data dari banyak benda"
+        }
+      ],
+      "requires": [
+        {
+          "id": "mat.data.mencatat-data-dengan-turus",
+          "strength": "wajib",
+          "reason": "Anak perlu bisa mencatat dengan turus untuk mengumpulkan data."
+        },
+        {
+          "id": "mat.data.membuat-dan-membaca-piktogram",
+          "strength": "wajib",
+          "reason": "Anak perlu bisa membuat piktogram untuk menyajikan data."
+        }
+      ]
+    }
+  ]
+}

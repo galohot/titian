@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://titian.irawan.dev/schema/dependencies.schema.json",
+  "title": "Titian prerequisite edges",
+  "type": "object",
+  "required": ["version", "dependencyCount", "dependencies"],
+  "properties": {
+    "version": { "type": "string" },
+    "dependencyCount": { "type": "integer" },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["topic", "requires", "strength", "reason"],
+        "properties": {
+          "topic": { "type": "string", "description": "this topic…" },
+          "requires": { "type": "string", "description": "…needs this one first" },
+          "strength": { "enum": ["wajib", "bantu"], "description": "wajib = hard prerequisite, bantu = helps" },
+          "reason": { "type": "string" },
+          "cross": { "type": "boolean", "description": "true when the two topics are in different mapel" }
+        }
+      }
+    }
+  }
+}

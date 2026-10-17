@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://titian.irawan.dev/sitemap.xml

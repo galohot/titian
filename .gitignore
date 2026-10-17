@@ -1,0 +1,7 @@
+.claude/
+node_modules/
+sources/raw/*.pdf
+site/dist/
+site/.astro/
+.wrangler/
+.env*

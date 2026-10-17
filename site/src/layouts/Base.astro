@@ -1,0 +1,76 @@
+---
+import '../styles/global.css';
+import { MAPEL } from '../lib/data';
+
+interface Props {
+  title: string;
+  description: string;
+  path: string;
+  wide?: boolean;
+}
+const { title, description, path, wide = false } = Astro.props;
+const site = 'https://titian.irawan.dev';
+const canonical = new URL(path, site).href;
+const fullTitle = path === '/' ? title : `${title} · Titian`;
+const nav = [
+  ...MAPEL.map((m) => ({ href: `/mapel/${m.code}/`, label: m.short })),
+  { href: '/graf/', label: 'Graf' },
+  { href: '/tentang/', label: 'Tentang' },
+];
+---
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Titian" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={`${site}/og.png`} />
+    <meta property="og:image:alt" content="Titian — peta belajar SD Indonesia dari Capaian Pembelajaran resmi" />
+    <meta property="og:locale" content="id_ID" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <slot name="head" />
+  </head>
+  <body>
+    <a class="skip" href="#isi">Langsung ke isi</a>
+    <header class="top">
+      <div class="top-in">
+        <a href="/" class="brand" aria-label="Titian, beranda">
+          <svg width="22" height="22" viewBox="0 0 32 32" aria-hidden="true"><use href="/mark.svg#m" /></svg>
+          <span>Titian</span>
+        </a>
+        <nav aria-label="Utama">
+          {nav.map((n) => <a href={n.href} aria-current={path.startsWith(n.href) ? 'page' : undefined}>{n.label}</a>)}
+        </nav>
+      </div>
+    </header>
+    <main id="isi" class:list={['main', { wide }]}>
+      <slot />
+    </main>
+    <footer class="foot">
+      <div class="foot-in">
+        <p>
+          Titian memetakan Capaian Pembelajaran SD (Keputusan Kepala BSKAP 046/H/KR/2025) menjadi topik kecil
+          yang saling terhubung. Semua topik masih <strong>draf yang disusun dengan bantuan AI</strong> dan belum
+          ditinjau guru. Titian bukan produk resmi Kemendikdasmen.
+        </p>
+        <p>
+          Data <a href="/data/">CC BY 4.0</a> · Kode MIT ·
+          <a href="https://github.com/galohot/titian">Sumber di GitHub</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

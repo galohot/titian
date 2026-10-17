@@ -1,0 +1,58 @@
+{
+  "name": "Titian — peta belajar SD Indonesia",
+  "version": "v1",
+  "license": {
+    "data": "CC BY 4.0",
+    "code": "MIT",
+    "standards": "Public government decree (UU 28/2014 Pasal 42)"
+  },
+  "source": "046/H/KR/2025",
+  "counts": {
+    "standards": 125,
+    "topics": 148,
+    "dependencies": 204,
+    "clusters": 0
+  },
+  "perMapel": {
+    "bind": {
+      "topics": 45,
+      "A": 45,
+      "B": 0,
+      "C": 0
+    },
+    "ipas": {
+      "topics": 53,
+      "A": 0,
+      "B": 53,
+      "C": 0
+    },
+    "mat": {
+      "topics": 50,
+      "A": 50,
+      "B": 0,
+      "C": 0
+    }
+  },
+  "files": [
+    {
+      "file": "data/standards.json",
+      "sha256": "f9126babee88217ce48462d3f2fc04a1038e63f4f8f0ffa437a660b0ef387534",
+      "bytes": 79211
+    },
+    {
+      "file": "data/topics.json",
+      "sha256": "aa66eb19bf18e73aba9bb95ab56b82c0f41add1edacc74ed6efe4858a7c3023b",
+      "bytes": 174168
+    },
+    {
+      "file": "data/dependencies.json",
+      "sha256": "112175fc782499dd759ea36e21afd9f26210621e7862998b42a64811f9aa029c",
+      "bytes": 49858
+    },
+    {
+      "file": "data/clusters.json",
+      "sha256": "daa63107fc649bf23b08ad20ebff697188df86fc803b8364ad8213695ec9119d",
+      "bytes": 61
+    }
+  ]
+}

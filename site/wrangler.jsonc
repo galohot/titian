@@ -1,0 +1,8 @@
+{
+  "name": "titian",
+  "compatibility_date": "2026-10-01",
+  "assets": { "directory": "./dist", "not_found_handling": "404-page", "html_handling": "force-trailing-slash" },
+  "workers_dev": false,
+  "routes": [{ "pattern": "titian.irawan.dev", "custom_domain": true }],
+  "observability": { "enabled": false }
+}

@@ -1,0 +1,108 @@
+---
+import Base from '../layouts/Base.astro';
+import { MAPEL, topics, deps, standards, FASES, FASE_KELAS } from '../lib/data';
+
+const count = (m: string) => topics.filter((t) => t.mapel === m).length;
+const fasesOf = (m: string) => FASES.filter((f) => topics.some((t) => t.mapel === m && t.fase === f));
+---
+<Base
+  title="Titian — peta belajar SD Indonesia"
+  description="Capaian Pembelajaran SD dipecah menjadi topik kecil yang saling terhubung: apa yang dipelajari anak, apa yang perlu dikuasai dulu, dan cara mengeceknya di rumah."
+  path="/"
+>
+  <section class="hero">
+    <p class="eyebrow">Peta belajar SD · Kurikulum 2025</p>
+    <h1>Lihat apa yang dipelajari anak, dan apa yang perlu dikuasai dulu.</h1>
+    <p class="lead">
+      Titian memecah Capaian Pembelajaran resmi menjadi {topics.length} topik kecil. Setiap topik punya cara
+      mengecek yang bisa Anda coba di rumah, dan tersambung ke topik yang harus dikuasai sebelumnya.
+    </p>
+  </section>
+
+  <section class="search" aria-label="Cari topik">
+    <label for="q" class="eyebrow">Cari topik</label>
+    <input id="q" type="search" placeholder="Misalnya: pecahan, membaca, siklus hidup" autocomplete="off" />
+    <ul id="hasil" class="list" hidden></ul>
+    <p id="kosong" class="muted small" hidden>Tidak ada topik yang cocok. Coba kata lain.</p>
+  </section>
+
+  <section class="mapel">
+    {MAPEL.map((m) => (
+      <a class="card mapel-card" href={`/mapel/${m.code}/`}>
+        <span class="dot" style={`background: var(--${m.code})`}></span>
+        <h2>{m.name}</h2>
+        <p class="muted">{m.blurb}</p>
+        <p class="small muted">{count(m.code)} topik · {fasesOf(m.code).map((f) => FASE_KELAS[f]).join(', ')}</p>
+      </a>
+    ))}
+  </section>
+
+  <section class="how grouped stack">
+    <h2>Cara memakai</h2>
+    <ol>
+      <li>Pilih mata pelajaran dan kelas anak Anda.</li>
+      <li>Buka satu topik. Coba pertanyaan "Coba di rumah" bersama anak.</li>
+      <li>Kalau anak belum bisa, lihat "Perlu dikuasai dulu". Mulai dari sana.</li>
+    </ol>
+    <p class="notice">
+      Semua topik masih draf yang disusun dengan bantuan AI dari teks Capaian Pembelajaran. Belum ditinjau guru.
+      Pakai sebagai panduan, bukan penilaian resmi.
+    </p>
+  </section>
+
+  <p class="small muted stats">
+    {standards.length} butir Capaian Pembelajaran dari 12 mata pelajaran · {topics.length} topik · {deps.length} sambungan
+    prasyarat · <a href="/data/">unduh data</a>
+  </p>
+</Base>
+
+<style>
+  .hero { padding: 24px 0 8px; }
+  .hero h1 { margin-top: 10px; max-width: 16em; }
+  .search { margin-top: 32px; display: grid; gap: 8px; }
+  #hasil { margin-top: 4px; }
+  .mapel { margin-top: 32px; display: grid; gap: 12px; }
+  .mapel-card { display: grid; gap: 6px; color: var(--label); }
+  .mapel-card:hover { text-decoration: none; border-color: var(--label-3); }
+  .mapel-card h2 { font-size: 21px; }
+  .how { margin-top: 32px; }
+  .how ol { margin: 0; padding-left: 20px; color: var(--label-2); display: grid; gap: 4px; }
+  .stats { margin-top: 24px; }
+  @media (min-width: 720px) { .mapel { grid-template-columns: repeat(3, 1fr); } }
+</style>
+
+<script>
+  type Item = { id: string; n: string; m: string; k: string; d: string };
+  const q = document.getElementById('q') as HTMLInputElement;
+  const out = document.getElementById('hasil') as HTMLUListElement;
+  const empty = document.getElementById('kosong') as HTMLParagraphElement;
+  let items: Item[] | null = null;
+  const norm = (s: string) => s.toLowerCase().normalize('NFKD').replace(/[^\p{L}\p{N} ]/gu, ' ');
+  async function load() {
+    if (!items) items = await (await fetch('/search.json')).json();
+    return items!;
+  }
+  function esc(s: string) {
+    return s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
+  }
+  q.addEventListener('input', async () => {
+    const words = norm(q.value).split(/\s+/).filter(Boolean);
+    if (!words.length) { out.hidden = true; empty.hidden = true; return; }
+    const all = await load();
+    const hits = all
+      .map((it) => {
+        const name = norm(it.n);
+        const hay = name + ' ' + norm(it.d);
+        if (!words.every((w) => hay.includes(w))) return null;
+        return { it, score: words.filter((w) => name.includes(w)).length };
+      })
+      .filter(Boolean)
+      .sort((a, b) => b!.score - a!.score)
+      .slice(0, 12) as { it: Item }[];
+    out.innerHTML = hits
+      .map(({ it }) => `<li><a href="/topik/${it.id}/"><span class="k">${esc(it.k)}</span><span class="t">${esc(it.n)}<span class="why">${esc(it.m)}</span></span></a></li>`)
+      .join('');
+    out.hidden = !hits.length;
+    empty.hidden = !!hits.length;
+  });
+</script>

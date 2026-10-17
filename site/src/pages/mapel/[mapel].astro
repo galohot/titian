@@ -1,0 +1,81 @@
+---
+import Base from '../../layouts/Base.astro';
+import { MAPEL, topics, clusters, elemenOf, ordered, FASES, FASE_KELAS, kelasLabel, standards } from '../../lib/data';
+
+export function getStaticPaths() {
+  return MAPEL.map((m) => ({ params: { mapel: m.code }, props: { m } }));
+}
+const { m } = Astro.props;
+const mine = topics.filter((t) => t.mapel === m.code);
+const fases = FASES.filter((f) => mine.some((t) => t.fase === f));
+const elemen = elemenOf(m.code).filter((e) => mine.some((t) => t.elemenCode === e.code));
+const summary = (e: string, f: string) => clusters.find((c) => c.mapel === m.code && c.elemenCode === e && c.fase === f)?.summary;
+const cp = (e: string, f: string) => standards.find((s) => s.mapel === m.code && s.elemenCode === e && s.fase === f);
+---
+<Base
+  title={m.name}
+  description={`${mine.length} topik ${m.name} SD dari Capaian Pembelajaran, disusun per elemen dan fase, dengan prasyarat dan cara mengecek di rumah.`}
+  path={`/mapel/${m.code}/`}
+>
+  <p class="eyebrow">Mata pelajaran</p>
+  <h1>{m.name}</h1>
+  <p class="lead">{m.blurb} {mine.length} topik.</p>
+
+  <nav class="seg jump" aria-label="Pilih fase">
+    {fases.map((f, i) => <a href={`#fase-${f}`} aria-current={i === 0 ? 'true' : undefined}>Fase {f} · {FASE_KELAS[f]}</a>)}
+  </nav>
+
+  {fases.map((f) => (
+    <section id={`fase-${f}`} class="fase">
+      <h2>Fase {f} <span class="muted">· {FASE_KELAS[f]}</span></h2>
+      {elemen.map((e) => {
+        const list = ordered(mine.filter((t) => t.fase === f && t.elemenCode === e.code));
+        if (!list.length) return null;
+        const s = summary(e.code, f);
+        const c = cp(e.code, f);
+        return (
+          <section class="elemen stack" style="--gap: 10px">
+            <h3>{e.name}</h3>
+            {s && <p class="muted">{s}</p>}
+            <ol class="list">
+              {list.map((t) => (
+                <li><a href={`/topik/${t.id}/`}><span class="k">{kelasLabel(t.kelas)}</span><span class="t">{t.name}</span></a></li>
+              ))}
+            </ol>
+            {c && (
+              <details class="cp small">
+                <summary>Teks Capaian Pembelajaran</summary>
+                <p class="muted">{c.text}</p>
+              </details>
+            )}
+          </section>
+        );
+      })}
+    </section>
+  ))}
+  <p class="small muted note">Kelas di samping topik adalah perkiraan. Capaian Pembelajaran hanya menetapkan fase (dua tahun).</p>
+</Base>
+
+<style>
+  .jump { margin-top: 24px; overflow-x: auto; max-width: 100%; }
+  .jump a { white-space: nowrap; }
+  .fase { margin-top: 40px; scroll-margin-top: 70px; }
+  .elemen { margin-top: 24px; }
+  .cp summary { cursor: pointer; color: var(--label-2); font-weight: 600; }
+  .cp p { margin-top: 8px; }
+  .note { margin-top: 32px; }
+</style>
+
+<script>
+  // Mark the fase the reader is looking at in the segmented control.
+  const links = [...document.querySelectorAll<HTMLAnchorElement>('.jump a')];
+  const io = new IntersectionObserver(
+    (entries) => {
+      for (const e of entries) if (e.isIntersecting) {
+        for (const l of links) l.setAttribute('aria-current', String(l.hash === `#${e.target.id}`));
+      }
+    },
+    { rootMargin: '-40% 0px -55% 0px' },
+  );
+  document.querySelectorAll('.fase').forEach((s) => io.observe(s));
+</script>
